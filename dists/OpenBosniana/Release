@@ -3,13 +3,13 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana
 Version: 2024
-Date: Tue, 22 Jul 2025 09:40:32 UTC
+Date: Tue, 22 Jul 2025 09:41:51 UTC
 Architectures: amd64
 Components: main contrib non-free non-free-firmware
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
 MD5Sum:
- 64151a49edee6b9210be9c6efa9f1c50 228439 main/binary-amd64/Packages
- a97ba8d40ce687dce327f9c2e3a6dc27 75184 main/binary-amd64/Packages.gz
+ 22c872b152923d4c555c8f4b11085a47 229940 main/binary-amd64/Packages
+ 76cf2112a5853a4c0dabbc0d03eade24 75697 main/binary-amd64/Packages.gz
  b0d9e12f1ae63a1b0d1b394068735023 185 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
@@ -23,8 +23,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 non-free-firmware/binary-amd64/Packages.gz
  753e6b8aa1ac221e6262bfbcca2d1f3e 198 non-free-firmware/binary-amd64/Release
 SHA1:
- cabbfe6363227de28ad011562e9a852b5ef5baf3 228439 main/binary-amd64/Packages
- d7ce3e13deb2bfc4820240d56e75071512d2c360 75184 main/binary-amd64/Packages.gz
+ 391a268cfb6c383941addf5fc0559cbd7735f7ce 229940 main/binary-amd64/Packages
+ 4e314538fe404b7143740b3e3daf2a4de1eced58 75697 main/binary-amd64/Packages.gz
  2d122413bcff69dcea094395c604b68d0bf8ed24 185 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
@@ -38,8 +38,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free-firmware/binary-amd64/Packages.gz
  e5824cfcfdc0fb3ba3f8edfff743760ae3b5dab3 198 non-free-firmware/binary-amd64/Release
 SHA256:
- 0dab922afe8d0b0c75162641d1c1913c4100fb60eebbab7bfee868fd29e324ec 228439 main/binary-amd64/Packages
- 77e9741618e6556ecad1c7718c3221a8cd8f45b92f5507c4cee97590714b698f 75184 main/binary-amd64/Packages.gz
+ c8e2dc6ffc0bd024cb094cbc45ad0647b07780d519e33fe4d728ba6b6974f173 229940 main/binary-amd64/Packages
+ 7d1be12e46c07aa59f182d7d39b23b2ef26e9d4daef1e4f1160deff96f096557 75697 main/binary-amd64/Packages.gz
  1f2ec1d7026705d80c7fea2c53f0a31517c91a62113552a8924f001cdd3ed587 185 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
