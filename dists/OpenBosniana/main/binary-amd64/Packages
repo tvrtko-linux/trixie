@@ -197,6 +197,32 @@ Description: basic utilities from 4.4BSD-Lite
  system: logger, renice, script, scriptlive, scriptreplay and wall. The
  remaining standard BSD utilities are provided by bsdextrautils.
 
+Package: ca-certificates
+Version: 20250419
+Architecture: all
+Maintainer: Julien Cristau <jcristau@debian.org>
+Installed-Size: 390
+Depends: openssl (>= 1.1.1), debconf (>= 0.5) | debconf-2.0
+Enhances: openssl
+Breaks: ca-certificates-java (<< 20121112+nmu1)
+Multi-Arch: foreign
+Priority: standard
+Section: misc
+Filename: pool/main/c/ca-certificates/ca-certificates_20250419_all.deb
+Size: 161704
+SHA256: ef590f89563aa4b46c8260d49d1cea0fc1b181d19e8df3782694706adf05c184
+SHA1: 3003d7ee20f8100b1c4064f06db3347479a45468
+MD5sum: ea04777e0779a9e36b0a13bac0e61b4b
+Description: Common CA certificates
+ Contains the certificate authorities shipped with Mozilla's browser to allow
+ SSL-based applications to check for the authenticity of SSL connections.
+ .
+ Please note that Debian can neither confirm nor deny whether the
+ certificate authorities whose certificates are included in this package
+ have in any way been audited for trustworthiness or RFC 3647 compliance.
+ Full responsibility to assess them belongs to the local system
+ administrator.
+
 Package: coreutils
 Version: 9.7-3
 Architecture: amd64
@@ -692,6 +718,30 @@ MD5sum: 8c82dcf89447f04e600379a1a1871f3b
 Description: GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries
  contained in the GNU Compiler Collection (GCC).
+
+Package: gnupg2
+Version: 2.4.7-21
+Architecture: all
+Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
+Installed-Size: 37
+Depends: gnupg (>= 2.4.7-21)
+Multi-Arch: foreign
+Homepage: https://www.gnupg.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/g/gnupg2/gnupg2_2.4.7-21_all.deb
+Size: 16068
+SHA256: f9cacdffc73027517ae318672ed0c0ee56a9917cc93c7961f869109c6d3b64eb
+SHA1: 6dcca0ac7521e6974604e6730610e2297f1a0bc3
+MD5sum: b5ab741cd18a98ece626a3c0677484a7
+Description: GNU privacy guard - a free PGP replacement (dummy transitional package)
+ GnuPG is GNU's tool for secure communication and data storage.
+ It can be used to encrypt data and to create digital signatures.
+ It includes an advanced key management facility and is compliant
+ with the proposed OpenPGP Internet standard as described in RFC4880.
+ .
+ This is a dummy transitional package that provides symlinks from gpg2
+ to gpg.
 
 Package: grep
 Version: 3.11-4
