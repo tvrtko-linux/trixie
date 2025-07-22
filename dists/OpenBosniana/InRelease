@@ -6,68 +6,41 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana
 Version: 2024
-Date: Tue, 22 Jul 2025 09:41:51 UTC
+Date: Tue, 22 Jul 2025 10:51:38 UTC
 Architectures: amd64
-Components: main contrib non-free non-free-firmware
+Components: main
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
 MD5Sum:
- 22c872b152923d4c555c8f4b11085a47 229940 main/binary-amd64/Packages
- 76cf2112a5853a4c0dabbc0d03eade24 75697 main/binary-amd64/Packages.gz
+ c9ae03847d341de0311de53a89d50a7f 621322 main/binary-amd64/Packages
+ b5970606508e814c40932f428e227b59 193087 main/binary-amd64/Packages.gz
  b0d9e12f1ae63a1b0d1b394068735023 185 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
- d41d8cd98f00b204e9800998ecf8427e 0 contrib/binary-amd64/Packages
- 7029066c27ac6f5ef18d660d5741979a 20 contrib/binary-amd64/Packages.gz
- 3ccc8ba3af028be747f131ab093ee2a1 188 contrib/binary-amd64/Release
- d41d8cd98f00b204e9800998ecf8427e 0 non-free/binary-amd64/Packages
- 7029066c27ac6f5ef18d660d5741979a 20 non-free/binary-amd64/Packages.gz
- 16a677848460a62083d70a1515cfb2e8 189 non-free/binary-amd64/Release
- d41d8cd98f00b204e9800998ecf8427e 0 non-free-firmware/binary-amd64/Packages
- 7029066c27ac6f5ef18d660d5741979a 20 non-free-firmware/binary-amd64/Packages.gz
- 753e6b8aa1ac221e6262bfbcca2d1f3e 198 non-free-firmware/binary-amd64/Release
 SHA1:
- 391a268cfb6c383941addf5fc0559cbd7735f7ce 229940 main/binary-amd64/Packages
- 4e314538fe404b7143740b3e3daf2a4de1eced58 75697 main/binary-amd64/Packages.gz
+ db74d0d9e75266609aed04aba4a71d9175cb8f8f 621322 main/binary-amd64/Packages
+ 2ef35d33eea9f5ffb7e1d6cba3cb26664f66d8fe 193087 main/binary-amd64/Packages.gz
  2d122413bcff69dcea094395c604b68d0bf8ed24 185 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/binary-amd64/Packages
- 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/binary-amd64/Packages.gz
- 71bcc044ecd74a48bd498e36573e10b8890480be 188 contrib/binary-amd64/Release
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/binary-amd64/Packages
- 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/binary-amd64/Packages.gz
- 202ff10138eaa3c9bc33261c12047b32e1dfcbe4 189 non-free/binary-amd64/Release
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free-firmware/binary-amd64/Packages
- 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free-firmware/binary-amd64/Packages.gz
- e5824cfcfdc0fb3ba3f8edfff743760ae3b5dab3 198 non-free-firmware/binary-amd64/Release
 SHA256:
- c8e2dc6ffc0bd024cb094cbc45ad0647b07780d519e33fe4d728ba6b6974f173 229940 main/binary-amd64/Packages
- 7d1be12e46c07aa59f182d7d39b23b2ef26e9d4daef1e4f1160deff96f096557 75697 main/binary-amd64/Packages.gz
+ 869ea851ec8f1e09f163479b8d83376a7f5896a3e0a34cdb1f087caf0d2f24f4 621322 main/binary-amd64/Packages
+ dc288d259db06bcb09359197e1a9b45dbf124603219519a835cb578caf304750 193087 main/binary-amd64/Packages.gz
  1f2ec1d7026705d80c7fea2c53f0a31517c91a62113552a8924f001cdd3ed587 185 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/binary-amd64/Packages
- 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/binary-amd64/Packages.gz
- 85a45208cc38a91bc755413a12f9c985103a4210c005d1c0cd872d354f34947a 188 contrib/binary-amd64/Release
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/binary-amd64/Packages
- 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/binary-amd64/Packages.gz
- 47b55cf45722ef1750a9fb489397ed68ffdf4596327dbb51254bdbd988e0ef6e 189 non-free/binary-amd64/Release
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free-firmware/binary-amd64/Packages
- 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free-firmware/binary-amd64/Packages.gz
- fe59a9bc46f8bf5022757e69e38116d320a52667dc8a6747e521d6d8c3b5e684 198 non-free-firmware/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmh/XN8ACgkQ5Vfn9vbt
-T6pq7BAArANos+QzMi7XOzq3XF/E1/vtQ2H9ek2FIxX0zTlnvfHs1vE9FF2KjcJ8
-j8FUQIqZa1LKm35LaVGA7flT1Z9/ZS0JhewfliRL+T5Gk+i+DQgnkV8RWy6v9Qi9
-18O5h5t3t1vp0+ha7JikdXqGRKqhO92b0CzFHcXt7U7XBfVJ7Qz+SndRoaimtGyc
-SVMu9oc7/rRuYodGDxT5PF91gRjSTyPo9HAp1HoF2y4ppQcqCU1pWpYhjiHXA+k+
-jwWyHmTTiPR2v1r0zU4BokGGyyeT4dGTxg/fiUR2QR6MkhbxXqLAdn9/cxtJ6BWG
-UhBdv5D8/Xl8jEFozg9XsivVAq5IbmE7zllGJdwjTz2xCE1IAvqXfDb0Qck1v4tq
-o3848whuFZJKsVHkYffVWwDGgPUoQ59VxvhhOPuJx5ksEMfUWpb3M5QWJcOp2ze0
-jKIEC5D/r6i85Xln9AbBEGnnUMjV50F55tCfGzW5cfVGmS6xPvV9wW/+D7gAazZQ
-jwi3JFzuJPsRB3jIF6uwhykHwwqpPbPwAR/fKFPI3toqWALrfNnIQILJGB+zojpP
-6+lyUGiK8uu1sp2cDYUvQ5NKsFRwxlv1CAffy2wzcVsRqWtifYis0LbXv2vP2qZd
-lmzNIU2qIWGch9TGZm7WeMPaZorAIcBvsXMDrpVuQ0Sz6vBEJAE=
-=5GNb
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmh/bToACgkQ5Vfn9vbt
+T6pCVhAAjIHwsYxTQfyNdfBXozoc/OSsrY91yVY82H7Yiq1GAHr90k7mipeJVwPP
+00GsMcs/zFFXJsK/sPJYC2DKDZ0/G1S538QKQ7L4Yo6xSgymwq/sYn7667ueLvMT
+E8oKzdZjFpyyeqZPqA6K52nRcR5wvX//2mVcCGXwJowqpEU92+CiZ4tJYQ/7E/R7
+UhvtmSYuMrNqsCB6xHw/7ivqQ5Kc7qggbo64m08dB3NNPb3v9Wmpa/Pjd6zFd/H0
+NWGzf4oLc/GDp3GgiMEyiOuXzyifpuxTZmf3Ox8YDwASL8xgDGxQun4fd/YmSLnC
+oTo/b/9UkScPoFhW9H9I01emwMJPIE25wmnvfhNRJb7D2TCIS3Z+qFFclurA3rS6
+Q/jvIfu22r9HA3EAdR8m86xL8/5Oo+mr+6rXGuoAuSeDAT4aqlCVGU/s/QBm6lW/
+7+0drNidJ5vWp3MAsDnt7pkVDRQH8+GUCkkdRTi9On/7pMevIws7JaxcI1IgQc9a
+mWVUIq5S0fBnsKGsIaj3S1/Enukmfd/PkVW+fhnkZ7hKZUUcQkhsvnDsvSP3Hzcz
+vN6MhruQ68dF7BMlwUVJtfOaJQT+G5GitcD3RrPhU+BaFys1wQ46maUQV2htBCAM
+jOw5U3n1B5vNdqgIZ0L34iWYgq1JIUNvbjs43xDzufSdUAe9VzA=
+=Celb
 -----END PGP SIGNATURE-----
