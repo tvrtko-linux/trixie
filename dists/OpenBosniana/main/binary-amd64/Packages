@@ -96,6 +96,32 @@ Description: package management related utility programs
     needed to publish an archive of Debian packages
   * apt-sortpkgs is a Packages/Sources file normalizer.
 
+Package: base-files
+Version: 2025.04.24
+Architecture: amd64
+Essential: yes
+Maintainer: Denis Maslo <deni@bosniana.org>
+Installed-Size: 350
+Pre-Depends: awk
+Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
+Replaces: base, dpkg (<= 1.15.0), miscutils
+Provides: base
+Multi-Arch: foreign
+Priority: required
+Section: admin
+Filename: pool/main/b/base-files/base-files_2025.04.24_amd64.deb
+Size: 72208
+SHA256: 96b26fdc272b1ad003f389ac3826576e70754fa22640eb2eb3ebe62045de719d
+SHA1: bf78880e6d90a90d3735f408eeb4954ef76a091c
+MD5sum: 10440e9b9db5eb73b553c39ed3c15a1a
+Description: OpenBosniana OS base system miscellaneous files
+ This package contains the basic filesystem hierarchy of a Debian system, and
+ several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
+ and the text of several common licenses in use on Debian systems.
+ .
+ This package was modified to provide some customizations needed by OpenBosniana OS.
+
 Package: base-passwd
 Version: 3.6.7
 Architecture: amd64
