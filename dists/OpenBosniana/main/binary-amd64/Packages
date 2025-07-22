@@ -338,6 +338,48 @@ Description: POSIX-compliant shell
  dependencies (making it more robust against software or hardware
  failures), it is used as the default system shell on Debian systems.
 
+Package: dctrl-tools
+Source: dctrl-tools (2.24-3)
+Version: 2.24-3+b1
+Architecture: amd64
+Maintainer: Rhonda D'Vine <rhonda@debian.org>
+Installed-Size: 422
+Depends: libc6 (>= 2.14)
+Suggests: apt, debtags
+Conflicts: grep-dctrl
+Replaces: grep-dctrl
+Provides: grep-dctrl
+Multi-Arch: foreign
+Homepage: https://github.com/ajkaijanaho/dctrl-tools
+Priority: optional
+Section: utils
+Filename: pool/main/d/dctrl-tools/dctrl-tools_2.24-3+b1_amd64.deb
+Size: 103648
+SHA256: f49f4bb9c09d4a6004e1fc6477a6aa5c6732e3891835d8d80646877239aef40d
+SHA1: 42593995a1400f50e78a3aae902b8300fac8c7e9
+MD5sum: edc1f9bcbba989b07acfb7364d2c85e1
+Description: Command-line tools to process Debian package information
+ Debian package information is generally stored in files having a
+ special file format, dubbed the Debian control file format (the dctrl
+ format), a special case of the record jar file format.  These tools
+ operate on any files conforming in a general sense to that format and
+ are therefore widely applicable whenever those formats are in play.
+ .
+ Included are:
+ .
+   grep-dctrl     - Grep dctrl-format files
+   grep-available - Grep the DPKG available database
+   grep-status    - Grep the DPKG status database
+   grep-aptavail  - Grep the APT available database
+   grep-debtags   - Grep the Debtags package database
+ .
+   sort-dctrl     - Sort dctrl-format files
+ .
+   tbl-dctrl      - Tabulate dctrl-format files
+ .
+   sync-available - Sync the dpkg available database with
+                    the apt database
+
 Package: debconf
 Version: 1.5.91
 Architecture: all
