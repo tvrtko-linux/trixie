@@ -4347,6 +4347,68 @@ Description: Program to control packet filtering rules by Netfilter project
  .
  A Linux kernel >= 3.13 is required. However, >= 4.14 is recommended.
 
+Package: openbosniana-archive-keyring
+Version: 2024-03-27
+Architecture: all
+Maintainer: Denis Maslo <deniosm@blackbosniana.org>
+Installed-Size: 15
+Depends: gpgv
+Recommends: gnupg
+Provides: debian-archive-keyring, devuan-keyring, kali-archive-keyring, ubuntu-keyring
+Priority: required
+Section: misc
+Filename: pool/main/o/openbosniana-archive-keyring/openbosniana-archive-keyring_2024-03-27_all.deb
+Size: 4412
+SHA256: 72f4d7614f6c78736d9e2bc9c3aa5b07be098b8feee156254c9f19c3a971a8d7
+SHA1: 67cefedc539cf505159c28f33349b9cd55201fa7
+MD5sum: d4ac806deb7c12f3ee0cd26f73a14e4b
+Description: OpenBosniana GPG Archive Keyring
+ Public keys for the openbosniana archives digital signature.
+
+Package: openbosniana-core
+Version: 2024.12.21
+Architecture: amd64
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 705
+Depends: bash-completion, user-setup, dnsutils, moreutils, net-tools, whois, curl, wget, dconf-cli, rsync, openbosniana-core-lite
+Conflicts: apt-openbosniana, openbosniana-skel
+Breaks: apt-openbosniana, openbosniana-skel, r8168-dkms, realtek-rtl8723cs-dkms
+Replaces: apt-openbosniana, base-files, bash, dnsmasq, fish, nano, nvim, openbosniana-interface-common, openbosniana-skel, openssl, powershell, samba-common, vim, vim-common, xrdp, xterm
+Homepage: https://bosniana.org/
+Priority: optional
+Section: openbosniana
+Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.12.21_amd64.deb
+Size: 101776
+SHA256: ceb1c9b69022682d9d90a7357a81660f24659df8ccb214f3533f5135a3812e9d
+SHA1: 3f8ef409cd077fe8ddebd92a5edcf5a8607f0a7a
+MD5sum: 05e6f43db2aaef9773de0a6f6595f131
+Description: Core package for OpenBosniana OS
+  Core package for the OpenBosniana Debian distribution.
+  .
+  This package provides essential configuration files and base dependencies for
+  the OpenBosniana Security operating system and its flavors.
+
+Package: openbosniana-core-lite
+Source: openbosniana-core
+Version: 2024.09.06
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 49
+Depends: openbosniana-core
+Homepage: https://bosniana.org/
+Priority: optional
+Section: openbosniana
+Filename: pool/main/o/openbosniana-core/openbosniana-core-lite_2024.09.06_all.deb
+Size: 13068
+SHA256: b3f7821eda7ea470e157a23a5b6284ec0a439523f6cbc5ad766e65e8a7265422
+SHA1: fb5b2c585ee2da3cf606e2b635e47288af3e07c4
+MD5sum: 0467d37ca37a1290c73a52a833a44e70
+Description: Lightweight MATE settings for OpenBosniana Core
+  Core package for the OpenBosniana Debian distribution.
+  .
+  This package provides additional configuration for
+  low power and memory constrained systemd.
+
 Package: openssl
 Version: 3.5.1-1
 Architecture: amd64
