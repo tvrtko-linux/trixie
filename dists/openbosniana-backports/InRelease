@@ -1,0 +1,55 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: openbosniana-backports
+Label: openbosniana-backports
+Suite: 2024
+Codename: openbosniana-backports
+Version: 2024
+Date: Wed, 23 Jul 2025 01:56:24 UTC
+Architectures: amd64
+Components: main
+Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ d94f0267567ed3e23f65ff4ac951bf92 194 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 84fd8be1865c519969a298cf24344e87 195 main/source/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ 942bfdcb2817f178f2fdfdb3b68892976cbee2c3 194 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 5ba2218528be622ba03fee6b3b3347e1c8660081 195 main/source/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ 9b19f526cf1c3e7f68b0437732669458ee7859be25164aa80b8b0cbb50e06fe7 194 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ aa18b5856cddc5bc2628f0fa8d7a929be496214f9a5f96d4aceda89eda4f492f 195 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmiAQUgACgkQ5Vfn9vbt
+T6oFnA/+JR+MxEeEW/nUm+s0OoA0rSJBirhiCiSKugWdMIbghTN4RZ1cABxDUjKI
+WA83RP/GHe6mbEg/6pXkXxLACVFbioPkzkvJyHy/RnIHlWLRDeA8+5phOCCyzmHw
+n/j+FJmSSMP/P2A/KnITWXt4ysdNitbcS+GUVUqBRVQ9owcbUf2PL127bSz5jnU6
+1k8bIYU49O76XXbK51iJ+2fk3Hfgu/27e4dwQ/Qy806A5yFZ5yCM78QL2/NpmpaO
+JZqN7RmYsYxBlPIkgqp07/E1Xb+pvZNN/Ei56fDzP1FfjzWxY1IVpayksU37KlVX
+NHbgdp0n/jhjSed/StFPoC5Hirqi333qf5optgVF0TNC7tbE3K33+GsNELUPhB0x
+q/hM99ElB6qwbBUGpNLLhoJ5Fzz5brq2gM7d7buWAD0qH7i7EWF6LG6K7hObOiDZ
+SlOgQbuHWcV8uAZgvyp32B/wnE7lX4tJFySSz+4FCV4q5xgN855lKNdS8GkYXsSe
+uLjAgfktnq6igyuaBL4pZbO9lr4gj7nM4Tnj2prhzY/e44Hl42XF/K6hDChfAExd
+i8QSqjEmb+LDPq3MPovHGKbcO6V7JzWQXnKjGKbOQmqF98gOy5EaLC+aX/m96Gzp
+TOzOYpVJMv2Ktg06GWSaaw4E3pS7VJm28g4Mmzal1V4pRBi+J8w=
+=FHTD
+-----END PGP SIGNATURE-----
