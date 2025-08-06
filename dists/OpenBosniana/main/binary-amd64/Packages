@@ -1717,6 +1717,28 @@ Description: Common CA certificates (JKS keystore)
  This package uses the hooks of the ca-certificates package to update the
  cacerts JKS keystore used for many java runtimes.
 
+Package: calamares-settings-openbosniana
+Version: 2024.04.15
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>,
+            Jonathan Carter <jcc@debian.org>
+Installed-Size: 815
+Depends: calamares, cryptsetup, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
+Provides: calamares-settings
+Homepage: https://salsa.debian.org/live-team/calamares-settings-debian
+Priority: optional
+Section: utils
+Filename: pool/main/c/calamares-settings-openbosniana/calamares-settings-openbosniana_2024.04.15_all.deb
+Size: 840600
+SHA256: 0c7ac87854048b8214d4a938b0b03e2253678bb2bd3da1136bd8422f9f339c49
+SHA1: 2296b72b4b35953c38a5a54b23caa3beb5d37a31
+MD5sum: 7e4ad50e4310d7d77c31ba886930f576
+Description: OpenBosniana OS theme and settings for the Calamares Installer
+ Calamares is a generic installer framework for Linux distributions.
+ By default, it contains a set of boilerplate wording and images. This
+ package provides the latest OpenBosniana OS artwork as well as scripts that
+ supports EFI installations.
+
 Package: catatonit
 Source: catatonit (0.2.1-2)
 Version: 0.2.1-2+b3
