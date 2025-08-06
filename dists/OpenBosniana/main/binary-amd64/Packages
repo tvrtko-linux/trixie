@@ -632,21 +632,21 @@ Description: package management related utility programs
   * apt-sortpkgs is a Packages/Sources file normalizer.
 
 Package: ark
-Version: 4:25.04.0-1
+Version: 4:25.04.3-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 5639
+Installed-Size: 5643
 Depends: kio6, libarchive13t64 (>= 3.3.3), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6colorscheme6 (>= 6.0.0), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.3.0~), libkf6configgui6 (>= 6.3.0~), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.3.0~), libkf6dbusaddons6 (>= 6.3.0~), libkf6filemetadata3 (>= 6.3.0~), libkf6i18n6 (>= 6.3.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.3.0~), libkf6kiofilewidgets6 (>= 6.3.0~), libkf6kiogui6 (>= 6.3.0~), libkf6kiowidgets6 (>= 6.3.0~), libkf6parts6 (>= 6.3.0~), libkf6pty6 (>= 6.3.0~), libkf6service-bin, libkf6service6 (>= 6.3.0~), libkf6widgetsaddons6 (>= 6.3.0~), libkf6windowsystem6 (>= 6.3.0~), libkf6xmlgui6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.6.0+dfsg~), libqt6gui6 (>= 6.6.0+dfsg~), libqt6widgets6 (>= 6.7.2), libstdc++6 (>= 13.1), libzip5 (>= 1.6.0), zlib1g (>= 1:1.1.4)
 Recommends: 7zip, bzip2, unar, unzip, zip
 Suggests: arj, lzop, rar, unrar | unrar-free
 Homepage: https://apps.kde.org/ark/
 Priority: optional
 Section: utils
-Filename: pool/main/a/ark/ark_25.04.0-1_amd64.deb
-Size: 1438008
-SHA256: 9182c8bff02758fbfdea26a7f2a46950b63544fa211a8578efb0110193b79fb8
-SHA1: 7ce7d4f9f8847be22bceae67d36d25c580f91ac6
-MD5sum: 187856ab1f5f25f03eba099824451e00
+Filename: pool/main/a/ark/ark_25.04.3-1_amd64.deb
+Size: 1437904
+SHA256: 918ea8ee13ad856ce36ac8b415c97610010ab92170ccd1c27e920dfd87a14b5b
+SHA1: 6d2465e138563661b03dac1e3aace3b1b2d77fa8
+MD5sum: 74d262616c48a149b371829d7eb4a62f
 Description: archive utility
  Ark manages various archive formats, including tar, gzip, bzip2, rar and zip,
  as well as CD-ROM images.  Ark can be used to browse, extract, create, and
@@ -867,7 +867,7 @@ Description: Debian base system master password and group files
 
 Package: bash
 Source: bash (5.2.37-2)
-Version: 5.2.37-2+b3
+Version: 5.2.37-2+b5
 Architecture: amd64
 Essential: yes
 Maintainer: Matthias Klose <doko@debian.org>
@@ -880,11 +880,11 @@ Multi-Arch: foreign
 Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
 Priority: required
 Section: shells
-Filename: pool/main/b/bash/bash_5.2.37-2+b3_amd64.deb
-Size: 1501564
-SHA256: 463f3d692cee032dc5a7748d5159ae067ed5a480e37a43757a481579d44d9de5
-SHA1: 5e651125460f367be57028c4deb76186c25a04c5
-MD5sum: 49b1c1c521058d409f6cdc83e2c9aa90
+Filename: pool/main/b/bash/bash_5.2.37-2+b5_amd64.deb
+Size: 1500068
+SHA256: 2970fb73f4fb08a5e3d2875fcc3403dca5b57a22fc8021e10281c9f0d97688b6
+SHA1: 472d28cf43294f6b5def80b8b27e2ee393e7c24d
+MD5sum: c219b925344beafc1601505b6570c601
 Description: GNU Bourne Again SHell
  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file.  Bash also
@@ -941,21 +941,21 @@ Description: GNU bc arbitrary precision calculator language
 
 Package: bind9-dnsutils
 Source: bind9
-Version: 1:9.20.9-1
+Version: 1:9.20.11-4
 Architecture: amd64
 Maintainer: Debian DNS Team <team+dns@tracker.debian.org>
 Installed-Size: 524
-Depends: bind9-host | host, bind9-libs (= 1:9.20.9-1), libc6 (>= 2.38), libedit2 (>= 2.11-20080614-0), libidn2-0 (>= 2.0.0), libjemalloc2 (>= 3.5.0), libkrb5-3 (>= 1.6.dfsg.2), libprotobuf-c1 (>= 1.0.0)
+Depends: bind9-host | host, bind9-libs (= 1:9.20.11-4), libc6 (>= 2.38), libedit2 (>= 2.11-20080614-0), libidn2-0 (>= 2.0.0), libjemalloc2 (>= 3.5.0), libkrb5-3 (>= 1.6.dfsg.2), libprotobuf-c1 (>= 1.0.0)
 Provides: dnsutils
 Multi-Arch: foreign
 Homepage: https://www.isc.org/downloads/bind/
 Priority: standard
 Section: net
-Filename: pool/main/b/bind9/bind9-dnsutils_9.20.9-1_amd64.deb
-Size: 164468
-SHA256: 9138a7f1775b1de837da72382926548fce2148aef723f7da01f1ee278109dbf6
-SHA1: 76648cd137ca68572aa73d7cc3592126a90b61c0
-MD5sum: 6f2cbb92af538e37aac356d859d03ec4
+Filename: pool/main/b/bind9/bind9-dnsutils_9.20.11-4_amd64.deb
+Size: 165216
+SHA256: e4e98fc8813796f8fea88f51d478a5ba0d90980c94f75bc1bd0f374a7143e594
+SHA1: edead4eb32b63b0c903be84733447d57151a2bc0
+MD5sum: bc0995e199d172de47c529dab3c40e85
 Description: Clients provided with BIND 9
  The Berkeley Internet Name Domain (BIND 9) implements an Internet domain
  name server.  BIND 9 is the most widely-used name server software on the
@@ -970,11 +970,11 @@ Description: Clients provided with BIND 9
 
 Package: bind9-host
 Source: bind9
-Version: 1:9.20.9-1
+Version: 1:9.20.11-4
 Architecture: amd64
 Maintainer: Debian DNS Team <team+dns@tracker.debian.org>
 Installed-Size: 140
-Depends: bind9-libs (= 1:9.20.9-1), libc6 (>= 2.38), libidn2-0 (>= 2.0.0)
+Depends: bind9-libs (= 1:9.20.11-4), libc6 (>= 2.38), libidn2-0 (>= 2.0.0)
 Breaks: bind-host (<< 1:9.13.6~)
 Replaces: bind-host (<< 1:9.13.6~)
 Provides: host
@@ -982,21 +982,21 @@ Multi-Arch: foreign
 Homepage: https://www.isc.org/downloads/bind/
 Priority: standard
 Section: net
-Filename: pool/main/b/bind9/bind9-host_9.20.9-1_amd64.deb
-Size: 55028
-SHA256: 3c9ac684a63946be3d461cb516ecfdfe681e1aade8d0673530f028edd3f78730
-SHA1: 8aa8a231b5878bf9ab8d4aa2c41555b45ccc332d
-MD5sum: 68d0c37306a26566adea2067f94dc281
+Filename: pool/main/b/bind9/bind9-host_9.20.11-4_amd64.deb
+Size: 55264
+SHA256: 684e616a0e139dbe156e53a4a890127434868941035dfdf8908dab00d21aa320
+SHA1: 776ed1ca87643231fac9e77aed64680334cd0035
+MD5sum: bc9fd6d0f9ae71913f6087bdaeba0a2a
 Description: DNS Lookup Utility
  This package provides the 'host' DNS lookup utility in the form that
  is bundled with the BIND 9 sources.
 
 Package: bind9-libs
 Source: bind9
-Version: 1:9.20.9-1
+Version: 1:9.20.11-4
 Architecture: amd64
 Maintainer: Debian DNS Team <team+dns@tracker.debian.org>
-Installed-Size: 3600
+Installed-Size: 3604
 Depends: libc6 (>= 2.38), libfstrm0 (>= 0.2.0), libgssapi-krb5-2 (>= 1.17), libjemalloc2 (>= 4.0.0), libjson-c5 (>= 0.15), libkrb5-3 (>= 1.6.dfsg.2), liblmdb0 (>= 0.9.7), libmaxminddb0 (>= 1.3.0), libnghttp2-14 (>= 1.12.0), libprotobuf-c1 (>= 1.0.1), libssl3t64 (>= 3.4.0), liburcu8t64 (>= 0.13.0), libuv1t64 (>= 1.38.0), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
 Breaks: bind-libs (<< 1:9.13.6~)
 Replaces: bind-libs (<< 1:9.13.6~)
@@ -1004,11 +1004,11 @@ Multi-Arch: same
 Homepage: https://www.isc.org/downloads/bind/
 Priority: standard
 Section: libs
-Filename: pool/main/b/bind9/bind9-libs_9.20.9-1_amd64.deb
-Size: 1228304
-SHA256: 3dd5ac2203edb1b48909f18153293e7a8ba574ca3f50c233843b9e6b81468999
-SHA1: 7f835530f97a2e2c54c2395916d467fdabb36b4d
-MD5sum: f40619c017253f831735be0afcf1dc49
+Filename: pool/main/b/bind9/bind9-libs_9.20.11-4_amd64.deb
+Size: 1230144
+SHA256: 40ef2cf0596496e7790c3776bef27adfa36de1deb9851586ba10d5e7654956c6
+SHA1: 4d08c4d4d7ae44f986acf72ec86287b7803c97a1
+MD5sum: 7ce2af440e856556183ad0e0cf61e9be
 Description: Shared Libraries used by BIND 9
  The Berkeley Internet Name Domain (BIND 9) implements an Internet domain
  name server.  BIND 9 is the most widely-used name server software on the
@@ -1583,7 +1583,7 @@ Description: highly efficient file backup system based on git (documentation)
 
 Package: busybox
 Source: busybox (1:1.37.0-6)
-Version: 1:1.37.0-6+b1
+Version: 1:1.37.0-6+b3
 Architecture: amd64
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 875
@@ -1593,11 +1593,11 @@ Replaces: busybox-static
 Homepage: http://www.busybox.net
 Priority: optional
 Section: utils
-Filename: pool/main/b/busybox/busybox_1.37.0-6+b1_amd64.deb
-Size: 485436
-SHA256: 683a7612a25933e33879e20da567fe9895dd036d0244423a6f7e756993ed8c52
-SHA1: 3e4f995ea870b010c09333af26662701759f75f6
-MD5sum: d736ce77d3cda9c793940e1b9778d8cd
+Filename: pool/main/b/busybox/busybox_1.37.0-6+b3_amd64.deb
+Size: 485036
+SHA256: fcd57d229e8d63207b37f5738618594fd8a69429c33960926de1c2cb0fa32283
+SHA1: 8a854a492ac4712bff853a732750166156db15a1
+MD5sum: a82361812a6c81b02d397e67af1b259a
 Description: Tiny utilities for small and embedded systems
  BusyBox combines tiny versions of many common UNIX utilities into a single
  small executable. It provides minimalist replacements for the most common
@@ -1719,19 +1719,19 @@ Description: Common CA certificates (JKS keystore)
 
 Package: catatonit
 Source: catatonit (0.2.1-2)
-Version: 0.2.1-2+b1
+Version: 0.2.1-2+b3
 Architecture: amd64
 Maintainer: Antonio Terceiro <terceiro@debian.org>
 Installed-Size: 736
-Built-Using: glibc (= 2.41-9)
+Built-Using: glibc (= 2.41-11)
 Homepage: https://github.com/openSUSE/catatonit
 Priority: optional
 Section: admin
-Filename: pool/main/c/catatonit/catatonit_0.2.1-2+b1_amd64.deb
-Size: 275308
-SHA256: 272c3e560b734742d1b35695bf40f42e574a3daaa2d71570e416c499fc189938
-SHA1: 03200679323823156cc0ad34acf26abd20a9c04c
-MD5sum: a1e412a1a5910d0ff51a09e8efd85e3d
+Filename: pool/main/c/catatonit/catatonit_0.2.1-2+b3_amd64.deb
+Size: 275304
+SHA256: 01c9af722e48e041103d5cc6a65b783b54dab86350ba8e9864311826893975be
+SHA1: 5843db3f2d957122c4710e9b06e9bacfdf069d67
+MD5sum: 5a697243772588fc23d0907ad369915c
 Description: init process for containers
  catatonic is a very simple init process for application containers. Its
  purpose is to support only the usage by container managers such as docker and
@@ -1770,23 +1770,23 @@ Description: text extractor for MS-Office files
  is not.
 
 Package: console-setup
-Version: 1.239
+Version: 1.240
 Architecture: all
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
-Installed-Size: 406
+Installed-Size: 408
 Pre-Depends: debconf | debconf-2.0
-Depends: console-setup-linux | hurd, xkb-data (>= 0.9), keyboard-configuration (= 1.239), debconf (>= 0.5) | debconf-2.0
+Depends: console-setup-linux | hurd, xkb-data (>= 0.9), keyboard-configuration (= 1.240), debconf (>= 0.5) | debconf-2.0
 Suggests: lsb-base (>= 3.0-6), locales
 Conflicts: console-setup-mini
 Breaks: lsb (<< 2.0-6), lsb-base (<< 3.0-6), lsb-core (<< 2.0-6)
 Multi-Arch: foreign
 Priority: optional
 Section: utils
-Filename: pool/main/c/console-setup/console-setup_1.239_all.deb
-Size: 96120
-SHA256: 04561ffc68c45cb948c72a50416345ef5ebf16babfbed1e69db263fb8c82b4b4
-SHA1: e93a278f79733e0703b92fa1945fe7ab4d43b89c
-MD5sum: 160684f25a3c948b361034c0ed18fabb
+Filename: pool/main/c/console-setup/console-setup_1.240_all.deb
+Size: 96620
+SHA256: dc24934ef2baca64b50715af27abe930abca26404492bc2dfed04a745545e196
+SHA1: ccbdd6ab1d96c242c2799c26a64b02b87be865f5
+MD5sum: 4d888b1f909b9c5b660b527b8ae6467c
 Description: console font and keymap setup program
  This package provides the console with the same keyboard
  configuration scheme as the X Window System. As a result, there is no
@@ -1802,11 +1802,11 @@ Description: console font and keymap setup program
 
 Package: console-setup-linux
 Source: console-setup
-Version: 1.239
+Version: 1.240
 Architecture: all
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 7283
-Depends: kbd (>= 0.99-12) | console-tools (>= 1:0.2.3-16), keyboard-configuration (= 1.239), init-system-helpers (>= 1.29~) | initscripts
+Depends: kbd (>= 0.99-12) | console-tools (>= 1:0.2.3-16), keyboard-configuration (= 1.240), init-system-helpers (>= 1.29~) | initscripts
 Suggests: console-setup
 Breaks: console-cyrillic (<= 0.9-11), console-setup (<< 1.71), console-terminus
 Replaces: console-setup (<< 1.71), console-terminus
@@ -1815,11 +1815,11 @@ Static-Built-Using: fonts-dejavu (= 2.37-8), unifont (= 1:15.1.01-1)
 Multi-Arch: foreign
 Priority: optional
 Section: utils
-Filename: pool/main/c/console-setup/console-setup-linux_1.239_all.deb
-Size: 6207068
-SHA256: 0393f1d540eefaa8ec2a31e47e956b24ff94dcb457feef33b0a72992d0a0e1e7
-SHA1: ffb339e1d90faa90df8e63e2fa426d46c337e43d
-MD5sum: 290c341a3d747572ffbd4ee2daba4cbd
+Filename: pool/main/c/console-setup/console-setup-linux_1.240_all.deb
+Size: 6206808
+SHA256: ce475789c25b26ad5f949cf184a79ea17e99cceb49a14b9d0665ed35f202f025
+SHA1: c813c6f7b8fcb1e913ca3bf3b923e1e7109fe37c
+MD5sum: 602b22bf458ab92f976c4d06e509eba2
 Description: Linux specific part of console-setup
  This package includes fonts in psf format and definitions of various
  8-bit charmaps.
@@ -3120,7 +3120,7 @@ Description: Debian Frequently Asked Questions
  without using the network, install this package.
 
 Package: debianutils
-Version: 5.23.1
+Version: 5.23.2
 Architecture: amd64
 Essential: yes
 Maintainer: Ileana Dumitrescu <ileanadumitrescu95@gmail.com>
@@ -3130,11 +3130,11 @@ Breaks: ifupdown (<< 0.8.36+nmu1), printer-driver-pnm2ppa (<< 1.13-12), x11-comm
 Multi-Arch: foreign
 Priority: required
 Section: utils
-Filename: pool/main/d/debianutils/debianutils_5.23.1_amd64.deb
-Size: 92316
-SHA256: 091e4c447d0648fc788d1970f1eaf9a4578247b4bfc136a6a3a27f969f2af89c
-SHA1: 18f3c22c82444896c3ba4cbbe285b88951afede5
-MD5sum: e5bf0f855d5eca14d60ea8a5222dc207
+Filename: pool/main/d/debianutils/debianutils_5.23.2_amd64.deb
+Size: 92360
+SHA256: 720e43fda316676076498b4224ad3318049deafe60cc7c601011048de03ee97d
+SHA1: 84c4bfe0a69ec1610d389f505356fee1654d79b8
+MD5sum: 84739088394105b79e8df877d907c753
 Description: Miscellaneous utilities specific to Debian
  This package provides a number of small utilities which are used
  primarily by the installation scripts of Debian packages, although
@@ -3451,11 +3451,11 @@ Description: File comparison utilities
 
 Package: dirmngr
 Source: gnupg2 (2.4.7-21)
-Version: 2.4.7-21+b1
+Version: 2.4.7-21+b3
 Architecture: amd64
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Installed-Size: 967
-Depends: adduser, gpgconf (= 2.4.7-21+b1), init-system-helpers (>= 1.52), libassuan9 (>= 2.5.0), libc6 (>= 2.38), libgcrypt20 (>= 1.11.0), libgnutls30t64 (>= 3.8.1), libgpg-error0 (>= 1.49), libksba8 (>= 1.6.3), libldap2 (>= 2.6.2), libnpth0t64 (>= 1.8)
+Depends: adduser, gpgconf (= 2.4.7-21+b3), init-system-helpers (>= 1.52), libassuan9 (>= 2.5.0), libc6 (>= 2.38), libgcrypt20 (>= 1.11.0), libgnutls30t64 (>= 3.8.1), libgpg-error0 (>= 1.49), libksba8 (>= 1.6.3), libldap2 (>= 2.6.2), libnpth0t64 (>= 1.8)
 Recommends: gnupg (= 2.4.7-21)
 Suggests: dbus-user-session, libpam-systemd, pinentry-gnome3, tor
 Enhances: gpg, gpgsm, squid
@@ -3463,11 +3463,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnupg.org/
 Priority: optional
 Section: utils
-Filename: pool/main/g/gnupg2/dirmngr_2.4.7-21+b1_amd64.deb
-Size: 383784
-SHA256: a145e5d262c2eff77b12afada0052aab12745ff6a02b8fc6026a42ed26701fd2
-SHA1: 14f9ca4b1e0d75347652450910484fa88204b4a5
-MD5sum: b34f974db639fbbb8d41c9b599e20d61
+Filename: pool/main/g/gnupg2/dirmngr_2.4.7-21+b3_amd64.deb
+Size: 383796
+SHA256: 342d361d8481d88078344c0bbeebcefd89bca8cd63f23855b8a1da9c6d9cbfea
+SHA1: 72b1c420b61423ae7b1d3552b995aeb089bcad4a
+MD5sum: 7a123f7c1d47f2a3bb7d3b17d172b925
 Description: GNU privacy guard - network certificate management service
  dirmngr is a server for managing and downloading OpenPGP and X.509
  certificates, as well as updates and status signals related to those
@@ -3482,7 +3482,7 @@ Description: GNU privacy guard - network certificate management service
  the GnuPG suite that try to interact with the network will fail.
 
 Package: distro-info-data
-Version: 0.64
+Version: 0.66
 Architecture: all
 Maintainer: Benjamin Drung <bdrung@debian.org>
 Installed-Size: 18
@@ -3490,11 +3490,11 @@ Breaks: distro-info (<< 1.0~)
 Multi-Arch: foreign
 Priority: optional
 Section: devel
-Filename: pool/main/d/distro-info-data/distro-info-data_0.64_all.deb
-Size: 6476
-SHA256: 27911d811e75a45ea4d441dbfaf481b394b0284c5e3f5d580d313eacdc3abe79
-SHA1: 9ba9c7b3b8a033c8624a97c956136f5ab7c9b73b
-MD5sum: 344708b5fc3f727402bd3ad523b896e4
+Filename: pool/main/d/distro-info-data/distro-info-data_0.66_all.deb
+Size: 6616
+SHA256: 14d24dddeba9ac98d077c61d79d116882c934d7ff52f52005c40556a054ea8f5
+SHA1: 2d083730bd927b1ccb452d93d5d01f31e69d8682
+MD5sum: f8d4dc4f06e6dd445699ecfee55487bb
 Description: information about the distributions' releases (data files)
  Information about all releases of Debian and Ubuntu. The distro-info script
  will give you the codename for e.g. the latest stable release of your
@@ -3901,11 +3901,11 @@ Description: Crash handler for Qt applications
 
 Package: e2fsprogs
 Source: e2fsprogs (1.47.2-3)
-Version: 1.47.2-3+b1
+Version: 1.47.2-3+b3
 Architecture: amd64
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 1537
-Pre-Depends: libblkid1 (>= 2.36), libc6 (>= 2.38), libcom-err2 (>= 1.43.9), libext2fs2t64 (= 1.47.2-3+b1), libss2 (>= 1.38), libuuid1 (>= 2.16)
+Pre-Depends: libblkid1 (>= 2.36), libc6 (>= 2.38), libcom-err2 (>= 1.43.9), libext2fs2t64 (= 1.47.2-3+b3), libss2 (>= 1.38), libuuid1 (>= 2.16)
 Depends: logsave
 Recommends: e2fsprogs-l10n
 Suggests: gpart, parted, fuse2fs, e2fsck-static, libarchive13t64
@@ -3913,11 +3913,11 @@ Multi-Arch: foreign
 Homepage: http://e2fsprogs.sourceforge.net
 Priority: important
 Section: admin
-Filename: pool/main/e/e2fsprogs/e2fsprogs_1.47.2-3+b1_amd64.deb
-Size: 590880
-SHA256: 7077ae5134566d4c32adf4d0fa2fdd989e40a6f57b13c51bdcb6e20c7f060e64
-SHA1: a5c1c351be7a2a9f6fb9d64a4a61eeeb4af5e2b3
-MD5sum: 8397365ef8cde926d65a3222923cd555
+Filename: pool/main/e/e2fsprogs/e2fsprogs_1.47.2-3+b3_amd64.deb
+Size: 590576
+SHA256: 3a41cbfadc8ddf13aef887780a31931d38089bc47c63e6f3b38c797e3fa77466
+SHA1: 0ebae18caca2a594236a03145ab6604105f8d3ee
+MD5sum: 33f8fe83b3ab8f35fc923e068226e3b8
 Description: ext2/ext3/ext4 file system utilities
  The ext2, ext3 and ext4 file systems are successors of the original ext
  ("extended") file system. They are the main file system types used for
@@ -4394,21 +4394,21 @@ Description: utilities for finding files--find, xargs
  been split off into a separate package.
 
 Package: firefox-esr
-Version: 128.11.0esr-1
+Version: 128.13.0esr-1
 Architecture: amd64
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
-Installed-Size: 239449
+Installed-Size: 239611
 Depends: libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.39), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.10), libevent-2.1-7t64 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.101), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 13.1), libvpx9 (>= 1.12.0), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4), fontconfig, procps, debianutils (>= 1.16)
 Recommends: libavcodec61 | libavcodec-extra61 | libavcodec60 | libavcodec-extra60 | libavcodec59 | libavcodec-extra59 | libavcodec58 | libavcodec-extra58 | libavcodec57 | libavcodec-extra57 | libavcodec56 | libavcodec-extra56 | libavcodec55 | libavcodec-extra55 | libavcodec54 | libavcodec-extra54 | libavcodec53 | libavcodec-extra53
 Suggests: fonts-stix | otf-stix, fonts-lmodern, libgssapi-krb5-2 | libkrb53, libcanberra0, pulseaudio
 Provides: gnome-www-browser, www-browser
 Priority: optional
 Section: web
-Filename: pool/main/f/firefox-esr/firefox-esr_128.11.0esr-1_amd64.deb
-Size: 64892012
-SHA256: 8292c17af541bf30067ec02da3f4d7dd0d52d299325a0cb308673de6dd2e8eac
-SHA1: bbc93516d7bfb6eb707d17d6b5bce6d00dc05544
-MD5sum: 9df7f76361ceaf34cfd4a0af4453e992
+Filename: pool/main/f/firefox-esr/firefox-esr_128.13.0esr-1_amd64.deb
+Size: 64923976
+SHA256: 33adef7077bf9b087e64f71e17e6c149d80b64ed114597828d44436b06a91195
+SHA1: 90da9813e8527bef0ec97fe1410d78e182671255
+MD5sum: 7b5e6a428bee905a84d18ffeb2d070f9
 Description: Mozilla Firefox web browser - Extended Support Release (ESR)
  Firefox ESR is a powerful, extensible web browser with support for modern
  web application technologies.
@@ -7841,21 +7841,21 @@ Description: Introspection data for some FreeDesktop components
 
 Package: gir1.2-gdkpixbuf-2.0
 Source: gdk-pixbuf
-Version: 2.42.12+dfsg-3
+Version: 2.42.12+dfsg-4
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 44
 Depends: gir1.2-gio-2.0, gir1.2-gmodule-2.0, libgdk-pixbuf-2.0-0 (>= 2.39.2)
-Provides: gir1.2-gdkpixdata-2.0 (= 2.42.12+dfsg-3)
+Provides: gir1.2-gdkpixdata-2.0 (= 2.42.12+dfsg-4)
 Multi-Arch: same
 Homepage: https://www.gtk.org/
 Priority: optional
 Section: introspection
-Filename: pool/main/g/gdk-pixbuf/gir1.2-gdkpixbuf-2.0_2.42.12+dfsg-3_amd64.deb
-Size: 14304
-SHA256: 72660077edb9eae5a03f060d82dd52ef8dfff49bd6db62436b5ecfd9f26424ad
-SHA1: 5678030e97caabba375119aa11932a970ceadd79
-MD5sum: ac582a238dfd138a5259e2b417c28098
+Filename: pool/main/g/gdk-pixbuf/gir1.2-gdkpixbuf-2.0_2.42.12+dfsg-4_amd64.deb
+Size: 14376
+SHA256: 56d72a8c30d78c9a495384ec794a5e445a2df793178d93f0019501d7cf5c1a3d
+SHA1: 8283ddb4bf450a9a3466a97bd9484f067dbc52e7
+MD5sum: 09e06b9a3d0f226277fcc12c1c610c10
 Description: GDK Pixbuf library - GObject-Introspection
  The GDK Pixbuf library provides:
   - Image loading and saving facilities.
@@ -8217,7 +8217,7 @@ Description: GObject introspection data for polkit
 
 Package: gir1.2-poppler-0.18
 Source: poppler
-Version: 25.03.0-4
+Version: 25.03.0-5
 Architecture: amd64
 Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
 Installed-Size: 110
@@ -8226,11 +8226,11 @@ Multi-Arch: same
 Homepage: https://poppler.freedesktop.org/
 Priority: optional
 Section: introspection
-Filename: pool/main/p/poppler/gir1.2-poppler-0.18_25.03.0-4_amd64.deb
-Size: 28156
-SHA256: 6fcf798dcbf5b2630d39768a48fed6e0a19a2220cbac892922bd867de4bd36e4
-SHA1: b3b98b944993832347bf3356526b3225721ff98b
-MD5sum: bb89ee239497850bc7bc5836548f7afc
+Filename: pool/main/p/poppler/gir1.2-poppler-0.18_25.03.0-5_amd64.deb
+Size: 28312
+SHA256: 5a9fbef5245b0e439ca196c8d94022830b75358f0a00033830e9477d050a6bac
+SHA1: c8ac49bf19b53f63e07642ffedc1bf705bbc5929
+MD5sum: 1942dcfb6763c71b9b7bad32d9d100cb
 Description: GObject introspection data for poppler-glib
  Poppler is a PDF rendering library based on Xpdf PDF viewer.
  .
@@ -8487,7 +8487,7 @@ Description: GNU privacy guard - localization files
 
 Package: gnupg-utils
 Source: gnupg2 (2.4.7-21)
-Version: 2.4.7-21+b1
+Version: 2.4.7-21+b3
 Architecture: amd64
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Installed-Size: 749
@@ -8499,11 +8499,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnupg.org/
 Priority: optional
 Section: utils
-Filename: pool/main/g/gnupg2/gnupg-utils_2.4.7-21+b1_amd64.deb
-Size: 193936
-SHA256: 73d7dcbe9bcf1d26f421151b2c7b59469fecb48367b5e9ab065060fd8653d62e
-SHA1: 671d93f8e0a05a0a4c9bb4aea8cbbacee69d5fdf
-MD5sum: 3d3fa42d001fa64a97bc8bbb7143fd79
+Filename: pool/main/g/gnupg2/gnupg-utils_2.4.7-21+b3_amd64.deb
+Size: 193708
+SHA256: aa8a60e88ccecde8a9771fbcbce6099b521f33ab134b9719d11d5f42fcbb80f4
+SHA1: 4c84f0d0de70cc1413a97935914c55032df08a7c
+MD5sum: c5ed0891e62641cb1bdb45ca740f8fc9
 Description: GNU privacy guard - utility programs
  GnuPG is GNU's tool for secure communication and data storage.
  .
@@ -8728,24 +8728,24 @@ Description: Guess PC disk partition table, find lost partitions
 
 Package: gpg
 Source: gnupg2 (2.4.7-21)
-Version: 2.4.7-21+b1
+Version: 2.4.7-21+b3
 Architecture: amd64
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Installed-Size: 1594
-Depends: gpgconf (= 2.4.7-21+b1), init-system-helpers (>= 1.52), libassuan9 (>= 2.5.1), libbz2-1.0, libc6 (>= 2.38), libgcrypt20 (>= 1.11.0), libgpg-error0 (>= 1.49), libksba8 (>= 1.6.3), libnpth0t64 (>= 1.2), libreadline8t64 (>= 6.0), libsqlite3-0 (>= 3.14.0), zlib1g (>= 1:1.1.4)
+Depends: gpgconf (= 2.4.7-21+b3), init-system-helpers (>= 1.52), libassuan9 (>= 2.5.1), libbz2-1.0, libc6 (>= 2.38), libgcrypt20 (>= 1.11.0), libgpg-error0 (>= 1.49), libksba8 (>= 1.6.3), libnpth0t64 (>= 1.2), libreadline8t64 (>= 6.0), libsqlite3-0 (>= 3.14.0), zlib1g (>= 1:1.1.4)
 Recommends: gnupg (= 2.4.7-21)
 Breaks: gnupg (<< 2.1.21-4), keyboxd (<< 2.4.7-4)
 Replaces: gnupg (<< 2.1.21-4), keyboxd (<< 2.4.7-4)
-Provides: keyboxd (= 2.4.7-21+b1)
+Provides: keyboxd (= 2.4.7-21+b3)
 Multi-Arch: foreign
 Homepage: https://www.gnupg.org/
 Priority: optional
 Section: utils
-Filename: pool/main/g/gnupg2/gpg_2.4.7-21+b1_amd64.deb
-Size: 634944
-SHA256: 3e6d7f4830afe915cd4eacace864c3f906bf41b36b345b23a0e2676f6a23ba28
-SHA1: 5a2edf7f48b86932b102f01cc770549e898646ca
-MD5sum: 0ddf15307a9f83245c9c40dcfe288cb7
+Filename: pool/main/g/gnupg2/gpg_2.4.7-21+b3_amd64.deb
+Size: 634152
+SHA256: 493c82831138bc5486e2e0fcea2be9a7e22bf7b0ec09fc8399abff2a93ce4103
+SHA1: 52aa78f1108a6fd50c93d1ffbbd67dc5ee5c5628
+MD5sum: 5bc4ae5164c1f5804d3dd50c35d35cd9
 Description: GNU Privacy Guard -- minimalist public key operations
  GnuPG is GNU's tool for secure communication and data storage.
  It can be used to encrypt data and to create digital signatures.
@@ -8760,11 +8760,11 @@ Description: GNU Privacy Guard -- minimalist public key operations
 
 Package: gpg-agent
 Source: gnupg2 (2.4.7-21)
-Version: 2.4.7-21+b1
+Version: 2.4.7-21+b3
 Architecture: amd64
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Installed-Size: 899
-Depends: gpgconf (= 2.4.7-21+b1), pinentry-curses | pinentry, init-system-helpers (>= 1.52), libassuan9 (>= 2.5.1), libc6 (>= 2.38), libgcrypt20 (>= 1.11.0), libgpg-error0 (>= 1.49), libnpth0t64 (>= 1.2)
+Depends: gpgconf (= 2.4.7-21+b3), pinentry-curses | pinentry, init-system-helpers (>= 1.52), libassuan9 (>= 2.5.1), libc6 (>= 2.38), libgcrypt20 (>= 1.11.0), libgpg-error0 (>= 1.49), libnpth0t64 (>= 1.2)
 Recommends: gnupg (= 2.4.7-21)
 Suggests: dbus-user-session, libpam-systemd, pinentry-gnome3, scdaemon, tpm2daemon
 Breaks: gnupg-agent (<< 2.1.21-4)
@@ -8774,11 +8774,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnupg.org/
 Priority: optional
 Section: utils
-Filename: pool/main/g/gnupg2/gpg-agent_2.4.7-21+b1_amd64.deb
-Size: 270640
-SHA256: 16f2b83992718c2b0c9c6df721d85c53d46032b80c37c8a48edec905f4e8ae74
-SHA1: b73bdca28c3d6db13c4a3e845eb301782145bcd0
-MD5sum: ac4c8949def9dc61c0de08401c254644
+Filename: pool/main/g/gnupg2/gpg-agent_2.4.7-21+b3_amd64.deb
+Size: 270564
+SHA256: bc9aefb420e21bfa8cacbfe72caddb6850142e98e024a2169b31ebaea8f494eb
+SHA1: a6b62db7f603ec298984e7deb89312405955ce72
+MD5sum: 1f577da08565a4ad0053e8706c2906e9
 Description: GNU privacy guard - cryptographic agent
  GnuPG is GNU's tool for secure communication and data storage.
  It can be used to encrypt data and to create digital signatures.
@@ -8794,21 +8794,21 @@ Description: GNU privacy guard - cryptographic agent
 
 Package: gpg-wks-client
 Source: gnupg2 (2.4.7-21)
-Version: 2.4.7-21+b1
+Version: 2.4.7-21+b3
 Architecture: amd64
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Installed-Size: 258
-Depends: dirmngr (= 2.4.7-21+b1), gpg (= 2.4.7-21+b1), gpg-agent (= 2.4.7-21+b1), libassuan9 (>= 2.5.0), libc6 (>= 2.38), libgcrypt20 (>= 1.11.0), libgpg-error0 (>= 1.48)
+Depends: dirmngr (= 2.4.7-21+b3), gpg (= 2.4.7-21+b3), gpg-agent (= 2.4.7-21+b3), libassuan9 (>= 2.5.0), libc6 (>= 2.38), libgcrypt20 (>= 1.11.0), libgpg-error0 (>= 1.48)
 Recommends: gnupg (= 2.4.7-21)
 Multi-Arch: foreign
 Homepage: https://www.gnupg.org/
 Priority: optional
 Section: utils
-Filename: pool/main/g/gnupg2/gpg-wks-client_2.4.7-21+b1_amd64.deb
-Size: 108392
-SHA256: 347e05bf2a2423321052a24b6529bcfd107b8d498946782d179dd55b9d265fac
-SHA1: 5ca28dbac172244e5d8098da25a01309053a5dbf
-MD5sum: 85c974e081f8754957faa218009f3b75
+Filename: pool/main/g/gnupg2/gpg-wks-client_2.4.7-21+b3_amd64.deb
+Size: 108396
+SHA256: 6eef39136ced960942275e0e306481ea1c46e2c53c0216b4f380d85c920f3159
+SHA1: aa56ab0ed263b5f50be67b9f059b2ce453f21f94
+MD5sum: 87758124826570fef5adbadb38ea0e8f
 Description: GNU privacy guard - Web Key Service client
  GnuPG is GNU's tool for secure communication and data storage.
  It can be used to encrypt data and to create digital signatures.
@@ -8826,21 +8826,21 @@ Description: GNU privacy guard - Web Key Service client
 
 Package: gpg-wks-server
 Source: gnupg2 (2.4.7-21)
-Version: 2.4.7-21+b1
+Version: 2.4.7-21+b3
 Architecture: amd64
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Installed-Size: 226
-Depends: default-mta | mail-transport-agent, gpg (= 2.4.7-21+b1), gpg-agent (= 2.4.7-21+b1), libc6 (>= 2.38), libgcrypt20 (>= 1.11.0), libgpg-error0 (>= 1.48)
+Depends: default-mta | mail-transport-agent, gpg (= 2.4.7-21+b3), gpg-agent (= 2.4.7-21+b3), libc6 (>= 2.38), libgcrypt20 (>= 1.11.0), libgpg-error0 (>= 1.48)
 Recommends: gnupg (= 2.4.7-21)
 Multi-Arch: foreign
 Homepage: https://www.gnupg.org/
 Priority: optional
 Section: utils
-Filename: pool/main/g/gnupg2/gpg-wks-server_2.4.7-21+b1_amd64.deb
-Size: 96020
-SHA256: d248574eb6de53ff7289e8077d55de722e41341bb8430cee92cc6ee4f15b610a
-SHA1: 0ab19b302b20f2a381a7a4c72814e8a0e55f73d8
-MD5sum: bf8d80eeb0738bef9aeef709aebbbef9
+Filename: pool/main/g/gnupg2/gpg-wks-server_2.4.7-21+b3_amd64.deb
+Size: 95864
+SHA256: 6d52fe357cb53828e0309e2178c38c3f8b8c22bdb4206105a665ff42ad159dab
+SHA1: 35d1e17a3ea4d6674694ec34ded698ed893862f8
+MD5sum: a5802430f2871075caf27253b6b65a7b
 Description: GNU privacy guard - Web Key Service server
  GnuPG is GNU's tool for secure communication and data storage.
  It can be used to encrypt data and to create digital signatures.
@@ -8858,7 +8858,7 @@ Description: GNU privacy guard - Web Key Service server
 
 Package: gpgconf
 Source: gnupg2 (2.4.7-21)
-Version: 2.4.7-21+b1
+Version: 2.4.7-21+b3
 Architecture: amd64
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Installed-Size: 371
@@ -8869,11 +8869,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnupg.org/
 Priority: optional
 Section: utils
-Filename: pool/main/g/gnupg2/gpgconf_2.4.7-21+b1_amd64.deb
-Size: 128784
-SHA256: 6a53d18a49ae9a49298e1cc160e2739a3e71fa3c099a6608cca82ac171327337
-SHA1: 86133149269d5eb5e8b68cdecda80c8e33636e64
-MD5sum: 8bb473eaa061c12f5dcd7f84b1b8cc3f
+Filename: pool/main/g/gnupg2/gpgconf_2.4.7-21+b3_amd64.deb
+Size: 128696
+SHA256: 03a674af1e3bdf80d6cf5fd3866da3a7e23a101457f83483881d3b9db1ed70ea
+SHA1: 9343bf081cc3714ad694188b83d4ce4dde18e603
+MD5sum: 750d43e2428fc913b0e679e6a5ec62ac
 Description: GNU privacy guard - core configuration utilities
  GnuPG is GNU's tool for secure communication and data storage.
  .
@@ -8884,21 +8884,21 @@ Description: GNU privacy guard - core configuration utilities
 
 Package: gpgsm
 Source: gnupg2 (2.4.7-21)
-Version: 2.4.7-21+b1
+Version: 2.4.7-21+b3
 Architecture: amd64
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Installed-Size: 664
-Depends: gpgconf (= 2.4.7-21+b1), libassuan9 (>= 2.5.0), libc6 (>= 2.38), libgcrypt20 (>= 1.11.0), libgpg-error0 (>= 1.49), libksba8 (>= 1.6.3), libnpth0t64 (>= 1.2), libreadline8t64 (>= 6.0)
+Depends: gpgconf (= 2.4.7-21+b3), libassuan9 (>= 2.5.0), libc6 (>= 2.38), libgcrypt20 (>= 1.11.0), libgpg-error0 (>= 1.49), libksba8 (>= 1.6.3), libnpth0t64 (>= 1.2), libreadline8t64 (>= 6.0)
 Recommends: gnupg (= 2.4.7-21)
 Multi-Arch: foreign
 Homepage: https://www.gnupg.org/
 Priority: optional
 Section: utils
-Filename: pool/main/g/gnupg2/gpgsm_2.4.7-21+b1_amd64.deb
-Size: 275356
-SHA256: a5214a7a9c700fcdeb105e4e2ef946eb98bb2e0b0a1e40d9a23538823b25f62f
-SHA1: e32728f177dfce0111cde1e087a3ce66638c453c
-MD5sum: 4a9389d5d8b7494eb5402c9cd6a55893
+Filename: pool/main/g/gnupg2/gpgsm_2.4.7-21+b3_amd64.deb
+Size: 275124
+SHA256: 866a45bccd39e7932bf283b6835a8bc6f5b33b8810107eb61faaa5c957b6bd91
+SHA1: 66829993e99b6ef6e74a919683fba95a80d86de9
+MD5sum: 930dd2bad890e09a2911b3128536118e
 Description: GNU privacy guard - S/MIME version
  GnuPG is GNU's tool for secure communication and data storage.
  It can be used to encrypt data and to create digital signatures.
@@ -8911,7 +8911,7 @@ Description: GNU privacy guard - S/MIME version
 
 Package: gpgv
 Source: gnupg2 (2.4.7-21)
-Version: 2.4.7-21+b1
+Version: 2.4.7-21+b3
 Architecture: amd64
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Installed-Size: 560
@@ -8922,11 +8922,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnupg.org/
 Priority: important
 Section: utils
-Filename: pool/main/g/gnupg2/gpgv_2.4.7-21+b1_amd64.deb
-Size: 240712
-SHA256: 97c272b67190a3f6a581b81c31bc73fe65a9b3afc20051493864743efd159ab7
-SHA1: 629ffcac2b39e9e52a7b977121c6fbbcf99a7aeb
-MD5sum: f03b33d01e674886c6db0acb18b3b820
+Filename: pool/main/g/gnupg2/gpgv_2.4.7-21+b3_amd64.deb
+Size: 240716
+SHA256: 897ed3cde46c7435ef434e5b46ffa1770a3c59a13097383f3a27cc591e2c1d87
+SHA1: cbb0bd712adea35e9b5f4626ee9dbab2dde69ea9
+MD5sum: b479883d4f33d5b83cbdf7c952d84bb5
 Description: GNU privacy guard - signature verification tool
  GnuPG is GNU's tool for secure communication and data storage.
  .
@@ -10274,20 +10274,20 @@ Description: userspace virtual filesystem - private libraries
  the daemons and the GIO module.
 
 Package: gwenview
-Version: 4:25.04.0-1
+Version: 4:25.04.3-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 5895
+Installed-Size: 5900
 Depends: kimageformat6-plugins, kio6, libc6 (>= 2.34), libcfitsio10t64 (>= 4.2.0~), libexiv2-28 (>= 0.28.0), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libkdcrawqt6-5 (>= 24.05.2), libkf6baloo6 (>= 6.3.0~), libkf6colorscheme6 (>= 6.0.0), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.0.0), libkf6filemetadata3 (>= 6.0.0), libkf6guiaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.0.0), libkf6iconwidgets6 (>= 6.0.0), libkf6itemmodels6 (>= 6.0.0), libkf6itemviews6 (>= 6.0.0), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiofilewidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6parts6 (>= 6.0.0), libkf6purpose-bin, libkf6purpose6 (>= 6.0.0), libkf6purposewidgets6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libkimageannotator-qt6-0 (>= 0.7.1), liblcms2-2 (>= 2.2+git20110628), libphonon4qt6-4t64 (>= 4:4.12.0), libplasmaactivities6 (>= 6.0.5), libpng16-16t64 (>= 1.6.46), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6openglwidgets6 (>= 6.6.0+dfsg~), libqt6printsupport6 (>= 6.6.0+dfsg~), libqt6svg6 (>= 6.6.0), libqt6svgwidgets6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.6.0+dfsg~), libstdc++6 (>= 11), libtiff6 (>= 4.0.3), libwayland-client0 (>= 1.20.0), libx11-6, phonon4qt6, qt6-base-private-abi (= 6.8.2)
-Recommends: gwenview-doc (>= 4:25.04.0-1), kamera, kio-extras (>= 4:24.08.0~), qt6-image-formats-plugins
+Recommends: gwenview-doc (>= 4:25.04.3-1), kamera, kio-extras (>= 4:24.08.0~), qt6-image-formats-plugins
 Homepage: https://apps.kde.org/gwenview/
 Priority: optional
 Section: graphics
-Filename: pool/main/g/gwenview/gwenview_25.04.0-1_amd64.deb
-Size: 1177068
-SHA256: 5947625b9be5a244ae6aeb3f1f65f0e45af0953a2202c48bd0faea4f50fb1cb3
-SHA1: 6ea9c69168d2595e77e24b0f9af566b5b4efbda9
-MD5sum: 66662e13d27f7549fc0f033929273988
+Filename: pool/main/g/gwenview/gwenview_25.04.3-1_amd64.deb
+Size: 1178024
+SHA256: ef42514fce7937b2b781b1899daaf9372a50e7b499437c8ffd122c50c9a9f7c0
+SHA1: 21f97e1c74d8211b18c35ed917a1505394ef8c9e
+MD5sum: 9fef3a1673bf6c7067dfed3ee79b91b0
 Description: image viewer by KDE
  Gwenview is a fast and easy to use image viewer by KDE, ideal for browsing and
  displaying a collection of images.
@@ -10488,20 +10488,20 @@ Description: hardware identification / configuration data
 
 Package: hyperv-daemons
 Source: linux
-Version: 6.12.35-1
+Version: 6.12.38-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 1130
+Installed-Size: 1139
 Pre-Depends: init-system-helpers (>= 1.54~)
 Depends: libc6 (>= 2.34)
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux/hyperv-daemons_6.12.35-1_amd64.deb
-Size: 1079068
-SHA256: bba1a6bbef6bdf3597e66a00b37b577ca4222342836b7fe34a00fba70e988279
-SHA1: fe872b1236c979c17fa57b0cba51857f015a8ff4
-MD5sum: ed5f7f2b80f565378f1d14eeb9e9e8fd
+Filename: pool/main/l/linux/hyperv-daemons_6.12.38-1_amd64.deb
+Size: 1088360
+SHA256: 9997824ecf90a8dd50e7f42def813ff441efc705e723384a8abe1b7f7aed8525
+SHA1: 5246d41d2e5157d05214484ed20e9169f15e7ff9
+MD5sum: 417b93accb974b1edcc5bfe091964222
 Description: Support daemons for Linux running on Hyper-V
  Suite of daemons for Linux guests running on Hyper-V, consisting of
  hv_kvp_daemon and hv_vss_daemon.
@@ -10599,7 +10599,7 @@ Description: high level tools to configure network interfaces
  interface definitions in the file /etc/network/interfaces.
 
 Package: iio-sensor-proxy
-Version: 3.7-2
+Version: 3.7-3
 Architecture: amd64
 Maintainer: Ritesh Raj Sarraf <rrs@debian.org>
 Installed-Size: 138
@@ -10608,11 +10608,11 @@ Suggests: systemd
 Homepage: https://gitlab.freedesktop.org/hadess/iio-sensor-proxy
 Priority: optional
 Section: utils
-Filename: pool/main/i/iio-sensor-proxy/iio-sensor-proxy_3.7-2_amd64.deb
-Size: 36092
-SHA256: 9be225b8a81508390d6421a0a3f1a8c99b3412e95cbdf8e155e136f8730ac6b5
-SHA1: 3cbda751270509cad12beafdcccfced676c7746d
-MD5sum: 536b4f970a90d5dfe8eb40d80be30f05
+Filename: pool/main/i/iio-sensor-proxy/iio-sensor-proxy_3.7-3_amd64.deb
+Size: 36244
+SHA256: 911bf536a4ea0b832c267a56064d374df3f838e9458e4fb1fd506432731cc666
+SHA1: 02073355010a850bd25bef931e007537dcbba80a
+MD5sum: 90a87cf6b9c64ea464daa4da6ebf1808
 Description: IIO sensors to D-Bus proxy
  Industrial I/O subsystem is intended to provide support for devices
  that in some sense are analog to digital or digital to analog convertors
@@ -11529,19 +11529,19 @@ Description: KCM Module for kscreenlocker
 
 Package: kde-config-updates
 Source: plasma-discover
-Version: 6.3.5-1
+Version: 6.3.6-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 101
+Installed-Size: 102
 Depends: systemsettings, libc6 (>= 2.4), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6kcmutilscore6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libqt6core6t64 (>= 6.8.2), libqt6qml6 (>= 6.7.0~), libstdc++6 (>= 5)
 Homepage: https://invent.kde.org/plasma/discover
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-discover/kde-config-updates_6.3.5-1_amd64.deb
-Size: 26840
-SHA256: 4081e47626ba3de9092ae72815da260f759867771e76f58219b1a26e8d750f3e
-SHA1: 506d7770ea97ea21a1e7cf3457b8bba400913cc5
-MD5sum: ea38f08068cc3d7e681b698b24559c85
+Filename: pool/main/p/plasma-discover/kde-config-updates_6.3.6-1_amd64.deb
+Size: 26972
+SHA256: 8f15a148bbe200485bbf9434b16882d184866d4fd47e57f05f07c0196d6faadd
+SHA1: baaad8b2e944ac0a16524c3773beeb31246560bc
+MD5sum: 1e3fdeb01f976bd2aa47ae04b2366b12
 Description: Unattended updates configuration
  This package contains a configuration module for configuring
  unattended updates for fleet administrators without the need to
@@ -11740,7 +11740,7 @@ Description: bookmarks editor utility for KDE
 
 Package: keyboard-configuration
 Source: console-setup
-Version: 1.239
+Version: 1.240
 Architecture: all
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 2860
@@ -11751,11 +11751,11 @@ Replaces: console-setup (<< 1.47), console-setup-mini (<< 1.47)
 Multi-Arch: foreign
 Priority: optional
 Section: utils
-Filename: pool/main/c/console-setup/keyboard-configuration_1.239_all.deb
-Size: 428188
-SHA256: af3394e49cb0b7efbf47fed3a3b8c53bc507c3cff63adc7f5a4c337e7a1bd2c3
-SHA1: 3c9fd2005cf0b885cb2ca84de6d122c65deb981f
-MD5sum: c20537393ca0e1b4a222f2445ac7bf22
+Filename: pool/main/c/console-setup/keyboard-configuration_1.240_all.deb
+Size: 428640
+SHA256: b0ec8ed0372d23b6481d4aab66ddf0ed80882aec694927476613f2bfbbc70bfe
+SHA1: 4c7f61173b77f93c445ac8749bd10d8c0d043e4c
+MD5sum: 12650fe7745bc61ecc4e48669424b352
 Description: system-wide keyboard preferences
  This package maintains the keyboard preferences in
  /etc/default/keyboard.  Other packages can use the information
@@ -11828,21 +11828,21 @@ Description: additional image format plugins for QtGui
  This package is part of KDE Frameworks.
 
 Package: kinfocenter
-Version: 4:6.3.5-1
+Version: 4:6.3.6-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3454
-Depends: libkf6kcmutils-bin, qml6-module-org-kde-kirigami, systemsettings, usb.ids, kio6, libc6 (>= 2.34), libdrm2 (>= 2.4.75), libkf6authcore6 (>= 6.10.0~), libkf6configcore6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6kcmutils6 (>= 6.10.0~), libkf6kcmutilscore6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libkf6kiocore6 (>= 6.10.0~), libkf6kiogui6 (>= 6.10.0~), libkf6kiowidgets6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.10.0~), libkf6solid6 (>= 6.10.0~), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.7.0~), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.6.0), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 13.1), libusb-1.0-0 (>= 2:1.0.16), qt6-base-private-abi (= 6.8.2)
+Installed-Size: 3462
+Depends: libkf6kcmutils-bin, qml6-module-org-kde-kirigami, systemsettings, usb.ids, kio6, libc6 (>= 2.34), libdrm2 (>= 2.4.75), libkf6authcore6 (>= 6.10.0~), libkf6configcore6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6kcmutils6 (>= 6.10.0~), libkf6kcmutilscore6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libkf6kiocore6 (>= 6.10.0~), libkf6kiogui6 (>= 6.10.0~), libkf6kiowidgets6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.10.0~), libkf6solid6 (>= 6.10.0~), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.7.0~), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.6.0), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 13.1), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.16), qt6-base-private-abi (= 6.8.2)
 Recommends: aha, clinfo, dmidecode, iproute2, libdisplay-info-bin, mesa-utils, pciutils, pulseaudio-utils, vulkan-tools, wayland-utils
 Suggests: samba
 Homepage: https://invent.kde.org/plasma/kinfocenter
 Priority: optional
 Section: kde
-Filename: pool/main/k/kinfocenter/kinfocenter_6.3.5-1_amd64.deb
-Size: 890220
-SHA256: d515150e1e3b5da4016a0dc8e5f321b4a104c501b2db4ab0bc33960766d14b13
-SHA1: ece8b3326f6da8db3ee53dd678ce804e98aa3f0c
-MD5sum: dd3a584b88018f925f04599147652efd
+Filename: pool/main/k/kinfocenter/kinfocenter_6.3.6-1_amd64.deb
+Size: 892156
+SHA256: 66c5ffdfec4f8883689353953806313b2eb9c45a3aca4ddecc6d257df701e788
+SHA1: 6f46fdcc9c7a395981c24a397fa361638a5b10f9
+MD5sum: 7ce6360230487b96d428218fe51a7d85
 Description: system information viewer
  The kinfocenter provides you with a centralized and convenient
  overview of your system and desktop environment.
@@ -11901,22 +11901,22 @@ Description: resource and network access abstraction
  sftp, smb, nfs, ssh (fish), man, tar and zip.
 
 Package: kio-extras
-Version: 4:25.04.2-1
+Version: 4:25.04.3-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3156
-Depends: kio-extras-data (= 4:25.04.2-1), kio6, libappimage1.0abi1t64 (>= 0.1.10~), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libimobiledevice-1.0-6 (>= 1.3.0), libkdsoap-qt6-2 (>= 2.2.0), libkdsoapwsdiscoveryclient0 (>= 0.4.0), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6dnssd6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6kcmutils6 (>= 6.0.0), libkf6kcmutilscore6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiofilewidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6notifications6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6syntaxhighlighting6 (>= 6.0.0), libkf6textwidgets6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.3.0), libmtp9t64 (>= 1.1.21), libopenexr-3-1-30 (>= 3.1.13), libphonon4qt6-4t64 (>= 4:4.12.0), libplasmaactivities6 (>= 6.0.5), libplasmaactivitiesstats1 (>= 6.1.0), libplist-2.0-4 (>= 2.3.0), libproxy1v5 (>= 0.5.3), libqt6core5compat6 (>= 6.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.5.0+dfsg~), libqt6network6 (>= 6.5.0+dfsg~), libqt6sql6 (>= 6.5.0+dfsg~), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.5.0+dfsg~), libsmbclient0 (>= 2:4.12.0+dfsg), libssh-4 (>= 0.11.1), libstdc++6 (>= 14), libtag2 (>= 2.0), libtirpc3t64 (>= 1.0.2), libxcursor1 (>> 1.1.2), phonon4qt6, qt6-base-private-abi (= 6.8.2)
+Installed-Size: 3164
+Depends: kio-extras-data (= 4:25.04.3-1), kio6, libappimage1.0abi1t64 (>= 0.1.10~), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libimobiledevice-1.0-6 (>= 1.3.0), libkdsoap-qt6-2 (>= 2.2.0), libkdsoapwsdiscoveryclient0 (>= 0.4.0), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6dnssd6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6kcmutils6 (>= 6.0.0), libkf6kcmutilscore6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiofilewidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6notifications6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6syntaxhighlighting6 (>= 6.0.0), libkf6textwidgets6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.3.0), libmtp9t64 (>= 1.1.21), libopenexr-3-1-30 (>= 3.1.13), libphonon4qt6-4t64 (>= 4:4.12.0), libplasmaactivities6 (>= 6.0.5), libplasmaactivitiesstats1 (>= 6.1.0), libplist-2.0-4 (>= 2.3.0), libproxy1v5 (>= 0.5.3), libqt6core5compat6 (>= 6.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.5.0+dfsg~), libqt6network6 (>= 6.5.0+dfsg~), libqt6sql6 (>= 6.5.0+dfsg~), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.5.0+dfsg~), libsmbclient0 (>= 2:4.12.0+dfsg), libssh-4 (>= 0.11.1), libstdc++6 (>= 14), libtag2 (>= 2.0), libtirpc3t64 (>= 1.0.2), libxcursor1 (>> 1.1.2), phonon4qt6
 Recommends: libkf6kcmutils-bin, systemsettings
 Breaks: kio (<< 5.115.0-7~), kio-extras-data (<< 4:24.12.2-2~)
 Replaces: kio (<< 5.115.0-7~), kio-extras-data (<< 4:24.12.2-2~)
 Homepage: https://invent.kde.org/network/kio-extras
 Priority: optional
 Section: kde
-Filename: pool/main/k/kio-extras/kio-extras_25.04.2-1_amd64.deb
-Size: 684788
-SHA256: f702df283c03310e2744a41ff3cbfd63b6c7e559f92de475de66a53e9131c125
-SHA1: 251827b61f0182dc838e5e55ac6e4b5f32aefe7b
-MD5sum: 213610403c3ed84ecefa655b70072194
+Filename: pool/main/k/kio-extras/kio-extras_25.04.3-1_amd64.deb
+Size: 686072
+SHA256: 51a8ae75af1eadadceedef37417cd7f1b999182d8ca9821093991cea871bf52e
+SHA1: 42be817e303c294e8990472e669577879dc32029
+MD5sum: 3989cc16c4234e0163ebe55f685131ff
 Description: Extra functionality for kioslaves
  A kioslave is a plugin designed to be intimately familiar with a certain
  protocol, so that a standardized interface can be used to get at data from
@@ -11928,21 +11928,21 @@ Description: Extra functionality for kioslaves
 
 Package: kio-extras-data
 Source: kio-extras
-Version: 4:25.04.2-1
+Version: 4:25.04.3-1
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 6095
+Installed-Size: 6103
 Depends: perl:any
 Breaks: kio-extras (<< 4:24.12.2-2~), kio-mtp (<< 0.75+git20140304-1ubuntu1~)
 Replaces: kio-extras (<< 4:24.12.2-2~), kio-mtp (<< 0.75+git20140304-1ubuntu1~)
 Homepage: https://invent.kde.org/network/kio-extras
 Priority: optional
 Section: kde
-Filename: pool/main/k/kio-extras/kio-extras-data_25.04.2-1_all.deb
-Size: 1171880
-SHA256: 33e589ab1396908ad9bb33667c351bb8aa3ee11c67630653ff7f05f5f89030b3
-SHA1: 32149c95875a081b186758770d6a3617a5af7dca
-MD5sum: 826ed2d7fbea6911050c8967a9228618
+Filename: pool/main/k/kio-extras/kio-extras-data_25.04.3-1_all.deb
+Size: 1172856
+SHA256: b9f0486ddf988f521f0590a9b7a0e34f2b23d9a4429918ed62bb4862a30e17e7
+SHA1: cce523052e164071daec2f37ea2e28bd2f7d10f1
+MD5sum: 583505f4d93a14cf82b6230e7b229a4e
 Description: Extra functionality for kioslaves data files
  A kioslave is a plugin designed to be intimately familiar with a certain
  protocol, so that a standardized interface can be used to get at data from
@@ -12201,7 +12201,7 @@ Description: Multi-language application scripting.
  to bridge the static and dynamic worlds together.
 
 Package: kscreen
-Version: 4:6.3.5-1
+Version: 4:6.3.6-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 1679
@@ -12210,11 +12210,11 @@ Recommends: systemsettings, upower
 Homepage: https://invent.kde.org/plasma/kscreen
 Priority: optional
 Section: kde
-Filename: pool/main/k/kscreen/kscreen_6.3.5-1_amd64.deb
-Size: 324112
-SHA256: 290c5ecb4446a55591ae1d5b6a6bfab284bd3e41e4b91e458aa587a532242c43
-SHA1: 7c26182f68b9dd434646a9dad27a335c992d9094
-MD5sum: 4a6893c49755f3be864633f4aff53752
+Filename: pool/main/k/kscreen/kscreen_6.3.6-1_amd64.deb
+Size: 324552
+SHA256: c39587eb10ee0bfe0a00f8f0afa8313fd1a92168aa5ab97aa71a5b88ed830b29
+SHA1: d05b1cf7509cc1adf83b7c277abfabc385330d0b
+MD5sum: 80694929d9f517596f374330044a5d74
 Description: KDE monitor hotplug and screen handling
  KScreen provides multiple monitor support.  This support tries to be
  as smart as possible adapting the behavior of it to each use case
@@ -12387,11 +12387,11 @@ Description: kwayland runtime integration plugins for Qt5/KF5
 
 Package: kwin-common
 Source: kwin
-Version: 4:6.3.5-1
+Version: 4:6.3.6-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 5531
-Depends: kglobalacceld, kwin-data (= 4:6.3.5-1), plasma-desktoptheme, pnp.ids, qml6-module-org-kde-kirigami, qml6-module-org-kde-ksvg, qml6-module-qt5compat-graphicaleffects, qml6-module-qtquick, qml6-module-qtquick-window, libc6 (>= 2.38), libeis1 (>= 1.0.0), libepoxy0 (>= 1.0), libkdecorations3-6 (>= 4:6.3.4~), libkdecorations3private2 (>= 4:6.3.4~), libkf6authcore6 (>= 6.10.0~), libkf6colorscheme6 (>= 6.10.0~), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6guiaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6kcmutils6 (>= 6.10.0~), libkf6kcmutilscore6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libkf6newstuffcore6 (>= 6.10.0~), libkf6newstuffwidgets6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6package6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6widgetsaddons6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.10.0~), libkf6xmlgui6 (>= 6.10.0), libkwin6 (>= 4:6.3.5), libpipewire-0.3-0t64 (>= 0.3.29), libplasmaactivities6 (>= 6.3.4~), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6uitools6 (>= 6.7.0~), libqt6waylandclient6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 11), libwayland-client0 (>= 1.22~), qt6-base-private-abi (= 6.8.2), qt6-declarative-private-abi (= 6.8.2)
+Installed-Size: 5532
+Depends: kglobalacceld, kwin-data (= 4:6.3.6-1), plasma-desktoptheme, pnp.ids, qml6-module-org-kde-kirigami, qml6-module-org-kde-ksvg, qml6-module-qt5compat-graphicaleffects, qml6-module-qtquick, qml6-module-qtquick-window, libc6 (>= 2.38), libeis1 (>= 1.0.0), libepoxy0 (>= 1.0), libkdecorations3-6 (>= 4:6.3.4~), libkdecorations3private2 (>= 4:6.3.4~), libkf6authcore6 (>= 6.10.0~), libkf6colorscheme6 (>= 6.10.0~), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6guiaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6kcmutils6 (>= 6.10.0~), libkf6kcmutilscore6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libkf6newstuffcore6 (>= 6.10.0~), libkf6newstuffwidgets6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6package6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6widgetsaddons6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.10.0~), libkf6xmlgui6 (>= 6.10.0), libkwin6 (>= 4:6.3.6), libpipewire-0.3-0t64 (>= 0.3.29), libplasmaactivities6 (>= 6.3.4~), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6uitools6 (>= 6.7.0~), libqt6waylandclient6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 11), libwayland-client0 (>= 1.22~), qt6-base-private-abi (= 6.8.2), qt6-declarative-private-abi (= 6.8.2)
 Recommends: plasma-desktop (>= 4:6.2.90~)
 Suggests: kwin-addons (>= 4:6.2.90~)
 Breaks: kwin-data (<< 4:6.1.4-1)
@@ -12399,11 +12399,11 @@ Replaces: kwin-data (<< 4:6.1.4-1)
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: kde
-Filename: pool/main/k/kwin/kwin-common_6.3.5-1_amd64.deb
-Size: 962012
-SHA256: 7d52ed96c05e6badcf43d0a6a3e1e0cba896ad0fb2e81d777d7d76cf03194738
-SHA1: 715eb05ffab1e7a9c3a129dd560aeb76303fb3c5
-MD5sum: 72746f4f74b446b1d877314c4f6f06b8
+Filename: pool/main/k/kwin/kwin-common_6.3.6-1_amd64.deb
+Size: 964780
+SHA256: 77f286c849be88a1304dc776e91546b7beb770b54499d7a51adf05f381441e25
+SHA1: d82476af4f5911b571ecc5185004b1509cd14755
+MD5sum: 732f8216fc32b78927af9befd59e24cc
 Description: KDE window manager, common files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -12417,10 +12417,10 @@ Description: KDE window manager, common files
 
 Package: kwin-data
 Source: kwin
-Version: 4:6.3.5-1
+Version: 4:6.3.6-1
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 16351
+Installed-Size: 16352
 Recommends: plasma-desktoptheme, qml6-module-org-kde-kirigami, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-quickcharts, qml6-module-qt5compat-graphicaleffects, qml6-module-qtmultimedia, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, systemsettings
 Breaks: kwin-addons (<< 4:6.0.0~)
 Replaces: kwin-addons (<< 4:6.0.0~)
@@ -12428,11 +12428,11 @@ Multi-Arch: foreign
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: kde
-Filename: pool/main/k/kwin/kwin-data_6.3.5-1_all.deb
-Size: 6745200
-SHA256: 199186259becd8a69f543733b9c66ef846da2e7e6dabdfc0b4c817106249d402
-SHA1: 04d91e4e6eaab840e9c75926754f0fb5410d177b
-MD5sum: c0a5af25263fcb1c3c7de265eb2a2517
+Filename: pool/main/k/kwin/kwin-data_6.3.6-1_all.deb
+Size: 6747464
+SHA256: e8a6273dbfda6c9ed78e49b611f3fe3b5209eb91cc166d74e328b3b653c56a75
+SHA1: 5122fc22d0fafc255231cd830e9342e3198cda73
+MD5sum: 6ade2af638e9c94b1866a324619d3005
 Description: KDE window manager data files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -12467,21 +12467,21 @@ Description: KWin Breeze Style
 
 Package: kwin-wayland
 Source: kwin
-Version: 4:6.3.5-1
+Version: 4:6.3.6-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1798
-Depends: libcap2-bin, xwayland, libc6 (>= 2.38), libcanberra0 (>= 0.2), libepoxy0 (>= 1.0), libkdecorations3-6 (>= 4:6.3.4~), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6configwidgets6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6idletime6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.10.0~), libkglobalacceld0 (>= 6.3.4~), libkwin6 (>= 4:6.3.5), libqaccessibilityclient-qt6-0 (>= 0.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.7.0~), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 13.1), libsystemd0 (>= 214), libxcb-composite0, libxcb-randr0 (>= 1.3), libxcb-xfixes0, libxcb1 (>= 1.8), qt6-base-private-abi (= 6.8.2)
+Installed-Size: 1799
+Depends: libcap2-bin, xwayland, libc6 (>= 2.38), libcanberra0 (>= 0.2), libepoxy0 (>= 1.0), libkdecorations3-6 (>= 4:6.3.4~), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6configwidgets6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6idletime6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.10.0~), libkglobalacceld0 (>= 6.3.4~), libkwin6 (>= 4:6.3.6), libqaccessibilityclient-qt6-0 (>= 0.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.7.0~), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 13.1), libsystemd0 (>= 214), libxcb-composite0, libxcb-randr0 (>= 1.3), libxcb-xfixes0, libxcb1 (>= 1.8), qt6-base-private-abi (= 6.8.2)
 Recommends: xwaylandvideobridge
 Provides: kwin
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: kde
-Filename: pool/main/k/kwin/kwin-wayland_6.3.5-1_amd64.deb
-Size: 469588
-SHA256: 410e65d0d5a220c59cd71e5fd7997458b1a22ec55d0ca2ac0e0b44159a8f682e
-SHA1: 3782ae1a63bd51366628b9d99dc969bd93fc0c66
-MD5sum: 9bb7caaab6a147e2bbf69e7b758372a0
+Filename: pool/main/k/kwin/kwin-wayland_6.3.6-1_amd64.deb
+Size: 471000
+SHA256: 223b659bf45c9fdf39deba121255d87094108a4d6953bbfa1a14cc4169e114ce
+SHA1: 011111f18ab165021fe13a98b7ff19ad9af8055f
+MD5sum: 1ff52c24607fdc59d5184c8b8c52c4f8
 Description: KDE window manager, Wayland version
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -12497,20 +12497,20 @@ Description: KDE window manager, Wayland version
 
 Package: kwin-x11
 Source: kwin
-Version: 4:6.3.5-1
+Version: 4:6.3.6-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1687
-Depends: libc6 (>= 2.38), libcanberra0 (>= 0.2), libepoxy0 (>= 1.0), libgcc-s1 (>= 3.4), libkdecorations3-6 (>= 4:6.3.4~), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6configwidgets6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.10.0~), libkwin6 (>= 4:6.3.5), libqaccessibilityclient-qt6-0 (>= 0.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.7.0~), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 13.1), libx11-6, libxcb-composite0, libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.3), libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxcb-xkb1, libxcb1 (>= 1.6), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.7.0~), qt6-base-private-abi (= 6.8.2)
+Installed-Size: 1688
+Depends: libc6 (>= 2.38), libcanberra0 (>= 0.2), libepoxy0 (>= 1.0), libgcc-s1 (>= 3.4), libkdecorations3-6 (>= 4:6.3.4~), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6configwidgets6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.10.0~), libkwin6 (>= 4:6.3.6), libqaccessibilityclient-qt6-0 (>= 0.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.7.0~), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 13.1), libx11-6, libxcb-composite0, libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.3), libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxcb-xkb1, libxcb1 (>= 1.6), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.7.0~), qt6-base-private-abi (= 6.8.2)
 Provides: kwin, x-window-manager
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: kde
-Filename: pool/main/k/kwin/kwin-x11_6.3.5-1_amd64.deb
-Size: 455300
-SHA256: 1b647ccc6b9dbd7152bad463324fb3ee3a962abd0e0700ea3fd4998d49445b75
-SHA1: e50bab70690d7c17493459bcfb54826a4fbb1829
-MD5sum: 38b3fd5f1f9abb2dce55673f6583f993
+Filename: pool/main/k/kwin/kwin-x11_6.3.6-1_amd64.deb
+Size: 456968
+SHA256: f09c53db55bcd72267effa159b93837bce5a8c6d94b44b4864510b63fee0f899
+SHA1: 003ac6a22c3d2f011dfa74108358dacbf9ae59df
+MD5sum: f208a239be241f7d20dfb97319d6f240
 Description: KDE window manager, X11 version
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -12524,19 +12524,19 @@ Description: KDE window manager, X11 version
 
 Package: kwrite
 Source: kate
-Version: 4:25.04.2-1
+Version: 4:25.04.3-2
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 388
-Depends: libkf6texteditor-katepart, kate (>= 4:25.04.2), libc6 (>= 2.34), libkf6coreaddons6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.5.0~), libqt6widgets6 (>= 6.5.0~)
+Depends: libkf6texteditor-katepart, kate (>= 4:25.04.3), libc6 (>= 2.34), libkf6coreaddons6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.5.0~), libqt6widgets6 (>= 6.5.0~)
 Homepage: https://kate-editor.org/
 Priority: optional
 Section: editors
-Filename: pool/main/k/kate/kwrite_25.04.2-1_amd64.deb
-Size: 137532
-SHA256: fe5e58de2b6ce69606cd3dd793d842961075939037c52c58ae25f4d78e9ff901
-SHA1: 6cf0c1d0958cbef7f14c408bf204081d65b202ea
-MD5sum: dfa00a82055a0920562ae73480ee7b39
+Filename: pool/main/k/kate/kwrite_25.04.3-2_amd64.deb
+Size: 137872
+SHA256: ccb771b474b098b113285ef27d3c89e8797380ca4f0accfc770e2fc1dac03b3a
+SHA1: e4e320ebf0d16721bc3061584c574694cb51fc9e
+MD5sum: e59e3495c097c30804710a9c83583896
 Description: simple text editor
  KWrite is a simple text editor built on the KDE Platform. It uses the Kate
  editor component, so it supports powerful features such as flexible syntax
@@ -13742,7 +13742,7 @@ Description: GNU binary utilities (private shared library)
 
 Package: libblas3
 Source: lapack
-Version: 3.12.1-2
+Version: 3.12.1-4
 Architecture: amd64
 Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
 Installed-Size: 521
@@ -13752,11 +13752,11 @@ Multi-Arch: same
 Homepage: https://www.netlib.org/lapack/
 Priority: optional
 Section: libs
-Filename: pool/main/l/lapack/libblas3_3.12.1-2_amd64.deb
-Size: 159716
-SHA256: 0393582062ba646a9cf52217a1226a9b568ffe5bb818a6fed4d246dc4772eba3
-SHA1: 99812922c68bb465d51ea6a02819449f038830f4
-MD5sum: 1e6c039f8af23984b4262935f24ac0f7
+Filename: pool/main/l/lapack/libblas3_3.12.1-4_amd64.deb
+Size: 159504
+SHA256: df23ea721b79ee684c6577e3a3ebad3109489642b58f02b464ef8b97f4c4ea5c
+SHA1: ccf194680666f99bb19483a79c3567a9ca2da360
+MD5sum: 43669f7724b6baa2fb0f6502517a2d53
 Description: Basic Linear Algebra Reference implementations, shared library
  BLAS (Basic Linear Algebra Subroutines) is a set of efficient
  routines for most of the basic vector and matrix operations.
@@ -14028,11 +14028,11 @@ Description: high-quality block-sorting file compressor library - development
 
 Package: libc-bin
 Source: glibc
-Version: 2.41-10
+Version: 2.41-11
 Architecture: amd64
 Essential: yes
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 2120
+Installed-Size: 2121
 Depends: libc6 (>> 2.41), libc6 (<< 2.42)
 Recommends: manpages
 Breaks: dh-lua (<< 27+nmu1~)
@@ -14040,11 +14040,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: required
 Section: libs
-Filename: pool/main/g/glibc/libc-bin_2.41-10_amd64.deb
-Size: 636364
-SHA256: 4c8e7f7f6c16b307d73110dbbe30824f92529c106646676bd38fa40f44db7a24
-SHA1: d5c98c288accc886d1fc2eeb3db85fbebcf2d646
-MD5sum: fc98d8385b04c775f7aa160c3c679c8a
+Filename: pool/main/g/glibc/libc-bin_2.41-11_amd64.deb
+Size: 636384
+SHA256: 02efb414a1983997d53d318f1a43343e98f1f93f428c6217c1686608df18ef7a
+SHA1: 64654dee0a46283338976bd2566dccf1c0cb92b6
+MD5sum: 5fc5a104eb34eaaee7f20df041f85706
 Description: GNU C Library: Binaries
  This package contains utility programs related to the GNU C Library.
  .
@@ -14057,10 +14057,10 @@ Description: GNU C Library: Binaries
 
 Package: libc-dev-bin
 Source: glibc
-Version: 2.41-10
+Version: 2.41-11
 Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 124
+Installed-Size: 125
 Depends: libc6 (>> 2.41), libc6 (<< 2.42)
 Recommends: manpages, manpages-dev
 Suggests: libc-devtools (>> 2.41)
@@ -14068,11 +14068,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: libdevel
-Filename: pool/main/g/glibc/libc-dev-bin_2.41-10_amd64.deb
-Size: 58116
-SHA256: 7173a32cbaeae7f5c2450db3cc3d74bed8259426d47b6cbb3e0662746c5e2eea
-SHA1: d6c3ea8ea45a4eabe4fa1c60fa3b0ef0c71c681a
-MD5sum: 4d27c726545e5f5f11253b6a3c963818
+Filename: pool/main/g/glibc/libc-dev-bin_2.41-11_amd64.deb
+Size: 58192
+SHA256: 1d74229065a1841e7e8524ac9d0f0068d3977922aea2d05a50e559cebdda1d52
+SHA1: 8b34af4641ce288f101d40a37a7b8385f574f56c
+MD5sum: c99e20a38ca0ff3345124ec5d1f6f470
 Description: GNU C Library: Development binaries
  This package contains utility programs related to the GNU C Library
  development package.
@@ -14081,23 +14081,23 @@ Description: GNU C Library: Development binaries
 
 Package: libc-devtools
 Source: glibc
-Version: 2.41-10
+Version: 2.41-11
 Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 173
+Installed-Size: 174
 Depends: libc6 (>= 2.38), libgd3 (>= 2.1.0~alpha~)
-Recommends: libc-dev (= 2.41-10), manpages, manpages-dev
+Recommends: libc-dev (= 2.41-11), manpages, manpages-dev
 Breaks: libc-dev-bin (<< 2.31-8)
 Replaces: libc-dev-bin (<< 2.31-8)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: devel
-Filename: pool/main/g/glibc/libc-devtools_2.41-10_amd64.deb
-Size: 67480
-SHA256: 61883c9012fa1aca9c2001cb2ad57f6dbd24be3832623efe3e23365a8ca02ec1
-SHA1: efc943027fb08c81a58fc5cbbf435e6ef58f8ca1
-MD5sum: bacaccca838ea41903cf2edf9e028cab
+Filename: pool/main/g/glibc/libc-devtools_2.41-11_amd64.deb
+Size: 67588
+SHA256: 72787d9340954b4bf17fa1a90ddcd0b7d746ed0f704b75549d246c59956afeae
+SHA1: 86cec6a49cc1db0e106457c80b6af4f850125ecc
+MD5sum: 37521bbb42ffad7bc77cfe1fa4a78b61
 Description: GNU C Library: Development tools
  This package contains development tools shipped by the GNU C
  Library.
@@ -14109,29 +14109,29 @@ Description: GNU C Library: Development tools
 
 Package: libc-l10n
 Source: glibc
-Version: 2.41-10
+Version: 2.41-11
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 4737
+Installed-Size: 4738
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: standard
 Section: localization
-Filename: pool/main/g/glibc/libc-l10n_2.41-10_all.deb
-Size: 738944
-SHA256: b9cc587f2afdae0b150e8951f13f17f26a2d2dcbebb2514cfc2f549ddde0d552
-SHA1: addde58e68053e00876295d8c2d1da93a633788c
-MD5sum: 622319bcbfa5f66263d28a858f4a5cab
+Filename: pool/main/g/glibc/libc-l10n_2.41-11_all.deb
+Size: 737996
+SHA256: fafc22030aa3181490e00c45d8ba11a4f3a6de79cbbd359e4d3227c5613708be
+SHA1: b5d478f0331a3350e82a370a212e211ae3c8be8a
+MD5sum: 26042c7120c4fcc921ed49673f6cacb7
 Description: GNU C Library: localization files
  This package contains the translation files for the GNU C library and
  utility programs.
 
 Package: libc6
 Source: glibc
-Version: 2.41-10
+Version: 2.41-11
 Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 13231
+Installed-Size: 13232
 Depends: libgcc-s1
 Recommends: libidn2-0 (>= 2.0.5~)
 Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus
@@ -14141,11 +14141,11 @@ Multi-Arch: same
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: libs
-Filename: pool/main/g/glibc/libc6_2.41-10_amd64.deb
-Size: 2848028
-SHA256: 775f30e59c2f0f5959f6f0ebf77e547f5ce5179b11148f059a9ea3d61f3f0ff3
-SHA1: 7d6ce96314aa1d282bd7ffddcfc43f70f5aa52f7
-MD5sum: f1e6e084cb53233e5ba57cabd15cfd52
+Filename: pool/main/g/glibc/libc6_2.41-11_amd64.deb
+Size: 2845896
+SHA256: c860f514ad66dddc0daf035087668562087894ee2379f6299a5c04ce97f8a9fe
+SHA1: 2d18470b16854f98a6da6b1cb3098060c6ecd805
+MD5sum: b459a37071e9c98cc7236df03df93651
 Description: GNU C Library: Shared libraries
  Contains the standard libraries that are used by nearly all programs on
  the system. This package includes shared versions of the standard C library
@@ -14153,25 +14153,25 @@ Description: GNU C Library: Shared libraries
 
 Package: libc6-dev
 Source: glibc
-Version: 2.41-10
+Version: 2.41-11
 Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 12541
-Depends: libc6 (= 2.41-10), libc-dev-bin (= 2.41-10), linux-libc-dev, libcrypt-dev, rpcsvc-proto
+Installed-Size: 12542
+Depends: libc6 (= 2.41-11), libc-dev-bin (= 2.41-11), linux-libc-dev, libcrypt-dev, rpcsvc-proto
 Suggests: glibc-doc, manpages-dev
 Conflicts: libc0.3-dev, libc6.1-dev
 Breaks: binutils (<< 2.38), catch (<< 1.12.2-0.1), heimdal-multidev (<= 7.7.0+dfsg-4), igblast (<= 1.19.0-1), libassimp-dev (<= 5.2.4~ds0-1), libasyncns-dev (<= 0.8-6+b2), libatm1-dev (<= 1:2.5.1-4), libaws20-dev (<= 20.2-2+b1), libboinc-app-dev (<= 7.20.2+dfsg-1), libbson-dev (<= 1.22.0-1), libc6-dev-amd64-cross (<< 2.41~), libcups2-dev (<= 2.4.2-1), libdeal.ii-dev (<= 9.4.0-1), libdkim-dev (<= 1:1.0.21-4+b2), libdolfin-dev-common (<= 2019.2.0~git20220407.d29e24d-5), libeckit-dev (<= 1.20.0-1), libfclib-dev (<= 3.1.0+dfsg-2), libfltk1.3-dev (<= 1.3.8-4+b1), libghc-resolv-dev (<= 0.1.2.0-3), libghc-resolv-prof (<= 0.1.2.0-3), libglib2.0-dev (<= 2.72.3-1), libgloox-dev (<= 1.0.24-2+b1), libhesiod-dev (<= 3.2.1-3.1+b1), libinfinity-0.7-dev (<= 0.7.2-1+b1), libinsighttoolkit4-dev (<= 4.13.3withdata-dfsg2-3+b1), libinsighttoolkit5-dev (<= 5.2.1-5+b1), libismrmrd-dev (<= 1.8.0-2), libldap-dev (<= 2.5.12+dfsg-2), liblog4cplus-dev (<= 2.0.7-1), libloudmouth1-dev (<= 1.5.4-1), libmgl-dev (<= 8.0.1-2), libmimalloc2.0 (<= 2.0.6+ds-1), libminc-dev (<= 2.4.03-5), libmongoc-dev (<= 1.22.1-1), libmrpt-ros1bridge-dev (<= 1:2.4.9+ds-4+b2), libmysqlclient-dev (<= 8.0.29-1), libnetcdf-dev (<= 1:4.9.0-3), libnetcdf-mpi-dev (<= 1:4.9.0-1), libnetcdf-pnetcdf-dev (<= 1:4.9.0-1), libnfsidmap-dev (<= 1:2.6.1-2), libns3-dev (<= 3.36.1+dfsg-4), libola-dev (<= 0.10.8.nojsmin-2), libopenafs-dev (<= 1.8.8.1-3), libopendkim-dev (<= 2.11.0~beta2-7), libopendmarc-dev (<= 1.4.2-1), libopenms-dev (<= 2.6.0+cleaned1-3+b1), libopenzwave1.6-dev (<= 1.6.1914+ds-1), libpg-query-dev (<= 13-2.1.2-2), librbl-dev (<= 2.11.0~beta2-7), libre-dev (<= 1.1.0-1+b1), libshishi-dev (<= 1.0.2-11), libslurm-dev (<= 21.08.8.2-1), libsocksd0-dev (<= 1.4.2+dfsg-7+b4), libspf2-dev (<= 1.2.10-7.1+b1), libstrophe-dev (<= 0.12.1-2), libtaningia-dev (<= 0.2.2-2+b1), libtrilinos-amesos-dev (<= 13.2.0-3), libtrilinos-amesos2-dev (<= 13.2.0-3), libtrilinos-anasazi-dev (<= 13.2.0-3), libtrilinos-aztecoo-dev (<= 13.2.0-3), libtrilinos-belos-dev (<= 13.2.0-3), libtrilinos-epetra-dev (<= 13.2.0-3), libtrilinos-epetraext-dev (<= 13.2.0-3), libtrilinos-galeri-dev (<= 13.2.0-3), libtrilinos-ifpack-dev (<= 13.2.0-3), libtrilinos-ifpack2-dev (<= 13.2.0-3), libtrilinos-intrepid-dev (<= 13.2.0-3), libtrilinos-intrepid2-dev (<= 13.2.0-3), libtrilinos-isorropia-dev (<= 13.2.0-3), libtrilinos-kokkos-dev (<= 13.2.0-3), libtrilinos-kokkos-kernels-dev (<= 13.2.0-3), libtrilinos-komplex-dev (<= 13.2.0-3), libtrilinos-ml-dev (<= 13.2.0-3), libtrilinos-moertel-dev (<= 13.2.0-3), libtrilinos-muelu-dev (<= 13.2.0-3), libtrilinos-nox-dev (<= 13.2.0-3), libtrilinos-phalanx-dev (<= 13.2.0-3), libtrilinos-pike-dev (<= 13.2.0-3), libtrilinos-piro-dev (<= 13.2.0-3), libtrilinos-pliris-dev (<= 13.2.0-3), libtrilinos-rol-dev (<= 13.2.0-3), libtrilinos-rtop-dev (<= 13.2.0-3), libtrilinos-rythmos-dev (<= 13.2.0-3), libtrilinos-sacado-dev (<= 13.2.0-3), libtrilinos-shylu-dev (<= 13.2.0-3), libtrilinos-stokhos-dev (<= 13.2.0-3), libtrilinos-stratimikos-dev (<= 13.2.0-3), libtrilinos-teko-dev (<= 13.2.0-3), libtrilinos-teuchos-dev (<= 13.2.0-3), libtrilinos-thyra-dev (<= 13.2.0-3), libtrilinos-tpetra-dev (<= 13.2.0-3), libtrilinos-trilinoscouplings-dev (<= 13.2.0-3), libtrilinos-triutils-dev (<= 13.2.0-3), libtrilinos-xpetra-dev (<= 13.2.0-3), libtrilinos-zoltan2-dev (<= 13.2.0-3), libvbr-dev (<= 2.11.0~beta2-7), libvisp-dev (<= 3.5.0-2+b1), libvotca-dev (<= 2022-3), libvtk6-dev (<= 6.3.0+dfsg2-8.1+b1), libvtk7-dev (<= 7.1.1+dfsg2-10.2), open-vm-tools-dev (<= 2:12.0.5-2), pidgin-librvp (<= 0.9.7cvs-3), proftpd-dev (<= 1.3.7d+dfsg-2), slurm-wlm-basic-plugins-dev (<= 21.08.8.2-1)
 Replaces: libc6 (<= 2.32-1)
-Provides: libc-dev (= 2.41-10)
+Provides: libc-dev (= 2.41-11)
 Multi-Arch: same
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: libdevel
-Filename: pool/main/g/glibc/libc6-dev_2.41-10_amd64.deb
-Size: 1988356
-SHA256: 6a5de9f898b3eba1db7b29f2a62d51bb24878fa8fad1b771702e2ffb3010ed86
-SHA1: 4b0b22a37e5205cefcb51231f3a703864637da05
-MD5sum: 6df922ac3298fdb9e18954817c55758d
+Filename: pool/main/g/glibc/libc6-dev_2.41-11_amd64.deb
+Size: 1990800
+SHA256: 3b9273043fbd2d64368de95862368b5eaaa82c8b3703acf1cb37ed6c3a68eea5
+SHA1: 8fe11460cdea67077e060639a395177fd70fec3f
+MD5sum: c7d643402f2276ad5138cda4a4a697da
 Description: GNU C Library: Development Libraries and Header Files
  Contains the symlinks, headers, and object files needed to compile
  and link programs which use the standard C library.
@@ -14382,20 +14382,21 @@ Description: alternate POSIX capabilities library
  This package contains dynamic libraries for libcap-ng.
 
 Package: libcap2
-Version: 1:2.75-9
+Source: libcap2 (1:2.75-10)
+Version: 1:2.75-10+b1
 Architecture: amd64
 Maintainer: Christian Kastner <ckk@debian.org>
-Installed-Size: 91
+Installed-Size: 92
 Depends: libc6 (>= 2.38)
 Multi-Arch: same
 Homepage: https://sites.google.com/site/fullycapable/
 Priority: optional
 Section: libs
-Filename: pool/main/libc/libcap2/libcap2_2.75-9_amd64.deb
-Size: 28356
-SHA256: cb4310de97a5d70d88a98e4b9f04bd14d175f87720a61898941ef9b74e85832e
-SHA1: 63f9857a8c58d6335e739060404b11f1eccd37c5
-MD5sum: 4e5cfc0ee83f6e76061822b36b013206
+Filename: pool/main/libc/libcap2/libcap2_2.75-10+b1_amd64.deb
+Size: 28752
+SHA256: 8f0d75f79b6e6a8da7d3755d5cbee2ff30892de411e37ac03e6dee99b8207ce2
+SHA1: 31126f2dd219a49e107fc459e728eaef7cffcccb
+MD5sum: c3758f8fe5a736aa98b52ce43926d237
 Description: POSIX 1003.1e capabilities (library)
  Libcap implements the user-space interfaces to the POSIX 1003.1e capabilities
  available in Linux kernels. These capabilities are a partitioning of the all
@@ -14404,11 +14405,11 @@ Description: POSIX 1003.1e capabilities (library)
  This package contains the shared library.
 
 Package: libcap2-bin
-Source: libcap2
-Version: 1:2.75-9
+Source: libcap2 (1:2.75-10)
+Version: 1:2.75-10+b1
 Architecture: amd64
 Maintainer: Christian Kastner <ckk@debian.org>
-Installed-Size: 131
+Installed-Size: 132
 Depends: libc6 (>= 2.38), libcap2 (>= 1:2.63)
 Recommends: libpam-cap
 Breaks: libcap-bin
@@ -14417,11 +14418,11 @@ Multi-Arch: foreign
 Homepage: https://sites.google.com/site/fullycapable/
 Priority: important
 Section: utils
-Filename: pool/main/libc/libcap2/libcap2-bin_2.75-9_amd64.deb
-Size: 35924
-SHA256: 8e495420acb43c8ee04155ddfd9de1898f0a2fa0025a21ecfbe85a5b68b6e542
-SHA1: fd594add0d06cb1a68dc596a77484cfde5043a0d
-MD5sum: 6ca71cc54f744b8d6bbbfe805ce698ed
+Filename: pool/main/libc/libcap2/libcap2-bin_2.75-10+b1_amd64.deb
+Size: 36356
+SHA256: b2e6b30812cb33859073d4ee7f1f0a54a7024f08e995379de3b8a09fd61bbc6b
+SHA1: 654c898fe330d487d436ce5c503353cd4fcb2539
+MD5sum: 9263b92f098641bda08233fa80ff1cb1
 Description: POSIX 1003.1e capabilities (utilities)
  Libcap implements the user-space interfaces to the POSIX 1003.1e capabilities
  available in Linux kernels. These capabilities are a partitioning of the all
@@ -14701,23 +14702,23 @@ Description: system service to manage device colour profiles -- runtime
 
 Package: libcom-err2
 Source: e2fsprogs (1.47.2-3)
-Version: 1.47.2-3+b1
+Version: 1.47.2-3+b3
 Architecture: amd64
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 64
 Depends: libc6 (>= 2.38)
 Breaks: libcom-err2t64 (<< 1.47.0-2.4~exp1~), libcomerr2 (<< 1.43.9-1~)
 Replaces: libcom-err2t64, libcomerr2 (<< 1.43.9-1~)
-Provides: libcom-err2t64 (= 1.47.2-3+b1), libcomerr2 (= 1.47.2-3+b1)
+Provides: libcom-err2t64 (= 1.47.2-3+b3), libcomerr2 (= 1.47.2-3+b3)
 Multi-Arch: same
 Homepage: http://e2fsprogs.sourceforge.net
 Priority: optional
 Section: libs
-Filename: pool/main/e/e2fsprogs/libcom-err2_1.47.2-3+b1_amd64.deb
-Size: 25020
-SHA256: 487b84f628c1e27ba671762f44481c72862417538358eb09e9fe0d422dabdc93
-SHA1: a615aefe61233f027813df2fdd2d7bc8cafceaab
-MD5sum: f8f69c7a80b26ff11ccee29357b4b2e0
+Filename: pool/main/e/e2fsprogs/libcom-err2_1.47.2-3+b3_amd64.deb
+Size: 25032
+SHA256: af85375ccd048b2de77bf20ae22ea86ee87a21f4e413ee54db7bce6540490a77
+SHA1: 0ed62e38cece17c2511689892848afa2c474fc77
+MD5sum: 5f7c0a6384af6cf5254f195cc405a44b
 Description: common error description library
  libcomerr is an attempt to present a common error-handling mechanism to
  manipulate the most common form of error code in a fashion that does not
@@ -15236,7 +15237,7 @@ Description: Debconf KDE GUI library
 
 Package: libdebconfclient0
 Source: cdebconf
-Version: 0.279
+Version: 0.280
 Architecture: amd64
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 38
@@ -15244,11 +15245,11 @@ Depends: libc6 (>= 2.38)
 Multi-Arch: same
 Priority: optional
 Section: libs
-Filename: pool/main/c/cdebconf/libdebconfclient0_0.279_amd64.deb
-Size: 10536
-SHA256: 93b8af41efa0c7c916bd8d20a031907591d2480a9a71d228e73175e4c8c6ea90
-SHA1: 590bca667ccd0125f403c4ca46a1521b3cb0f432
-MD5sum: cc4fdbd2b54fc96e9dbee35a014e1efc
+Filename: pool/main/c/cdebconf/libdebconfclient0_0.280_amd64.deb
+Size: 10632
+SHA256: 25acadc8b394bc86d05df16e70975e523f8f839a7d8d6d5e22c1cafdcef741aa
+SHA1: 219dec5cd95ea5be91161ab1d30dc3f19efb6e01
+MD5sum: 0eec698fd18895d578b63d64216aeb3e
 Description: Debian Configuration Management System (C-implementation library)
  Debconf is a configuration management system for Debian packages. It is
  used by some packages to prompt you for information before they are
@@ -15422,7 +15423,7 @@ Description: Linux Kernel Device Mapper userspace library
 
 Package: libdjvulibre-text
 Source: djvulibre
-Version: 3.5.28-2.1
+Version: 3.5.28-2.2
 Architecture: all
 Maintainer: Barak A. Pearlmutter <bap@debian.org>
 Installed-Size: 340
@@ -15431,32 +15432,32 @@ Multi-Arch: foreign
 Homepage: http://djvu.sourceforge.net/
 Priority: optional
 Section: libs
-Filename: pool/main/d/djvulibre/libdjvulibre-text_3.5.28-2.1_all.deb
-Size: 51912
-SHA256: 3e00c01b3ad0a6314f641292e6710afd59bedfa1a6643553b849778625134c39
-SHA1: 19835f275ac0a0f8acd2397d25a0e53c0e3da13a
-MD5sum: f4fcc5b6b935b697ff04c3121e66dca7
+Filename: pool/main/d/djvulibre/libdjvulibre-text_3.5.28-2.2_all.deb
+Size: 52024
+SHA256: c9e5c8c23994e0d7385155d2acd1c1b715dff495583e051491684efa0bf9a719
+SHA1: 5dcdf9cd40c33c55f5e58e008ad3ad94afd95fd5
+MD5sum: 1dbda1d0a6e6d2d8b0456f5a59e9399f
 Description: Linguistic support files for libdjvulibre
  Runtime linguistic support files for the libdjvulibre library.
 
 Package: libdjvulibre21
 Source: djvulibre
-Version: 3.5.28-2.1
+Version: 3.5.28-2.2
 Architecture: amd64
 Maintainer: Barak A. Pearlmutter <bap@debian.org>
 Installed-Size: 1837
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libstdc++6 (>= 14), libdjvulibre-text (>= 3.5.28-2.1)
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libstdc++6 (>= 14), libdjvulibre-text (>= 3.5.28-2.2)
 Conflicts: libdjvulibre1
 Replaces: libdjvulibre1, libdjvulibre15
 Multi-Arch: same
 Homepage: http://djvu.sourceforge.net/
 Priority: optional
 Section: libs
-Filename: pool/main/d/djvulibre/libdjvulibre21_3.5.28-2.1_amd64.deb
-Size: 610608
-SHA256: 58b5c20ed812e0606e0bdd5af98c301b6ef7d6460dacc84ed3a7c82fdc333210
-SHA1: 170b19269419328bb28e5122d17d7f578ebe7b8d
-MD5sum: 6e27501de1c94876a77ec79a7bc7ddba
+Filename: pool/main/d/djvulibre/libdjvulibre21_3.5.28-2.2_amd64.deb
+Size: 610336
+SHA256: 576f95b4129c6e06d27c83389a9d0025d65cfff79c82f01936eb44d160b7049d
+SHA1: 4b4d15bfac98b57fbb277cd8b2888247c50d7e98
+MD5sum: a851b2ddb869903919eabec86458f6dc
 Description: Runtime support for the DjVu image format
  DjVu runtime library.
 
@@ -16166,23 +16167,23 @@ Description: XML parsing C library - runtime library
 
 Package: libext2fs2t64
 Source: e2fsprogs (1.47.2-3)
-Version: 1.47.2-3+b1
+Version: 1.47.2-3+b3
 Architecture: amd64
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 557
 Depends: libc6 (>= 2.38)
 Breaks: e2fslibs (<< 1.43.9-1~), libext2fs2 (<< 1.47.2-3)
 Replaces: e2fslibs (<< 1.43.9-1~), libext2fs2
-Provides: e2fslibs (= 1.47.2-3+b1), libext2fs2 (= 1.47.2-3+b1)
+Provides: e2fslibs (= 1.47.2-3+b3), libext2fs2 (= 1.47.2-3+b3)
 Multi-Arch: same
 Homepage: http://e2fsprogs.sourceforge.net
 Priority: optional
 Section: libs
-Filename: pool/main/e/e2fsprogs/libext2fs2t64_1.47.2-3+b1_amd64.deb
-Size: 212624
-SHA256: 71256f6b9c58ff36615559c124f7134567c39069cc14c524698bd3b9aac020c3
-SHA1: ccdd4cf793f38359e84f452448341c73aefd1886
-MD5sum: 05dbb9a972a385a8711b5ae9c29f2df7
+Filename: pool/main/e/e2fsprogs/libext2fs2t64_1.47.2-3+b3_amd64.deb
+Size: 212860
+SHA256: f1a46a9e5b1828b45dbc8ab9cf2ba331fd34537cfcac2477b8a06dcd4c3d7cc7
+SHA1: 42cf3443b17066516c9f7813892521aa5584e0ad
+MD5sum: 8564025b7801c97d51b9d8fd6f17f48d
 Description: ext2/ext3/ext4 file system libraries
  The ext2, ext3 and ext4 file systems are successors of the original ext
  ("extended") file system. They are the main file system types used for
@@ -17165,21 +17166,21 @@ Description: GNU dbm database routines (runtime version)
 
 Package: libgdk-pixbuf-2.0-0
 Source: gdk-pixbuf
-Version: 2.42.12+dfsg-3
+Version: 2.42.12+dfsg-4
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 486
-Depends: libgdk-pixbuf2.0-common (>= 2.42.12+dfsg-3), shared-mime-info, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.80.0), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libtiff6 (>= 4.0.3)
+Depends: libgdk-pixbuf2.0-common (>= 2.42.12+dfsg-4), shared-mime-info, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.80.0), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libtiff6 (>= 4.0.3)
 Recommends: libgdk-pixbuf2.0-bin
 Multi-Arch: same
 Homepage: https://www.gtk.org/
 Priority: optional
 Section: libs
-Filename: pool/main/g/gdk-pixbuf/libgdk-pixbuf-2.0-0_2.42.12+dfsg-3_amd64.deb
-Size: 140596
-SHA256: 3a88c04618a94324b18806cc6d4b81b9203d93c56c95d1e29a4577bb31c3d5d5
-SHA1: 6fd022003b6125cc80537cad993c7d391355d223
-MD5sum: 1da940647074b3d57e04b25329f18e53
+Filename: pool/main/g/gdk-pixbuf/libgdk-pixbuf-2.0-0_2.42.12+dfsg-4_amd64.deb
+Size: 140760
+SHA256: 9840a3c9cc3138691985c0f54f7386f24c7f5320c6e68ff96b1e40ef8383e9bf
+SHA1: 07a4abc43573b188367b4fd45a787348750a25ac
+MD5sum: 488ffec661c78f1e7ac52bde5093aafa
 Description: GDK Pixbuf library
  The GDK Pixbuf library provides:
   - Image loading and saving facilities.
@@ -17188,7 +17189,7 @@ Description: GDK Pixbuf library
 
 Package: libgdk-pixbuf2.0-bin
 Source: gdk-pixbuf
-Version: 2.42.12+dfsg-3
+Version: 2.42.12+dfsg-4
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 76
@@ -17197,11 +17198,11 @@ Multi-Arch: foreign
 Homepage: https://www.gtk.org/
 Priority: optional
 Section: libs
-Filename: pool/main/g/gdk-pixbuf/libgdk-pixbuf2.0-bin_2.42.12+dfsg-3_amd64.deb
-Size: 18680
-SHA256: b61243a790443c11f54cb8c501e9cecb71085afb6f983e9973b9861fd5e087d1
-SHA1: 8f75713b0256f445b94c748b9639a66a104e965d
-MD5sum: 34745a72087adf08d1f615c30896ad2a
+Filename: pool/main/g/gdk-pixbuf/libgdk-pixbuf2.0-bin_2.42.12+dfsg-4_amd64.deb
+Size: 18760
+SHA256: a804a8bf5e0c7f6ead4837b7c9548d51478811e2c0e796f2347caf9c5931b338
+SHA1: 115bd55c15d5b839dbd1937d240f421142df4576
+MD5sum: bcaa20c3fbcf8d8a75c027abfe4ddf21
 Description: GDK Pixbuf library (thumbnailer)
  The GDK Pixbuf library provides:
   - Image loading and saving facilities.
@@ -17213,7 +17214,7 @@ Description: GDK Pixbuf library (thumbnailer)
 
 Package: libgdk-pixbuf2.0-common
 Source: gdk-pixbuf
-Version: 2.42.12+dfsg-3
+Version: 2.42.12+dfsg-4
 Architecture: all
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 2552
@@ -17221,11 +17222,11 @@ Multi-Arch: foreign
 Homepage: https://www.gtk.org/
 Priority: optional
 Section: libs
-Filename: pool/main/g/gdk-pixbuf/libgdk-pixbuf2.0-common_2.42.12+dfsg-3_all.deb
-Size: 311476
-SHA256: 06df9a0517a34214468721588e3c220f143f07060570d95d7d25f7137031eba0
-SHA1: 06184ff956cec9da06f337e4152fa9c17e0b2112
-MD5sum: 2a2e26bc2c724be5799c1af66a14ee8b
+Filename: pool/main/g/gdk-pixbuf/libgdk-pixbuf2.0-common_2.42.12+dfsg-4_all.deb
+Size: 311392
+SHA256: bd066d6edd2f38d577eb7d5dfdded5bcbee51d5b0f54958ae8ffcfa935f84f1c
+SHA1: 567373668d4606e5f24cbf189a3fffa797fc5f5c
+MD5sum: fd58f1333d0b299a6b506d88d41f58cf
 Description: GDK Pixbuf library - data files
  This package contains the common files and translations for the GDK
  Pixbuf library.
@@ -23874,7 +23875,7 @@ Description: rich set of graph drawing tools - liblab_gamut library
 
 Package: liblapack3
 Source: lapack
-Version: 3.12.1-2
+Version: 3.12.1-4
 Architecture: amd64
 Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
 Installed-Size: 7453
@@ -23884,11 +23885,11 @@ Multi-Arch: same
 Homepage: https://www.netlib.org/lapack/
 Priority: optional
 Section: libs
-Filename: pool/main/l/lapack/liblapack3_3.12.1-2_amd64.deb
-Size: 2452036
-SHA256: 21c3114c73e92bf335eca0271724a24007aec6e61bd115215a716fa7a5b5d676
-SHA1: 1fd953c5b58614f17dce0aaa8ace2444ece520bc
-MD5sum: b5ed9f3c469d86fef79f691ed492c6d3
+Filename: pool/main/l/lapack/liblapack3_3.12.1-4_amd64.deb
+Size: 2446860
+SHA256: 1f29e2b4a552ba41cbee61333b8a312f1cbf21eeed45780725ccc91ef754fbb5
+SHA1: 940773074767851a651f2690890b8bf0ac3ced17
+MD5sum: 3de29385248a568ea856f2991888c585
 Description: Library of linear algebra routines 3 - shared version
  LAPACK version 3.X is a comprehensive FORTRAN library that does
  linear algebra operations including matrix inversions, least
@@ -26055,19 +26056,19 @@ Description: evented I/O for V8 javascript (development files)
 
 Package: libnotificationmanager1
 Source: plasma-workspace
-Version: 4:6.3.5-1
+Version: 4:6.3.6-2
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 978
+Installed-Size: 979
 Depends: kio6, libc6 (>= 2.32), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6itemmodels6 (>= 6.10.0~), libkf6kiofilewidgets6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libstdc++6 (>= 5)
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: libs
-Filename: pool/main/p/plasma-workspace/libnotificationmanager1_6.3.5-1_amd64.deb
-Size: 228484
-SHA256: 5789a3ab39850b5c0de6fb26d3ad211d645803c9f9175056b589999f56156c24
-SHA1: 48eb49655b38ec673f105f216afa347c3a703867
-MD5sum: aaca88d60ed2de24c25f207a85100517
+Filename: pool/main/p/plasma-workspace/libnotificationmanager1_6.3.6-2_amd64.deb
+Size: 229572
+SHA256: 51348a528ab63700b71ecaf30a4c98e439c98031e950012f3eb3e9b5ab52e319
+SHA1: a6678a8fd640b61c9ce84232725b01d96749a8e4
+MD5sum: bc4e7070547966f39e20f2593fdf3596
 Description: Plasma Workspace notification manager library
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
@@ -27355,11 +27356,11 @@ Description: Middleware to access a smart card using PC/SC (library)
 
 Package: libperl5.40
 Source: perl
-Version: 5.40.1-5
+Version: 5.40.1-6
 Architecture: amd64
 Maintainer: Niko Tyni <ntyni@debian.org>
 Installed-Size: 29315
-Depends: libbz2-1.0, libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libdb5.3t64, libgdbm-compat4t64 (>= 1.18-3), libgdbm6t64 (>= 1.21), zlib1g (>= 1:1.2.3.3), perl-modules-5.40 (>= 5.40.1-5)
+Depends: libbz2-1.0, libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libdb5.3t64, libgdbm-compat4t64 (>= 1.18-3), libgdbm6t64 (>= 1.21), zlib1g (>= 1:1.2.3.3), perl-modules-5.40 (>= 5.40.1-6)
 Suggests: sensible-utils
 Breaks: libcompress-raw-bzip2-perl (<< 2.212), libcompress-raw-zlib-perl (<< 2.212), libcompress-zlib-perl (<< 2.212), libdigest-md5-perl (<< 2.58.01), libdigest-sha-perl (<< 6.04), libencode-perl (<< 3.21), libfilter-perl (<< 1.64), libio-compress-base-perl (<< 2.212), libio-compress-bzip2-perl (<< 2.212), libio-compress-perl (<< 2.212), libio-compress-zlib-perl (<< 2.212), libmime-base64-perl (<< 3.16.01), libstorable-perl (<< 3.32), libsys-syslog-perl (<< 0.36), libthreads-perl (<< 2.40), libthreads-shared-perl (<< 1.69), libtime-hires-perl (<< 1.9777), libtime-piece-perl (<< 1.3401.01)
 Replaces: libarchive-tar-perl (<= 1.38-2), libcompress-raw-bzip2-perl (<< 2.212), libcompress-raw-zlib-perl (<< 2.212), libcompress-zlib-perl (<< 2.212), libdigest-md5-perl (<< 2.58.01), libdigest-sha-perl (<< 6.04), libencode-perl (<< 3.21), libio-compress-base-perl (<< 2.212), libio-compress-bzip2-perl (<< 2.212), libio-compress-perl (<< 2.212), libio-compress-zlib-perl (<< 2.212), libmime-base64-perl (<< 3.16.01), libmodule-corelist-perl (<< 2.14-2), libstorable-perl (<< 3.32), libsys-syslog-perl (<< 0.36), libthreads-perl (<< 2.40), libthreads-shared-perl (<< 1.69), libtime-hires-perl (<< 1.9777), libtime-piece-perl (<< 1.3401.01), perl (<< 5.22.0~), perl-base (<< 5.22.0~)
@@ -27367,11 +27368,11 @@ Multi-Arch: same
 Homepage: https://dev.perl.org/perl5/
 Priority: optional
 Section: libs
-Filename: pool/main/p/perl/libperl5.40_5.40.1-5_amd64.deb
-Size: 4334528
-SHA256: bfe314e69d88128dd350fc85704ec77cbd6fe527057028c233d6d9d3459e049b
-SHA1: 30afc2c77501a56113057b7e0d2a2f7b71633bcf
-MD5sum: 266cd85e65b8e8d7a423f82203ed056a
+Filename: pool/main/p/perl/libperl5.40_5.40.1-6_amd64.deb
+Size: 4341332
+SHA256: f20aa427c3f56f430b7b58b73222edcb8cda40fa9c3b25365b20cd53eddd51a9
+SHA1: 115f4cbe17c3706c068bab13e8659621c15591f2
+MD5sum: 149067fb62a43782b50eaf559aa4f68e
 Description: shared Perl library
  This package contains the shared Perl library, used by applications
  which embed a Perl interpreter.
@@ -27647,20 +27648,20 @@ Description: lib for parsing cmdline parameters
 
 Package: libpowerdevilcore2
 Source: powerdevil
-Version: 4:6.3.5-1
+Version: 4:6.3.6-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 820
+Installed-Size: 821
 Depends: libc6 (>= 2.33), libddcutil5 (>= 2.2.0), libkf6authcore6 (>= 6.10.0~), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.0.0), libkf6globalaccel6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6idletime6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6screen8 (>= 4:6.3.4~), libkf6solid6 (>= 6.10.0~), libkf6xmlgui6 (>= 6.10.0~), libkirigamiplatform6 (>= 6.10.0~), libkscreen-bin, libkworkspace6-6 (>= 4:6.3.4~), libplasmaactivities6 (>= 6.3.4~), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.7.0~), libqt6waylandclient6 (>= 6.6.0), libstdc++6 (>= 11), libudev1 (>= 183), libwayland-client0 (>= 1.20.0), libxcb1, qt6-base-private-abi (= 6.8.2)
 Multi-Arch: same
 Homepage: https://invent.kde.org/plasma/powerdevil
 Priority: optional
 Section: libs
-Filename: pool/main/p/powerdevil/libpowerdevilcore2_6.3.5-1_amd64.deb
-Size: 229764
-SHA256: 2a65d7ff312f2fba041bfe964b45307557ce2127837cc8d1418d8cdda9831ee5
-SHA1: c0c2f9e0cb207f85cb1ba3914a8786354c4f73f0
-MD5sum: c18d60588412829f241fb796b30c926e
+Filename: pool/main/p/powerdevil/libpowerdevilcore2_6.3.6-1_amd64.deb
+Size: 230936
+SHA256: 0c7cfced07d72b7a44306f21000678b74bf33ab82c1122b44a7d4b0cc16376d0
+SHA1: 5f88820c2eeb1365e41e5d03fbad60816fb40b3e
+MD5sum: 1d7bea192064150420b0cc828fea7ea4
 Description: shared library for the KDE power management features in Plasma
  PowerDevil is the internal name of the KDE power management service
  for Plasma. It is responsible for some (but not all) interactions
@@ -27671,7 +27672,7 @@ Description: shared library for the KDE power management features in Plasma
 
 Package: libproc2-0
 Source: procps
-Version: 2:4.0.4-8
+Version: 2:4.0.4-9
 Architecture: amd64
 Maintainer: Craig Small <csmall@debian.org>
 Installed-Size: 237
@@ -27681,11 +27682,11 @@ Multi-Arch: same
 Homepage: https://gitlab.com/procps-ng/procps
 Priority: optional
 Section: libs
-Filename: pool/main/p/procps/libproc2-0_4.0.4-8_amd64.deb
-Size: 65404
-SHA256: e1d56b2387d1b7ec34b5e775c4447481d83860be0ff61b209c236e3eac6ce3dc
-SHA1: e2c8ae102c47e6d7a509945b2cf34b18906bc555
-MD5sum: 6b9306b01e7db7b602ef9aa8bce93623
+Filename: pool/main/p/procps/libproc2-0_4.0.4-9_amd64.deb
+Size: 65596
+SHA256: c9d61caab1b2ddfc3f17edb95be31b9809fcb2daf27d853dff615bc4ebd08b4b
+SHA1: 023abaa2f21ffba84247a595f46ccfd057547582
+MD5sum: c446e0ae1fbcab149c5b386d3a680e79
 Description: library for accessing process information from /proc
  The libproc2 library is a way of accessing information out of the /proc
  filesystem.
@@ -29641,20 +29642,20 @@ Description: Sound stretching library
 
 Package: libsoup-3.0-0
 Source: libsoup3
-Version: 3.6.5-2
+Version: 3.6.5-3
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 731
+Installed-Size: 732
 Depends: glib-networking, libsoup-3.0-common, libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgssapi-krb5-2 (>= 1.17), libnghttp2-14 (>= 1.50.0), libpsl5t64 (>= 0.16.0), libsqlite3-0 (>= 3.5.9), zlib1g (>= 1:1.2.0)
 Multi-Arch: same
 Homepage: https://libsoup.gnome.org/libsoup-3.0/index.html
 Priority: optional
 Section: libs
-Filename: pool/main/libs/libsoup3/libsoup-3.0-0_3.6.5-2_amd64.deb
-Size: 280304
-SHA256: 4469fc364a6eca792652fe1db15dc4f2e3d45bb2fe753b2c98cd6b4c99009eb2
-SHA1: 9ba692129d2b2fccbf105d5f96a4af5af998faa6
-MD5sum: 9f948d499b2325fbb1109e663a4c450b
+Filename: pool/main/libs/libsoup3/libsoup-3.0-0_3.6.5-3_amd64.deb
+Size: 280004
+SHA256: 7031c74a7a355db57d7eb9d48f1e81c7ccbb41da35db7db501e08b3fe3c2c88a
+SHA1: d255f347c971cb42ee39c301f5ccb0086d18fa34
+MD5sum: ba2c60f2d2d0dd992266480b7cb130b2
 Description: HTTP library implementation in C -- Shared library
  It was originally part of a SOAP (Simple Object Access Protocol)
  implementation called Soup, but the SOAP and non-SOAP parts have now been
@@ -29679,19 +29680,19 @@ Description: HTTP library implementation in C -- Shared library
 
 Package: libsoup-3.0-common
 Source: libsoup3
-Version: 3.6.5-2
+Version: 3.6.5-3
 Architecture: all
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 479
+Installed-Size: 480
 Multi-Arch: foreign
 Homepage: https://libsoup.gnome.org/libsoup-3.0/index.html
 Priority: optional
 Section: devel
-Filename: pool/main/libs/libsoup3/libsoup-3.0-common_3.6.5-2_all.deb
-Size: 65224
-SHA256: bb858ab5c8bb608f917f97ffdf7bd4f7223a9123674303680e0063adffd25519
-SHA1: 0ed620b476c0853f9268aec8496473a8a5c2f3b4
-MD5sum: 7bbece498ba5a024c5d4ee2058086d29
+Filename: pool/main/libs/libsoup3/libsoup-3.0-common_3.6.5-3_all.deb
+Size: 65552
+SHA256: a5a1e8e37214cc4277fc56d6dffe68ff3447356202dfc0e611cea5fe457835d1
+SHA1: 65c82d77903e21aaf3903cf17bfc4f6d940bbc1f
+MD5sum: 1d383602f489242e90dc3b45abecc802
 Description: HTTP library implementation in C -- Common files
  It was originally part of a SOAP (Simple Object Access Protocol)
  implementation called Soup, but the SOAP and non-SOAP parts have now been
@@ -29860,21 +29861,21 @@ Description: DSP library derived from speex
 
 Package: libsqlite3-0
 Source: sqlite3
-Version: 3.46.1-6
+Version: 3.46.1-7
 Architecture: amd64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 1838
+Installed-Size: 1834
 Depends: libc6 (>= 2.38)
 Breaks: crowdsec (<< 1.4), python-migrate (<< 0.11.0-4~), python3-migrate (<< 0.11.0-4~)
 Multi-Arch: same
 Homepage: https://www.sqlite.org/
 Priority: optional
 Section: libs
-Filename: pool/main/s/sqlite3/libsqlite3-0_3.46.1-6_amd64.deb
-Size: 914888
-SHA256: 85efc3fbacb814b5e3a88191a4deb661ef170bfe19cf22fd288d759bc91da728
-SHA1: ac9e408ca1f90c37954613f8afd8081b8506bde3
-MD5sum: 29db5a33b17673662f8e9cac8b84f0fe
+Filename: pool/main/s/sqlite3/libsqlite3-0_3.46.1-7_amd64.deb
+Size: 914328
+SHA256: 8976fc03e2280e4fb55d9bb52d2723a54a83284183684a6b27102934756a2be4
+SHA1: 9cad50c132f23668e53632430595e0388667bf77
+MD5sum: 577ddbfff9f3b7396ca0761a54ce016f
 Description: SQLite 3 shared library
  SQLite is a C library that implements an SQL database engine.
  Programs that link with the SQLite library can have SQL database
@@ -29986,23 +29987,23 @@ Description: Secure RTP (SRTP) and UST Reference Implementations - shared librar
 
 Package: libss2
 Source: e2fsprogs (1.47.2-3)
-Version: 1.47.2-3+b1
+Version: 1.47.2-3+b3
 Architecture: amd64
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 80
 Depends: libcom-err2, libc6 (>= 2.34)
 Breaks: libss2t64 (<< 1.47.0-2.4~exp1~)
 Replaces: e2fsprogs (<< 1.34-1), libss2t64
-Provides: libss2t64 (= 1.47.2-3+b1)
+Provides: libss2t64 (= 1.47.2-3+b3)
 Multi-Arch: same
 Homepage: http://e2fsprogs.sourceforge.net
 Priority: optional
 Section: libs
-Filename: pool/main/e/e2fsprogs/libss2_1.47.2-3+b1_amd64.deb
-Size: 29724
-SHA256: 5f74ee691cbb3f52068042c0ab2a3e3ff9910fc5abef6dcf91c0efa31826e606
-SHA1: c3136970ae778bbb594d6dd3106f6cf0bc285db5
-MD5sum: 713d8dfed4fb9bb7b7b2da7019b1b2c8
+Filename: pool/main/e/e2fsprogs/libss2_1.47.2-3+b3_amd64.deb
+Size: 29728
+SHA256: 35861f966e4c3b421d165dc9903c95ceb6e180c320e9c577b4547a9d97fc5d78
+SHA1: e883fa48c0c291f3883eafb513c47f0632b63a32
+MD5sum: b876128542e69df979183163eaa66b40
 Description: command-line interface parsing library
  libss provides a simple command-line interface parser which will
  accept input from the user, parse the command into an argv argument
@@ -30243,21 +30244,21 @@ Description: systemd utility library
  the system journal, the system service manager, D-Bus and more.
 
 Package: libtalloc2
-Source: samba (2:4.22.3+dfsg-2)
-Version: 2:2.4.3+samba4.22.3+dfsg-2
+Source: samba (2:4.22.3+dfsg-4)
+Version: 2:2.4.3+samba4.22.3+dfsg-4
 Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
-Installed-Size: 122
+Installed-Size: 123
 Depends: libc6 (>= 2.38)
 Multi-Arch: same
 Homepage: https://www.samba.org
 Priority: optional
 Section: libs
-Filename: pool/main/s/samba/libtalloc2_2.4.3+samba4.22.3+dfsg-2_amd64.deb
-Size: 60232
-SHA256: 852dc7d77e530f9f068b5d40588d2a3b864c8c66d2872f5563fefc35ec80f49d
-SHA1: 88950ada73aedd37286011cf6d4f00082811fc79
-MD5sum: 53c2d62455d99ef197c1b2e92608f0a9
+Filename: pool/main/s/samba/libtalloc2_2.4.3+samba4.22.3+dfsg-4_amd64.deb
+Size: 60692
+SHA256: 04ffaa1b818b514ab975ee11283d43aae78cd0ca4d04b4074093a69ba26a65c5
+SHA1: 215aef98f683bb71ff46e2b3cda7e4b55935b10b
+MD5sum: f49dcde19f09cf0e1428202af83b1bfa
 Description: hierarchical pool based memory allocator
  A hierarchical pool based memory allocator with destructors. It uses
  reference counting to determine when memory should be freed.
@@ -30317,21 +30318,21 @@ Description: Tcl (the Tool Command Language) v8.6 - run-time library files
  includes thread support.
 
 Package: libtdb1
-Source: samba (2:4.22.3+dfsg-2)
-Version: 2:1.4.13+samba4.22.3+dfsg-2
+Source: samba (2:4.22.3+dfsg-4)
+Version: 2:1.4.13+samba4.22.3+dfsg-4
 Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
-Installed-Size: 167
+Installed-Size: 168
 Depends: libc6 (>= 2.34)
 Multi-Arch: same
 Homepage: https://www.samba.org
 Priority: optional
 Section: libs
-Filename: pool/main/s/samba/libtdb1_1.4.13+samba4.22.3+dfsg-2_amd64.deb
-Size: 80000
-SHA256: e380736f158b4514a67b3ff4521610493db47f7a79648caea5059c2874ad356c
-SHA1: 2988eae405b094696a5f566defacfc7e0d2f2563
-MD5sum: 1957ed468544f377c018c790c2dd2750
+Filename: pool/main/s/samba/libtdb1_1.4.13+samba4.22.3+dfsg-4_amd64.deb
+Size: 80460
+SHA256: a610ee75f4c87c8f951727705abc122d69fd9854dfb28c9b56505d140f60897c
+SHA1: d14e2bfe2f405dc398f2c1551aeb7629d92518e6
+MD5sum: 1fe594cb46d6af4ea8c878008fa27785
 Description: Trivial Database - shared library
  This is a simple database API. It is modelled after the structure
  of GDBM. TDB features, unlike GDBM, multiple writers support with
@@ -31968,20 +31969,20 @@ Description: wayland compositor infrastructure - server library
 
 Package: libwbclient0
 Source: samba
-Version: 2:4.22.3+dfsg-2
+Version: 2:4.22.3+dfsg-4
 Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
-Installed-Size: 149
+Installed-Size: 150
 Depends: libbsd0 (>= 0.0), libc6 (>= 2.38)
 Multi-Arch: same
 Homepage: https://www.samba.org
 Priority: optional
 Section: libs
-Filename: pool/main/s/samba/libwbclient0_4.22.3+dfsg-2_amd64.deb
-Size: 68752
-SHA256: 213138321d654c2ccf81a2634d1ef8fec620a30a964b56bc362bcfdf28737193
-SHA1: f816f488f364e5f1c637308941291d8dd256201f
-MD5sum: 1cef526686d3b86767bd549d0368c74a
+Filename: pool/main/s/samba/libwbclient0_4.22.3+dfsg-4_amd64.deb
+Size: 69228
+SHA256: d629093a7525d2fc53d350c3f543465ee7c9c97a43ba63fec025bdacf33cada7
+SHA1: 370d5a3e30be3aa11c94c3cf644676115f24729f
+MD5sum: 6c6a23134a3130d4f68f62781f257c9b
 Description: Samba winbind client library
  Samba is an implementation of the SMB/CIFS protocol for Unix systems,
  providing support for cross-platform file and printer sharing with
@@ -31992,19 +31993,19 @@ Description: Samba winbind client library
 
 Package: libweather-ion7
 Source: plasma-workspace
-Version: 4:6.3.5-1
+Version: 4:6.3.6-2
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 225
+Installed-Size: 226
 Depends: libc6 (>= 2.4), libplasma5support6 (>= 4:6.3.4~), libqt6core6t64 (>= 6.8.2), libstdc++6 (>= 5)
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: libs
-Filename: pool/main/p/plasma-workspace/libweather-ion7_6.3.5-1_amd64.deb
-Size: 46876
-SHA256: f777ea2682ff7dff937d6ab2a78ccf239d9176a96bd696e5047c017195654845
-SHA1: f36627e324b0c8ca661cb7c7f3ec46e8b5751823
-MD5sum: a8e4c10e92116e943d02077bfb6b7986
+Filename: pool/main/p/plasma-workspace/libweather-ion7_6.3.6-2_amd64.deb
+Size: 47816
+SHA256: 4241ecda8c43a994561b56c8c2287e8cc2f326e04f602dd912a549f4284b3f5e
+SHA1: 285f5c35968bd1bb496d79b07b711ddccc8aa27b
+MD5sum: d85f9facd97baede44d714580b8cc9a4
 Description: Plasma Workspace weather information library
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
@@ -33813,21 +33814,21 @@ Description: Perl module for processing huge XML documents in tree mode
  necessary) features that come with XML and XML::Parser.
 
 Package: libxml2
-Version: 2.12.7+dfsg+really2.9.14-1
+Version: 2.12.7+dfsg+really2.9.14-2.1
 Architecture: amd64
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
-Installed-Size: 1911
+Installed-Size: 1915
 Depends: libc6 (>= 2.38), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.3.3)
 Conflicts: w3c-dtd-xhtml
 Multi-Arch: same
 Homepage: http://xmlsoft.org
 Priority: optional
 Section: libs
-Filename: pool/main/libx/libxml2/libxml2_2.12.7+dfsg+really2.9.14-1_amd64.deb
-Size: 697976
-SHA256: c96ecdce4c13b76dd3fadfbc4203848d50eb1096c53ecabdf6c2eef435fecd63
-SHA1: 3a41d9d3ba1cf956791c0bad05dfed10059d31b8
-MD5sum: c8ea16cec35f4dfce52fd337bef76867
+Filename: pool/main/libx/libxml2/libxml2_2.12.7+dfsg+really2.9.14-2.1_amd64.deb
+Size: 698048
+SHA256: ec0fabdc378df3190a1019b949e80efcb0e081ccb692f9d551149d6148e53b02
+SHA1: e92930943ba88dea8b9f2ed89dce2fb1305a645f
+MD5sum: 4da9f2b3eaf3dfdf004dc06363d73d5b
 Description: GNOME XML library
  XML is a metalanguage to let you design your own markup language.
  A regular markup language defines a way to describe information in
@@ -33841,7 +33842,7 @@ Description: GNOME XML library
 
 Package: libxml2-utils
 Source: libxml2
-Version: 2.12.7+dfsg+really2.9.14-1
+Version: 2.12.7+dfsg+really2.9.14-2.1
 Architecture: amd64
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Installed-Size: 180
@@ -33850,11 +33851,11 @@ Multi-Arch: foreign
 Homepage: http://xmlsoft.org
 Priority: optional
 Section: text
-Filename: pool/main/libx/libxml2/libxml2-utils_2.12.7+dfsg+really2.9.14-1_amd64.deb
-Size: 100048
-SHA256: c624ec5dc384e28ed9a9f0c3591e7ea32b6b42c686d55d8e759392c144e2def6
-SHA1: da3f08346dcd4cbb83886e9e368fef3d4ae6c470
-MD5sum: 80b0bc85eae897a356e0b929ed7a105f
+Filename: pool/main/libx/libxml2/libxml2-utils_2.12.7+dfsg+really2.9.14-2.1_amd64.deb
+Size: 100260
+SHA256: 688421890718b4202ade075b747c250555b987f4e885328a9bae89370e8e4c1e
+SHA1: fb9b75895da70e9783d60ae642db56222d235d7f
+MD5sum: bba34d2522d279351914396bb1ff8608
 Description: GNOME XML library - utilities
  XML is a metalanguage to let you design your own markup language.
  A regular markup language defines a way to describe information in
@@ -34793,21 +34794,21 @@ Description: Common header files for Linux 6.12.35+deb13
  kernel you intend the build for.
 
 Package: linux-headers-amd64
-Source: linux-signed-amd64 (6.12.35+1)
-Version: 6.12.35-1
+Source: linux-signed-amd64 (6.12.38+1)
+Version: 6.12.38-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-headers-6.12.35+deb13-amd64 (= 6.12.35-1)
+Depends: linux-headers-6.12.38+deb13-amd64 (= 6.12.38-1)
 Provides: linux-headers-generic
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-signed-amd64/linux-headers-amd64_6.12.35-1_amd64.deb
-Size: 1416
-SHA256: 9725859ec764fb847e4e4b616a5925c75f3280c1aa355e06e6bf0ce9bef2e682
-SHA1: efa9f9d0f8514ce22bd9ec0ff9805bcf3196cdcc
-MD5sum: 31474df11c460b27f05b892fb4a7767a
+Filename: pool/main/l/linux-signed-amd64/linux-headers-amd64_6.12.38-1_amd64.deb
+Size: 1412
+SHA256: c458d0fe7344e4d57c2e13f180b54f394352c1e7598ef0a9cc0104f6e2e9369b
+SHA1: 3cefead08ab69f8e9fa6d726f5ea1eed44fa839e
+MD5sum: 541957909430e4008a9fa0e9e9d6e84e
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
@@ -34861,21 +34862,21 @@ Description: Linux 6.12 for 64-bit PCs (boot)
  The kernel image is signed for use with Secure Boot.
 
 Package: linux-image-amd64
-Source: linux-signed-amd64 (6.12.35+1)
-Version: 6.12.35-1
+Source: linux-signed-amd64 (6.12.38+1)
+Version: 6.12.38-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-image-6.12.35+deb13-amd64 (= 6.12.35-1)
-Provides: linux-image-generic, linux-latest-modules-6.12.35+deb13-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.12.38+deb13-amd64 (= 6.12.38-1)
+Provides: linux-image-generic, linux-latest-modules-6.12.38+deb13-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-signed-amd64/linux-image-amd64_6.12.35-1_amd64.deb
-Size: 1472
-SHA256: cea34f1a21487f29fa1f95e13b7dabebb33928d89437bfe6b21126d3825ff0e2
-SHA1: 27a371f92c270047800b6e6558427891048edb7e
-MD5sum: b95671c02ec8bc9c07649204862aa6d4
+Filename: pool/main/l/linux-signed-amd64/linux-image-amd64_6.12.38-1_amd64.deb
+Size: 1476
+SHA256: 29740d3426a77a485d5d0f472dfd50897e89b4108a5e81a66456b621081e864e
+SHA1: 16343a9757d537ae59cd4856c0713834b8997f9d
+MD5sum: f299100af0d4737408b396d98caf6a87
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.
@@ -34902,19 +34903,19 @@ Description: Kbuild infrastructure for Linux 6.12.35+deb13
 
 Package: linux-libc-dev
 Source: linux
-Version: 6.12.35-1
+Version: 6.12.38-1
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 10676
+Installed-Size: 10685
 Multi-Arch: foreign
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux/linux-libc-dev_6.12.35-1_all.deb
-Size: 2617056
-SHA256: 1193a7197656fb95892cb56edc45f903aeb399027e102197cf8f18f44e853c1d
-SHA1: 1a953e162a6fc4d8670cfa27869a925daed7a854
-MD5sum: f6010740b4eb0738b2272752d9c27136
+Filename: pool/main/l/linux/linux-libc-dev_6.12.38-1_all.deb
+Size: 2626624
+SHA256: 85b85662ef28e31364d6b00b041fade0ebcf649a368cc3e7899c2e2b87b77a46
+SHA1: 3a3665a3d51f8866faaf4a66fdf5735961fce181
+MD5sum: cb705a17206b0016637140b46379dd9a
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These
  files are going to be installed into /usr/include, and are used by the
@@ -34922,19 +34923,19 @@ Description: Linux support headers for userspace development
 
 Package: linux-source
 Source: linux
-Version: 6.12.35-1
+Version: 6.12.38-1
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 10
-Depends: linux-source-6.12 (= 6.12.35-1)
+Depends: linux-source-6.12 (= 6.12.38-1)
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-source_6.12.35-1_all.deb
+Filename: pool/main/l/linux/linux-source_6.12.38-1_all.deb
 Size: 1096
-SHA256: c023e050e10750b3779b922c04ba73bb0cac7f6aff493eea39c570e557b3be95
-SHA1: 056b40be3668e2dd2612247cdef92865aa8c5861
-MD5sum: 509b5dd2eb2dff3a2de2d7990e5f4715
+SHA256: 4ec9a10df15c028f6bacc4427b86d4b99b9e32ce472e74c229f7c8c72be97d4e
+SHA1: c9e1035ba82636ff72dac638f0af1ff3d3df4065
+MD5sum: 6d342232a83e040c1560e272152b08e5
 Description: Linux kernel source (meta-package)
  This package depends on packages containing the sources of the latest
  Linux kernel.
@@ -35157,19 +35158,19 @@ Description: utilities to read temperature/voltage/fan sensors
 
 Package: locales
 Source: glibc
-Version: 2.41-10
+Version: 2.41-11
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 15773
+Installed-Size: 15774
 Depends: libc-bin (>> 2.41), libc-l10n (>> 2.41), debconf (>= 0.5) | debconf-2.0
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: standard
 Section: localization
-Filename: pool/main/g/glibc/locales_2.41-10_all.deb
-Size: 3925060
-SHA256: a2635fe09d32b65cd949977f22497ee3295c13a33d1a3ee4838beb5191449a5a
-SHA1: c7eb394aee708c75624cd82e3ce73e21bc65476b
-MD5sum: 62e01f9d6cfd153c7175266bd7b8fa57
+Filename: pool/main/g/glibc/locales_2.41-11_all.deb
+Size: 3925216
+SHA256: 0d7187dd49b3acaed3f019eea2aeebf3d8d9d4ca321065ac0cbdb7b9960779e7
+SHA1: e6fcb5da5fc70215619c341981d12ed1ec9f92ac
+MD5sum: 59c0717d03fd43cefbaee68e33d350cf
 Description: GNU C Library: National Language (locale) data [support]
  Machine-readable data files, shared objects and programs used by the
  C library for localization (l10n) and internationalization (i18n) support.
@@ -35182,20 +35183,20 @@ Description: GNU C Library: National Language (locale) data [support]
 
 Package: locales-all
 Source: glibc
-Version: 2.41-10
+Version: 2.41-11
 Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 236464
+Installed-Size: 236465
 Depends: libc-l10n (>> 2.41)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: localization
-Filename: pool/main/g/glibc/locales-all_2.41-10_amd64.deb
-Size: 11141432
-SHA256: d3460dd71bc399c7922b82ff0c07ea36d5022a2c68b14836e67bf830fdeb9764
-SHA1: f78ac80658af5157610fdf06d06ffcc0bba95acc
-MD5sum: 93776e9a1220d617c146e98492f05e93
+Filename: pool/main/g/glibc/locales-all_2.41-11_amd64.deb
+Size: 11146288
+SHA256: 8b6892fff8a2430aac8a63af21b4063fd6d96f02e314df1fda9464a67f1e3ffa
+SHA1: 050ac8b4a3eeacfe8f213021b3eae052e769802f
+MD5sum: f8bb38b6f241c44770fffcc8132d6952
 Description: GNU C Library: Precompiled locale data
  This package contains the precompiled locale data for all supported locales.
  A better alternative is to install the locales package and only select
@@ -35273,7 +35274,7 @@ Description: Log rotation utility
 
 Package: logsave
 Source: e2fsprogs (1.47.2-3)
-Version: 1.47.2-3+b1
+Version: 1.47.2-3+b3
 Architecture: amd64
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 59
@@ -35284,11 +35285,11 @@ Multi-Arch: foreign
 Homepage: http://e2fsprogs.sourceforge.net
 Priority: optional
 Section: admin
-Filename: pool/main/e/e2fsprogs/logsave_1.47.2-3+b1_amd64.deb
-Size: 24848
-SHA256: 86ac9b9447ff9d57c2b488810ecd4cbad3301f9b4f38e284b9d00629baf7e0e2
-SHA1: 2e92d6ca9355ce469c28533fc1d9f92c48319fd8
-MD5sum: a75815f6724a9e7a4feea7055e734110
+Filename: pool/main/e/e2fsprogs/logsave_1.47.2-3+b3_amd64.deb
+Size: 24852
+SHA256: bf308ec4751a2809d3194e270ac796df7df06251aa2c33888aa7093ec1bc5a5d
+SHA1: a41861756f1cb08beb8fbecfba33a2b9f21e3ca4
+MD5sum: 7e92295abd28686ebb59931ec0a63c57
 Description: save the output of a command in a log file
  The logsave program will execute cmd_prog with the specified
  argument(s), and save a copy of its output to logfile.  If the
@@ -35428,22 +35429,22 @@ Description: Linux Logical Volume Manager
 
 Package: lxqt
 Source: lxqt-metapackages
-Version: 33.1
+Version: 33.2
 Architecture: amd64
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
 Installed-Size: 10
-Depends: featherpad, lximage-qt, lxqt-about, lxqt-admin, lxqt-branding-debian | lxqt-branding, lxqt-core (= 33.1), lxqt-openssh-askpass, lxqt-powermanagement, lxqt-sudo, pavucontrol-qt | pavucontrol, qlipper | clipit | xfce4-clipman, qps, qterminal, qt6-translations-l10n, sddm-theme-debian-breeze | sddm-theme | x-display-manager, lxqt-archiver | xarchiver | engrampa, xfwm4 | x-window-manager
+Depends: featherpad, lximage-qt, lxqt-about, lxqt-admin, lxqt-branding-debian | lxqt-branding, lxqt-core (= 33.2), lxqt-openssh-askpass, lxqt-powermanagement, lxqt-sudo, pavucontrol-qt | pavucontrol, qlipper | clipit | xfce4-clipman, qps, qterminal, qt6-translations-l10n, sddm-theme-debian-elarun | sddm-theme | x-display-manager, lxqt-archiver | xarchiver | engrampa, xfwm4 | x-window-manager
 Recommends: qmmp | audacious | clementine, nm-tray | cmst | plasma-nm | network-manager-applet, feathernotes, gucharmap, firefox-esr | www-browser, meteo-qt, qpdfview, hexchat | irssi | weechat, screengrab, smplayer, thunderbird | mail-reader, xscreensaver
 Suggests: calibre, juffed, nomacs, preload, obconf-qt, qtpass, qt6-style-kvantum, shutter, strawberry, vokoscreen
 Multi-Arch: same
 Homepage: http://www.lxqt.org/
 Priority: optional
 Section: metapackages
-Filename: pool/main/l/lxqt-metapackages/lxqt_33.1_amd64.deb
-Size: 3588
-SHA256: d7391d9aebd2e2d503a584f689fb1b78113b469edf8777810f744c80865a679e
-SHA1: 7b76d6b81245623a5375a6eaf526f7ca835b9334
-MD5sum: f7092969d95617251b19b6eef6c560e2
+Filename: pool/main/l/lxqt-metapackages/lxqt_33.2_amd64.deb
+Size: 3660
+SHA256: 575bc3d39b4cd1b09d1d789a529259294727d31c01aa3325cad1ec4a091e582b
+SHA1: bb476471906c19e6d0fbb3d610377377f6beb187
+MD5sum: fc035d3406c1e0477e1ae7aa0404de49
 Description: Metapackage for LXQt
  LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
  technologies. It has been tailored for users who value simplicity, speed, and
@@ -35456,7 +35457,7 @@ Description: Metapackage for LXQt
 
 Package: lxqt-core
 Source: lxqt-metapackages
-Version: 33.1
+Version: 33.2
 Architecture: all
 Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
 Installed-Size: 10
@@ -35467,11 +35468,11 @@ Multi-Arch: foreign
 Homepage: http://www.lxqt.org/
 Priority: optional
 Section: metapackages
-Filename: pool/main/l/lxqt-metapackages/lxqt-core_33.1_all.deb
-Size: 3524
-SHA256: d9aff77ebf76f7a4fbff018463e1a71c90dd0a4a1d8d3dcd5ce73b893ee7aa90
-SHA1: cc1226a27c99919898935adca4ae1e5b5f57f201
-MD5sum: 8a0f774e8ea375aa461c023ae1996a0b
+Filename: pool/main/l/lxqt-metapackages/lxqt-core_33.2_all.deb
+Size: 3592
+SHA256: 1bbe9b84d443097d896255720d6a7c6cb4704eb26f9001258bf78f489e4f998b
+SHA1: ef36e79541b6d408cd4e22ab3d58fb72f4122abe
+MD5sum: 01781ca018a815300d24bebea02daa02
 Description: Metapackage for the LXQt core
  LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
  technologies. It has been tailored for users who value simplicity, speed, and
@@ -39620,7 +39621,7 @@ Description: OpenBosniana OS meta
 
 Package: openssh-client
 Source: openssh
-Version: 1:10.0p1-5
+Version: 1:10.0p1-7
 Architecture: amd64
 Maintainer: Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>
 Installed-Size: 4997
@@ -39635,11 +39636,11 @@ Multi-Arch: foreign
 Homepage: https://www.openssh.com/
 Priority: standard
 Section: net
-Filename: pool/main/o/openssh/openssh-client_10.0p1-5_amd64.deb
-Size: 984296
-SHA256: 9d792e4d9df6995520ace2212548e39566763fdf0de6448e55e040fac468f69d
-SHA1: f6bd15e4b90da9ec0fb62482e07f9bd28fcba983
-MD5sum: 04701b41b3f11dbd422baf8ad661a4b8
+Filename: pool/main/o/openssh/openssh-client_10.0p1-7_amd64.deb
+Size: 984720
+SHA256: 806444bc63f17e6357934bee66a29e7ccd9c5b8a2204dd8c56085b1840e9d668
+SHA1: 33e60d14aac89d7bb147d49a87f4d17c9b0aebc0
+MD5sum: 035718a6ec7fb3a0c59bb46e79ea1942
 Description: secure shell (SSH) client, for secure access to remote machines
  This is the portable version of OpenSSH, a free implementation of
  the Secure Shell protocol as specified by the IETF secsh working
@@ -40089,11 +40090,11 @@ Description: PCI utilities
  devices connected to the PCI bus.
 
 Package: perl
-Version: 5.40.1-5
+Version: 5.40.1-6
 Architecture: amd64
 Maintainer: Niko Tyni <ntyni@debian.org>
 Installed-Size: 841
-Depends: perl-base (= 5.40.1-5), perl-modules-5.40 (>= 5.40.1-5), libperl5.40 (= 5.40.1-5)
+Depends: perl-base (= 5.40.1-6), perl-modules-5.40 (>= 5.40.1-6), libperl5.40 (= 5.40.1-6)
 Recommends: netbase
 Suggests: perl-doc, libterm-readline-gnu-perl | libterm-readline-perl-perl, make, libtap-harness-archive-perl
 Conflicts: libjson-pp-perl (<< 2.27200-2)
@@ -40104,11 +40105,11 @@ Multi-Arch: allowed
 Homepage: https://dev.perl.org/perl5/
 Priority: standard
 Section: perl
-Filename: pool/main/p/perl/perl_5.40.1-5_amd64.deb
-Size: 267312
-SHA256: 466161abfe9469c0e0ddc1116b2d3df67d30029ad431f027146121e09607d279
-SHA1: 734fadabe9376a12e04babd4e595f0d861771791
-MD5sum: 0f5b671dadcecc6842d7d9851ff83462
+Filename: pool/main/p/perl/perl_5.40.1-6_amd64.deb
+Size: 267336
+SHA256: 11ec93d44649e9b37e3bddcf32a5f01d6e9dd3d0d79aac621b49473539c8f5b8
+SHA1: 9c5005df956b8fa8a3f487c175499e6029669465
+MD5sum: 2fee71a65ffe52dab419e2dd409afe2f
 Description: Larry Wall's Practical Extraction and Report Language
  Perl is a highly capable, feature-rich programming language with over
  20 years of development. Perl 5 runs on over 100 platforms from
@@ -40124,7 +40125,7 @@ Description: Larry Wall's Practical Extraction and Report Language
 
 Package: perl-base
 Source: perl
-Version: 5.40.1-5
+Version: 5.40.1-6
 Architecture: amd64
 Essential: yes
 Maintainer: Niko Tyni <ntyni@debian.org>
@@ -40138,11 +40139,11 @@ Provides: libfile-path-perl (= 2.18), libfile-temp-perl (= 0.2311), libio-socket
 Homepage: https://dev.perl.org/perl5/
 Priority: required
 Section: perl
-Filename: pool/main/p/perl/perl-base_5.40.1-5_amd64.deb
-Size: 1664536
-SHA256: ed548edb2db17f1c471f2e021ae8dd1bd171f2cd768b340a5ebaeca50ec958ee
-SHA1: 34573faabd8a3839a26709e531ee2e3f0e0c0e69
-MD5sum: d34f595d1770a4d69a5bf69f1faa1aeb
+Filename: pool/main/p/perl/perl-base_5.40.1-6_amd64.deb
+Size: 1665744
+SHA256: 94f1060613a666dc569026a8344bee202ba3b29ec124dc6ef30bfc72e735c78b
+SHA1: 170febe68b6846ec3f9341fd618179c79d4f7804
+MD5sum: 7b6368cab00c867c1f1978a2717abc78
 Description: minimal Perl system
  Perl is a scripting language used in many system scripts and utilities.
  .
@@ -40153,7 +40154,7 @@ Description: minimal Perl system
 
 Package: perl-modules-5.40
 Source: perl
-Version: 5.40.1-5
+Version: 5.40.1-6
 Architecture: all
 Maintainer: Niko Tyni <ntyni@debian.org>
 Installed-Size: 19988
@@ -40167,11 +40168,11 @@ Multi-Arch: foreign
 Homepage: https://dev.perl.org/perl5/
 Priority: optional
 Section: libs
-Filename: pool/main/p/perl/perl-modules-5.40_5.40.1-5_all.deb
-Size: 3021300
-SHA256: b6f1cbbff2df5b35c9be1ee01b69846ff49def5a2b29dd77ef2fcb77c398bc9a
-SHA1: 0e876db423307896894d7905b3762b947b9b7ffb
-MD5sum: 794a7b94226c807551565dc79011c340
+Filename: pool/main/p/perl/perl-modules-5.40_5.40.1-6_all.deb
+Size: 3019100
+SHA256: dfd42c1bf0c45858488ad666b90de17f81b55e6f9c0d8ca530c27b4a66c08b0b
+SHA1: 8e8e460fc410a98e6eed5cbc5a5af8f82ae23ed4
+MD5sum: cd9a4bc940cc1923623b206f7c738a84
 Description: Core Perl modules
  Architecture independent Perl modules.  These modules are part of Perl and
  required if the `perl' package is installed.
@@ -40507,23 +40508,23 @@ Description: Chromium, Google Chrome, Firefox integration for Plasma (backend)
  browsers and Plasma.
 
 Package: plasma-desktop
-Version: 4:6.3.5-1
+Version: 4:6.3.6-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 7717
-Depends: accountsservice, breeze (>= 4:6.2.90~), kactivitymanagerd (>= 6.2.90~), kde-cli-tools (>= 4:6.2.90~), kded6, kio6 (>= 6.13.0-4~), layer-shell-qt (>= 6.2.90~), ocean-sound-theme (>= 6.2.90~), oxygen-sounds (>= 4:6.2.90~), plasma-desktop-data (= 4:6.3.5-1), plasma-desktoptheme, plasma-integration (>= 6.2.90~), plasma-workspace (>= 4:6.2.90~), polkit-kde-agent-1 (>= 4:6.2.90~), qml6-module-org-kde-activities, qml6-module-org-kde-baloo, qml6-module-org-kde-breeze, qml6-module-org-kde-config, qml6-module-org-kde-coreaddons, qml6-module-org-kde-desktop, qml6-module-org-kde-draganddrop, qml6-module-org-kde-graphicaleffects, qml6-module-org-kde-iconthemes, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-delegates, qml6-module-org-kde-kirigamiaddons-tableview, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrols, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-kwindowsystem, qml6-module-org-kde-newstuff, qml6-module-org-kde-pipewire, qml6-module-qt-labs-platform, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, qt6-svg-plugins, libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.38), libcanberra0 (>= 0.2), libglib2.0-0t64 (>= 2.80.0), libibus-1.0-5 (>= 1.5.1), libicu76 (>= 76.1-1~), libkaccounts6-2 (>= 24.02.2), libkf6attica6 (>= 6.10.0~), libkf6authcore6 (>= 6.10.0~), libkf6baloo6 (>= 6.10.0~), libkf6bookmarks6 (>= 6.0.0), libkf6codecs6 (>= 6.10.0~), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6guiaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6i18nlocaledata6 (>= 6.10.0~), libkf6iconwidgets6 (>= 6.10.0~), libkf6itemviews6 (>= 6.0.0), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.10.0~), libkf6kcmutilscore6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libkf6kiocore6 (>= 6.13.0-4~), libkf6kiofilewidgets6 (>= 6.13.0-4~), libkf6kiogui6 (>= 6.13.0-4~), libkf6kiowidgets6 (>= 6.13.0-4~), libkf6newstuffcore6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6notifyconfig6 (>= 6.10.0~), libkf6package6 (>= 6.10.0~), libkf6runner6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6sonnetcore6 (>= 6.10.0~), libkf6sonnetui6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6widgetsaddons6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.10.0~), libkworkspace6-6 (>= 4:6.3.4~), libnotificationmanager1 (>= 4:6.3.4~), libpackagekitqt6-1 (>= 1.1.1), libplasma6 (>= 6.3.4~), libplasmaactivities6 (>= 6.3.4~), libplasmaactivitiesstats1 (>= 6.3.4~), libplasmaquick6 (>= 6.3.4~), libprocesscore10 (>= 4:6.3.4~), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6quickwidgets6 (>= 6.7.0~), libqt6sql6 (>= 6.7.0~), libqt6waylandclient6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.2), libqt6xml6 (>= 6.7.0~), libscim8v5 (>= 1.4), libsdl2-2.0-0 (>= 2.24.0), libstdc++6 (>= 13.1), libtaskmanager6 (>= 4:6.3.4~), libwacom9 (>= 2.0.0), libwayland-client0 (>= 1.22~), libx11-6 (>= 2:1.2.99.901), libx11-xcb1, libxcb-keysyms1 (>= 0.4.1), libxcb-xkb1, libxcb1, libxcursor1 (>> 1.1.2), libxi6 (>= 2:1.2.99.4), libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxkbregistry0 (>= 1.0.0), qt6-base-private-abi (= 6.8.2)
-Recommends: bluedevil (>= 4:6.2.90~), breeze-gtk-theme (>= 6.2.90~), fonts-hack, fonts-noto, fonts-noto-color-emoji, ibus-data, kde-config-gtk-style (>= 4:6.2.90~), kde-config-screenlocker (>= 6.2.90~), kde-config-sddm (>= 4:6.2.90~), kde-spectacle, kgamma (>= 6.2.90~), khelpcenter, kinfocenter (>= 4:6.2.90~), kio-extras, kmenuedit (>= 4:6.2.90~), kscreen (>= 4:6.2.90~), ksshaskpass (>= 4:6.2.90~), kwin-wayland (>= 4:6.2.90~) | kwin-x11 (>= 4:6.2.90~), kwrited (>= 4:6.2.90~), libkf6kcmutils-bin, libpam-kwallet5 (>= 6.2.90~), plasma-browser-integration (>= 6.2.90~), plasma-desktop-doc (>= 4:6.3.5-1), plasma-discover (>= 6.2.90~), plasma-disks (>= 6.2.90~), plasma-firewall (>= 6.2.90~), plasma-nm (>= 4:6.2.90~), plasma-pa (>= 4:6.2.90~), plasma-systemmonitor (>= 6.2.90~), plasma-thunderbolt (>= 6.2.90~), plasma-vault (>= 6.2.90~), plasma-welcome (>= 6.2.90~), plasma5-integration (>= 6.2.90~), powerdevil (>= 4:6.2.90~), systemsettings (>= 4:6.2.90~), xdg-desktop-portal-gtk, xdg-desktop-portal-kde (>= 6.2.90~)
+Depends: accountsservice, breeze (>= 4:6.2.90~), kactivitymanagerd (>= 6.2.90~), kde-cli-tools (>= 4:6.2.90~), kded6, kio6 (>= 6.13.0-4~), layer-shell-qt (>= 6.2.90~), ocean-sound-theme (>= 6.2.90~), oxygen-sounds (>= 4:6.2.90~), plasma-desktop-data (= 4:6.3.6-1), plasma-desktoptheme, plasma-integration (>= 6.2.90~), plasma-workspace (>= 4:6.2.90~), polkit-kde-agent-1 (>= 4:6.2.90~), qml6-module-org-kde-activities, qml6-module-org-kde-baloo, qml6-module-org-kde-breeze, qml6-module-org-kde-config, qml6-module-org-kde-coreaddons, qml6-module-org-kde-desktop, qml6-module-org-kde-draganddrop, qml6-module-org-kde-graphicaleffects, qml6-module-org-kde-iconthemes, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-delegates, qml6-module-org-kde-kirigamiaddons-tableview, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrols, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-kwindowsystem, qml6-module-org-kde-newstuff, qml6-module-org-kde-pipewire, qml6-module-qt-labs-platform, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, qt6-svg-plugins, libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.38), libcanberra0 (>= 0.2), libglib2.0-0t64 (>= 2.80.0), libibus-1.0-5 (>= 1.5.1), libicu76 (>= 76.1-1~), libkaccounts6-2 (>= 24.02.2), libkf6attica6 (>= 6.10.0~), libkf6authcore6 (>= 6.10.0~), libkf6baloo6 (>= 6.10.0~), libkf6bookmarks6 (>= 6.0.0), libkf6codecs6 (>= 6.10.0~), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6guiaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6i18nlocaledata6 (>= 6.10.0~), libkf6iconwidgets6 (>= 6.10.0~), libkf6itemviews6 (>= 6.0.0), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.10.0~), libkf6kcmutilscore6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libkf6kiocore6 (>= 6.13.0-4~), libkf6kiofilewidgets6 (>= 6.13.0-4~), libkf6kiogui6 (>= 6.13.0-4~), libkf6kiowidgets6 (>= 6.13.0-4~), libkf6newstuffcore6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6notifyconfig6 (>= 6.10.0~), libkf6package6 (>= 6.10.0~), libkf6runner6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6sonnetcore6 (>= 6.10.0~), libkf6sonnetui6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6widgetsaddons6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.10.0~), libkworkspace6-6 (>= 4:6.3.4~), libnotificationmanager1 (>= 4:6.3.4~), libpackagekitqt6-1 (>= 1.1.1), libplasma6 (>= 6.3.4~), libplasmaactivities6 (>= 6.3.4~), libplasmaactivitiesstats1 (>= 6.3.4~), libplasmaquick6 (>= 6.3.4~), libprocesscore10 (>= 4:6.3.4~), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6quickwidgets6 (>= 6.7.0~), libqt6sql6 (>= 6.7.0~), libqt6waylandclient6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.2), libqt6xml6 (>= 6.7.0~), libscim8v5 (>= 1.4), libsdl2-2.0-0 (>= 2.24.0), libstdc++6 (>= 13.1), libtaskmanager6 (>= 4:6.3.4~), libwacom9 (>= 2.0.0), libwayland-client0 (>= 1.22~), libx11-6 (>= 2:1.2.99.901), libx11-xcb1, libxcb-keysyms1 (>= 0.4.1), libxcb-xkb1, libxcb1, libxcursor1 (>> 1.1.2), libxi6 (>= 2:1.2.99.4), libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxkbregistry0 (>= 1.0.0), qt6-base-private-abi (= 6.8.2)
+Recommends: bluedevil (>= 4:6.2.90~), breeze-gtk-theme (>= 6.2.90~), fonts-hack, fonts-noto, fonts-noto-color-emoji, ibus-data, kde-config-gtk-style (>= 4:6.2.90~), kde-config-screenlocker (>= 6.2.90~), kde-config-sddm (>= 4:6.2.90~), kde-spectacle, kgamma (>= 6.2.90~), khelpcenter, kinfocenter (>= 4:6.2.90~), kio-extras, kmenuedit (>= 4:6.2.90~), kscreen (>= 4:6.2.90~), ksshaskpass (>= 4:6.2.90~), kwin-wayland (>= 4:6.2.90~) | kwin-x11 (>= 4:6.2.90~), kwrited (>= 4:6.2.90~), libkf6kcmutils-bin, libpam-kwallet5 (>= 6.2.90~), plasma-browser-integration (>= 6.2.90~), plasma-desktop-doc (>= 4:6.3.6-1), plasma-discover (>= 6.2.90~), plasma-disks (>= 6.2.90~), plasma-firewall (>= 6.2.90~), plasma-nm (>= 4:6.2.90~), plasma-pa (>= 4:6.2.90~), plasma-systemmonitor (>= 6.2.90~), plasma-thunderbolt (>= 6.2.90~), plasma-vault (>= 6.2.90~), plasma-welcome (>= 6.2.90~), plasma5-integration (>= 6.2.90~), powerdevil (>= 4:6.2.90~), systemsettings (>= 4:6.2.90~), xdg-desktop-portal-gtk, xdg-desktop-portal-kde (>= 6.2.90~)
 Suggests: kde-config-flatpak (>= 6.2.90~), plasma-theme-oxygen
 Breaks: plasma-desktop-data (<< 4:6.3.2-3~), plasma-workspace (<< 4:6.1.0~), user-manager (<< 4:5.20)
 Replaces: plasma-desktop-data (<< 4:6.3.2-3~), plasma-workspace (<< 4:6.1.0~)
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-desktop/plasma-desktop_6.3.5-1_amd64.deb
-Size: 1550604
-SHA256: ea102873df55298584db02e17565b739540a0a0c85c79a9c051eb642afa9785c
-SHA1: 7009c12dc2348e7e1dab70f72c20180ba4afc624
-MD5sum: 702eb8993c5ce3b451d4e348ceefe90b
+Filename: pool/main/p/plasma-desktop/plasma-desktop_6.3.6-1_amd64.deb
+Size: 1550580
+SHA256: f6f133ba3634cb1dd30142b4acd1e9396e59e5c6a429fc17f15ccdc73fa0bf29
+SHA1: 3daba7316cb358c5ac5c484c9360cef1f7ea77dd
+MD5sum: 30e34a967e325e17f6181592f29275b2
 Description: Tools and widgets for the desktop
  Plasma Desktop offers a beautiful looking desktop
  that takes complete advantage of modern computing technology.
@@ -40537,21 +40538,21 @@ Description: Tools and widgets for the desktop
 
 Package: plasma-desktop-data
 Source: plasma-desktop
-Version: 4:6.3.5-1
+Version: 4:6.3.6-1
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 22589
+Installed-Size: 22591
 Depends: python3:any
 Breaks: plasma-widgets-addons (<< 4:5.25.70~)
 Replaces: plasma-widgets-addons (<< 4:5.25.70~)
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-desktop/plasma-desktop-data_6.3.5-1_all.deb
-Size: 10764332
-SHA256: 39531e2e016fb1f6bac429b7d630563e32c0f234f7f4d6986c4a8c04e622dd49
-SHA1: 5685364530dc720fb32d0183a5dd652d13bb51f0
-MD5sum: 0995bad81d4ab2e920113c91513b02fe
+Filename: pool/main/p/plasma-desktop/plasma-desktop-data_6.3.6-1_all.deb
+Size: 10764996
+SHA256: 02d20e56a9215422d3d3c1d53b19ed8f858b45d0401d2d05da7ddde06b580d63
+SHA1: 1209a55197f01d250afeb267aa6a8ce55e2616b6
+MD5sum: a657242777abdb1567b31f8046daa586
 Description: Tools and widgets for the desktop data files
  Plasma Desktop offers a beautiful looking desktop
  that takes complete advantage of modern computing technology.
@@ -40567,20 +40568,20 @@ Description: Tools and widgets for the desktop data files
 
 Package: plasma-discover-backend-fwupd
 Source: plasma-discover
-Version: 6.3.5-1
+Version: 6.3.6-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 139
-Depends: plasma-discover (= 6.3.5-1), libc6 (>= 2.14), libfwupd3 (>= 2.0.0), libglib2.0-0t64 (>= 2.22.0), libkf6i18n6 (>= 6.10.0~), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.7.0~), libqt6network6 (>= 6.7.0~), libstdc++6 (>= 5)
+Installed-Size: 140
+Depends: plasma-discover (= 6.3.6-1), libc6 (>= 2.14), libfwupd3 (>= 2.0.0), libglib2.0-0t64 (>= 2.22.0), libkf6i18n6 (>= 6.10.0~), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.7.0~), libqt6network6 (>= 6.7.0~), libstdc++6 (>= 5)
 Recommends: fwupd
 Homepage: https://invent.kde.org/plasma/discover
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-discover/plasma-discover-backend-fwupd_6.3.5-1_amd64.deb
-Size: 41192
-SHA256: 296ac2dbf4d7691b29508b4556aba7569cd887dcdb56d89ca1bd41e5ea0988e1
-SHA1: abfa360395f337a40039623f813d1edde3f71087
-MD5sum: 001ce9669523a7dec2f4ff3287b9bbb9
+Filename: pool/main/p/plasma-discover/plasma-discover-backend-fwupd_6.3.6-1_amd64.deb
+Size: 41372
+SHA256: 2ca5407518ce4e834542a41940b83de8a3b601bfa44653415a410b2733e166ec
+SHA1: 2dc15e21cdb6db564939e868117d248c6d2a3cbd
+MD5sum: 46cc8337acaeeb7c3b8ea468f1ad86d2
 Description: Discover software management suite - fwupd backend
  Discover is a graphical software manager for the Plasma workspace.
  It helps users easily and quickly find applications and other software
@@ -40590,18 +40591,18 @@ Description: Discover software management suite - fwupd backend
 
 Package: plasma-discover-common
 Source: plasma-discover
-Version: 6.3.5-1
+Version: 6.3.6-1
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 4046
+Installed-Size: 4047
 Homepage: https://invent.kde.org/plasma/discover
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-discover/plasma-discover-common_6.3.5-1_all.deb
-Size: 516916
-SHA256: b47314e3811c32d660ca10ec6e18f5751fe86816601c0283b83bba365c2ea0cf
-SHA1: 1fe5b285622392b26b3d28cbab9f3cab5b63ee42
-MD5sum: 200b2f366b445f302461d99021af4e6c
+Filename: pool/main/p/plasma-discover/plasma-discover-common_6.3.6-1_all.deb
+Size: 516840
+SHA256: ea1de6517c96174da014988d1316b97facc201bb20b5013563f26923b0e6427a
+SHA1: 64e594d156a312a3024b0c53dd169207c4891788
+MD5sum: f89484c7301b41c1bb764daf80f72b66
 Description: Discover software manager suite (common data files)
  Discover is a graphical software manager for the Plasma workspace.
  .
@@ -40647,7 +40648,7 @@ Description: Plasma Runtime components
  Plasma library and runtime components based upon KF5 and Qt 5.
 
 Package: plasma-integration
-Version: 6.3.4-1
+Version: 6.3.6-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 481
@@ -40657,11 +40658,11 @@ Enhances: kio6
 Homepage: https://invent.kde.org/plasma/plasma-integration
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-integration/plasma-integration_6.3.4-1_amd64.deb
+Filename: pool/main/p/plasma-integration/plasma-integration_6.3.6-1_amd64.deb
 Size: 132960
-SHA256: eaf0e76bdeb8bb17a8927391c93284dcac69bb4512e8274d363af9546906c203
-SHA1: 6fb34a5be258beeb3310010253f6645edb3993db
-MD5sum: 829aafed03e7462c14556d09fed25ab2
+SHA256: 11a9bada0183f66bc31c8f096f786c5c0e9b886c5e062b57ebf874fbddfb6995
+SHA1: 8e655405183affd349d0904ee61396e52855acb3
+MD5sum: 1564975250732dfed6099915ae8c0a9c
 Description: Qt Platform Theme integration plugins for KDE Plasma 6
  A plugin to provide Qt Platform Theme integration for the Plasma 6
  workspace.
@@ -40762,23 +40763,23 @@ Description: Wayland protocols for Plasma
  in KDE Plasma.
 
 Package: plasma-workspace
-Version: 4:6.3.5-1
+Version: 4:6.3.6-2
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 19831
-Depends: default-dbus-session-bus | dbus-session-bus, drkonqi (>= 6.2.90~), frameworkintegration6, gdb, iso-codes, kactivitymanagerd (>= 6.2.90~), kded6, kglobalacceld (>= 6.2.90~), kwin-common (>= 4:6.2.90~), kwin-wayland (>= 4:6.2.90~), libkf6config-bin, milou (>= 4:6.2.90~), plasma-desktoptheme, plasma-integration (>= 6.2.90~), plasma-workspace-data (>= 4:6.3.5-1), python3:any, qdbus-qt6, qml6-module-org-kde-activities, qml6-module-org-kde-breeze, qml6-module-org-kde-config, qml6-module-org-kde-coreaddons, qml6-module-org-kde-draganddrop, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kholidays, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrols, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-ksysguard, qml6-module-org-kde-kwindowsystem, qml6-module-org-kde-newstuff, qml6-module-org-kde-notifications, qml6-module-org-kde-pipewire, qml6-module-org-kde-plasma-plasma5support, qml6-module-org-kde-prison, qml6-module-org-kde-quickcharts, qml6-module-org-kde-userfeedback, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtpositioning, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-virtualkeyboard, qml6-module-qtquick-window, qt6-wayland, udisks2, x11-utils, x11-xserver-utils, init-system-helpers (>= 1.52), kio6, kwallet6, libappstreamqt3 (>= 1.0.5), libbatterycontrol6 (>= 4:6.1.4), libc6 (>= 2.38), libcanberra0 (>= 0.2), libcolorcorrect6 (>= 4:6.1.0), libcrypt1 (>= 1:4.1.0), libdbus-1-3 (>= 1.10), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libice6 (>= 1:1.0.0), libicu76 (>= 76.1-1~), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.10.0~), libkf6authcore6 (>= 6.10.0~), libkf6baloo6 (>= 6.2.0~), libkf6bookmarks6 (>= 6.0.0), libkf6calendarevents6 (>= 6.10.0~), libkf6colorscheme6 (>= 6.0.0), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.3.0), libkf6configqml6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6guiaddons6 (>= 6.10.0~), libkf6holidays6 (>= 6.2.0~), libkf6i18n6 (>= 6.10.0~), libkf6i18nlocaledata6 (>= 6.10.0~), libkf6iconthemes6 (>= 6.10.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.10.0~), libkf6kcmutilscore6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libkf6kiocore6 (>= 6.10.0~), libkf6kiofilewidgets6 (>= 6.10.0~), libkf6kiogui6 (>= 6.10.0~), libkf6kiowidgets6 (>= 6.10.0~), libkf6networkmanagerqt6 (>= 6.10.0~), libkf6newstuffcore6 (>= 6.10.0~), libkf6newstuffwidgets6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6notifyconfig6 (>= 6.10.0~), libkf6package6 (>= 6.10.0~), libkf6parts6 (>= 6.10.0~), libkf6prison6 (>= 6.10.0~), libkf6runner6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6statusnotifieritem6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6texteditor-bin (>= 6.10.0~), libkf6texteditor6 (>= 6.10.0~), libkf6textwidgets6 (>= 6.10.0~), libkf6unitconversion6 (>= 6.10.0~), libkf6userfeedbackcore6 (>= 6.2.0~), libkf6wallet6 (>= 6.10.0~), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libkfontinst6 (>= 4:6.1.90), libkfontinstui6 (>= 4:6.1.4), libklipper6 (>= 4:6.2.90), libkmpris6 (>= 4:6.1.4), libkscreenlocker6 (>= 6.3.4~), libksysguardsensorfaces2 (>= 4:6.3.4~), libkwaylandclient6 (>= 4:6.3.4~), libkworkspace6-6 (>= 4:6.1.0), liblayershellqtinterface6 (>= 6.3.4~), libnotificationmanager1 (>= 4:6.1.0), libpackagekitqt6-1 (>= 1.1.1), libphonon4qt6-4t64 (>= 4:4.12.0), libplasma5support6 (>= 4:6.3.4~), libplasma6 (>= 6.3.4~), libplasmaactivities6 (>= 6.3.4~), libplasmaactivitiesstats1 (>= 6.3.4~), libplasmaquick6 (>= 6.3.4~), libpolkit-qt6-1-1 (>= 0.200.0), libprocesscore10 (>= 4:6.3.4~), libqalculate23 (>= 5.5.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.0~), libqt6positioning6 (>= 6.7.0~), libqt6printsupport6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6sql6 (>= 6.7.0~), libqt6svg6 (>= 6.7.0~), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.7.0~), libqt6xml6 (>= 6.7.0~), libsm6 (>= 2:1.2.6), libstdc++6 (>= 13.1), libsystemd0, libtaskmanager6 (>= 4:6.1.90), libudev1 (>= 183), libwayland-client0 (>= 1.20.0), libweather-ion7 (>= 4:6.1.90), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-image0 (>= 0.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb1 (>= 1.6), libxcursor1 (>> 1.1.2), libxfixes3, libxft2 (>> 2.1.1), libxtst6 (>= 2:1.2.5), qt6-base-private-abi (= 6.8.2), qt6-declarative-private-abi (= 6.8.2), qt6-waylandclient-private-abi (= 6.8.2), zlib1g (>= 1:1.1.4)
-Recommends: kde-cli-tools (>= 4:6.2.90~), kio-extras, kio-fuse, ksystemstats (>= 6.2.90~), plasma-workspace-doc (>= 4:6.3.5-1), powerdevil (>= 4:6.2.90~), systemsettings
+Installed-Size: 19852
+Depends: default-dbus-session-bus | dbus-session-bus, drkonqi (>= 6.2.90~), frameworkintegration6, gdb, iso-codes, kactivitymanagerd (>= 6.2.90~), kded6, kglobalacceld (>= 6.2.90~), kwin-common (>= 4:6.2.90~), kwin-wayland (>= 4:6.2.90~), libkf6config-bin, milou (>= 4:6.2.90~), plasma-desktoptheme, plasma-integration (>= 6.2.90~), plasma-workspace-data (>= 4:6.3.6-2), python3:any, qdbus-qt6, qml6-module-org-kde-activities, qml6-module-org-kde-breeze, qml6-module-org-kde-config, qml6-module-org-kde-coreaddons, qml6-module-org-kde-draganddrop, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kholidays, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrols, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-ksysguard, qml6-module-org-kde-kwindowsystem, qml6-module-org-kde-newstuff, qml6-module-org-kde-notifications, qml6-module-org-kde-pipewire, qml6-module-org-kde-plasma-plasma5support, qml6-module-org-kde-prison, qml6-module-org-kde-quickcharts, qml6-module-org-kde-userfeedback, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtpositioning, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-virtualkeyboard, qml6-module-qtquick-window, qt6-wayland, udisks2, x11-utils, x11-xserver-utils, init-system-helpers (>= 1.52), kio6, kwallet6, libappstreamqt3 (>= 1.0.5), libbatterycontrol6 (>= 4:6.1.4), libc6 (>= 2.38), libcanberra0 (>= 0.2), libcolorcorrect6 (>= 4:6.1.0), libcrypt1 (>= 1:4.1.0), libdbus-1-3 (>= 1.10), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libice6 (>= 1:1.0.0), libicu76 (>= 76.1-1~), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.10.0~), libkf6authcore6 (>= 6.10.0~), libkf6baloo6 (>= 6.2.0~), libkf6bookmarks6 (>= 6.0.0), libkf6calendarevents6 (>= 6.10.0~), libkf6colorscheme6 (>= 6.0.0), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.3.0), libkf6configqml6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6guiaddons6 (>= 6.10.0~), libkf6holidays6 (>= 6.2.0~), libkf6i18n6 (>= 6.10.0~), libkf6i18nlocaledata6 (>= 6.10.0~), libkf6iconthemes6 (>= 6.10.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.10.0~), libkf6kcmutilscore6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libkf6kiocore6 (>= 6.10.0~), libkf6kiofilewidgets6 (>= 6.10.0~), libkf6kiogui6 (>= 6.10.0~), libkf6kiowidgets6 (>= 6.10.0~), libkf6networkmanagerqt6 (>= 6.10.0~), libkf6newstuffcore6 (>= 6.10.0~), libkf6newstuffwidgets6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6notifyconfig6 (>= 6.10.0~), libkf6package6 (>= 6.10.0~), libkf6parts6 (>= 6.10.0~), libkf6prison6 (>= 6.10.0~), libkf6runner6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6statusnotifieritem6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6texteditor-bin (>= 6.10.0~), libkf6texteditor6 (>= 6.10.0~), libkf6textwidgets6 (>= 6.10.0~), libkf6unitconversion6 (>= 6.10.0~), libkf6userfeedbackcore6 (>= 6.2.0~), libkf6wallet6 (>= 6.10.0~), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libkfontinst6 (>= 4:6.1.90), libkfontinstui6 (>= 4:6.1.4), libklipper6 (>= 4:6.2.90), libkmpris6 (>= 4:6.1.4), libkscreenlocker6 (>= 6.3.4~), libksysguardsensorfaces2 (>= 4:6.3.4~), libkwaylandclient6 (>= 4:6.3.4~), libkworkspace6-6 (>= 4:6.1.0), liblayershellqtinterface6 (>= 6.3.4~), libnotificationmanager1 (>= 4:6.1.0), libpackagekitqt6-1 (>= 1.1.1), libphonon4qt6-4t64 (>= 4:4.12.0), libplasma5support6 (>= 4:6.3.4~), libplasma6 (>= 6.3.4~), libplasmaactivities6 (>= 6.3.4~), libplasmaactivitiesstats1 (>= 6.3.4~), libplasmaquick6 (>= 6.3.4~), libpolkit-qt6-1-1 (>= 0.200.0), libprocesscore10 (>= 4:6.3.4~), libqalculate23 (>= 5.5.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.0~), libqt6positioning6 (>= 6.7.0~), libqt6printsupport6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6sql6 (>= 6.7.0~), libqt6svg6 (>= 6.7.0~), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.7.0~), libqt6xml6 (>= 6.7.0~), libsm6 (>= 2:1.2.6), libstdc++6 (>= 13.1), libsystemd0, libtaskmanager6 (>= 4:6.1.90), libudev1 (>= 183), libwayland-client0 (>= 1.20.0), libweather-ion7 (>= 4:6.1.90), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-image0 (>= 0.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb1 (>= 1.6), libxcursor1 (>> 1.1.2), libxfixes3, libxft2 (>> 2.1.1), libxtst6 (>= 2:1.2.5), qt6-base-private-abi (= 6.8.2), qt6-declarative-private-abi (= 6.8.2), qt6-waylandclient-private-abi (= 6.8.2), zlib1g (>= 1:1.1.4)
+Recommends: kde-cli-tools (>= 4:6.2.90~), kio-extras, kio-fuse, ksystemstats (>= 6.2.90~), plasma-workspace-doc (>= 4:6.3.6-2), powerdevil (>= 4:6.2.90~), systemsettings
 Breaks: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:5.22.90), plasma-desktop-data (<< 4:5.22.90), plasma-workspace-wayland
 Replaces: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:5.22.90), plasma-desktop-data (<< 4:5.22.90), plasma-workspace-wayland
 Provides: notification-daemon, x-session-manager
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-workspace/plasma-workspace_6.3.5-1_amd64.deb
-Size: 3838840
-SHA256: 7e30711a279594afef0111304fa6ef48978d72dad386825aad0a8c967d126bf2
-SHA1: fbc38fe0737f6884fb7eb6cf791aa27f656c06d2
-MD5sum: 3caef3e85d7dbff12d156164061e2dc6
+Filename: pool/main/p/plasma-workspace/plasma-workspace_6.3.6-2_amd64.deb
+Size: 3845424
+SHA256: 0c022fc748453c2201f8ffa01e17835c507418524c999aaf73927994e4535752
+SHA1: 265f322ecf2ced05d269938122e504c804f5fba0
+MD5sum: 8f33cb30083c3d86f0a3b03cc945f750
 Description: base for Plasma Desktop, Mobile, and Bigscreen graphical environments
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
@@ -40786,20 +40787,20 @@ Description: base for Plasma Desktop, Mobile, and Bigscreen graphical environmen
 
 Package: plasma-workspace-data
 Source: plasma-workspace
-Version: 4:6.3.5-1
+Version: 4:6.3.6-2
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 35144
+Installed-Size: 35145
 Breaks: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:5.24.0), plasma-desktop-data (<< 4:5.27.0), xdg-desktop-portal-kde (<< 6.2.0~)
 Replaces: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:5.24.0), plasma-desktop-data (<< 4:5.27.0), xdg-desktop-portal-kde (<< 6.2.0~)
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-workspace/plasma-workspace-data_6.3.5-1_all.deb
-Size: 12934044
-SHA256: dae6efe1363a0c6bfe9f7faf916723234184c3a9a6598444bbd4457d12e27c63
-SHA1: 22b8cde937c440380edf02f5aded7d225139ae3b
-MD5sum: 49c046cc0219a12b94a713d4ea7511f8
+Filename: pool/main/p/plasma-workspace/plasma-workspace-data_6.3.6-2_all.deb
+Size: 12935756
+SHA256: 8425a887a1c3f4fa100f849690fe42e80c69816d70dd6fc8dcce30dbc2d132ad
+SHA1: 515c6c90e8c6d6e235e297249aac14786273b65b
+MD5sum: 340596b4d21d83297309092d1adabea8
 Description: Plasma Workspace data files
  Plasma Workspace is used as the base for Plasma Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
@@ -40931,20 +40932,20 @@ Description: parallel, lossless data compressor based on the LZMA algorithm
  plzip can use hundreds of processors.
 
 Package: polkit-kde-agent-1
-Version: 4:6.3.4-1
+Version: 4:6.3.6-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 448
-Depends: polkitd, qml6-module-org-kde-kirigami, qml6-module-qtqml, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, libc6 (>= 2.34), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6i18nqml6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.10.0~), libpolkit-qt6-1-1 (>= 0.200.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.7.0~), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 5)
+Depends: polkitd, qml6-module-org-kde-kirigami, qml6-module-qtqml, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, libc6 (>= 2.34), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6i18nqml6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.10.0~), libpolkit-qt6-1-1 (>= 0.200.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.7.0~), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 5)
 Provides: polkit-1-auth-agent
 Homepage: https://invent.kde.org/plasma/polkit-kde-agent-1
 Priority: optional
 Section: kde
-Filename: pool/main/p/polkit-kde-agent-1/polkit-kde-agent-1_6.3.4-1_amd64.deb
-Size: 69124
-SHA256: 335f4c30d41e596871a50e1a765bf59690c07e1413d092c17a6e850d67506168
-SHA1: 6601a5ca631aa6350bf74b380aeb9596792a4e72
-MD5sum: 0d5ea8fc0e5b0264940a802887021bf8
+Filename: pool/main/p/polkit-kde-agent-1/polkit-kde-agent-1_6.3.6-1_amd64.deb
+Size: 69612
+SHA256: cb22fbece40e2fdd17137f3eea2ffe82484c900fbef202947cbb700bce44d2d5
+SHA1: b31c53237252fd528f466d3abba81016c45a13ac
+MD5sum: 0848abd75b202cc96ca3a94cab737343
 Description: KDE dialogs for PolicyKit
  PolicyKit is an application-level toolkit for defining and handling the policy
  that allows unprivileged processes to speak to privileged processes.
@@ -40994,22 +40995,22 @@ Description: framework for managing administrative policies and privileges
  The pkexec program is not included, and can be found in the pkexec package.
 
 Package: powerdevil
-Version: 4:6.3.5-1
+Version: 4:6.3.6-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1566
-Depends: libcap2-bin, powerdevil-data (= 4:6.3.5-1), libc6 (>= 2.34), libkf6authcore6 (>= 6.10.0~), libkf6configcore6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6idletime6 (>= 6.10.0~), libkf6kcmutilscore6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libkf6runner6 (>= 6.10.0~), libkf6screen8 (>= 4:6.3.4~), libkf6screendpms8 (>= 4:6.3.4~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.10.0~), libkf6xmlgui6 (>= 6.10.0~), libkirigamiplatform6 (>= 6.10.0~), libkscreen-bin, libkworkspace6-6 (>= 4:6.3.4~), libpowerdevilcore2 (>= 4:6.3.5), libqcoro6dbus0t64 (>= 0.4.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libstdc++6 (>= 11), qt6-base-private-abi (= 6.8.2)
+Installed-Size: 1567
+Depends: libcap2-bin, powerdevil-data (= 4:6.3.6-1), libc6 (>= 2.34), libkf6authcore6 (>= 6.10.0~), libkf6configcore6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.0.0), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6idletime6 (>= 6.10.0~), libkf6kcmutilscore6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libkf6runner6 (>= 6.10.0~), libkf6screen8 (>= 4:6.3.4~), libkf6screendpms8 (>= 4:6.3.4~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.10.0~), libkf6xmlgui6 (>= 6.10.0~), libkirigamiplatform6 (>= 6.10.0~), libkscreen-bin, libkworkspace6-6 (>= 4:6.3.4~), libpowerdevilcore2 (>= 4:6.3.6), libqcoro6dbus0t64 (>= 0.4.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libstdc++6 (>= 11), qt6-base-private-abi (= 6.8.2)
 Recommends: power-profiles-daemon, systemsettings
 Breaks: plasma-workspace (<< 4:6.2.0-1~), powerdevil-data (<< 4:6.3.2-2~)
 Replaces: plasma-workspace (<< 4:6.2.0-1~), powerdevil-data (<< 4:6.3.2-2~)
 Homepage: https://invent.kde.org/plasma/powerdevil
 Priority: optional
 Section: kde
-Filename: pool/main/p/powerdevil/powerdevil_6.3.5-1_amd64.deb
-Size: 321600
-SHA256: e2213394f1e61aa4866089dac2b563d4c6b8cf7b68b5ea7bf2c03635d1bfdb93
-SHA1: 36a0e15aa7120545c08bc3e5d05e19c0e952abee
-MD5sum: fac188c74701d6f4e1935aa4f8d4927a
+Filename: pool/main/p/powerdevil/powerdevil_6.3.6-1_amd64.deb
+Size: 322416
+SHA256: 687d63c627e8c96052b8e5c73af3e1b0cb8a1c38df87ea22ad0986cf94bfab10
+SHA1: 05579b74c2460f9f4223864b3dbe84ef6ce01e91
+MD5sum: bed5093ddbb1eff2bf26f7167533b62c
 Description: KDE power management service for Plasma
  PowerDevil is the internal name of the KDE power management service
  for Plasma. It is responsible for some (but not all) interactions
@@ -41040,21 +41041,21 @@ Description: KDE power management service for Plasma
 
 Package: powerdevil-data
 Source: powerdevil
-Version: 4:6.3.5-1
+Version: 4:6.3.6-1
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3344
+Installed-Size: 3345
 Breaks: plasma-workspace-data (<< 4:6.2.0~)
 Replaces: plasma-workspace-data (<< 4:6.2.0~)
 Multi-Arch: foreign
 Homepage: https://invent.kde.org/plasma/powerdevil
 Priority: optional
 Section: kde
-Filename: pool/main/p/powerdevil/powerdevil-data_6.3.5-1_all.deb
-Size: 823660
-SHA256: df6b727ac3b5b19673f9d6de6c1f118e3f43e75cb2fda0e441b6026b43a2687f
-SHA1: 99c11c382057055655fb91aee047ab55c707b876
-MD5sum: 5a9e6d01337bdf7bd44b956b8da33db8
+Filename: pool/main/p/powerdevil/powerdevil-data_6.3.6-1_all.deb
+Size: 824396
+SHA256: 68c85ac7698251dfb93bf5bb7b4c4c34425d145f5eb57d736f10f99b308bdfcc
+SHA1: 393872e883b7604f02ae964850ed3e71eb6ad1dc
+MD5sum: 335ef1e7dc57df3219516e0143750ad0
 Description: data files for the KDE power management service for Plasma
  PowerDevil is the internal name of the KDE power management service
  for Plasma. It is responsible for some (but not all) interactions
@@ -41131,7 +41132,7 @@ Description: Versatile e-mail processor
  forward certain incoming mail automatically to someone.
 
 Package: procps
-Version: 2:4.0.4-8
+Version: 2:4.0.4-9
 Architecture: amd64
 Maintainer: Craig Small <csmall@debian.org>
 Installed-Size: 2395
@@ -41144,11 +41145,11 @@ Multi-Arch: foreign
 Homepage: https://gitlab.com/procps-ng/procps
 Priority: important
 Section: admin
-Filename: pool/main/p/procps/procps_4.0.4-8_amd64.deb
-Size: 880880
-SHA256: 9b32479d29d1e0a341eaa55ab748c0ba559d9ae90b4d2d0d724559e946652a36
-SHA1: 3099f283873c0013cf6e37aa69bc73dc1225ad44
-MD5sum: 38b08c340c999749237612e879d639c6
+Filename: pool/main/p/procps/procps_4.0.4-9_amd64.deb
+Size: 882088
+SHA256: 4db90bb6776772fc52585d6b1fbfc52ec2a85480e1b4363b743fbb2ffa2a5375
+SHA1: cdbd731553617765ebc9c3caecd0d8b730c692f6
+MD5sum: 7171002cf30cd38ddcd985332786d2e2
 Description: /proc file system utilities
  This package provides command line and full screen utilities for browsing
  procfs, a "pseudo" file system dynamically generated by the kernel to
@@ -44287,11 +44288,11 @@ Description: Tor control library for Python 3 series
  This is Python 3 series module.
 
 Package: python3-talloc
-Source: samba (2:4.22.3+dfsg-2)
-Version: 2:2.4.3+samba4.22.3+dfsg-2
+Source: samba (2:4.22.3+dfsg-4)
+Version: 2:2.4.3+samba4.22.3+dfsg-4
 Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
-Installed-Size: 110
+Installed-Size: 111
 Depends: python3 (<< 3.14), python3 (>= 3.13~), libc6 (>= 2.4), libpython3.13 (>= 3.13.0~rc3), libtalloc2 (>= 2.0.4~git20101213)
 Breaks: python3-talloc-dev
 Replaces: python3-talloc-dev
@@ -44299,11 +44300,11 @@ Multi-Arch: same
 Homepage: https://www.samba.org
 Priority: optional
 Section: python
-Filename: pool/main/s/samba/python3-talloc_2.4.3+samba4.22.3+dfsg-2_amd64.deb
-Size: 49880
-SHA256: b35b6c04c6345648591aed5d54a76f63761a335fc95c34c8d0c647e6ac194b30
-SHA1: 1cbddce317a651dbbb17d97e41f01645ed31d6c1
-MD5sum: aae191b4eac8e0079147d8dbf31ac4eb
+Filename: pool/main/s/samba/python3-talloc_2.4.3+samba4.22.3+dfsg-4_amd64.deb
+Size: 50360
+SHA256: 6074d51494ad6b2451a894f372189fe94be15148c0c9088669859cbe25adc8e9
+SHA1: ef6cbca7770bed543b3da4f97056cd294f8465f7
+MD5sum: 389369fa57ebbf93491991feb8d8799c
 Description: hierarchical pool based memory allocator - Python3 bindings
  A hierarchical pool based memory allocator with destructors. It uses
  reference counting to determine when memory should be freed.
@@ -44311,20 +44312,20 @@ Description: hierarchical pool based memory allocator - Python3 bindings
  This package contains the Python 3 bindings.
 
 Package: python3-tdb
-Source: samba (2:4.22.3+dfsg-2)
-Version: 2:1.4.13+samba4.22.3+dfsg-2
+Source: samba (2:4.22.3+dfsg-4)
+Version: 2:1.4.13+samba4.22.3+dfsg-4
 Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
-Installed-Size: 108
+Installed-Size: 109
 Depends: python3 (<< 3.14), python3 (>= 3.13~), python3:any, libc6 (>= 2.4), libtdb1 (>= 1.3.11)
 Homepage: https://www.samba.org
 Priority: optional
 Section: python
-Filename: pool/main/s/samba/python3-tdb_1.4.13+samba4.22.3+dfsg-2_amd64.deb
-Size: 51776
-SHA256: 8effc1124fd77ecb2317495de00d759406f5bd62f1a9831b6a6d872ce4118380
-SHA1: 0ab1cc617df5b2c59c5f2e3077b372c672e88008
-MD5sum: 8a181be46634f598f85b07c1bdfb421f
+Filename: pool/main/s/samba/python3-tdb_1.4.13+samba4.22.3+dfsg-4_amd64.deb
+Size: 52240
+SHA256: 6766c7417091f21e57fa485244bddd12c65f3c34c3111bc640331c089939e8c9
+SHA1: c9fcd8d06db5396bfb745bb715b50bc4ad02d9c1
+MD5sum: ff201b2c0a63a06472488e48140a2ec5
 Description: Python3 bindings for TDB
  This is a simple database API. It is modelled after the structure
  of GDBM. TDB features, unlike GDBM, multiple writers support with
@@ -44921,22 +44922,22 @@ Description: Qt 5 D-Bus tool
  the QtDBus library.
 
 Package: qemu-guest-agent
-Source: qemu
-Version: 1:10.0.2+ds-1
+Source: qemu (1:10.0.2+ds-2)
+Version: 1:10.0.2+ds-2+b1
 Architecture: amd64
 Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 3716
+Installed-Size: 3717
 Pre-Depends: init-system-helpers (>= 1.54~)
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.78.0), libnuma1 (>= 2.0.11), libudev1 (>= 183), liburing2 (>= 2.3)
 Multi-Arch: foreign
 Homepage: http://www.qemu.org/
 Priority: optional
 Section: otherosfs
-Filename: pool/main/q/qemu/qemu-guest-agent_10.0.2+ds-1_amd64.deb
-Size: 536804
-SHA256: 0550787a27141e88da8af0d3e6b2cbc4e843866d421f61f83792b120c1abcd38
-SHA1: 2826d976ddb76e46cf2ec8347fa2133adfd0cf99
-MD5sum: 1993c5f0e8f02b28f00bed35dfbbcd6e
+Filename: pool/main/q/qemu/qemu-guest-agent_10.0.2+ds-2+b1_amd64.deb
+Size: 537604
+SHA256: 8c4ee8ee76fe6c402d2aec5fc192afd32c65777e10365aafca411431df27206b
+SHA1: d9084a9be7656761aafbf2836424fd35380adfe7
+MD5sum: 5381cc6b30421ed52c157e3925e18918
 Description: Guest-side qemu-system agent
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
  CRIS, i386, LoongArch, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, RISC-V,
@@ -46244,7 +46245,7 @@ Description: RPC protocol compiler and definitions
  definitions from SunRPC sources that were previously shipped by glibc.
 
 Package: rsync
-Version: 3.4.1+ds1-4
+Version: 3.4.1+ds1-5
 Architecture: amd64
 Maintainer: Samuel Henrique <samueloph@debian.org>
 Installed-Size: 809
@@ -46255,11 +46256,11 @@ Multi-Arch: foreign
 Homepage: https://rsync.samba.org/
 Priority: optional
 Section: net
-Filename: pool/main/r/rsync/rsync_3.4.1+ds1-4_amd64.deb
-Size: 428572
-SHA256: 6a80e33bbf6a7429428927f9c56743d4cd60fb0e86177f9a4e6e8089fefcd674
-SHA1: 674d9e6d612eb8585e0f378681fa42ce988fa351
-MD5sum: 61ea3e7b3a90b8132357b9b01d55dd60
+Filename: pool/main/r/rsync/rsync_3.4.1+ds1-5_amd64.deb
+Size: 428380
+SHA256: c397dad6ec81ac307d3fc1bd80a9447a476bb6234c21849098c64cba0edae498
+SHA1: 2b5d6daf9b4aea35bbcdf26c95e4f4545cf0adf8
+MD5sum: ba887cd313b930224f488b3a3fe07b4f
 Description: fast, versatile, remote (and local) file-copying tool
  rsync is a fast and versatile file-copying tool which can copy locally
  and to/from a remote host. It offers many options to control its behavior,
@@ -46612,23 +46613,23 @@ Description: terminal multiplexer with VT100/ANSI terminal emulation
  and multi-user support.
 
 Package: sddm
-Version: 0.21.0+git20250502.4fe234b-1
+Version: 0.21.0+git20250502.4fe234b-2
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 2381
 Depends: adduser, qml6-module-qtqml-workerscript, x11-common, xauth, xkb-data, xserver-xorg | xserver, debconf (>= 0.5) | debconf-2.0, qml6-module-qtquick, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libpam0g (>= 0.99.7.1), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libstdc++6 (>= 13.1), libsystemd0, libxau6 (>= 1:1.0.11), libxcb-xkb1, libxcb1
-Recommends: libpam-systemd, qt6-virtualkeyboard-plugin, sddm-theme-debian-breeze | sddm-theme
+Recommends: libpam-systemd, sddm-theme-debian-breeze | sddm-theme
 Suggests: libpam-kwallet5
 Breaks: sddm-theme-breeze (<< 4:6.0.0~)
 Provides: x-display-manager
 Homepage: https://github.com/sddm/sddm
 Priority: optional
 Section: kde
-Filename: pool/main/s/sddm/sddm_0.21.0+git20250502.4fe234b-1_amd64.deb
-Size: 740684
-SHA256: 1bad41fbe0c26c4462acb041a93a17179e255e47490363aa29440517859c08ef
-SHA1: 1355f57b610a3c2eecaef10977a1340e8e466135
-MD5sum: 6269b8434ce439f7429fc8aa73772fea
+Filename: pool/main/s/sddm/sddm_0.21.0+git20250502.4fe234b-2_amd64.deb
+Size: 740588
+SHA256: 73313ee5e20e1eff4fe02109080cc4b6d92ab32c863906d66799ed505dc8d8a8
+SHA1: f7db9c14b70fdf1a831750a45d7bb962201e449e
+MD5sum: 99887acc094e158cda54518d1ebb9833
 Description: modern display manager for X11
  SDDM is a modern display manager for X11 aiming to be fast, simple
  and beautiful. It uses modern technologies like QtQuick to create
@@ -46636,20 +46637,21 @@ Description: modern display manager for X11
 
 Package: sddm-theme-breeze
 Source: plasma-desktop
-Version: 4:6.3.5-1
+Version: 4:6.3.6-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 641
 Depends: plasma-desktoptheme, plasma-workspace, sddm (>= 0.21.0-2)
+Recommends: qt6-virtualkeyboard-plugin
 Provides: sddm-theme
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-desktop/sddm-theme-breeze_6.3.5-1_amd64.deb
-Size: 581992
-SHA256: 5cc01ad98315206a648040934e1240d22e8f19e4108fb03da382cb50c5988011
-SHA1: 70ed17bafdff3725e0fc0972270d54efc8ceb5c1
-MD5sum: 314dbcc5d894b36a3f9858fb556df400
+Filename: pool/main/p/plasma-desktop/sddm-theme-breeze_6.3.6-1_amd64.deb
+Size: 582520
+SHA256: bca65d33d8a04e6eeae985fd9ff0d19b6bca194640e3943f059ec3d91c4c4f90
+SHA1: 3a03626de3de0a9a71e4e7b9649aa479748ecc70
+MD5sum: b096d9d56823706fce819d09395e8102
 Description: Breeze SDDM theme
  Plasma Workspace for KF6. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -46660,21 +46662,21 @@ Description: Breeze SDDM theme
 
 Package: sddm-theme-debian-breeze
 Source: plasma-desktop
-Version: 4:6.3.5-1
+Version: 4:6.3.6-1
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 209
+Installed-Size: 208
 Depends: plasma-desktoptheme, plasma-workspace, qt6-svg-plugins, sddm-theme-breeze
-Recommends: desktop-base, sddm
+Recommends: desktop-base, qt6-virtualkeyboard-plugin, sddm
 Provides: sddm-theme
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-desktop/sddm-theme-debian-breeze_6.3.5-1_amd64.deb
-Size: 148100
-SHA256: 3c83f80049ba7d703760e10f10ee1f907e77a1a1cc022259c6d017819cfb21b8
-SHA1: a7e89c9a29bd08df9b99f6c619c4c6bd0707d00f
-MD5sum: 1da3fd7882ba0db135b32810850c3c70
+Filename: pool/main/p/plasma-desktop/sddm-theme-debian-breeze_6.3.6-1_amd64.deb
+Size: 148616
+SHA256: 1c7b05d8aa2558270a56e3ebc036bff01495b5420adfb283851034b667467d18
+SHA1: e018065ad07f8bb9c259a7dd07922ad9bd161bf5
+MD5sum: c65591f5e30dead90127cab1b98e77e9
 Description: Debian Breeze SDDM theme
  Plasma Workspace for KF5. Workspaces provide
  support for KDE Plasma Widgets, integrated search,
@@ -46778,21 +46780,21 @@ Description: FreeDesktop.org shared MIME database and spec
  At this time at least ROX, GNOME, KDE and Xfce use this database.
 
 Package: shim-signed
-Source: shim-signed (1.46)
-Version: 1.46+15.8-1
+Source: shim-signed (1.47)
+Version: 1.47+15.8-1
 Architecture: amd64
 Maintainer: Debian EFI Team <debian-efi@lists.debian.org>
 Installed-Size: 958
-Depends: shim-signed-common (>= 1.46), grub-efi-amd64-bin | systemd-boot, shim-helpers-amd64-signed (>= 1+15.8+1), grub2-common (>= 2.06-6) | systemd-boot
+Depends: shim-signed-common (>= 1.47), grub-efi-amd64-bin | systemd-boot, shim-helpers-amd64-signed (>= 1+15.8+1), grub2-common (>= 2.06-6) | systemd-boot
 Built-Using: shim (= 15.8-1)
 Multi-Arch: same
 Priority: optional
 Section: utils
-Filename: pool/main/s/shim-signed/shim-signed_1.46+15.8-1_amd64.deb
-Size: 329300
-SHA256: 45c30461957d4334c37eb360d1f6f06d4b7f7baef374a31d0df1efaeb4536640
-SHA1: 111db6cc02d14b2038bf200da52cf6021a84fb1c
-MD5sum: c4a8c43024e1283614d702c8fa5fee6a
+Filename: pool/main/s/shim-signed/shim-signed_1.47+15.8-1_amd64.deb
+Size: 329428
+SHA256: dda1d50bf1f6b4a70cf797c382c5318eb0c9d6599ac0be543051af080d78445a
+SHA1: acc47252c4fc2cce034f2df5940f8c5312b290e1
+MD5sum: ad372702133dbb8bb8c6c384187b37cb
 Description: Secure Boot chain-loading bootloader (Microsoft-signed binary)
  This package provides a minimalist boot loader which allows verifying
  signatures of other UEFI binaries against either the Secure Boot DB/DBX or
@@ -46804,22 +46806,22 @@ Description: Secure Boot chain-loading bootloader (Microsoft-signed binary)
  Microsoft UEFI CA.
 
 Package: shim-signed-common
-Source: shim-signed (1.46)
-Version: 1.46+15.8-1
+Source: shim-signed (1.47)
+Version: 1.47+15.8-1
 Architecture: all
 Maintainer: Debian EFI Team <debian-efi@lists.debian.org>
-Installed-Size: 53
-Depends: debconf (>= 0.5) | debconf-2.0, mokutil
+Installed-Size: 55
+Depends: debconf (>= 0.5) | debconf-2.0, mokutil, openssl, kmod
 Breaks: shim-signed (<< 1.32+15+1533136590.3beb971-5)
 Replaces: shim-signed (<< 1.32+15+1533136590.3beb971-5)
 Multi-Arch: foreign
 Priority: optional
 Section: utils
-Filename: pool/main/s/shim-signed/shim-signed-common_1.46+15.8-1_all.deb
-Size: 14476
-SHA256: a530f028ded86e60d29c70a02495e760ca9ebb2d7f1a96df478e80e876c7d1ac
-SHA1: 7b9f73fa8896169b09f25301e2356c0e82d93020
-MD5sum: eb7a4bdb6dbed1284b47c236e234a050
+Filename: pool/main/s/shim-signed/shim-signed-common_1.47+15.8-1_all.deb
+Size: 15216
+SHA256: a94ffd133ea797416b5049d6ca5063b608ba2552bd28eb884a52d0965481f1d4
+SHA1: 43b750b76f28b504765fdaab7ef652d087ace98a
+MD5sum: db4b9b7934a8e81b292591baf3c17d99
 Description: Secure Boot chain-loading bootloader (common helper scripts)
  This package provides a minimalist boot loader which allows verifying
  signatures of other UEFI binaries against either the Secure Boot DB/DBX or
@@ -48200,19 +48202,19 @@ Description: mode switching data for usb-modeswitch
  This package contains the commands data needed for usb-modeswitch.
 
 Package: usb.ids
-Version: 2025.04.01-1
+Version: 2025.07.26-1
 Architecture: all
 Maintainer: Aurelien Jarno <aurel32@debian.org>
-Installed-Size: 724
+Installed-Size: 726
 Multi-Arch: foreign
 Homepage: http://www.linux-usb.org/usb-ids.html
 Priority: optional
 Section: admin
-Filename: pool/main/u/usb.ids/usb.ids_2025.04.01-1_all.deb
-Size: 208644
-SHA256: c41ee7ce8cea54b4427e94a245a180114739ee14d75ad415cfcce27eddf53f11
-SHA1: f1ea47aabaad2b3556da14504eea6b7e1cfd557e
-MD5sum: 311d867be1e15e659e97071428b737c6
+Filename: pool/main/u/usb.ids/usb.ids_2025.07.26-1_all.deb
+Size: 209204
+SHA256: 4b440f0f5d73d3412dad08b0d810b941e75fd4ca9a46f2a3fbd4b5ec852d5041
+SHA1: a28d82e7e24399b250626aaa620f6ef5506eb3b4
+MD5sum: 6b12993146c8a9a2d37f032eb2cf91ca
 Description: USB ID Repository
  This package contains the usb.ids file, a public repository of all known
  ID's used in USB devices: ID's of vendors, devices, subsystems and device
@@ -48268,18 +48270,18 @@ Description: Linux USB utilities
  lsusb, usb-devices, usbhid-dump, usbreset
 
 Package: user-setup
-Version: 1.106
+Version: 1.107
 Architecture: all
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 325
 Depends: debconf (>= 0.5) | debconf-2.0, passwd, adduser
 Priority: optional
 Section: admin
-Filename: pool/main/u/user-setup/user-setup_1.106_all.deb
-Size: 88952
-SHA256: bcd1652a9dc708b46f43b0963bf656e3304e6b7b115063e20f889970592eca11
-SHA1: 8767dfe9a843bd0e2de4c1f34a4dfd4465e03973
-MD5sum: 0dce5301582bc8c5d3bfced083fb1fc2
+Filename: pool/main/u/user-setup/user-setup_1.107_all.deb
+Size: 89052
+SHA256: f186b97bbd7846cfdfaf6b170dddd5c585e0119562f0e7b17171e432e5951647
+SHA1: 556d28cdf00483f38560500d303bfc49027f020b
+MD5sum: a593d7cc779c6545be49bc56c9794074
 Description: Set up initial user and password
  This package creates an initial user, using the same code as is
  responsible for creating the initial user in the installer. It is only
@@ -48679,18 +48681,18 @@ Description: Displays user-friendly dialog boxes from shell scripts
  the user in a much friendlier manner.
 
 Package: whois
-Version: 5.6.2
+Version: 5.6.3
 Architecture: amd64
 Maintainer: Marco d'Itri <md@linux.it>
 Installed-Size: 388
 Depends: libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libidn2-0 (>= 0.6)
 Priority: standard
 Section: net
-Filename: pool/main/w/whois/whois_5.6.2_amd64.deb
-Size: 71952
-SHA256: 0ff499cf5f21e12da5fecdb31c1ec75eab926bf8c01d3179f84046225ee7e87a
-SHA1: 341bbd92abb05788de7fede913fdc650b1f28711
-MD5sum: 41c2c4b4a3984487d447c917315483e9
+Filename: pool/main/w/whois/whois_5.6.3_amd64.deb
+Size: 72412
+SHA256: 6c6637ad159a175f7481c399ee57def5d9fe9e0ab7e098391c0e5d0e55b056ed
+SHA1: a95bc807ad2fe01ff27784747efebe43ec6a320d
+MD5sum: ab8a862f178391effb7056db0e8d78ea
 Description: intelligent WHOIS client
  This package provides a commandline client for the WHOIS (RFC 3912)
  protocol, which queries online servers for information such as contact
@@ -48701,7 +48703,7 @@ Description: intelligent WHOIS client
  password encryption function crypt(3).
 
 Package: wireless-regdb
-Version: 2025.02.20-1
+Version: 2025.07.10-1
 Architecture: all
 Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
 Installed-Size: 38
@@ -48709,11 +48711,11 @@ Multi-Arch: foreign
 Homepage: https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb
 Priority: optional
 Section: net
-Filename: pool/main/w/wireless-regdb/wireless-regdb_2025.02.20-1_all.deb
-Size: 11584
-SHA256: c20bd62e1cb1c8aecf3b6af104e197b5d43ebeb470827401b204192e9400ccf8
-SHA1: a508c119e973848af4ded3ef74155b9b79220cf2
-MD5sum: 8ef28816995cd13de98c7eb1da53f05a
+Filename: pool/main/w/wireless-regdb/wireless-regdb_2025.07.10-1_all.deb
+Size: 11756
+SHA256: f3adf829099b3b3c69eae9d56134343688f29d41067950f1af43d6293d28d080
+SHA1: 10060db643ee1babb0091023fed66740da2c3573
+MD5sum: 8541a0589c2b2186f9444b0676d1c520
 Description: wireless regulatory database for Linux
  This package provides a machine-readable database of legal
  regulations on radio emissions that affect use of wireless networking.
