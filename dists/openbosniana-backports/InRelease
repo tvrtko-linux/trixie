@@ -6,7 +6,7 @@ Label: openbosniana-backports
 Suite: 2024
 Codename: openbosniana-backports
 Version: 2024
-Date: Wed, 23 Jul 2025 01:56:24 UTC
+Date: Wed, 06 Aug 2025 13:14:52 UTC
 Architectures: amd64
 Components: main
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -39,17 +39,17 @@ SHA256:
  aa18b5856cddc5bc2628f0fa8d7a929be496214f9a5f96d4aceda89eda4f492f 195 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmiAQUgACgkQ5Vfn9vbt
-T6oFnA/+JR+MxEeEW/nUm+s0OoA0rSJBirhiCiSKugWdMIbghTN4RZ1cABxDUjKI
-WA83RP/GHe6mbEg/6pXkXxLACVFbioPkzkvJyHy/RnIHlWLRDeA8+5phOCCyzmHw
-n/j+FJmSSMP/P2A/KnITWXt4ysdNitbcS+GUVUqBRVQ9owcbUf2PL127bSz5jnU6
-1k8bIYU49O76XXbK51iJ+2fk3Hfgu/27e4dwQ/Qy806A5yFZ5yCM78QL2/NpmpaO
-JZqN7RmYsYxBlPIkgqp07/E1Xb+pvZNN/Ei56fDzP1FfjzWxY1IVpayksU37KlVX
-NHbgdp0n/jhjSed/StFPoC5Hirqi333qf5optgVF0TNC7tbE3K33+GsNELUPhB0x
-q/hM99ElB6qwbBUGpNLLhoJ5Fzz5brq2gM7d7buWAD0qH7i7EWF6LG6K7hObOiDZ
-SlOgQbuHWcV8uAZgvyp32B/wnE7lX4tJFySSz+4FCV4q5xgN855lKNdS8GkYXsSe
-uLjAgfktnq6igyuaBL4pZbO9lr4gj7nM4Tnj2prhzY/e44Hl42XF/K6hDChfAExd
-i8QSqjEmb+LDPq3MPovHGKbcO6V7JzWQXnKjGKbOQmqF98gOy5EaLC+aX/m96Gzp
-TOzOYpVJMv2Ktg06GWSaaw4E3pS7VJm28g4Mmzal1V4pRBi+J8w=
-=FHTD
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmiTVUwACgkQ5Vfn9vbt
+T6oqaw//ZIupDX7OduinxYA77dJ9ibnISoTNMtPw1MkwhSeCXVPz388sNhuLMON/
+r+3q6cKA0RzregqMSIbwlM8UFLrshqOV+rEhaEtypNOZwT1HVt6uv4vPJq4vv4uT
+CtWdI0FK7IgV9EQvnfZMC1cps6rMxteFwTDay9SycT8EcHkAQENFlDXZVmSFwuBf
+Fk2TC0Hoc/KSv/ZcuZxannMTtSJs59CG7PBhjXeUAsATwql/pm0ja8whEKrFBi3M
+TvRLtSebcuPpFgeYYk5AldYJyMvTtqn9+jqPt1caGFYXqMI88DCybunyrvtHjbUB
+Rujd/k+Ru68IhWUZwQyAWYqpQxAkDaUT6PN2/lr7AKkPgCylkxv6AlaaMQ0ylKuK
+M0oWid0+mrQ/FiEGHfTTA13Xho8Rvdg+UX1xJYHYY2v6BaIij1/nJhzNrLFWsftU
+utD/7dncN3/wVwi+cODIyHi6ppxqH/7HYUlzXKEolN3rM9KLA0v4/+4iwQqrzB1y
+yB3HC2cpIROBMWbd5KeaGG3soviq2VGzM5cluSyTUYh1e6nWYRpbhRmMFKMtHmPl
+PFyK2+/0A/aP/B5kCcXyWDQ952edaa0sRi42ApZYqexwFs3/Ie8x6KXDmxPm8x0d
+uOEL+eeCnZgEw8cmR27nq+4ut8YMjf9lGEwwO4++1zxyrf2uSYA=
+=ar6W
 -----END PGP SIGNATURE-----

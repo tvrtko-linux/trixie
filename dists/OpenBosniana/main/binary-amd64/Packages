@@ -3778,39 +3778,6 @@ Description: Define and run multi-container applications with Docker (program)
  .
   docker compose up
 
-Package: dolphin
-Version: 4:25.04.2-1
-Architecture: amd64
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3996
-Depends: baloo6, dolphin-data (= 4:25.04.2-1), kio6, libc6 (>= 2.34), libdolphinvcs6 (= 4:25.04.2-1), libkf6baloo6 (>= 6.9.0~), libkf6baloowidgets6 (>= 4:25.03.90~), libkf6bookmarks6 (>= 6.9.0~), libkf6bookmarkswidgets6 (>= 6.9.0~), libkf6codecs6 (>= 6.9.0~), libkf6colorscheme6 (>= 6.0.0), libkf6completion6 (>= 6.9.0~), libkf6configcore6 (>= 6.9.0~), libkf6configgui6 (>= 6.9.0~), libkf6configwidgets6 (>= 6.10.0), libkf6coreaddons6 (>= 6.9.0~), libkf6crash6 (>= 6.9.0~), libkf6dbusaddons6 (>= 6.9.0~), libkf6filemetadata3 (>= 6.9.0~), libkf6guiaddons6 (>= 6.9.0~), libkf6i18n6 (>= 6.9.0~), libkf6iconthemes6 (>= 6.9.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.9.0~), libkf6kcmutilscore6 (>= 6.9.0~), libkf6kiocore6 (>= 6.9.0~), libkf6kiofilewidgets6 (>= 6.13.0), libkf6kiogui6 (>= 6.9.0~), libkf6kiowidgets6 (>= 6.9.0~), libkf6newstuffwidgets6 (>= 6.9.0~), libkf6notifications6 (>= 6.9.0~), libkf6parts6 (>= 6.9.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.9.0~), libkf6textwidgets6 (>= 6.9.0~), libkf6userfeedbackcore6 (>= 6.9.0~), libkf6userfeedbackwidgets6 (>= 6.9.0~), libkf6widgetsaddons6 (>= 6.9.0~), libkf6windowsystem6 (>= 6.9.0~), libkf6xmlgui6 (>= 6.0.0), libpackagekitqt6-1 (>= 1.1.1), libphonon4qt6-4t64 (>= 4:4.12.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.8.2), libqt6widgets6 (>= 6.4.0~), libqt6xml6 (>= 6.4.0~), libstdc++6 (>= 13.1), phonon4qt6, qt6-base-private-abi (= 6.8.2)
-Recommends: dolphin-doc (>= 4:24.05.2~), dolphin-plugins, ffmpegthumbs, kdegraphics-thumbnailers, kdenetwork-filesharing, kimageformat6-plugins, kio-extras (>= 4:24.12.2~), qt6-image-formats-plugins
-Suggests: kio-admin
-Breaks: dolphin-data (<< 4:24.12.2-2~), dolphin-plugins (<< 4:24.05~)
-Replaces: dolphin-data (<< 4:24.12.2-2~)
-Homepage: https://apps.kde.org/dolphin/
-Priority: optional
-Section: utils
-Filename: pool/main/d/dolphin/dolphin_25.04.2-1_amd64.deb
-Size: 936924
-SHA256: f21839f0ba5ff20adac4cd931d09a3b4dfaf4888f707256dc971538b4e13a4ec
-SHA1: 0b39a9bd6a9a11a3f5923d9fa6a72c011c758a09
-MD5sum: bb40d0600433fff8e99e48933f07f14c
-Description: file manager
- Dolphin is KDE's file manager that lets you navigate and browse the contents
- of your hard drives, USB sticks, SD cards, and more. Creating, moving, or
- deleting files and folders is simple and fast.
- .
- Features include:
-   Customisable sidebars
-   "Breadcrumb" navigation
-   View properties remembered for each folder
-   Split views
-   Integrated terminal
-   Network transparency
-   Undo/redo functionality
-   Ratings, comments, and tags
-
 Package: dosfstools
 Version: 4.2-1.2
 Architecture: amd64
@@ -4380,27 +4347,6 @@ Description: Tools for transcoding, streaming and playing of multimedia files
   * ffplay: a simple media player based on SDL and the FFmpeg libraries
   * ffprobe: a simple multimedia stream analyzer
   * qt-faststart: a utility to rearrange Quicktime files
-
-Package: ffmpegthumbs
-Version: 4:25.04.0-2
-Architecture: amd64
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 119
-Depends: libavcodec61 (>= 7:7.0), libavfilter10 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.0), libc6 (>= 2.14), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.5.0+dfsg~), libstdc++6 (>= 13.1), libswscale8 (>= 7:7.0)
-Homepage: https://apps.kde.org/ffmpegthumbs/
-Priority: optional
-Section: kde
-Filename: pool/main/f/ffmpegthumbs/ffmpegthumbs_25.04.0-2_amd64.deb
-Size: 32648
-SHA256: 7b94244f70eecb57108c7a25e50ccef7a1dc6d72f39ae26ccb5253c90351dca9
-SHA1: 477eedc86c6e091178bb2a52ae5ffe263ea69beb
-MD5sum: 5558f4a0f75b39a847c23a71f1c26eba
-Description: video thumbnail generator using ffmpeg
- FFMpegThumbs is a video thumbnail generator for KDE file managers
- like Dolphin and Konqueror.  It enables them to show preview images
- of video files using FFMpeg.
- .
- This package is part of the KDE multimedia module.
 
 Package: file
 Version: 1:5.46-5
@@ -11730,29 +11676,6 @@ MD5sum: cf05f23fca2e51ccd9513ccaf10d8ea5
 Description: Extensible daemon for providing session services
  KDED runs in the background and performs a number of small tasks.
  Some of these tasks are built in, others are started on demand.
-
-Package: kdegraphics-thumbnailers
-Version: 4:25.04.0-1
-Architecture: amd64
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 193
-Depends: libc6 (>= 2.38), libkdcrawqt6-5 (>= 24.05.2), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6kiogui6 (>= 6.0.0), libqmobipocket6-2 (>= 4:24.05.2~), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.5.0+dfsg~), libstdc++6 (>= 13.1)
-Recommends: ghostscript
-Breaks: kdegraphics-mobipocket (<< 4:22.12.0-1)
-Replaces: kdegraphics-mobipocket (<< 4:22.12.0-1)
-Homepage: https://invent.kde.org/graphics/kdegraphics-thumbnailers
-Priority: optional
-Section: kde
-Filename: pool/main/k/kdegraphics-thumbnailers/kdegraphics-thumbnailers_25.04.0-1_amd64.deb
-Size: 46380
-SHA256: 3c9712ef1046ba8871092015acee74160de766df57461206425bbdef7317dfe5
-SHA1: 43fef40f6de9f2678cabd4f30d92cfc1dd8a6151
-MD5sum: 24dd465bd5da18f5b6bc842857fbae55
-Description: graphics file format thumbnailers for KDE SC
- These plugins allow KDE software to create thumbnails for several
- advanced graphic file formats (PS, RAW).
- .
- This package is part of the KDE graphics module.
 
 Package: kdialog
 Version: 4:25.04.0-1
