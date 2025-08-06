@@ -39213,6 +39213,22 @@ Description: terminal status monitor for tor
   - connection details (ip, hostname, fingerprint, and consensus data)
   - etc.
 
+Package: ob-welcome-kde
+Version: 2024.12.12
+Architecture: all
+Maintainer: Denis Maslo <denni@lists.debian.org>
+Installed-Size: 15252
+Depends: ob-welcome, openbosniana-control-center, openbosniana-welcome, dbus-x11, isa-support, sse3-support, libb2-1, libqt6core6, libqt6dbus6, libts0, libqt6gui6, libqt6network6, libqt6opengl6, libqt6positioning6, libqt6widgets6, libqt6printsupport6, libqt6qml6, libqt6qmlmodels6, libqt6quick6, libqt6quickwidgets6, libqt6webchannel6, libqt6webengine6-data, libqt6webenginecore6, libqt6webenginecore6-bin, libqt6webenginewidgets6, qt6-gtk-platformtheme, qt6-qpa-plugins, qt6-translations-l10n
+Homepage: https://bosniana.org
+Priority: optional
+Section: kde
+Filename: pool/main/o/ob-welcome-kde/ob-welcome-kde_2024.12.12_all.deb
+Size: 944
+SHA256: 9399348b69d4602132cd55a9de7f6e9938f9f0e72e974fd3e6f4a2355ab9630f
+SHA1: 6b14b1ab5c03c3bdb7c615400af6d10da133576e
+MD5sum: 1c2ad71b1d5288eaacd6cf3c2161b13b
+Description: Meta package
+
 Package: obfs4proxy
 Source: obfs4proxy (0.0.14-2)
 Version: 0.0.14-2+b5
@@ -39561,6 +39577,64 @@ MD5sum: ee0bd6e68ee3fbb10a395b1fae6da3f7
 Description: OpenBosniana OS meta
  .
 
+Package: openbosniana-core-req
+Version: 2024.09.06
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 705
+Depends: openbosniana-drivers, apparmor, apparmor-profiles, apparmor-profiles-extra, apparmor-utils, screen, plymouth, plymouth-themes, openbosniana-apps-basics, dpkg-dev, libdpkg-perl, openbosniana-meta-hardware
+Homepage: https://bosniana.org/
+Priority: optional
+Section: openbosniana
+Filename: pool/main/o/openbosniana-core-req/openbosniana-core-req_2024.09.06_all.deb
+Size: 952
+SHA256: 0422680c1fad9dd31ba2462fb662779b303121dcabb04373dde652147aac55bc
+SHA1: 9e20ddfbd0b78ddb621dc87009d0de0c0f50a074
+MD5sum: 949cc8fd0e2e9bfa1db7460e0c404c3e
+Description: Core package for OpenBosniana OS
+  Core package for the OpenBosniana Debian distribution.
+  .
+  This package provides essential configuration files and base dependencies for
+  the OpenBosniana Security operating system and its flavors.
+
+Package: openbosniana-desktop-kde
+Source: openbosniana-interface
+Version: 08.17.2024
+Architecture: all
+Maintainer: Denis Maslo <deni@bosniana.org>
+Installed-Size: 14
+Depends: openbosniana-interface-common, openbosniana-displaymanager
+Homepage: https://bosniana.org/
+Priority: optional
+Section: metapackages
+Filename: pool/main/o/openbosniana-interface/openbosniana-desktop-kde_08.17.2024_all.deb
+Size: 828
+SHA256: e0181f91cadb6c676fb25a4fff37c84f75a80982ff57371832db1069ab551f0f
+SHA1: bc95d06d97e00219e640d44384621bb1e168fa32
+MD5sum: b427b4cce66102bfe55c03005644cd8f
+Description: KDE based OpenBosniana desktop
+ This metapackage installs a minimalistic KDE desktop on OpenBosniana OS.
+
+Package: openbosniana-displaymanager
+Source: openbosniana-interface
+Version: 2024.05.25
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 781
+Replaces: lightdm, lightdm-gtk-greeter, lightdm-openbosniana, slick-greeter
+Provides: lightdm-openbosniana
+Homepage: https://www.bosniana.org/
+Priority: optional
+Section: metapackages
+Filename: pool/main/o/openbosniana-interface/openbosniana-displaymanager_2024.05.25_all.deb
+Size: 2215336
+SHA256: b915ee2906fe89bfc16421e29034763feda33a4a0a90d5d60a6e87fe48bc408f
+SHA1: 275218382ffa264643c75f0e25f501337bb93431
+MD5sum: c42e1f66eb2a49d180285b971ac5faab
+Description: OpenBosniana configs for lightdm
+ This package provides the lightdm custom settings
+ for OpenBosniana OS.
+
 Package: openbosniana-drivers
 Source: openbosniana-core
 Version: 2024.09.06
@@ -39580,6 +39654,80 @@ MD5sum: 1c7470ad28ac535f6fe33ff114dcb72d
 Description: OpenBosniana drivers metapackage.
   This metapackage installs all the free and non-free drivers to make OpenBosniana OS
   run on as many hardware combinations as possible.
+
+Package: openbosniana-firefox-profiles
+Source: openbosniana-interface
+Version: 2024.05.28
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 90
+Breaks: openbosniana-interface-common (<= 5.1.7)
+Homepage: https://www.bosniana.org/
+Priority: optional
+Section: metapackages
+Filename: pool/main/o/openbosniana-interface/openbosniana-firefox-profiles_2024.05.28_all.deb
+Size: 6540
+SHA256: 6574d768bcd91afe3ede1b3eaacb6fd6f4d18696baafad3f7c2e44c79d2c2c93
+SHA1: f351ca0760b66071300c084f21a1b2daa7101e47
+MD5sum: 2e77b0e7625405928cc259f789c08994
+Description: OpenBosniana Firefox profiles
+  A meta package that contains default custom profile for Firefox-ESR
+
+Package: openbosniana-interface
+Version: 2024.05.25
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 10
+Depends: xinit, xorg, plymouth, plymouth-themes, desktop-base, openbosniana-core, openbosniana-interface-common, openbosniana-desktop-mate | openbosniana-desktop-stub | openbosniana-desktop-kde | openbosniana-desktop-xfce | openbosniana-desktop-i3 | openbosniana-desktop-gnome | openbosniana-kde | openbosniana-xfce
+Homepage: https://www.bosniana.org/
+Priority: optional
+Section: metapackages
+Filename: pool/main/o/openbosniana-interface/openbosniana-interface_2024.05.25_all.deb
+Size: 2496
+SHA256: 5e1390588cd1214a046c5260a9531ab216c1d21e7674caece92612e78dfbe8ef
+SHA1: 430bb184204f68844eca1e457a5ac7132080ed46
+MD5sum: ff2a0e19f979c0bd2e155d7db2e991df
+Description: OpenBosniana interface metapackage
+ metapackage that installs the graphic interface
+
+Package: openbosniana-interface-common
+Source: openbosniana-interface
+Version: 2024.05.25
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 14
+Depends: xinit, xorg, xdg-user-dirs, xdg-user-dirs-gtk, xserver-xorg-input-all, xserver-xorg-input-mtrack, xserver-xorg-input-synaptics, xserver-xorg-input-mutouch, openbosniana-menu, openbosniana-core, openbosniana-firefox-profiles, bleachbit, firefox-esr | firefox, libnotify-bin, openbosniana-displaymanager, webext-ublock-origin, libatk-adaptor
+Replaces: firefox, firefox-esr, iceweasel
+Homepage: https://www.bosniana.org/
+Priority: optional
+Section: metapackages
+Filename: pool/main/o/openbosniana-interface/openbosniana-interface-common_2024.05.25_all.deb
+Size: 3240
+SHA256: 30b1117f5e269a75fda739edccd9182f011202f1a603d4649df15e8dd43116a1
+SHA1: 27840eb1d2a61bcdedc0667a7c4d4f3b688e0882
+MD5sum: 51fef617deeae2ce2d3d89f9a0fa66b2
+Description: OpenBosniana interface metapackage
+ metapackage that installs the basic tools for the OpenBosniana OS environment.
+
+Package: openbosniana-interface-home
+Source: openbosniana-interface
+Version: 2024.05.25
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 10
+Depends: openbosniana-interface-common
+Homepage: https://www.bosniana.org/
+Priority: optional
+Section: metapackages
+Filename: pool/main/o/openbosniana-interface/openbosniana-interface-home_2024.05.25_all.deb
+Size: 2496
+SHA256: ae56b4ea7a1c2d410c6ec907be9300e8a4072a80d6fb08d35ce8b764e59cf323
+SHA1: 1c8b6d44472e98d97907441d1cba190189b4ce40
+MD5sum: 55c044b6a586993b42dfd7218fc791a7
+Description: OpenBosniana FULL Interface metapackage
+ metapackage that installs ALL the user applications required in a standard
+ home computer as photo manager, music manager, video editor, email client,
+ office suite etc.
 
 Package: openbosniana-meta-base
 Source: openbosniana-core
