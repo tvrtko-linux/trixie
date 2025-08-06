@@ -40565,34 +40565,6 @@ Description: Tools and widgets for the desktop data files
  .
  This package contains the data files for the Plasma shell.
 
-Package: plasma-discover
-Version: 6.3.5-1
-Architecture: amd64
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2614
-Depends: appstream (>= 1.0), apt-config-icons, packagekit (>= 1.0), plasma-discover-common (= 6.3.5-1), qml6-module-org-kde-config, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-formcard, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-purpose, qml6-module-org-kde-userfeedback, qml6-module-qt5compat-graphicaleffects, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtwebview, kio6, libappstreamqt3 (>= 1.0.5), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6attica6 (>= 6.2.0~), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6i18nqml6 (>= 6.10.0~), libkf6iconthemes6 (>= 6.11.0), libkf6idletime6 (>= 6.10.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.10.0~), libkf6kiogui6 (>= 6.10.0~), libkf6newstuffcore6 (>= 6.10.0), libkf6notifications6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6statusnotifieritem6 (>= 6.10.0~), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libmarkdown2 (>= 2.0.6), libpackagekitqt6-1 (>= 1.1.1), libqcoro6core0t64 (>= 0.4.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.7.0~), libqt6network6 (>= 6.7.2), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6quickcontrols2-6 (>= 6.7.0~), libqt6webview6 (>= 6.6.1), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 11)
-Recommends: apt-config-icons-hidpi, apt-config-icons-large, apt-config-icons-large-hidpi, kde-config-updates, plasma-discover-backend-fwupd, software-properties-qt
-Suggests: plasma-discover-backend-flatpak, plasma-discover-backend-snap
-Homepage: https://invent.kde.org/plasma/discover
-Priority: optional
-Section: kde
-Filename: pool/main/p/plasma-discover/plasma-discover_6.3.5-1_amd64.deb
-Size: 676516
-SHA256: 379c6e896460937afdba648536fa465c5abdfe5fd60ccca52117e812e3b07c52
-SHA1: bd6d5d455c15fa04864d6b53e3d2bfb63e19d6f8
-MD5sum: 31173b6838beabbadb149c750262ec51
-Description: Discover software management suite
- Discover is a graphical software manager for the Plasma workspace.
- It helps users easily and quickly find applications and other software
- they might want to install.
- .
- By allowing to navigate a software library by search, categories, top lists
- along with detailed application information that includes screenshots
- and reviews, users can more quickly find applications that suit their needs.
- .
- Discover will also keep the system up to date by notifying about updates and
- installing them.
-
 Package: plasma-discover-backend-fwupd
 Source: plasma-discover
 Version: 6.3.5-1
