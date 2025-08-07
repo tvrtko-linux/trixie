@@ -6,13 +6,13 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana
 Version: 2024
-Date: Thu, 07 Aug 2025 00:25:04 UTC
+Date: Thu, 07 Aug 2025 00:57:31 UTC
 Architectures: amd64
 Components: main
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
 MD5Sum:
- a28eeb994e38ec53376e9ce3baf9ea83 2281963 main/binary-amd64/Packages
- db762bbac567bbc0d4aec85fb30e8424 656640 main/binary-amd64/Packages.gz
+ 6913c193230d8c9b81aa6e972bbfde45 2281951 main/binary-amd64/Packages
+ 5963797689e06deba821dab1f30b61ae 656652 main/binary-amd64/Packages.gz
  b0d9e12f1ae63a1b0d1b394068735023 185 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
@@ -20,8 +20,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  e50c7529a4057e38768db62af08b9e96 186 main/source/Release
 SHA1:
- 234ca0f0a90f038b88a4cb83e2898cc9f455adf6 2281963 main/binary-amd64/Packages
- c40b19f91caf33b77fa0eec93fbaa638d4518963 656640 main/binary-amd64/Packages.gz
+ b58b6c87784da3fcba0e207274e739bd228831a3 2281951 main/binary-amd64/Packages
+ f682169a1b5eb114c6f216c0ae68cb217ecc1240 656652 main/binary-amd64/Packages.gz
  2d122413bcff69dcea094395c604b68d0bf8ed24 185 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
@@ -29,8 +29,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  12e8d3f62d41daed04b6ea7defc0aa483687d786 186 main/source/Release
 SHA256:
- 9fd51c6bb2eab4224a23ce30eaeb05a854aa71d9d7f1689833fc2c5af179952b 2281963 main/binary-amd64/Packages
- 39e0b56c8381bb1adab8ae28f0896d1fed02fb245f5110d0f7fffeb28acc5a64 656640 main/binary-amd64/Packages.gz
+ 1621904a27e365d92cc8b4594c308eedce8b47fed8560bec0ec6b2b7b9eb9dd2 2281951 main/binary-amd64/Packages
+ 4700938c21b397b54518af82442d4db7abeda58994215a8f05f458a78db167e1 656652 main/binary-amd64/Packages.gz
  1f2ec1d7026705d80c7fea2c53f0a31517c91a62113552a8924f001cdd3ed587 185 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
@@ -39,17 +39,17 @@ SHA256:
  6bde14b468ac13ed6558893b6a4a334cab2a30fdf43113c1beb6caae88e9e1e1 186 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmiT8mAACgkQ5Vfn9vbt
-T6r53w//Vsa9MhNOP+bfQ/1HCEj+p2BQkX29ZHC87XyO+P/rZgVs+Wx7XAWcYmTc
-D/TPQuREQVeWz/wKAgWiQg/+LDbXIROQzXMaHhiDnNlF+6/DijHzERb58cXfxn84
-I+Y6erlqwbLVImBgGugkBdoGbXSvj/xyMm6ZiLrvuCFNCzK38zol3p1wMrC8/UAU
-s4HNbgDXWXTa1vpTkJjaRGUILFjK5nl5MRn1401tqu6bCVHGJlg9GdOQmXJNH3IM
-pDdVDPREUVsPDR7hO1ET4rcXcACSqCocUJ+qbcs2BU7k2eO+ywljzM3sY6UYlFzF
-7zmbqRnxD/8R1L7dCaNFXOF7CQNK2RXVMrAglVK/UFKT/9hWVdAs+30+X9/tUf2X
-RUA8eNk9o4jv3kbyTjy7KiLFwlT1RDEqacvTUBwxROm2PSL5laqN93yfGliL9bvT
-mSDqxyWhmWeKg7XbFwxr1tuSAXLffTs4e3BbryEXrm0MH9+1Qn08kiqbyTJOs2mH
-LPzBQDnlKz/Yp33BEndpijQV8vH9vd6BwrxelVD4rZcvtunoI6O5bly35EhgvYzA
-I7bzJuJWr6PD73zusbgNFgCocfCjGQZaLAZc19hj08pfR9ZMY5qGE+t8qfOoQpRc
-Y5X+aRTw8s0Ag1Cfdx05KZEo/blHX6KaIFZNo9txKogNP/2HlDw=
-=vefW
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmiT+fwACgkQ5Vfn9vbt
+T6r9ARAAj5QLoFwKxRJ3PGN8IDZwNQpSxLMVq7gkTYJZ1yapSClK4MrR/iG+hhxZ
+D3pCtQ39e8I4cULDzH1KBw/cxN0XqHGkpXhxV1UcjakgiUW6WCoH+G/zRbEjRJ+C
+qhHruqhvS5/aewUJDeyFOw0M0Mk+qU7dHR1V7eLnwHpZ7TlkXU0cRloWFx5Mmt6+
+Ix7QPjPKzfiNJiuu19giz4/XcBuVdqwJM9DPpIJpuIIMsRojONquMT7zB7BbCkgl
+Uv+VqgSyB1eY4qO6Qf611I4/MamzZ86XEE1IkjAOCi4uxRyNwqmiJzKDFkwdkCFG
+Qq2FELnA72tQx3nZn9Ec8YzqYZG0K3jiHzwpVqKBQgv0DGkxYWlfl1LWdI37V+LV
+4Jk/SwK2aXt7f9GDXYyWGUr9dWWoVoB6Gq4Rg9IadGvmq61oF0C4dgogQkV1GODu
+f7ViiEfHI6PeHR9w2vFjKIFMZxXiVfayZi7MQ4kHIACVdk7zHXIDXbrjbl0Vy8ux
+pM6g/boGgFilqD9oQWMFkGaQuOqJ3RoH63YyAWcxnhSt7Caw/8LcVZlwE7sBdzMM
+AXe/ovBZL4WAJ0BNpd+b8l608gNgEy/WoBBbrhxq2n6OmgOeeoYGQNcaUlsm4t9/
+KyjkRCPwS2l5DVXyq+GlSXZEGlX1onDVapvF4LVCPZR9MTCWJQI=
+=2R8/
 -----END PGP SIGNATURE-----
