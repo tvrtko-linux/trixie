@@ -819,7 +819,7 @@ Description: framework for searching and managing metadata
  Baloo is part of the KDE Plasma desktop.
 
 Package: base-files
-Version: 2025.04.24+trixie2
+Version: 2025.04.24+trixie3
 Architecture: amd64
 Essential: yes
 Maintainer: Santiago Vila <sanvila@debian.org>
@@ -831,12 +831,12 @@ Provides: base, usr-is-merged
 Multi-Arch: foreign
 Priority: required
 Section: admin
-Filename: pool/main/b/base-files/base-files_2025.04.24+trixie2_amd64.deb
-Size: 72032
-SHA256: b5535a0c2c875c4404a18c006d52107cb15df48152faa56b64d75c583eeecdc9
-SHA1: aa051e467b3606e13fb2d378c5185afeee5526b5
-MD5sum: ffb58be0dc55320d64c9e0f17342a78b
-Description: Debian base system miscellaneous files
+Filename: pool/main/b/base-files/base-files_2025.04.24+trixie3_amd64.deb
+Size: 72752
+SHA256: 1788b764420ac144c50d8531ccd16bc13f3de3b7f491236e29f09bf2d5850344
+SHA1: b1dbb710843f16da2c03e2c16560a7dfb913f42b
+MD5sum: 8747fc5512150680e57877e2305fba05
+Description: OpenBosniana OS - Debian base system miscellaneous files
  This package contains the basic filesystem hierarchy of a Debian system, and
  several important miscellaneous files, such as /etc/debian_version,
  /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
@@ -39566,7 +39566,7 @@ Description: OpenBosniana GPG Archive Keyring
  Public keys for the openbosniana archives digital signature.
 
 Package: openbosniana-core
-Version: 2024.12.21+trixie1
+Version: 2024.12.21+trixie2
 Architecture: amd64
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 705
@@ -39577,11 +39577,11 @@ Replaces: apt-openbosniana, base-files, bash, dnsmasq, fish, nano, nvim, openbos
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.12.21+trixie1_amd64.deb
-Size: 101680
-SHA256: 87db17a68b4ad01cde74ce94072bccc248f83856c9f8e4e310b9aa755abaf897
-SHA1: 0fb720c7e8defa34b4c7c6e92551274884a1a1c1
-MD5sum: 1c7c0eebf6f36ac1d08661d31d77b97c
+Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.12.21+trixie2_amd64.deb
+Size: 102388
+SHA256: 15b181cd6e41e6dd6165f9452cd79338fa24e14fba8ab0fcd45891e3d91980f6
+SHA1: c6deb3ba0c51ecc80ce0841d22b6be4a979584ac
+MD5sum: 6af48f90c842486ddac66f712bc2ac85
 Description: Core package for OpenBosniana OS
   Core package for the OpenBosniana Debian distribution.
   .
