@@ -11807,6 +11807,52 @@ Description: Linux Key Management Utilities
  .
  This package provides the binaries, most notably the keyctl utility.
 
+Package: kf6-breeze-icon-theme
+Source: kf6-breeze-icons
+Version: 2025.13.0-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 59719
+Depends: hicolor-icon-theme
+Breaks: breeze-icon-theme (<< 4:5.115.0-3~)
+Replaces: breeze-icon-theme (<< 4:5.115.0-3~)
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/frameworks/breeze-icons
+Priority: optional
+Section: kde
+Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme_2025.13.0-3_all.deb
+Size: 4188440
+SHA256: 4775f0ed15ffa3ebcf52716bcb7eac540e1658bba45b07d6665ede00d8790ca2
+SHA1: 432a9db81bd676e287224698dc5dc5e3b295c231
+MD5sum: 8741effcb364ab8365ad777b7e7c97c0
+Description: Default Plasma icon theme
+ This is the default icon theme for the KDE Plasma 6 desktop.
+ .
+ This package is part of the Breeze theme module.
+
+Package: kf6-breeze-icon-theme-rcc
+Source: kf6-breeze-icons
+Version: 2025.13.0-3
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 25285
+Breaks: breeze-icon-theme-rcc (<< 4:5.115.0-3~)
+Replaces: breeze-icon-theme-rcc (<< 4:5.115.0-3~)
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/frameworks/breeze-icons
+Priority: optional
+Section: kde
+Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme-rcc_2025.13.0-3_all.deb
+Size: 2809424
+SHA256: 438e00609be1adf35664c89812922c644ef61f77e2a285644a10014f43fea2b8
+SHA1: 904f04ff0e4a0e393f8ba644110ba1e57cf32fd3
+MD5sum: 2ee2fd716b1b0174349f269a7126906f
+Description: RCC resources for the breeze icon theme
+ Breeze is the default icon theme for the KDE Plasma 6 desktop. This package
+ contains the icons in RCC format.
+ .
+ This package is part of the Breeze theme module.
+
 Package: kfind
 Version: 4:25.04.0-1
 Architecture: amd64
