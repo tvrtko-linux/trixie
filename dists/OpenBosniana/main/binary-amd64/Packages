@@ -11404,15 +11404,15 @@ Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 11
 Depends: dolphin (>= 4:24.12.0), kdialog (>= 4:24.12.0)
-Recommends: keditbookmarks (>= 24.12.0), kfind (>= 4:24.12.0), konqueror (>= 4:24.12.0), konsole (>= 4:24.12.0), kwrite (>= 4:24.12.0)
+Recommends: keditbookmarks (>= 24.12.0), kfind (>= 4:24.12.0), konsole (>= 4:24.12.0), kwrite (>= 4:24.12.0)
 Homepage: https://www.kde.org
 Priority: optional
 Section: metapackages
 Filename: pool/main/m/meta-kde/kde-baseapps_24.12.0+5.162_amd64.deb
-Size: 5296
-SHA256: 58e46531bf5d32938c6cc1ef7aa53b0636bbacef5cb1ffaee4d3348390a42f95
-SHA1: 44a95ecb6b833d7279cbad13640b7e0ac51b4c60
-MD5sum: c41d061f31ea255b9a0eed3f48fbf87e
+Size: 5308
+SHA256: d47ffff067a1530ff4164f6989df6ce15dd796afa7bffb43e3a73659d893a663
+SHA1: b2fa043af55053862183321bc1b5f51b671e88d0
+MD5sum: 353ad076587bf97b27059ec9ee33d503
 Description: base applications from the official KDE release (metapackage)
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -11614,6 +11614,29 @@ MD5sum: 66255bf4a41162f499e3852b686eb0bf
 Description: Screenshot capture utility
  Spectacle captures images of the screen. It can capture the whole screen,
  a specified region, an individual window, or only part of a window.
+
+Package: kde-standard
+Source: meta-kde
+Version: 5:162
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 11
+Depends: kde-plasma-desktop (>= 5:162), kwalletmanager (>= 4:24.12.0), plasma-dataengines-addons (>= 4:6.3.4), plasma-pa (>= 6.3.4) | kmix (>= 4:24.12.0), plasma-runners-addons (>= 4:6.3.4), plasma-wallpapers-addons (>= 4:6.3.4), plasma-widgets-addons (>= 4:6.3.4), polkit-kde-agent-1 (>= 4:6.3.4)
+Recommends: akregator (>= 4:24.12.3), ark (>= 4:24.12.0), gwenview (>= 4:24.12.0), kcalc (>= 4:24.12.0), korganizer (>= 4:24.12.3), okular (>= 4:24.12.0), plasma-nm (>= 4:6.3.4), sweeper (>= 4:24.12.0)
+Homepage: https://www.kde.org
+Priority: optional
+Section: metapackages
+Filename: pool/main/m/meta-kde/kde-standard_162_amd64.deb
+Size: 5248
+SHA256: 0688f320649975f32e82ef33384268642915dcd87ac26f01f80e224dd7c42602
+SHA1: 4d8c962ae1a5b835fe2bccabd4a80f9f62957d77
+MD5sum: b47690b1d9809ea5e1bed6610349009f
+Description: KDE Plasma Desktop and standard set of applications
+ The KDE Software Compilation is the powerful, integrated, and easy-to-use Free
+ Software desktop platform and suite of applications.
+ .
+ This metapackage includes the KDE Plasma Desktop and a selection of the most
+ common used applications in a standard KDE desktop.
 
 Package: kde-style-breeze
 Source: breeze
@@ -12596,15 +12619,15 @@ Version: 4:25.04.3-2
 Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 388
-Depends: libkf6texteditor-katepart, kate (>= 4:25.04.3), libc6 (>= 2.34), libkf6coreaddons6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.5.0~), libqt6widgets6 (>= 6.5.0~)
+Depends: libkf6texteditor-katepart, libc6 (>= 2.34), libkf6coreaddons6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.5.0~), libqt6widgets6 (>= 6.5.0~)
 Homepage: https://kate-editor.org/
 Priority: optional
 Section: editors
 Filename: pool/main/k/kate/kwrite_25.04.3-2_amd64.deb
-Size: 137872
-SHA256: ccb771b474b098b113285ef27d3c89e8797380ca4f0accfc770e2fc1dac03b3a
-SHA1: e4e320ebf0d16721bc3061584c574694cb51fc9e
-MD5sum: e59e3495c097c30804710a9c83583896
+Size: 137864
+SHA256: eb27b074dc9a00e37872fe075088b677b823dcb7b06cbfb2223d3328a48428ab
+SHA1: 92db723453c475f5b84218262ab996df590f0d7b
+MD5sum: 29d8abc259390ca5d061bc4ad52b3e9e
 Description: simple text editor
  KWrite is a simple text editor built on the KDE Platform. It uses the Kate
  editor component, so it supports powerful features such as flexible syntax
@@ -40729,18 +40752,16 @@ Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 7717
 Depends: accountsservice, breeze (>= 4:6.2.90~), kactivitymanagerd (>= 6.2.90~), kde-cli-tools (>= 4:6.2.90~), kded6, kio6 (>= 6.13.0-4~), layer-shell-qt (>= 6.2.90~), ocean-sound-theme (>= 6.2.90~), oxygen-sounds (>= 4:6.2.90~), plasma-desktop-data (= 4:6.3.6-1), plasma-desktoptheme, plasma-integration (>= 6.2.90~), plasma-workspace (>= 4:6.2.90~), polkit-kde-agent-1 (>= 4:6.2.90~), qml6-module-org-kde-activities, qml6-module-org-kde-baloo, qml6-module-org-kde-breeze, qml6-module-org-kde-config, qml6-module-org-kde-coreaddons, qml6-module-org-kde-desktop, qml6-module-org-kde-draganddrop, qml6-module-org-kde-graphicaleffects, qml6-module-org-kde-iconthemes, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigami, qml6-module-org-kde-kirigamiaddons-components, qml6-module-org-kde-kirigamiaddons-delegates, qml6-module-org-kde-kirigamiaddons-tableview, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrols, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-kwindowsystem, qml6-module-org-kde-newstuff, qml6-module-org-kde-pipewire, qml6-module-qt-labs-platform, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcore, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, qt6-svg-plugins, libaccounts-qt6-1 (>= 1.17), libc6 (>= 2.38), libcanberra0 (>= 0.2), libglib2.0-0t64 (>= 2.80.0), libibus-1.0-5 (>= 1.5.1), libicu76 (>= 76.1-1~), libkaccounts6-2 (>= 24.02.2), libkf6attica6 (>= 6.10.0~), libkf6authcore6 (>= 6.10.0~), libkf6baloo6 (>= 6.10.0~), libkf6bookmarks6 (>= 6.0.0), libkf6codecs6 (>= 6.10.0~), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6guiaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6i18nlocaledata6 (>= 6.10.0~), libkf6iconwidgets6 (>= 6.10.0~), libkf6itemviews6 (>= 6.0.0), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.10.0~), libkf6kcmutilscore6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libkf6kiocore6 (>= 6.13.0-4~), libkf6kiofilewidgets6 (>= 6.13.0-4~), libkf6kiogui6 (>= 6.13.0-4~), libkf6kiowidgets6 (>= 6.13.0-4~), libkf6newstuffcore6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6notifyconfig6 (>= 6.10.0~), libkf6package6 (>= 6.10.0~), libkf6runner6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6sonnetcore6 (>= 6.10.0~), libkf6sonnetui6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6widgetsaddons6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.10.0~), libkworkspace6-6 (>= 4:6.3.4~), libnotificationmanager1 (>= 4:6.3.4~), libpackagekitqt6-1 (>= 1.1.1), libplasma6 (>= 6.3.4~), libplasmaactivities6 (>= 6.3.4~), libplasmaactivitiesstats1 (>= 6.3.4~), libplasmaquick6 (>= 6.3.4~), libprocesscore10 (>= 4:6.3.4~), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6quickwidgets6 (>= 6.7.0~), libqt6sql6 (>= 6.7.0~), libqt6waylandclient6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.2), libqt6xml6 (>= 6.7.0~), libscim8v5 (>= 1.4), libsdl2-2.0-0 (>= 2.24.0), libstdc++6 (>= 13.1), libtaskmanager6 (>= 4:6.3.4~), libwacom9 (>= 2.0.0), libwayland-client0 (>= 1.22~), libx11-6 (>= 2:1.2.99.901), libx11-xcb1, libxcb-keysyms1 (>= 0.4.1), libxcb-xkb1, libxcb1, libxcursor1 (>> 1.1.2), libxi6 (>= 2:1.2.99.4), libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxkbregistry0 (>= 1.0.0), qt6-base-private-abi (= 6.8.2)
-Recommends: bluedevil (>= 4:6.2.90~), breeze-gtk-theme (>= 6.2.90~), fonts-hack, fonts-noto, fonts-noto-color-emoji, ibus-data, kde-config-gtk-style (>= 4:6.2.90~), kde-config-screenlocker (>= 6.2.90~), kde-config-sddm (>= 4:6.2.90~), kde-spectacle, kgamma (>= 6.2.90~), khelpcenter, kinfocenter (>= 4:6.2.90~), kio-extras, kmenuedit (>= 4:6.2.90~), kscreen (>= 4:6.2.90~), ksshaskpass (>= 4:6.2.90~), kwin-wayland (>= 4:6.2.90~) | kwin-x11 (>= 4:6.2.90~), kwrited (>= 4:6.2.90~), libkf6kcmutils-bin, libpam-kwallet5 (>= 6.2.90~), plasma-browser-integration (>= 6.2.90~), plasma-desktop-doc (>= 4:6.3.6-1), plasma-discover (>= 6.2.90~), plasma-disks (>= 6.2.90~), plasma-firewall (>= 6.2.90~), plasma-nm (>= 4:6.2.90~), plasma-pa (>= 4:6.2.90~), plasma-systemmonitor (>= 6.2.90~), plasma-thunderbolt (>= 6.2.90~), plasma-vault (>= 6.2.90~), plasma-welcome (>= 6.2.90~), plasma5-integration (>= 6.2.90~), powerdevil (>= 4:6.2.90~), systemsettings (>= 4:6.2.90~), xdg-desktop-portal-gtk, xdg-desktop-portal-kde (>= 6.2.90~)
-Suggests: kde-config-flatpak (>= 6.2.90~), plasma-theme-oxygen
 Breaks: plasma-desktop-data (<< 4:6.3.2-3~), plasma-workspace (<< 4:6.1.0~), user-manager (<< 4:5.20)
 Replaces: plasma-desktop-data (<< 4:6.3.2-3~), plasma-workspace (<< 4:6.1.0~)
 Homepage: https://invent.kde.org/plasma/plasma-desktop
 Priority: optional
 Section: kde
 Filename: pool/main/p/plasma-desktop/plasma-desktop_6.3.6-1_amd64.deb
-Size: 1550580
-SHA256: f6f133ba3634cb1dd30142b4acd1e9396e59e5c6a429fc17f15ccdc73fa0bf29
-SHA1: 3daba7316cb358c5ac5c484c9360cef1f7ea77dd
-MD5sum: 30e34a967e325e17f6181592f29275b2
+Size: 1550180
+SHA256: 36749eb676e244a87b5444e771119d7a7a559032274d07a41b7aa5c553aba995
+SHA1: 6dad68b083f6fd3e74f7c205b8341c65b0bdf8cf
+MD5sum: 8d37a41a34b97d400403c21c75b4c120
 Description: Tools and widgets for the desktop
  Plasma Desktop offers a beautiful looking desktop
  that takes complete advantage of modern computing technology.
@@ -48766,17 +48787,15 @@ Version: 1.62.0+dfsg-2
 Architecture: all
 Maintainer: Debian Mozilla Extension Maintainers <pkg-mozext-maintainers@lists.alioth.debian.org>
 Installed-Size: 13490
-Recommends: chromium
-Suggests: ublock-origin-doc
 Multi-Arch: foreign
 Homepage: https://github.com/gorhill/uBlock
 Priority: optional
 Section: web
 Filename: pool/main/u/ublock-origin/webext-ublock-origin-chromium_1.62.0+dfsg-2_all.deb
-Size: 2690096
-SHA256: 1e0ee294e68de3c5df40b78b95a8d31aa4c9463d75ae577a70c1abd2d2aaaa86
-SHA1: 04e01fe7011856cab4d847913058fe8af6df4efd
-MD5sum: fba1b398722612b57f67677001c3637c
+Size: 2689832
+SHA256: df9bdab6f64fcb80df32f7a0e50e65951328f723bfb8a82141c312e9e7c32441
+SHA1: 436e4d706d911c5cf273726d8c42f347356506f8
+MD5sum: 80906630caa0178de526db6ce7c17dfd
 Description: lightweight and efficient ads, malware, trackers blocker (Chromium)
  uBlock is a small footprint blocker for against web ads, malware, trackers,
  analytics and similar invasive items.
