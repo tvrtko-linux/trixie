@@ -819,7 +819,7 @@ Description: framework for searching and managing metadata
  Baloo is part of the KDE Plasma desktop.
 
 Package: base-files
-Version: 2025.04.24+trixie3
+Version: 2025.04.24+trixie4
 Architecture: amd64
 Essential: yes
 Maintainer: Santiago Vila <sanvila@debian.org>
@@ -831,11 +831,11 @@ Provides: base, usr-is-merged
 Multi-Arch: foreign
 Priority: required
 Section: admin
-Filename: pool/main/b/base-files/base-files_2025.04.24+trixie3_amd64.deb
-Size: 72752
-SHA256: 1788b764420ac144c50d8531ccd16bc13f3de3b7f491236e29f09bf2d5850344
-SHA1: b1dbb710843f16da2c03e2c16560a7dfb913f42b
-MD5sum: 8747fc5512150680e57877e2305fba05
+Filename: pool/main/b/base-files/base-files_2025.04.24+trixie4_amd64.deb
+Size: 72756
+SHA256: b94e380acfb0f0e85ff40152d4634113d90791e349ab3b6d1ea831f5132b7462
+SHA1: 48c7ce236af1e62350138fa4c588f3aab928c021
+MD5sum: ba2d73025b355877aacbc6feed19c8f7
 Description: OpenBosniana OS - Debian base system miscellaneous files
  This package contains the basic filesystem hierarchy of a Debian system, and
  several important miscellaneous files, such as /etc/debian_version,
@@ -3307,7 +3307,7 @@ Description: MySQL database server binaries (metapackage)
  doesn't depend on all the infrastructure needed to setup system databases.
 
 Package: desktop-base
-Version: 2025.01.03
+Version: 2025.01.04
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 16548
@@ -3317,11 +3317,11 @@ Suggests: openbosniana-desktop-kde
 Homepage: https://www.bosniana.org/
 Priority: optional
 Section: x11
-Filename: pool/main/d/desktop-base/desktop-base_2025.01.03_all.deb
-Size: 2000712
-SHA256: 5b496f027acbb36b3d3cdfd7f73ac4ceed0690a2eeb803b127ff57d4b7f155bb
-SHA1: e40d024e6b80c79f69eb533f14b07c7d93df68bc
-MD5sum: deb457ff4d7725b242200489a49162bd
+Filename: pool/main/d/desktop-base/desktop-base_2025.01.04_all.deb
+Size: 2000984
+SHA256: 7c2ceaa56364e8b4a92f91d7795a00422b1c20047814b772bff3d63ef5c1f00f
+SHA1: 1c1e1366f8e95d50b546fa5e5ddf4ec791fdb64d
+MD5sum: e5fac37393d8bb250a53740de2c5e920
 Description: common files for the OpenBosniana Desktop
  This package contains various miscellaneous files which are used by
  Debian Desktop installations.  Currently, it provides some
@@ -13833,7 +13833,7 @@ Description: GNU binary utilities (private shared library)
 
 Package: libblas3
 Source: lapack
-Version: 3.12.1-4
+Version: 3.12.1-6
 Architecture: amd64
 Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
 Installed-Size: 521
@@ -13843,11 +13843,11 @@ Multi-Arch: same
 Homepage: https://www.netlib.org/lapack/
 Priority: optional
 Section: libs
-Filename: pool/main/l/lapack/libblas3_3.12.1-4_amd64.deb
-Size: 159504
-SHA256: df23ea721b79ee684c6577e3a3ebad3109489642b58f02b464ef8b97f4c4ea5c
-SHA1: ccf194680666f99bb19483a79c3567a9ca2da360
-MD5sum: 43669f7724b6baa2fb0f6502517a2d53
+Filename: pool/main/l/lapack/libblas3_3.12.1-6_amd64.deb
+Size: 159604
+SHA256: 4af245ecafc30bfa1de9d20af02fec96654ead2f06b1dac40cb03fc9eb0bfbe6
+SHA1: a5895e0869814298c2b516a15b3d101dcb147b87
+MD5sum: 009269addf607682ff0a0def1acfbafe
 Description: Basic Linear Algebra Reference implementations, shared library
  BLAS (Basic Linear Algebra Subroutines) is a set of efficient
  routines for most of the basic vector and matrix operations.
@@ -14119,7 +14119,7 @@ Description: high-quality block-sorting file compressor library - development
 
 Package: libc-bin
 Source: glibc
-Version: 2.41-11
+Version: 2.41-12
 Architecture: amd64
 Essential: yes
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
@@ -14131,11 +14131,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: required
 Section: libs
-Filename: pool/main/g/glibc/libc-bin_2.41-11_amd64.deb
-Size: 636384
-SHA256: 02efb414a1983997d53d318f1a43343e98f1f93f428c6217c1686608df18ef7a
-SHA1: 64654dee0a46283338976bd2566dccf1c0cb92b6
-MD5sum: 5fc5a104eb34eaaee7f20df041f85706
+Filename: pool/main/g/glibc/libc-bin_2.41-12_amd64.deb
+Size: 636504
+SHA256: 080c96ab4db45e2895253973f67636f2426b2fbfc837a37e7e1d75eef311e153
+SHA1: 4c3068f7126fb975048e93bc41f5302ca6d9fa39
+MD5sum: 522c2bdfd30c6caf7654a0f2816684fc
 Description: GNU C Library: Binaries
  This package contains utility programs related to the GNU C Library.
  .
@@ -14148,7 +14148,7 @@ Description: GNU C Library: Binaries
 
 Package: libc-dev-bin
 Source: glibc
-Version: 2.41-11
+Version: 2.41-12
 Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 125
@@ -14159,11 +14159,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: libdevel
-Filename: pool/main/g/glibc/libc-dev-bin_2.41-11_amd64.deb
-Size: 58192
-SHA256: 1d74229065a1841e7e8524ac9d0f0068d3977922aea2d05a50e559cebdda1d52
-SHA1: 8b34af4641ce288f101d40a37a7b8385f574f56c
-MD5sum: c99e20a38ca0ff3345124ec5d1f6f470
+Filename: pool/main/g/glibc/libc-dev-bin_2.41-12_amd64.deb
+Size: 58240
+SHA256: 1670539689ab71864492fd8468a1993d1253e1d26b37141cb3a344812e7292f7
+SHA1: efff6b40e0459def3190e02a50a22c6b4d985c6b
+MD5sum: 3a34b63a83e6957bc96b007dd67d231f
 Description: GNU C Library: Development binaries
  This package contains utility programs related to the GNU C Library
  development package.
@@ -14172,23 +14172,23 @@ Description: GNU C Library: Development binaries
 
 Package: libc-devtools
 Source: glibc
-Version: 2.41-11
+Version: 2.41-12
 Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 174
 Depends: libc6 (>= 2.38), libgd3 (>= 2.1.0~alpha~)
-Recommends: libc-dev (= 2.41-11), manpages, manpages-dev
+Recommends: libc-dev (= 2.41-12), manpages, manpages-dev
 Breaks: libc-dev-bin (<< 2.31-8)
 Replaces: libc-dev-bin (<< 2.31-8)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: devel
-Filename: pool/main/g/glibc/libc-devtools_2.41-11_amd64.deb
-Size: 67588
-SHA256: 72787d9340954b4bf17fa1a90ddcd0b7d746ed0f704b75549d246c59956afeae
-SHA1: 86cec6a49cc1db0e106457c80b6af4f850125ecc
-MD5sum: 37521bbb42ffad7bc77cfe1fa4a78b61
+Filename: pool/main/g/glibc/libc-devtools_2.41-12_amd64.deb
+Size: 67628
+SHA256: 5796dee5c7369bf200443a56175a232cf128b5a7ae96ddfdca58af3716fb1660
+SHA1: 2c6214a551360b6d2638eed45c3163d05fdf56db
+MD5sum: 2fb8b437b428e28a6dac1d37e97fa501
 Description: GNU C Library: Development tools
  This package contains development tools shipped by the GNU C
  Library.
@@ -14200,7 +14200,7 @@ Description: GNU C Library: Development tools
 
 Package: libc-l10n
 Source: glibc
-Version: 2.41-11
+Version: 2.41-12
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 4738
@@ -14208,18 +14208,18 @@ Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: standard
 Section: localization
-Filename: pool/main/g/glibc/libc-l10n_2.41-11_all.deb
-Size: 737996
-SHA256: fafc22030aa3181490e00c45d8ba11a4f3a6de79cbbd359e4d3227c5613708be
-SHA1: b5d478f0331a3350e82a370a212e211ae3c8be8a
-MD5sum: 26042c7120c4fcc921ed49673f6cacb7
+Filename: pool/main/g/glibc/libc-l10n_2.41-12_all.deb
+Size: 739248
+SHA256: 1fa5a5a27956ede90a172354139d4753ed0ecfa60ff08f47fbd93ef890febe8b
+SHA1: 88dc1f3df7bd522810cea285cc2e5f71f8df19f8
+MD5sum: 112bcf48513cb03999b713ab93a944a4
 Description: GNU C Library: localization files
  This package contains the translation files for the GNU C library and
  utility programs.
 
 Package: libc6
 Source: glibc
-Version: 2.41-11
+Version: 2.41-12
 Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 13232
@@ -14232,11 +14232,11 @@ Multi-Arch: same
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: libs
-Filename: pool/main/g/glibc/libc6_2.41-11_amd64.deb
-Size: 2845896
-SHA256: c860f514ad66dddc0daf035087668562087894ee2379f6299a5c04ce97f8a9fe
-SHA1: 2d18470b16854f98a6da6b1cb3098060c6ecd805
-MD5sum: b459a37071e9c98cc7236df03df93651
+Filename: pool/main/g/glibc/libc6_2.41-12_amd64.deb
+Size: 2845840
+SHA256: 6cff801097cd0eb2126b60e533f37afdc78456efacdf2bfae62877f00c795d0b
+SHA1: 1fbb6ff47def330c57469ca5778b4809d0421684
+MD5sum: 2d994a5bcdf85edfae48262e971f26e9
 Description: GNU C Library: Shared libraries
  Contains the standard libraries that are used by nearly all programs on
  the system. This package includes shared versions of the standard C library
@@ -14244,25 +14244,25 @@ Description: GNU C Library: Shared libraries
 
 Package: libc6-dev
 Source: glibc
-Version: 2.41-11
+Version: 2.41-12
 Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 12542
-Depends: libc6 (= 2.41-11), libc-dev-bin (= 2.41-11), linux-libc-dev, libcrypt-dev, rpcsvc-proto
+Depends: libc6 (= 2.41-12), libc-dev-bin (= 2.41-12), linux-libc-dev, libcrypt-dev, rpcsvc-proto
 Suggests: glibc-doc, manpages-dev
 Conflicts: libc0.3-dev, libc6.1-dev
 Breaks: binutils (<< 2.38), catch (<< 1.12.2-0.1), heimdal-multidev (<= 7.7.0+dfsg-4), igblast (<= 1.19.0-1), libassimp-dev (<= 5.2.4~ds0-1), libasyncns-dev (<= 0.8-6+b2), libatm1-dev (<= 1:2.5.1-4), libaws20-dev (<= 20.2-2+b1), libboinc-app-dev (<= 7.20.2+dfsg-1), libbson-dev (<= 1.22.0-1), libc6-dev-amd64-cross (<< 2.41~), libcups2-dev (<= 2.4.2-1), libdeal.ii-dev (<= 9.4.0-1), libdkim-dev (<= 1:1.0.21-4+b2), libdolfin-dev-common (<= 2019.2.0~git20220407.d29e24d-5), libeckit-dev (<= 1.20.0-1), libfclib-dev (<= 3.1.0+dfsg-2), libfltk1.3-dev (<= 1.3.8-4+b1), libghc-resolv-dev (<= 0.1.2.0-3), libghc-resolv-prof (<= 0.1.2.0-3), libglib2.0-dev (<= 2.72.3-1), libgloox-dev (<= 1.0.24-2+b1), libhesiod-dev (<= 3.2.1-3.1+b1), libinfinity-0.7-dev (<= 0.7.2-1+b1), libinsighttoolkit4-dev (<= 4.13.3withdata-dfsg2-3+b1), libinsighttoolkit5-dev (<= 5.2.1-5+b1), libismrmrd-dev (<= 1.8.0-2), libldap-dev (<= 2.5.12+dfsg-2), liblog4cplus-dev (<= 2.0.7-1), libloudmouth1-dev (<= 1.5.4-1), libmgl-dev (<= 8.0.1-2), libmimalloc2.0 (<= 2.0.6+ds-1), libminc-dev (<= 2.4.03-5), libmongoc-dev (<= 1.22.1-1), libmrpt-ros1bridge-dev (<= 1:2.4.9+ds-4+b2), libmysqlclient-dev (<= 8.0.29-1), libnetcdf-dev (<= 1:4.9.0-3), libnetcdf-mpi-dev (<= 1:4.9.0-1), libnetcdf-pnetcdf-dev (<= 1:4.9.0-1), libnfsidmap-dev (<= 1:2.6.1-2), libns3-dev (<= 3.36.1+dfsg-4), libola-dev (<= 0.10.8.nojsmin-2), libopenafs-dev (<= 1.8.8.1-3), libopendkim-dev (<= 2.11.0~beta2-7), libopendmarc-dev (<= 1.4.2-1), libopenms-dev (<= 2.6.0+cleaned1-3+b1), libopenzwave1.6-dev (<= 1.6.1914+ds-1), libpg-query-dev (<= 13-2.1.2-2), librbl-dev (<= 2.11.0~beta2-7), libre-dev (<= 1.1.0-1+b1), libshishi-dev (<= 1.0.2-11), libslurm-dev (<= 21.08.8.2-1), libsocksd0-dev (<= 1.4.2+dfsg-7+b4), libspf2-dev (<= 1.2.10-7.1+b1), libstrophe-dev (<= 0.12.1-2), libtaningia-dev (<= 0.2.2-2+b1), libtrilinos-amesos-dev (<= 13.2.0-3), libtrilinos-amesos2-dev (<= 13.2.0-3), libtrilinos-anasazi-dev (<= 13.2.0-3), libtrilinos-aztecoo-dev (<= 13.2.0-3), libtrilinos-belos-dev (<= 13.2.0-3), libtrilinos-epetra-dev (<= 13.2.0-3), libtrilinos-epetraext-dev (<= 13.2.0-3), libtrilinos-galeri-dev (<= 13.2.0-3), libtrilinos-ifpack-dev (<= 13.2.0-3), libtrilinos-ifpack2-dev (<= 13.2.0-3), libtrilinos-intrepid-dev (<= 13.2.0-3), libtrilinos-intrepid2-dev (<= 13.2.0-3), libtrilinos-isorropia-dev (<= 13.2.0-3), libtrilinos-kokkos-dev (<= 13.2.0-3), libtrilinos-kokkos-kernels-dev (<= 13.2.0-3), libtrilinos-komplex-dev (<= 13.2.0-3), libtrilinos-ml-dev (<= 13.2.0-3), libtrilinos-moertel-dev (<= 13.2.0-3), libtrilinos-muelu-dev (<= 13.2.0-3), libtrilinos-nox-dev (<= 13.2.0-3), libtrilinos-phalanx-dev (<= 13.2.0-3), libtrilinos-pike-dev (<= 13.2.0-3), libtrilinos-piro-dev (<= 13.2.0-3), libtrilinos-pliris-dev (<= 13.2.0-3), libtrilinos-rol-dev (<= 13.2.0-3), libtrilinos-rtop-dev (<= 13.2.0-3), libtrilinos-rythmos-dev (<= 13.2.0-3), libtrilinos-sacado-dev (<= 13.2.0-3), libtrilinos-shylu-dev (<= 13.2.0-3), libtrilinos-stokhos-dev (<= 13.2.0-3), libtrilinos-stratimikos-dev (<= 13.2.0-3), libtrilinos-teko-dev (<= 13.2.0-3), libtrilinos-teuchos-dev (<= 13.2.0-3), libtrilinos-thyra-dev (<= 13.2.0-3), libtrilinos-tpetra-dev (<= 13.2.0-3), libtrilinos-trilinoscouplings-dev (<= 13.2.0-3), libtrilinos-triutils-dev (<= 13.2.0-3), libtrilinos-xpetra-dev (<= 13.2.0-3), libtrilinos-zoltan2-dev (<= 13.2.0-3), libvbr-dev (<= 2.11.0~beta2-7), libvisp-dev (<= 3.5.0-2+b1), libvotca-dev (<= 2022-3), libvtk6-dev (<= 6.3.0+dfsg2-8.1+b1), libvtk7-dev (<= 7.1.1+dfsg2-10.2), open-vm-tools-dev (<= 2:12.0.5-2), pidgin-librvp (<= 0.9.7cvs-3), proftpd-dev (<= 1.3.7d+dfsg-2), slurm-wlm-basic-plugins-dev (<= 21.08.8.2-1)
 Replaces: libc6 (<= 2.32-1)
-Provides: libc-dev (= 2.41-11)
+Provides: libc-dev (= 2.41-12)
 Multi-Arch: same
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: libdevel
-Filename: pool/main/g/glibc/libc6-dev_2.41-11_amd64.deb
-Size: 1990800
-SHA256: 3b9273043fbd2d64368de95862368b5eaaa82c8b3703acf1cb37ed6c3a68eea5
-SHA1: 8fe11460cdea67077e060639a395177fd70fec3f
-MD5sum: c7d643402f2276ad5138cda4a4a697da
+Filename: pool/main/g/glibc/libc6-dev_2.41-12_amd64.deb
+Size: 1990664
+SHA256: d2863cc851ab87265352aca1938bedcf9774b28f8a555f959a78c7577c12cdfd
+SHA1: 469b51f2f1a7b3fc2525a34225a7b6c3a8e4270d
+MD5sum: 3018a1e3627b7afe437edf035064a317
 Description: GNU C Library: Development Libraries and Header Files
  Contains the symlinks, headers, and object files needed to compile
  and link programs which use the standard C library.
@@ -15551,6 +15551,33 @@ SHA1: 4b4d15bfac98b57fbb277cd8b2888247c50d7e98
 MD5sum: a851b2ddb869903919eabec86458f6dc
 Description: Runtime support for the DjVu image format
  DjVu runtime library.
+
+Package: libdmraid1.0.0.rc16
+Source: dmraid
+Version: 1.0.0.rc16-12
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 250
+Depends: libc6 (>= 2.33), libdevmapper1.02.1 (>= 2:1.02.97)
+Replaces: libdmraid1.0.0.rc15 (<< 1.0.0.rc16-1)
+Multi-Arch: same
+Homepage: http://people.redhat.com/~heinzm/sw/dmraid/
+Priority: optional
+Section: libs
+Filename: pool/main/d/dmraid/libdmraid1.0.0.rc16_1.0.0.rc16-12_amd64.deb
+Size: 103052
+SHA256: 1a63ba656e53cc2fc3b94d608c8872bcb94cffe31e2565ea182076f9e2575871
+SHA1: 14341552fd829860c5079ed2b7c5389020e261c1
+MD5sum: 8030ffca4991b6c2b8a7e1ef409a380a
+Description: Device-Mapper Software RAID support tool - shared library
+ dmraid discovers, activates, deactivates and displays properties
+ of software RAID sets (eg, ATARAID) and contained DOS partitions.
+ .
+ dmraid uses the Linux device-mapper to create devices with respective
+ mappings for the ATARAID sets discovered.
+ .
+ This package contains the dmraid shared library, which implements
+ the back half of dmraid, including on-disk metadata formats.
 
 Package: libdotconf0
 Source: dotconf
@@ -23966,7 +23993,7 @@ Description: rich set of graph drawing tools - liblab_gamut library
 
 Package: liblapack3
 Source: lapack
-Version: 3.12.1-4
+Version: 3.12.1-6
 Architecture: amd64
 Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
 Installed-Size: 7453
@@ -23976,11 +24003,11 @@ Multi-Arch: same
 Homepage: https://www.netlib.org/lapack/
 Priority: optional
 Section: libs
-Filename: pool/main/l/lapack/liblapack3_3.12.1-4_amd64.deb
-Size: 2446860
-SHA256: 1f29e2b4a552ba41cbee61333b8a312f1cbf21eeed45780725ccc91ef754fbb5
-SHA1: 940773074767851a651f2690890b8bf0ac3ced17
-MD5sum: 3de29385248a568ea856f2991888c585
+Filename: pool/main/l/lapack/liblapack3_3.12.1-6_amd64.deb
+Size: 2446688
+SHA256: abfc59c8410beee738617bb6daf86b295e45ec0bd08cc0e97bfecc3cfa40fe75
+SHA1: 98374b9cf4381f8a153df76787fc312bc3af4875
+MD5sum: 070d94c9032ed79d6d1a7a3b992ac78c
 Description: Library of linear algebra routines 3 - shared version
  LAPACK version 3.X is a comprehensive FORTRAN library that does
  linear algebra operations including matrix inversions, least
@@ -35249,7 +35276,7 @@ Description: utilities to read temperature/voltage/fan sensors
 
 Package: locales
 Source: glibc
-Version: 2.41-11
+Version: 2.41-12
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 15774
@@ -35257,11 +35284,11 @@ Depends: libc-bin (>> 2.41), libc-l10n (>> 2.41), debconf (>= 0.5) | debconf-2.0
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: standard
 Section: localization
-Filename: pool/main/g/glibc/locales_2.41-11_all.deb
-Size: 3925216
-SHA256: 0d7187dd49b3acaed3f019eea2aeebf3d8d9d4ca321065ac0cbdb7b9960779e7
-SHA1: e6fcb5da5fc70215619c341981d12ed1ec9f92ac
-MD5sum: 59c0717d03fd43cefbaee68e33d350cf
+Filename: pool/main/g/glibc/locales_2.41-12_all.deb
+Size: 3924436
+SHA256: 82d0ca9e2dba70db2cbd6a08f8364bfbf361c9c1a1767e9cfc1136373c57797a
+SHA1: d3ce9ea2095a4a4a1a5a370bdb666417ad12759c
+MD5sum: d45650f78dbd594b67f571fc1fe9b782
 Description: GNU C Library: National Language (locale) data [support]
  Machine-readable data files, shared objects and programs used by the
  C library for localization (l10n) and internationalization (i18n) support.
@@ -35274,7 +35301,7 @@ Description: GNU C Library: National Language (locale) data [support]
 
 Package: locales-all
 Source: glibc
-Version: 2.41-11
+Version: 2.41-12
 Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 236465
@@ -35283,11 +35310,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: localization
-Filename: pool/main/g/glibc/locales-all_2.41-11_amd64.deb
-Size: 11146288
-SHA256: 8b6892fff8a2430aac8a63af21b4063fd6d96f02e314df1fda9464a67f1e3ffa
-SHA1: 050ac8b4a3eeacfe8f213021b3eae052e769802f
-MD5sum: f8bb38b6f241c44770fffcc8132d6952
+Filename: pool/main/g/glibc/locales-all_2.41-12_amd64.deb
+Size: 11097436
+SHA256: 87470337e8d6583d2959db324f1c87dd45b58c18406071e412c225c82b3f961a
+SHA1: 03d89e66afb8173df16d854ef038cd3b93ae9698
+MD5sum: c556b4bac6f3006f0acef11f34f89066
 Description: GNU C Library: Precompiled locale data
  This package contains the precompiled locale data for all supported locales.
  A better alternative is to install the locales package and only select
@@ -39589,7 +39616,7 @@ Description: OpenBosniana GPG Archive Keyring
  Public keys for the openbosniana archives digital signature.
 
 Package: openbosniana-core
-Version: 2024.12.21+trixie2
+Version: 2025.09.01+trixie1
 Architecture: amd64
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 705
@@ -39600,11 +39627,11 @@ Replaces: apt-openbosniana, base-files, bash, dnsmasq, fish, nano, nvim, openbos
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-core_2024.12.21+trixie2_amd64.deb
-Size: 102388
-SHA256: 15b181cd6e41e6dd6165f9452cd79338fa24e14fba8ab0fcd45891e3d91980f6
-SHA1: c6deb3ba0c51ecc80ce0841d22b6be4a979584ac
-MD5sum: 6af48f90c842486ddac66f712bc2ac85
+Filename: pool/main/o/openbosniana-core/openbosniana-core_2025.09.01+trixie1_amd64.deb
+Size: 97860
+SHA256: 0b12a5e6bffeb0db62ce78b43098ea55ff948083d1a12a1ee9935685ea26fec5
+SHA1: 90a0872208493f87ac8582e7bd89a5b814f1d5fb
+MD5sum: e8e38cd2f18946c173483ef2ff5803ed
 Description: Core package for OpenBosniana OS
   Core package for the OpenBosniana Debian distribution.
   .
