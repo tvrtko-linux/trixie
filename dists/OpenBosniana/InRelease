@@ -6,7 +6,7 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana
 Version: 2024
-Date: Tue, 02 Sep 2025 03:24:30 UTC
+Date: Tue, 02 Sep 2025 03:28:05 UTC
 Architectures: amd64
 Components: main
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -39,17 +39,17 @@ SHA256:
  6bde14b468ac13ed6558893b6a4a334cab2a30fdf43113c1beb6caae88e9e1e1 186 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmi2Y24ACgkQ5Vfn9vbt
-T6rVTA//ZsuCo2gSKk5avbRTwnckCN8BOZJkITa4lJNqWZM6qOsTiP37UqlIGYG+
-r8fc8ehJ4iYj1Q5BZwTQZXHNFYG9MpxzzS15r7k5GurjfLtZlRJS9jWXWNXhtqj1
-UX8k0u0JmqsIjtWzcCT03S3oP99FGjtuTJGohttLiHJYAZTrUw703x46nDPNWcJa
-RZH7r0z8QaOQUKKpBfOPb+WpM3eRs7HtNoyFiyW/jwUtasaO+6wkyz4GY3BvgE7u
-RshqdHEormsPJlZs5uc1csJLeNu/i28C5cWculqF7d3rUr/k71Og7fdFdy8NJ1bD
-6GmpJG8F0H2TWxc/XmrYz4A0PohG1SeAEP2h0Vb88/hiDRdT1Gp2OdfPMRF1nt+a
-4Y5dPaw30ZxjTKKKv/lcAP3Y7sRBYi58lVzsmwdasJam6cJnnhi4YQzberSmISdm
-SbsZAmmVj6SqQ3EkZ515z4JobWifBQOYL+m6AeHDBJgzZokBxd62YzfWTVnkKbbJ
-OADW/jLBwILste7jhqDcXTUmkx3gMH4lVHdAFDljVh6c12lwYlXEDYf2Nk23+kSr
-QuRXL0dspyHKusnEPn2ocUZDZkuiJS7VKzfuvJL8DKPTjjpVrsYr3CupVPniGXUx
-P7ECFACzjNVwBerE4mkCjGKfzmPR55nHeAThCJBtvAjN0rWIc7Q=
-=mLVZ
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmi2ZEUACgkQ5Vfn9vbt
+T6oQdQ//WIv3xEvEjov2Q3U5JB7wxGDrQecRdIvzcoGmwBjWkGXocZXuRne7I7oa
+sXcdRuYvzPaNkRaB8p/SqbptRchoQp/UrAwNYhLsaIguucVrS4hD5zPttILBqh+M
+KZUpoSjmvhP5y37fNKf6H9p7tZJw+ety06jVorBSZgRLI83JOwYpWb9rpklMKW+L
+zMfBsItl5ezJgGtNSmyiV9IoZiWHcpMfFP/Jg20FljpFQsUFz7Q40XBTjeLiaAmy
+pFVucC9JavHWuJ7MgJEFWuHh24yB4ukoHd/Sh2TmXBRDv0KWMpcjrhAe8YxYWXVR
+DKxxkVuWEikdOZdJBdbcyluxit8VHuGCZ0jfxZpXIzvUUPk85WhsPrC/1OiJKdwp
+eNWl/UlzFYWg0iDxFktig67j/WqaDRJQ4CcDdNPDRq6l2C5jbffoj1DLbPdMB+N9
+qzMB2bi7N3uj/uHIuHfCu2JF6cDHgcTLBxreF27Kzr96BiP3+5P+fFu/zQ3hd+vr
+/2be4qOfV2ErGo8S8v5D77CjOzbMAsY4azbEc4qiS1443bksID+94SNT9Dnq1SLm
+kDJYf960ET54lQQgAvhRZ1ecR6fXDZ3F8vnFuD+9/mmmoCEqDi6jMIZnrNnwjyYO
+nW9ChLSLKJaXZodAaCjs8+2+7wyZWKbKtAyDj4FKVV8IfAnuV7M=
+=+5y+
 -----END PGP SIGNATURE-----
