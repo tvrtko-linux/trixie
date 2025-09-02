@@ -3307,7 +3307,7 @@ Description: MySQL database server binaries (metapackage)
  doesn't depend on all the infrastructure needed to setup system databases.
 
 Package: desktop-base
-Version: 2025.01.04
+Version: 2025.01.05
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 16548
@@ -3317,11 +3317,11 @@ Suggests: openbosniana-desktop-kde
 Homepage: https://www.bosniana.org/
 Priority: optional
 Section: x11
-Filename: pool/main/d/desktop-base/desktop-base_2025.01.04_all.deb
-Size: 2000984
-SHA256: 7c2ceaa56364e8b4a92f91d7795a00422b1c20047814b772bff3d63ef5c1f00f
-SHA1: 1c1e1366f8e95d50b546fa5e5ddf4ec791fdb64d
-MD5sum: e5fac37393d8bb250a53740de2c5e920
+Filename: pool/main/d/desktop-base/desktop-base_2025.01.05_all.deb
+Size: 2000840
+SHA256: c3da2abe3972c6a623e7b2b75b14e8ddfb698857b8034398619978b52f718ab4
+SHA1: 2ebaee8ce138cacdd67ed16edd9805e84cb5aa41
+MD5sum: e9f221286fd1f3e550a428ec591a14b4
 Description: common files for the OpenBosniana Desktop
  This package contains various miscellaneous files which are used by
  Debian Desktop installations.  Currently, it provides some
@@ -39616,7 +39616,7 @@ Description: OpenBosniana GPG Archive Keyring
  Public keys for the openbosniana archives digital signature.
 
 Package: openbosniana-core
-Version: 2025.09.01+trixie1
+Version: 2025.09.01+trixie2
 Architecture: amd64
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 705
@@ -39627,11 +39627,11 @@ Replaces: apt-openbosniana, base-files, bash, dnsmasq, fish, nano, nvim, openbos
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-core_2025.09.01+trixie1_amd64.deb
-Size: 97860
-SHA256: 0b12a5e6bffeb0db62ce78b43098ea55ff948083d1a12a1ee9935685ea26fec5
-SHA1: 90a0872208493f87ac8582e7bd89a5b814f1d5fb
-MD5sum: e8e38cd2f18946c173483ef2ff5803ed
+Filename: pool/main/o/openbosniana-core/openbosniana-core_2025.09.01+trixie2_amd64.deb
+Size: 97716
+SHA256: aa0b2b0447798e916154612030d3d4bf205a17ff8f7ea35fdd3be2ed7481fe76
+SHA1: 5576ebe5e22f8aa085ff7640d28fcbfcf021ba39
+MD5sum: cffa750ba0755c4f0065ed2c6ba3c566
 Description: Core package for OpenBosniana OS
   Core package for the OpenBosniana Debian distribution.
   .
