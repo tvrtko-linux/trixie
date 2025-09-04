@@ -11832,7 +11832,7 @@ Description: Linux Key Management Utilities
 
 Package: kf6-breeze-icon-theme
 Source: kf6-breeze-icons
-Version: 2025.13.0-3
+Version: 2025.13.0-4
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 59719
@@ -11843,11 +11843,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme_2025.13.0-3_all.deb
-Size: 4188440
-SHA256: 4775f0ed15ffa3ebcf52716bcb7eac540e1658bba45b07d6665ede00d8790ca2
-SHA1: 432a9db81bd676e287224698dc5dc5e3b295c231
-MD5sum: 8741effcb364ab8365ad777b7e7c97c0
+Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme_2025.13.0-4_all.deb
+Size: 5676908
+SHA256: 5909d6026fa7cae359ea7510d6bcb89a2490abb44dddd3ed0370c740ce1d110d
+SHA1: ea4708258e15c9de1f5fd007985ea6d3d8261692
+MD5sum: 8c1730c05436b57bc6324aeed91320fe
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 6 desktop.
  .
@@ -11855,7 +11855,7 @@ Description: Default Plasma icon theme
 
 Package: kf6-breeze-icon-theme-rcc
 Source: kf6-breeze-icons
-Version: 2025.13.0-3
+Version: 2025.13.0-4
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 25285
@@ -11865,11 +11865,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme-rcc_2025.13.0-3_all.deb
-Size: 2809424
-SHA256: 438e00609be1adf35664c89812922c644ef61f77e2a285644a10014f43fea2b8
-SHA1: 904f04ff0e4a0e393f8ba644110ba1e57cf32fd3
-MD5sum: 2ee2fd716b1b0174349f269a7126906f
+Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme-rcc_2025.13.0-4_all.deb
+Size: 5063476
+SHA256: 06c5bdc6dde99e53d06b914d2453b90220bda22ef96bb3118a4691e11664ce13
+SHA1: 40160168dc3a6f4955327a4848f2fba076fd2838
+MD5sum: c9aae5d39e63e076450e7ff55bdafe87
 Description: RCC resources for the breeze icon theme
  Breeze is the default icon theme for the KDE Plasma 6 desktop. This package
  contains the icons in RCC format.
@@ -23583,6 +23583,68 @@ Description: User configurable main windows.
  framework for designing the user interface
  of an application using XML, using the idea
  of actions.
+
+Package: libkf6breezeicons-dev
+Source: kf6-breeze-icons
+Version: 2025.13.0-4
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 61
+Depends: kf6-breeze-icon-theme-rcc, libkf6breezeicons6 (= 2025.13.0-4), qt6-base-dev (>= 6.6.0~)
+Homepage: https://invent.kde.org/frameworks/breeze-icons
+Priority: optional
+Section: libdevel
+Filename: pool/main/k/kf6-breeze-icons/libkf6breezeicons-dev_2025.13.0-4_amd64.deb
+Size: 16272
+SHA256: c71f5fa822250d9f88dbec002e6fd4fd49644cb78d0433bafdc8c637931d1e55
+SHA1: 44399fad55d40fc3be3b6550f3ad191666c2e818
+MD5sum: 1031392dac4aaf53a00044d9a26f3afd
+Description: Default Plasma icon theme (development files)
+ This is the default icon theme for the KDE Plasma 6 desktop.
+ .
+ This package is part of the Breeze theme module.
+ .
+ This package contains the development files.
+
+Package: libkf6breezeicons6
+Source: kf6-breeze-icons
+Version: 2025.13.0-4
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 9418
+Depends: libc6 (>= 2.4), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.6.0~)
+Multi-Arch: same
+Homepage: https://invent.kde.org/frameworks/breeze-icons
+Priority: optional
+Section: libs
+Filename: pool/main/k/kf6-breeze-icons/libkf6breezeicons6_2025.13.0-4_amd64.deb
+Size: 1316348
+SHA256: 7aebd3a19d7b625f23e2888ada89ccfe1726d618c68ff075c88cebd67c316bc9
+SHA1: 2d65c9cddac05958f3b3213616ea6a19652b2d14
+MD5sum: 495d551d46997301c3c475f052939044
+Description: Default Plasma icon theme
+ This is the default icon theme for the KDE Plasma 6 desktop.
+ .
+ This package is part of the Breeze theme module.
+
+Package: libkf6breezeicons6-dbgsym
+Source: kf6-breeze-icons
+Version: 2025.13.0-4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 138
+Depends: libkf6breezeicons6 (= 2025.13.0-4)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/k/kf6-breeze-icons/libkf6breezeicons6-dbgsym_2025.13.0-4_amd64.deb
+Size: 127564
+SHA256: c3d26891f26b094800b784bf86368d9e284e7cfeab5ec0af7331a6899f17e482
+SHA1: 21b49a8facfdeeb828a791c383d36e0002a682f5
+MD5sum: 0eaf9a6b86d67f2e877cafdb16c8a54a
+Description: debug symbols for libkf6breezeicons6
+Build-Ids: 2601e40f7b092011823e2409fb08c87e2ae7aa8b
 
 Package: libkgantt2
 Source: kdiagram2
