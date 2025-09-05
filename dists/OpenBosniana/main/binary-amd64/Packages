@@ -10709,40 +10709,41 @@ Description: Standalone GNU Info documentation browser
 
 Package: init
 Source: init-system-helpers
-Version: 1.68
+Version: 1.68.2+openbosniana1
 Architecture: amd64
-Protected: yes
-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 17
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 12
 Pre-Depends: systemd-sysv | sysvinit-core
 Multi-Arch: foreign
 Priority: important
 Section: metapackages
-Filename: pool/main/i/init-system-helpers/init_1.68_amd64.deb
-Size: 6256
-SHA256: 63aa48ff4dc8929120d21b95d67560b428b96c6578e53ef5940211984273209c
-SHA1: 991679eba1783bd50df9e0672d42107998aadde7
-MD5sum: 80869207050ff2870f6c5e04ec185c42
+Filename: pool/main/i/init-system-helpers/init_1.68.2+openbosniana1_amd64.deb
+Size: 928
+SHA256: b0e6f93eacaaf1465898e5d18b8255c80cde7f41ded4ea2264e7315bd1531a42
+SHA1: a2d3d805e9d77284eebb8fac364d22921c517e71
+MD5sum: efc969d8880c7517e0a62fa013a78cf9
 Description: metapackage ensuring an init system is installed
  This package is a metapackage which allows you to select from the available
  init systems while ensuring that one of these is available on the system at
  all times.
 Important: yes
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 
 Package: init-system-helpers
-Version: 1.68
+Version: 1.68.2+openbosniana1
 Architecture: all
 Essential: yes
-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 129
+Maintainer: Denis Maslo <deni@bosniana.org>
+Installed-Size: 133
+Depends: usrmerge | usr-is-merged
 Multi-Arch: foreign
 Priority: required
 Section: admin
-Filename: pool/main/i/init-system-helpers/init-system-helpers_1.68_all.deb
-Size: 38704
-SHA256: 119713cf7ab3535ac141eea4a11d76ceb117b3326f237c87dc2d4ab9ecbd5620
-SHA1: f006b673abdf59ec8bc25d2e3c99101e65c75a29
-MD5sum: e79a67c15c696763e16b02e6ff55a67c
+Filename: pool/main/i/init-system-helpers/init-system-helpers_1.68.2+openbosniana1_all.deb
+Size: 31932
+SHA256: 9aff500424a99f7ef70522abab80a3ec7f6ecbbee103760100adb9b44e9b0e33
+SHA1: a1e5b965f4d46823168187aa535c008c0584498a
+MD5sum: 0202baa4475918ccba34c6ace805e1ce
 Description: helper tools for all init systems
  This package contains helper tools that are necessary for switching between
  the various init systems that Debian contains (e. g. sysvinit or
@@ -10756,6 +10757,7 @@ Description: helper tools for all init systems
  While this package is maintained by pkg-systemd-maintainers, it is NOT
  specific to systemd at all. Maintainers of other init systems are welcome to
  include their helpers in this package.
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 
 Package: initramfs-tools
 Version: 0.148.3
@@ -11622,15 +11624,15 @@ Architecture: amd64
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 11
 Depends: kde-plasma-desktop (>= 5:162), kwalletmanager (>= 4:24.12.0), plasma-dataengines-addons (>= 4:6.3.4), plasma-pa (>= 6.3.4) | kmix (>= 4:24.12.0), plasma-runners-addons (>= 4:6.3.4), plasma-wallpapers-addons (>= 4:6.3.4), plasma-widgets-addons (>= 4:6.3.4), polkit-kde-agent-1 (>= 4:6.3.4)
-Recommends: akregator (>= 4:24.12.3), ark (>= 4:24.12.0), gwenview (>= 4:24.12.0), kcalc (>= 4:24.12.0), korganizer (>= 4:24.12.3), okular (>= 4:24.12.0), plasma-nm (>= 4:6.3.4), sweeper (>= 4:24.12.0)
+Recommends: ark (>= 4:24.12.0), gwenview (>= 4:24.12.0), kcalc (>= 4:24.12.0), korganizer (>= 4:24.12.3), okular (>= 4:24.12.0), plasma-nm (>= 4:6.3.4), sweeper (>= 4:24.12.0)
 Homepage: https://www.kde.org
 Priority: optional
 Section: metapackages
 Filename: pool/main/m/meta-kde/kde-standard_162_amd64.deb
-Size: 5248
-SHA256: 0688f320649975f32e82ef33384268642915dcd87ac26f01f80e224dd7c42602
-SHA1: 4d8c962ae1a5b835fe2bccabd4a80f9f62957d77
-MD5sum: b47690b1d9809ea5e1bed6610349009f
+Size: 5244
+SHA256: 4db928dc23f406268cb8920dc03fea27adfd4a22a0caa8adaf827c8c9cd7216f
+SHA1: 695cf8df088e8fa40db14e77d4864fb22659a9b9
+MD5sum: 9a891e5bda97a8585447157026b105e6
 Description: KDE Plasma Desktop and standard set of applications
  The KDE Software Compilation is the powerful, integrated, and easy-to-use Free
  Software desktop platform and suite of applications.
@@ -39639,11 +39641,11 @@ Description: Open VMware Tools for virtual machines hosted on VMware (GUI)
 
 Package: openbosniana-apps-basics
 Source: openbosniana-core
-Version: 2024.09.06
+Version: 2024.09.07
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 42
-Depends: bash-completion, bind9-dnsutils, nano, net-tools, whois, curl, wget, rsync
+Depends: bash-completion, bind9-dnsutils, nano, net-tools, whois, curl, wget, rsync, init, init-system-helpers
 Recommends: apparmor, apparmor-profiles, apparmor-profiles-extra, apparmor-utils, openbosniana-hardened
 Conflicts: apt-openbosniana, openbosniana-skel
 Breaks: apt-openbosniana, openbosniana-skel
@@ -39651,11 +39653,11 @@ Replaces: apt-openbosniana, base-files, bash, dnsmasq, openbosniana-interface-co
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-apps-basics_2024.09.06_all.deb
-Size: 964
-SHA256: a133ca9aed41e84508bf675acfa122f96b7a55c06d3341b9a87632bd4a97d435
-SHA1: 72ebbb0d29ee4c7e6bea6bf7f80b6a055a5db7d7
-MD5sum: 6d7a700a629a359d88e5010b6c44a80c
+Filename: pool/main/o/openbosniana-core/openbosniana-apps-basics_2024.09.07_all.deb
+Size: 972
+SHA256: 0b2cb5820630adcc6a6a0639c57186ebb2ea4b995fc2a8d7aa3cd3209fac1fa8
+SHA1: e16c7d2d72fa2ab4e8b61f7cedf48b53c4a4ab73
+MD5sum: 44090d5e7df433fd3bc3e2f192c8cce6
 Description: Basic applications for headless
   Install basic apps and configurations
 
@@ -47731,6 +47733,25 @@ SHA1: b1c29fe20064ebc8514214e7c66caf0d6866ecc1
 MD5sum: f248ba413fe88de7db7f66d161b466ed
 Description: Bosnian KDE Plasma desktop
  This task localises the KDE Plasma desktop in Bosnian.
+
+Package: task-kde-desktop
+Source: tasksel
+Version: 3.81
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 6
+Depends: tasksel (= 3.81), task-desktop, kde-standard, sddm
+Priority: optional
+Section: tasks
+Filename: pool/main/t/tasksel/task-kde-desktop_3.81_all.deb
+Size: 972
+SHA256: 1d43a5a27fd3fb0c2b0735bd1e1d9edc0ee3b919e66cbcc5571bb21215501a16
+SHA1: 21112e90d434fdeb7450dbe17954cbcadc003460
+MD5sum: 1197300a16ede944d2be64ccaf15b912
+Description: KDE Plasma
+ This task package is used to install the Debian desktop, featuring
+ the KDE Plasma desktop environment, and with other packages that Debian users
+ expect to have available on the desktop.
 
 Package: task-lxqt-desktop
 Source: tasksel
