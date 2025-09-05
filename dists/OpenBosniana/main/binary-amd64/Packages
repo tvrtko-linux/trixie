@@ -819,7 +819,7 @@ Description: framework for searching and managing metadata
  Baloo is part of the KDE Plasma desktop.
 
 Package: base-files
-Version: 2025.04.24+trixie4
+Version: 2025.04.26+trixie4
 Architecture: amd64
 Essential: yes
 Maintainer: Santiago Vila <sanvila@debian.org>
@@ -831,11 +831,11 @@ Provides: base, usr-is-merged
 Multi-Arch: foreign
 Priority: required
 Section: admin
-Filename: pool/main/b/base-files/base-files_2025.04.24+trixie4_amd64.deb
-Size: 72756
-SHA256: b94e380acfb0f0e85ff40152d4634113d90791e349ab3b6d1ea831f5132b7462
-SHA1: 48c7ce236af1e62350138fa4c588f3aab928c021
-MD5sum: ba2d73025b355877aacbc6feed19c8f7
+Filename: pool/main/b/base-files/base-files_2025.04.26+trixie4_amd64.deb
+Size: 72752
+SHA256: 0791aff0bb7b87c1c9bf53337c66f60b433e5ad2b6affc52d4fcdcdc5784e289
+SHA1: 7a3225337e0ac095274f4b74b9d8282c80315d89
+MD5sum: 113a7fb01c5548c3816bd9876f3c5a3c
 Description: OpenBosniana OS - Debian base system miscellaneous files
  This package contains the basic filesystem hierarchy of a Debian system, and
  several important miscellaneous files, such as /etc/debian_version,
@@ -3307,7 +3307,7 @@ Description: MySQL database server binaries (metapackage)
  doesn't depend on all the infrastructure needed to setup system databases.
 
 Package: desktop-base
-Version: 2025.01.05
+Version: 2025.01.07
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 16548
@@ -3317,11 +3317,11 @@ Suggests: openbosniana-desktop-kde
 Homepage: https://www.bosniana.org/
 Priority: optional
 Section: x11
-Filename: pool/main/d/desktop-base/desktop-base_2025.01.05_all.deb
-Size: 2000840
-SHA256: c3da2abe3972c6a623e7b2b75b14e8ddfb698857b8034398619978b52f718ab4
-SHA1: 2ebaee8ce138cacdd67ed16edd9805e84cb5aa41
-MD5sum: e9f221286fd1f3e550a428ec591a14b4
+Filename: pool/main/d/desktop-base/desktop-base_2025.01.07_all.deb
+Size: 2000856
+SHA256: a6177cec19fd3bf8cff57130a4cddb40a5bf31045d6ae7b44f1f86124bc45bee
+SHA1: 773575ce2ad92ed92e6186b3075b2c4540849f24
+MD5sum: 0d73e6ac12f5d42999cf01f66e53a252
 Description: common files for the OpenBosniana Desktop
  This package contains various miscellaneous files which are used by
  Debian Desktop installations.  Currently, it provides some
@@ -39678,7 +39678,7 @@ Description: OpenBosniana GPG Archive Keyring
  Public keys for the openbosniana archives digital signature.
 
 Package: openbosniana-core
-Version: 2025.09.01+trixie2
+Version: 2025.09.03+trixie2
 Architecture: amd64
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 705
@@ -39689,11 +39689,11 @@ Replaces: apt-openbosniana, base-files, bash, dnsmasq, fish, nano, nvim, openbos
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-core_2025.09.01+trixie2_amd64.deb
+Filename: pool/main/o/openbosniana-core/openbosniana-core_2025.09.03+trixie2_amd64.deb
 Size: 97716
-SHA256: aa0b2b0447798e916154612030d3d4bf205a17ff8f7ea35fdd3be2ed7481fe76
-SHA1: 5576ebe5e22f8aa085ff7640d28fcbfcf021ba39
-MD5sum: cffa750ba0755c4f0065ed2c6ba3c566
+SHA256: b943dc284946b279d2667fbb56339f6185d43fb3e2f96fdd31e886ea2d9be00c
+SHA1: 0033f506083267ea9f1cb74baab6642f54834b5b
+MD5sum: a506bd955300c017c16f046514636dc9
 Description: Core package for OpenBosniana OS
   Core package for the OpenBosniana Debian distribution.
   .
