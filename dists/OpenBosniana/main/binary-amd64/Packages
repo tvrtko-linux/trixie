@@ -49147,27 +49147,6 @@ Description: intelligent WHOIS client
  The package also contains mkpasswd, a features-rich front end to the
  password encryption function crypt(3).
 
-Package: wine64-preloader
-Source: wine
-Version: 10.0~repack-6
-Architecture: amd64
-Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
-Installed-Size: 61
-Depends: wine64 (= 10.0~repack-6)
-Multi-Arch: foreign
-Homepage: https://www.winehq.org
-Priority: optional
-Section: otherosfs
-Filename: pool/main/w/wine/wine64-preloader_10.0~repack-6_amd64.deb
-Size: 29184
-SHA256: bacc96e39b537679179786f58911dbe307f8215660d6d5de7b62085b19d89752
-SHA1: c5b295c2324d5b1a43aad477f080961a86203def
-MD5sum: 8773bec5b3eca8d4c359af9942e0cc58
-Description: Windows API implementation - prelinked 64-bit binary loader
- Wine is a free MS-Windows API implementation.
- .
- This package provides the prelinked loader for 64-bit Windows applications.
-
 Package: wireless-regdb
 Version: 2025.07.10-1
 Architecture: all
