@@ -11834,7 +11834,7 @@ Description: Linux Key Management Utilities
 
 Package: kf6-breeze-icon-theme
 Source: kf6-breeze-icons
-Version: 2025.13.0-4
+Version: 2025.13.0-5
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 59719
@@ -11845,11 +11845,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme_2025.13.0-4_all.deb
-Size: 5676908
-SHA256: 5909d6026fa7cae359ea7510d6bcb89a2490abb44dddd3ed0370c740ce1d110d
-SHA1: ea4708258e15c9de1f5fd007985ea6d3d8261692
-MD5sum: 8c1730c05436b57bc6324aeed91320fe
+Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme_2025.13.0-5_all.deb
+Size: 5751112
+SHA256: 4d8d587f83052ff0195fc099da30d91b9985f9da609b067e5f48b57f4695cb27
+SHA1: ce2e85eac6f123f224ca34d3849466b85c7475bd
+MD5sum: a94a4c561ce4a753c519a4d03ba63a1b
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 6 desktop.
  .
@@ -11857,7 +11857,7 @@ Description: Default Plasma icon theme
 
 Package: kf6-breeze-icon-theme-rcc
 Source: kf6-breeze-icons
-Version: 2025.13.0-4
+Version: 2025.13.0-5
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 25285
@@ -11867,11 +11867,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme-rcc_2025.13.0-4_all.deb
-Size: 5063476
-SHA256: 06c5bdc6dde99e53d06b914d2453b90220bda22ef96bb3118a4691e11664ce13
-SHA1: 40160168dc3a6f4955327a4848f2fba076fd2838
-MD5sum: c9aae5d39e63e076450e7ff55bdafe87
+Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme-rcc_2025.13.0-5_all.deb
+Size: 5472196
+SHA256: 070ec635c9f3f332b9bf8ce81229b43cd574ec212a54b2c5570e4c53b2652afb
+SHA1: cef58e0bd7ba4d4c52a50f7a8ddf1a695af4139f
+MD5sum: 89d80c633d8fe9a338a28f6fa8585715
 Description: RCC resources for the breeze icon theme
  Breeze is the default icon theme for the KDE Plasma 6 desktop. This package
  contains the icons in RCC format.
@@ -14522,6 +14522,29 @@ Description: POSIX 1003.1e capabilities (utilities)
  powerful root privilege into a set of distinct privileges.
  .
  This package contains additional utilities.
+
+Package: libcapi20-3t64
+Source: libcapi20-3 (1:3.27-3.2)
+Version: 1:3.27-3.2+b1
+Architecture: amd64
+Maintainer: Rolf Leggewie <foss@rolf.leggewie.biz>
+Installed-Size: 133
+Depends: libc6 (>= 2.34)
+Breaks: libcapi20-3 (<< 1:3.27-3.2)
+Replaces: libcapi20-3
+Provides: libcapi20-3 (= 1:3.27-3.2+b1)
+Multi-Arch: same
+Homepage: http://www.isdn4linux.de
+Priority: optional
+Section: libs
+Filename: pool/main/libc/libcapi20-3/libcapi20-3t64_3.27-3.2+b1_amd64.deb
+Size: 28656
+SHA256: efaeffb50075c62048050c1e9eb75dc400ec276dbc08bba00c78f6473a3f5aa9
+SHA1: 1950bfdd4a38a00403280ac7a0ac56bbca29bf76
+MD5sum: cecc85e7eac2bf641ba60a6956db8e92
+Description: ISDN utilities - CAPI support libraries
+ Handle requests from CAPI-driven applications such as fax systems via active
+ and passive ISDN cards.
 
 Package: libcbor0.10
 Source: libcbor
@@ -26565,6 +26588,59 @@ MD5sum: ab807f497d07c9d37fe7cb035e72abf7
 Description: Runtime library for GNU Objective-C applications
  Library needed for GNU ObjC applications linked against the shared library.
 
+Package: libodbc2
+Source: unixodbc
+Version: 2.3.12-2
+Architecture: amd64
+Maintainer: Hugh McMaster <hmc@debian.org>
+Installed-Size: 469
+Depends: libc6 (>= 2.17), libltdl7 (>= 2.4.7)
+Recommends: libodbccr2 (= 2.3.12-2)
+Suggests: odbc-postgresql, tdsodbc
+Breaks: libodbc1 (<< 2.3.9-1~)
+Replaces: libodbc1 (<< 2.3.9-1~)
+Multi-Arch: same
+Homepage: https://www.unixodbc.org
+Priority: optional
+Section: libs
+Filename: pool/main/u/unixodbc/libodbc2_2.3.12-2_amd64.deb
+Size: 151356
+SHA256: dc89f31581a8c90c0cae90a2d3f2bc5fe0f7ba4909d0ca4cdf8824625b7d7f68
+SHA1: 89fcb09c1534c753881a4d65f0821da0c8518460
+MD5sum: 39e2300a1ab5d5a16de5c22bffabbefd
+Description: ODBC Driver Manager library for Unix
+ UnixODBC is an implementation of the Open Database Connectivity standard,
+ a database abstraction layer that allows applications to be used with
+ many different relational databases by way of a single library.
+ .
+ This package provides the unixODBC Driver Manager library.
+
+Package: libodbccr2
+Source: unixodbc
+Version: 2.3.12-2
+Architecture: amd64
+Maintainer: Hugh McMaster <hmc@debian.org>
+Installed-Size: 66
+Depends: libc6 (>= 2.14)
+Enhances: libodbc2 (= 2.3.12-2)
+Breaks: libodbc1 (<< 2.3.9-1~)
+Replaces: libodbc1 (<< 2.3.9-1~)
+Multi-Arch: same
+Homepage: https://www.unixodbc.org
+Priority: optional
+Section: libs
+Filename: pool/main/u/unixodbc/libodbccr2_2.3.12-2_amd64.deb
+Size: 18136
+SHA256: f8918ee29fe388b51d2399e6c362c1940398e181f1c4b99baf115801d3f2fa6c
+SHA1: 769cb9bdd5550a13c164751db0ba4b47582ff65f
+MD5sum: b287f8c0a51508950556a60add5f6a1d
+Description: ODBC Cursor library for Unix
+ UnixODBC is an implementation of the Open Database Connectivity standard,
+ a database abstraction layer that allows applications to be used with
+ many different relational databases by way of a single library.
+ .
+ This package provides the unixODBC Cursor library.
+
 Package: libogg0
 Source: libogg (1.3.5-3)
 Version: 1.3.5-3+b2
@@ -26873,6 +26949,30 @@ Description: Opus codec runtime library
   Floating point and fixed-point implementation
  .
  This package provides the Opus runtime library.
+
+Package: libosmesa6
+Source: mesa
+Version: 25.0.7-2
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 15375
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.121), libgcc-s1 (>= 3.4), libllvm19 (>= 1:19.1.0), libstdc++6 (>= 11), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/libosmesa6_25.0.7-2_amd64.deb
+Size: 3197436
+SHA256: 9ee26c93ddce31b08ddef2e10941eafde0d51b67e0deb91857d85ed650a2a501
+SHA1: 4ec0054e7e926a47980c5964d4501188cd14b714
+MD5sum: dadf476fbda10e220be0d29e9adc7c69
+Description: Mesa Off-screen rendering extension
+ OSmesa is a Mesa extension that allows programs to render to an
+ off-screen buffer using the OpenGL API without having to create a
+ rendering context on an X Server.  It uses a pure software renderer.
+ .
+ This package provides both 16-bit and 32-bit versions of the off-screen
+ renderer which do not require external libraries to work.
 
 Package: libostree-1-1
 Source: ostree
@@ -33996,7 +34096,7 @@ Description: Perl module for processing huge XML documents in tree mode
  necessary) features that come with XML and XML::Parser.
 
 Package: libxml2
-Version: 2.12.7+dfsg+really2.9.14-2.1
+Version: 2.12.7+dfsg+really2.9.14-2.1+deb13u1
 Architecture: amd64
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Installed-Size: 1915
@@ -34006,11 +34106,11 @@ Multi-Arch: same
 Homepage: http://xmlsoft.org
 Priority: optional
 Section: libs
-Filename: pool/main/libx/libxml2/libxml2_2.12.7+dfsg+really2.9.14-2.1_amd64.deb
-Size: 698048
-SHA256: ec0fabdc378df3190a1019b949e80efcb0e081ccb692f9d551149d6148e53b02
-SHA1: e92930943ba88dea8b9f2ed89dce2fb1305a645f
-MD5sum: 4da9f2b3eaf3dfdf004dc06363d73d5b
+Filename: pool/main/libx/libxml2/libxml2_2.12.7+dfsg+really2.9.14-2.1+deb13u1_amd64.deb
+Size: 698060
+SHA256: b4743a0fd8e86379ec2bdfb6b97b99fb1c92a925e538920052316814470e99f8
+SHA1: c132d2a2f4d804158ef75c9905de00e2f4a9d8c0
+MD5sum: b60f50633c8c325f37184913046a938a
 Description: GNOME XML library
  XML is a metalanguage to let you design your own markup language.
  A regular markup language defines a way to describe information in
@@ -34338,7 +34438,7 @@ Description: X shared memory fences - shared library
 
 Package: libxslt1.1
 Source: libxslt
-Version: 1.1.35-1.2
+Version: 1.1.35-1.2+deb13u1
 Architecture: amd64
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Installed-Size: 497
@@ -34347,11 +34447,11 @@ Multi-Arch: same
 Homepage: https://gitlab.gnome.org/GNOME/libxslt/-/wikis/home
 Priority: optional
 Section: libs
-Filename: pool/main/libx/libxslt/libxslt1.1_1.1.35-1.2_amd64.deb
-Size: 232652
-SHA256: 8157aaa29f7d5d53a360a4171fc1853a48b4d8886857db3b2cadc82df05c6b5c
-SHA1: cea31f7d193e0890aa75bf5bca0aadfee6228b3b
-MD5sum: b18d329e13aee25b2e1e0693937cb2ec
+Filename: pool/main/libx/libxslt/libxslt1.1_1.1.35-1.2+deb13u1_amd64.deb
+Size: 232564
+SHA256: 08e07b926b8446415e37de3eacbab32296123c383c467255d5b4f0356cb35b75
+SHA1: a1363f91993056921924834d3744eb0d0a8b578e
+MD5sum: eadd00266141666ea0ba7947b31b0fe2
 Description: XSLT 1.0 processing library - runtime library
  XSLT is an XML language for defining transformations of XML files from
  XML to some other arbitrary format, such as XML, HTML, plain text, etc.
@@ -49046,6 +49146,27 @@ Description: intelligent WHOIS client
  .
  The package also contains mkpasswd, a features-rich front end to the
  password encryption function crypt(3).
+
+Package: wine64-preloader
+Source: wine
+Version: 10.0~repack-6
+Architecture: amd64
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 61
+Depends: wine64 (= 10.0~repack-6)
+Multi-Arch: foreign
+Homepage: https://www.winehq.org
+Priority: optional
+Section: otherosfs
+Filename: pool/main/w/wine/wine64-preloader_10.0~repack-6_amd64.deb
+Size: 29184
+SHA256: bacc96e39b537679179786f58911dbe307f8215660d6d5de7b62085b19d89752
+SHA1: c5b295c2324d5b1a43aad477f080961a86203def
+MD5sum: 8773bec5b3eca8d4c359af9942e0cc58
+Description: Windows API implementation - prelinked 64-bit binary loader
+ Wine is a free MS-Windows API implementation.
+ .
+ This package provides the prelinked loader for 64-bit Windows applications.
 
 Package: wireless-regdb
 Version: 2025.07.10-1

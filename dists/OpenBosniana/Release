@@ -3,34 +3,49 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana
 Version: 2024
-Date: Fri, 05 Sep 2025 03:00:58 UTC
-Architectures: amd64
+Date: Sat, 06 Sep 2025 09:59:26 UTC
+Architectures: amd64 i386
 Components: main
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
 MD5Sum:
- 5df8afd4f7c9c152291752650efa2cb3 2288076 main/binary-amd64/Packages
- 6cf2f1cffa9db449a512285c2890f4e5 658148 main/binary-amd64/Packages.gz
+ 1338bc3577240229caccc099e52285cd 2292474 main/binary-amd64/Packages
+ 305ff2407d5f753b020f21d3e62121a7 659489 main/binary-amd64/Packages.gz
  b0d9e12f1ae63a1b0d1b394068735023 185 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
+ 30424565a75d2a9979c228aeddd0d700 281784 main/binary-i386/Packages
+ f942b52051f4be659bcc52bbf811eb8f 84974 main/binary-i386/Packages.gz
+ 96cd2230bf404dfaf33f72ff6ccfa8cf 184 main/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-i386/Packages.gz
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  e50c7529a4057e38768db62af08b9e96 186 main/source/Release
 SHA1:
- 72168d9bc07d29b92bf0c3d46e038508fe14db87 2288076 main/binary-amd64/Packages
- ebdd9a279c2fb5faa77b79bec80fb1152f55825d 658148 main/binary-amd64/Packages.gz
+ 469a12fa1e4df50a898d3761851f825f7f236993 2292474 main/binary-amd64/Packages
+ 3c53f01e037797d7c2179bb1990e9974803e4ddb 659489 main/binary-amd64/Packages.gz
  2d122413bcff69dcea094395c604b68d0bf8ed24 185 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
+ 46359177b06ea4780867e2d3861eb6a9f0ec1ec1 281784 main/binary-i386/Packages
+ 4119ac593bfd3bcafec26c328b0c510093506e69 84974 main/binary-i386/Packages.gz
+ ab992624680d1d04c2b06fa0e53e628a4c817399 184 main/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-i386/Packages.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  12e8d3f62d41daed04b6ea7defc0aa483687d786 186 main/source/Release
 SHA256:
- 28423e8cb2a5397f9bed304dc1250ad59799f3fac5a35ca9443e41296824cc86 2288076 main/binary-amd64/Packages
- 6924753cc488a2816594a86fde49debfb7526231dcdb7436b54d5d5c9a23ab01 658148 main/binary-amd64/Packages.gz
+ 451640e3a22a0ec77d564f823322760cec85cf6547111667ec32dc825f79b30a 2292474 main/binary-amd64/Packages
+ 632e2c10816b22e4e5b4f1fae9a21294f387a3673de9a997de6da855bb908253 659489 main/binary-amd64/Packages.gz
  1f2ec1d7026705d80c7fea2c53f0a31517c91a62113552a8924f001cdd3ed587 185 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
+ 8898503d4a324239fa040ae5ea75dcd3349a7f45d96a3414c571dc4f72eb41ea 281784 main/binary-i386/Packages
+ a3f76a8e86153606a0b30a7f2ebc4ee0a3f1c0b583eee2d699a6d2b40ddd8fab 84974 main/binary-i386/Packages.gz
+ 8ab63ea05bc30c9d05243caa4823d290af64469e22bf30285de8ce79da7a71bd 184 main/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-i386/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
  6bde14b468ac13ed6558893b6a4a334cab2a30fdf43113c1beb6caae88e9e1e1 186 main/source/Release
