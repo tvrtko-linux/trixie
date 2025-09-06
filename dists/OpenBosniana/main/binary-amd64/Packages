@@ -39778,7 +39778,7 @@ Description: OpenBosniana GPG Archive Keyring
  Public keys for the openbosniana archives digital signature.
 
 Package: openbosniana-core
-Version: 2025.09.03+trixie5
+Version: 2025.09.03+trixie6
 Architecture: amd64
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 705
@@ -39789,11 +39789,11 @@ Replaces: apt-openbosniana, base-files, bash, dnsmasq, fish, nano, nvim, openbos
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-core_2025.09.03+trixie5_amd64.deb
-Size: 97976
-SHA256: f55445575ef03ef21fcec6022824a428b3dfd240065e0870e28d67532601667f
-SHA1: 0b59fe5345a21664fbf7e57843f56e00faf208fe
-MD5sum: 43693c6671c98bd05e3e5962c12c4f93
+Filename: pool/main/o/openbosniana-core/openbosniana-core_2025.09.03+trixie6_amd64.deb
+Size: 97856
+SHA256: 33d13f23b9a16b109108e3c4db34178e84e846e5aac9894be09ccd93c0dd3614
+SHA1: 095b581de513b041edd3bf2f3004df125d8b662b
+MD5sum: 77c5c6a5953d36905f3dff0593321829
 Description: Core package for OpenBosniana OS
   Core package for the OpenBosniana Debian distribution.
   .
