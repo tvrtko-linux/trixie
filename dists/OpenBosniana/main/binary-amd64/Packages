@@ -49145,56 +49145,6 @@ Description: intelligent WHOIS client
  The package also contains mkpasswd, a features-rich front end to the
  password encryption function crypt(3).
 
-Package: wine-stable
-Source: wine
-Version: 10.0.0.0~trixie-1
-Architecture: amd64
-Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 13624
-Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.38), wine-stable-i386 (= 10.0.0.0~trixie-1), wine-stable-amd64 (= 10.0.0.0~trixie-1)
-Multi-Arch: foreign
-Priority: optional
-Section: otherosfs
-Filename: pool/main/w/wine/wine-stable_10.0.0.0~trixie-1_amd64.deb
-Size: 2216164
-SHA256: 0b3d9379b93c65185d0463f3fe204309db5b3e4babea4fbae9773d3b9b054d6d
-SHA1: 0dbc886358cbb89a90a0c10b4816530fc7851222
-MD5sum: 31bb8297aec7deca5c5a7e60a5e34563
-Description: WINE Is Not An Emulator - runs MS Windows programs
- Wine is a program which allows running Microsoft Windows programs
- (including DOS, Windows 3.x and Win32 executables) on Unix. It
- consists of a program loader which loads and executes a Microsoft
- Windows binary, and a library (called Winelib) that implements Windows
- API calls using their Unix or X11 equivalents.  The library may also
- be used for porting Win32 code into native Unix executables.
-Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
-
-Package: winehq-stable
-Source: wine
-Version: 10.0.0.0~trixie-1
-Architecture: amd64
-Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 73
-Depends: wine-stable (= 10.0.0.0~trixie-1)
-Conflicts: wine, wine-amd64, wine-i386
-Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Provides: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Priority: optional
-Section: otherosfs
-Filename: pool/main/w/wine/winehq-stable_10.0.0.0~trixie-1_amd64.deb
-Size: 1928
-SHA256: 4c1a4e0db2217ad7443126ac39276bee80de1e7905faeee3b2cb1b1e28cc4eca
-SHA1: 3fc1ea0d3890334b44a09e957f4609b426b96537
-MD5sum: 4abdea26dcf015606c2336ce557ec3fe
-Description: WINE Is Not An Emulator - runs MS Windows programs
- Wine is a program which allows running Microsoft Windows programs
- (including DOS, Windows 3.x and Win32 executables) on Unix.
- .
- This compatibility package allows to use wine-stable system-wide as
- the default Wine version.
-Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
-
 Package: wireless-regdb
 Version: 2025.07.10-1
 Architecture: all
