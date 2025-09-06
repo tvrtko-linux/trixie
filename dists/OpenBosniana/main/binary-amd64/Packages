@@ -4086,19 +4086,19 @@ Description: AST-based pattern checker for JavaScript
   * Use of option --init require package node-inquirer.
 
 Package: ethtool
-Version: 1:6.14.1-1
+Version: 1:6.14.2-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 774
+Installed-Size: 775
 Depends: libc6 (>= 2.34), libmnl0 (>= 1.0.3-4~)
 Homepage: https://www.kernel.org/pub/software/network/ethtool/
 Priority: optional
 Section: net
-Filename: pool/main/e/ethtool/ethtool_6.14.1-1_amd64.deb
-Size: 226964
-SHA256: e0a2c5bbb8ff4eef8ee727943425dec60c108a6b580cc418066127cceb51a41e
-SHA1: 2d3affd44db6642b3731ac37a3275f4fb270e246
-MD5sum: ea312fcb932dc091ca221b3c8c160235
+Filename: pool/main/e/ethtool/ethtool_6.14.2-1_amd64.deb
+Size: 227036
+SHA256: 5c592ac6e65c3863c5ba9c9b8380f913a35f39803aa89ccc59c11c5c953a46ef
+SHA1: 542ffd3dcaacaba07398e94ed5bdccc347b4111c
+MD5sum: e0314ac383d5af50b51e88f2a9ffb7b7
 Description: display or change Ethernet device settings
  ethtool can be used to query and change settings such as speed, auto-
  negotiation and checksum offload on many network devices, especially
@@ -4416,21 +4416,21 @@ Description: utilities for finding files--find, xargs
  been split off into a separate package.
 
 Package: firefox-esr
-Version: 128.13.0esr-1
+Version: 128.14.0esr-1~deb13u1
 Architecture: amd64
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
-Installed-Size: 239611
+Installed-Size: 239765
 Depends: libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.39), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.10), libevent-2.1-7t64 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.101), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 13.1), libvpx9 (>= 1.12.0), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4), fontconfig, procps, debianutils (>= 1.16)
 Recommends: libavcodec61 | libavcodec-extra61 | libavcodec60 | libavcodec-extra60 | libavcodec59 | libavcodec-extra59 | libavcodec58 | libavcodec-extra58 | libavcodec57 | libavcodec-extra57 | libavcodec56 | libavcodec-extra56 | libavcodec55 | libavcodec-extra55 | libavcodec54 | libavcodec-extra54 | libavcodec53 | libavcodec-extra53
 Suggests: fonts-stix | otf-stix, fonts-lmodern, libgssapi-krb5-2 | libkrb53, libcanberra0, pulseaudio
 Provides: gnome-www-browser, www-browser
 Priority: optional
 Section: web
-Filename: pool/main/f/firefox-esr/firefox-esr_128.13.0esr-1_amd64.deb
-Size: 64923976
-SHA256: 33adef7077bf9b087e64f71e17e6c149d80b64ed114597828d44436b06a91195
-SHA1: 90da9813e8527bef0ec97fe1410d78e182671255
-MD5sum: 7b5e6a428bee905a84d18ffeb2d070f9
+Filename: pool/main/f/firefox-esr/firefox-esr_128.14.0esr-1~deb13u1_amd64.deb
+Size: 64948456
+SHA256: da9027c4955a1f2ee72b4711e19bc8aa2bea91ef190700c82f0ba13206913b07
+SHA1: 5968bea9b9e3d4483d8bae3940b2fe7305df6e11
+MD5sum: ad136a744be939616e880f7474a0dd5d
 Description: Mozilla Firefox web browser - Extended Support Release (ESR)
  Firefox ESR is a powerful, extensible web browser with support for modern
  web application technologies.
@@ -7173,8 +7173,8 @@ Description: "No Tofu" font families with large Unicode coverage (unhinted)
  often displayed as replacement for unassigned or unknown characters.
 
 Package: fonts-opensymbol
-Source: libreoffice (4:25.2.3-2)
-Version: 4:102.12+LibO25.2.3-2
+Source: libreoffice (4:25.2.3-2+deb13u2)
+Version: 4:102.12+LibO25.2.3-2+deb13u2
 Architecture: all
 Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
 Installed-Size: 280
@@ -7185,11 +7185,11 @@ Multi-Arch: foreign
 Homepage: http://www.libreoffice.org
 Priority: optional
 Section: fonts
-Filename: pool/main/libr/libreoffice/fonts-opensymbol_102.12+LibO25.2.3-2_all.deb
-Size: 127396
-SHA256: 5dc1dc236403b274b7a08fe97d273279cab5a4339d8fe519d9a832c62ef1213a
-SHA1: 76dc7100b3588a0e349a3e6780cccf3883f09e03
-MD5sum: 90c5852ee3e8c48c21ba2bb51606ec12
+Filename: pool/main/libr/libreoffice/fonts-opensymbol_102.12+LibO25.2.3-2+deb13u2_all.deb
+Size: 127652
+SHA256: 070d635c8774ce8f89659fdf3b01872c584816136eb88dbcc151b7b4a175fcb2
+SHA1: c66cadf49af5b5315073db662e04af834bdd50d3
+MD5sum: 8cd8099bf37fc1a3d7bf6d2f7ae8849f
 Description: OpenSymbol TrueType font
  This package contains the OpenSymbol TrueType font included in
  LibreOffice. This font contains symbols (like fonts as Wingdings(tm)),
@@ -7762,7 +7762,7 @@ Description: interpreter for the PostScript language and for PDF
 
 Package: gir1.2-adw-1
 Source: libadwaita-1
-Version: 1.7.4-2
+Version: 1.7.6-1~deb13u1
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 179
@@ -7771,11 +7771,11 @@ Multi-Arch: same
 Homepage: https://gnome.pages.gitlab.gnome.org/libadwaita/
 Priority: optional
 Section: introspection
-Filename: pool/main/liba/libadwaita-1/gir1.2-adw-1_1.7.4-2_amd64.deb
-Size: 42076
-SHA256: ee503fbbd47ce67555e9abb7553e67f45584f011bc8cf2dcc887bb5b9a69915e
-SHA1: e4933e79084f6e3fd56d295944e22e1941cee5bf
-MD5sum: ab3acaa296724e52db018689e05e6918
+Filename: pool/main/liba/libadwaita-1/gir1.2-adw-1_1.7.6-1~deb13u1_amd64.deb
+Size: 42832
+SHA256: 6c08e2afd9cf5e58df310e4e203b8612fd4bdbe638d6f8f03cd7e4e679149317
+SHA1: 6d42b4f15b3cd03bedc50ea7837dbc3d2796759d
+MD5sum: bdd60cd6774394e89bff0cc631579e71
 Description: GObject introspection files for libadwaita
  libadwaita provides GTK widgets and GObjects to ease developing
  applications for mobile phones.
@@ -7918,22 +7918,22 @@ Description: Introspection data for GIRepository library
 
 Package: gir1.2-glib-2.0
 Source: glib2.0
-Version: 2.84.3-1
+Version: 2.84.4-3~deb13u1
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 776
-Depends: libglib2.0-0t64 (= 2.84.3-1)
+Installed-Size: 777
+Depends: libglib2.0-0t64 (= 2.84.4-3~deb13u1)
 Breaks: libgirepository-1.0-1 (<< 1.78.1-3~)
-Provides: gir1.2-gio-2.0 (= 2.84.3-1), gir1.2-giounix-2.0 (= 2.84.3-1), gir1.2-glibunix-2.0 (= 2.84.3-1), gir1.2-gmodule-2.0 (= 2.84.3-1), gir1.2-gobject-2.0 (= 2.84.3-1)
+Provides: gir1.2-gio-2.0 (= 2.84.4-3~deb13u1), gir1.2-giounix-2.0 (= 2.84.4-3~deb13u1), gir1.2-glibunix-2.0 (= 2.84.4-3~deb13u1), gir1.2-gmodule-2.0 (= 2.84.4-3~deb13u1), gir1.2-gobject-2.0 (= 2.84.4-3~deb13u1)
 Multi-Arch: same
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Priority: optional
 Section: introspection
-Filename: pool/main/g/glib2.0/gir1.2-glib-2.0_2.84.3-1_amd64.deb
-Size: 197648
-SHA256: 2714d5c5471417f830d7f6b23386d97e75d14d4f76f83a94f506572f86075624
-SHA1: 02d72c1c0d21c36fe8a93ee666bef90ec86ec3e4
-MD5sum: 82c0632cf4a84b402f6691cb6a09af79
+Filename: pool/main/g/glib2.0/gir1.2-glib-2.0_2.84.4-3~deb13u1_amd64.deb
+Size: 198700
+SHA256: 28d8c2e7ac00bebf5dc1a1a04d59b426c1c87bf9b8d631be8b9925b49030f043
+SHA1: 56c8f1e597d06bf301f465c674ddf2379be4c6a5
+MD5sum: 2e3068ae276d069b5cfdc5e86a49baa3
 Description: Introspection data for GLib, GObject, Gio and GModule
  GObject Introspection is a project for providing machine readable
  introspection data of the API of C libraries. This introspection
@@ -8309,11 +8309,11 @@ Description: Secret store (GObject-Introspection)
  This package contains the introspection datas for the libsecret library.
 
 Package: git
-Version: 1:2.47.2-0.2
+Version: 1:2.47.3-0+deb13u1
 Architecture: amd64
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 49147
-Depends: libc6 (>= 2.38), libcurl3t64-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.47.2), git-man (<< 1:2.47.2-.)
+Installed-Size: 49154
+Depends: libc6 (>= 2.38), libcurl3t64-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.47.3), git-man (<< 1:2.47.3-.)
 Recommends: ca-certificates, patch, less, ssh-client
 Suggests: gettext-base, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn
 Breaks: bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-el (<< 1:2.32.0~rc2-1~), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)
@@ -8322,11 +8322,11 @@ Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git_2.47.2-0.2_amd64.deb
-Size: 8858448
-SHA256: ce86cdafd613cd254dc4072c147bea41ee9e11043b9edfe2fc91d865c696e083
-SHA1: 479643277141c8a76fcb8f077618b839f7fee9af
-MD5sum: 8ac5ef67c08bc7dbbf0af793a911a628
+Filename: pool/main/g/git/git_2.47.3-0+deb13u1_amd64.deb
+Size: 8861572
+SHA256: 3e35662fd5c46add561703e54031a1d8ad9df45811927689f0a51122b13be722
+SHA1: bb5947667cef07307ce77aeb86fd95c2a3e85472
+MD5sum: 26aa869d049c8cddc78ca94f56ad3510
 Description: fast, scalable, distributed revision control system
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -8344,19 +8344,19 @@ Description: fast, scalable, distributed revision control system
 
 Package: git-man
 Source: git
-Version: 1:2.47.2-0.2
+Version: 1:2.47.3-0+deb13u1
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 2250
+Installed-Size: 2251
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: doc
-Filename: pool/main/g/git/git-man_2.47.2-0.2_all.deb
-Size: 2204756
-SHA256: 68ba8f6e1f111e4ce750d255b8f2dd4621e59694d79ec478bbf448f967f03fbe
-SHA1: 1412a86f4031e7880e496ccf538ae79b26d3182e
-MD5sum: 52eaecdf909aa4da6581bc64d2470236
+Filename: pool/main/g/git/git-man_2.47.3-0+deb13u1_all.deb
+Size: 2204692
+SHA256: b58306b60e1dff920e1e18bc7e1e499f2ef75184190ab3d98657b165969bf7c9
+SHA1: f3d9cde672d8833f93805a3174539e9902fc6834
+MD5sum: f41414429e2df83fd81b105642abe7ba
 Description: fast, scalable, distributed revision control system (manual pages)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -10510,20 +10510,20 @@ Description: hardware identification / configuration data
 
 Package: hyperv-daemons
 Source: linux
-Version: 6.12.38-1
+Version: 6.12.43-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 1139
+Installed-Size: 1165
 Pre-Depends: init-system-helpers (>= 1.54~)
 Depends: libc6 (>= 2.34)
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux/hyperv-daemons_6.12.38-1_amd64.deb
-Size: 1088360
-SHA256: 9997824ecf90a8dd50e7f42def813ff441efc705e723384a8abe1b7f7aed8525
-SHA1: 5246d41d2e5157d05214484ed20e9169f15e7ff9
-MD5sum: 417b93accb974b1edcc5bfe091964222
+Filename: pool/main/l/linux/hyperv-daemons_6.12.43-1_amd64.deb
+Size: 1114956
+SHA256: d0feef07472bb85c17ab6163d36fd3dc79656629564d0d858d4fff9ef9e95604
+SHA1: 570435e84531a20ee6a51eb5ca07d0c431f5a42c
+MD5sum: c6aaca49580ee743e369032b3275d275
 Description: Support daemons for Linux running on Hyper-V
  Suite of daemons for Linux guests running on Hyper-V, consisting of
  hv_kvp_daemon and hv_vss_daemon.
@@ -10709,41 +10709,40 @@ Description: Standalone GNU Info documentation browser
 
 Package: init
 Source: init-system-helpers
-Version: 1.68.2+openbosniana1
+Version: 1.69~deb13u1
 Architecture: amd64
-Maintainer: Denis Maslo <denni@bosniana.org>
-Installed-Size: 12
+Protected: yes
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 17
 Pre-Depends: systemd-sysv | sysvinit-core
 Multi-Arch: foreign
 Priority: important
 Section: metapackages
-Filename: pool/main/i/init-system-helpers/init_1.68.2+openbosniana1_amd64.deb
-Size: 928
-SHA256: b0e6f93eacaaf1465898e5d18b8255c80cde7f41ded4ea2264e7315bd1531a42
-SHA1: a2d3d805e9d77284eebb8fac364d22921c517e71
-MD5sum: efc969d8880c7517e0a62fa013a78cf9
+Filename: pool/main/i/init-system-helpers/init_1.69~deb13u1_amd64.deb
+Size: 6408
+SHA256: 159ed19fb67055f2337c23cf92d6e29040dc969742e8b52fb5fd1b9033a6cce6
+SHA1: 8d282a20de3b4703904b9d75ff235d140452cf3f
+MD5sum: 9f34c12bd5590c2b28a372910002e75d
 Description: metapackage ensuring an init system is installed
  This package is a metapackage which allows you to select from the available
  init systems while ensuring that one of these is available on the system at
  all times.
 Important: yes
-Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 
 Package: init-system-helpers
-Version: 1.68.2+openbosniana1
+Version: 1.69~deb13u1
 Architecture: all
 Essential: yes
-Maintainer: Denis Maslo <deni@bosniana.org>
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 133
-Depends: usrmerge | usr-is-merged
 Multi-Arch: foreign
 Priority: required
 Section: admin
-Filename: pool/main/i/init-system-helpers/init-system-helpers_1.68.2+openbosniana1_all.deb
-Size: 31932
-SHA256: 9aff500424a99f7ef70522abab80a3ec7f6ecbbee103760100adb9b44e9b0e33
-SHA1: a1e5b965f4d46823168187aa535c008c0584498a
-MD5sum: 0202baa4475918ccba34c6ace805e1ce
+Filename: pool/main/i/init-system-helpers/init-system-helpers_1.69~deb13u1_all.deb
+Size: 39360
+SHA256: addf78073e1cbc5a5508937e11d2571055e29835e00ee8fab52a66775649378f
+SHA1: 01f445c5ba4bc769417f8ee0797d8a8259054fb3
+MD5sum: 48f451739effa45774b7b78d51671fdb
 Description: helper tools for all init systems
  This package contains helper tools that are necessary for switching between
  the various init systems that Debian contains (e. g. sysvinit or
@@ -10757,7 +10756,6 @@ Description: helper tools for all init systems
  While this package is maintained by pkg-systemd-maintainers, it is NOT
  specific to systemd at all. Maintainers of other init systems are welcome to
  include their helpers in this package.
-Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 
 Package: initramfs-tools
 Version: 0.148.3
@@ -12865,7 +12863,7 @@ Description: access control list - shared library
 
 Package: libadwaita-1-0
 Source: libadwaita-1
-Version: 1.7.4-2
+Version: 1.7.6-1~deb13u1
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 2827
@@ -12874,11 +12872,11 @@ Multi-Arch: same
 Homepage: https://gnome.pages.gitlab.gnome.org/libadwaita/
 Priority: optional
 Section: libs
-Filename: pool/main/liba/libadwaita-1/libadwaita-1-0_1.7.4-2_amd64.deb
-Size: 528124
-SHA256: 842c447a7c00d2c8884a27a1db522c8bcc6400ca58c1f694b7f197a705e8bf10
-SHA1: 0047be86f81286d38f1f801dfed146ea07f74462
-MD5sum: ecf6be829a65141116900efda2aec28b
+Filename: pool/main/liba/libadwaita-1/libadwaita-1-0_1.7.6-1~deb13u1_amd64.deb
+Size: 528344
+SHA256: b3ff133512acc2d303892eba6eeac29506efd579e418fdbce6af6dcb50b3de4c
+SHA1: 1b1dcda89caed2bfdb24d9ba1e7046bc8634867d
+MD5sum: f482b229b0ad02d8d40da2dcaaccdee4
 Description: Library with GTK widgets for mobile phones
  libadwaita provides GTK widgets and GObjects to ease developing
  applications for mobile phones.
@@ -17567,25 +17565,25 @@ Description: Vendor neutral GL dispatch library -- GLESv2 support
 
 Package: libglib2.0-0t64
 Source: glib2.0
-Version: 2.84.3-1
+Version: 2.84.4-3~deb13u1
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 4445
+Installed-Size: 4447
 Depends: libatomic1 (>= 4.8), libc6 (>= 2.38), libffi8 (>= 3.4), libmount1 (>= 2.40~rc2), libpcre2-8-0 (>= 10.22), libselinux1 (>= 3.1~), zlib1g (>= 1:1.2.2)
 Recommends: libglib2.0-data, shared-mime-info, xdg-user-dirs
 Suggests: low-memory-monitor
 Breaks: glib-networking-tests (<< 2.70.0~), gnome-keyring (<< 40.0-3~), gnome-shell (<< 44.9-2~), libedataserver-1.2-26 (<< 3.44.3-2~), libgladeui-2-6 (<< 3.22.2), libglib2.0-0 (<< 2.80.0-7~), libsoup2.4-tests (<< 2.72.0-3~)
 Replaces: libglib2.0-0 (<< 2.80.0-7~)
-Provides: libgio-2.0-0 (= 2.84.3-1), libglib-2.0-0 (= 2.84.3-1), libglib2.0-0 (= 2.84.3-1), libgmodule-2.0-0 (= 2.84.3-1), libgobject-2.0-0 (= 2.84.3-1), libgthread-2.0-0 (= 2.84.3-1)
+Provides: libgio-2.0-0 (= 2.84.4-3~deb13u1), libglib-2.0-0 (= 2.84.4-3~deb13u1), libglib2.0-0 (= 2.84.4-3~deb13u1), libgmodule-2.0-0 (= 2.84.4-3~deb13u1), libgobject-2.0-0 (= 2.84.4-3~deb13u1), libgthread-2.0-0 (= 2.84.4-3~deb13u1)
 Multi-Arch: same
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Priority: optional
 Section: libs
-Filename: pool/main/g/glib2.0/libglib2.0-0t64_2.84.3-1_amd64.deb
-Size: 1515048
-SHA256: e24f4533ebc4568f6e88df25560aa2330d7f8899d526212824e3b3f7064aa5df
-SHA1: 05b238f053defccb51a33bab452d96a081b311ad
-MD5sum: 60ccd931cf5ac70a88a340d4033d6e0e
+Filename: pool/main/g/glib2.0/libglib2.0-0t64_2.84.4-3~deb13u1_amd64.deb
+Size: 1518524
+SHA256: e589d5642dd1af6dc4a8a41ad4b99dac1a3636308293c284f1c123e592448e5c
+SHA1: 1599d58f6eb956c79c67608ec9f49f4a554ef1a8
+MD5sum: b34f974eef603312e8e0f883d9df1f2f
 Description: GLib library of C routines
  GLib is a library containing many useful C routines for things such
  as trees, hashes, lists, and strings.  It is a useful general-purpose
@@ -17595,19 +17593,19 @@ Description: GLib library of C routines
 
 Package: libglib2.0-data
 Source: glib2.0
-Version: 2.84.3-1
+Version: 2.84.4-3~deb13u1
 Architecture: all
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 9829
+Installed-Size: 9830
 Multi-Arch: foreign
 Homepage: https://gitlab.gnome.org/GNOME/glib
 Priority: optional
 Section: libs
-Filename: pool/main/g/glib2.0/libglib2.0-data_2.84.3-1_all.deb
-Size: 1284860
-SHA256: a15015593b450cd3cb04ff02226b11946358caca4071e31705f449f641bf035a
-SHA1: fe583c1684477dad51074dbe281623d1e747e042
-MD5sum: 2e29c18644853940b973cc45080ac2c6
+Filename: pool/main/g/glib2.0/libglib2.0-data_2.84.4-3~deb13u1_all.deb
+Size: 1286472
+SHA256: 6ab961587fca1d785fef7c29bdd7367940d8146fcd7f26188e64e71aa4abe74f
+SHA1: c3edd2ae4fdb4b1ef60e3c79545da9eae0b5308a
+MD5sum: aaabb63b2d414d544d63116a604dd6b4
 Description: Common files for GLib library
  GLib is a library containing many useful C routines for things such
  as trees, hashes, lists, and strings.  It is a useful general-purpose
@@ -18274,7 +18272,7 @@ Description: MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 
 Package: libgssdp-1.6-0
 Source: gssdp
-Version: 1.6.3-2
+Version: 1.6.4-1~deb13u1
 Architecture: amd64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 113
@@ -18283,11 +18281,11 @@ Multi-Arch: same
 Homepage: https://wiki.gnome.org/Projects/GUPnP
 Priority: optional
 Section: libs
-Filename: pool/main/g/gssdp/libgssdp-1.6-0_1.6.3-2_amd64.deb
-Size: 39032
-SHA256: 58977e27c550761023d74767582a1f310d378d3cc13323ccb2bbf2c67bbd1268
-SHA1: c64da3460633ee80b15b106ba66122a2c9f46e8b
-MD5sum: 5e8c791f25786d75adf715f44f5bd7cc
+Filename: pool/main/g/gssdp/libgssdp-1.6-0_1.6.4-1~deb13u1_amd64.deb
+Size: 39212
+SHA256: ea9f0d33f5a569881b761d6f345ed22a4eafc7b0e6cfd1567d0e586e20793a87
+SHA1: 0b01e6ccba2e4ebc1f878767bd677ff00e1d7ac6
+MD5sum: 28494aec5cd033140509745ca5244557
 Description: GObject-based library for SSDP
  A GObject-based API for doing SSDP (Simple Service Discovery Protocol)
  transparently.
@@ -20018,20 +20016,20 @@ Description: C library for encoding, decoding and manipulating JSON data
 
 Package: libjavascriptcoregtk-4.1-0
 Source: webkit2gtk
-Version: 2.48.3-1
+Version: 2.48.5-1~deb13u1
 Architecture: amd64
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 30186
+Installed-Size: 30194
 Depends: libatomic1 (>= 4.8), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.66.0), libicu76 (>= 76.1-1~), libstdc++6 (>= 12), libsystemd0, zlib1g (>= 1:1.1.4)
 Multi-Arch: same
 Homepage: https://webkitgtk.org/
 Priority: optional
 Section: libs
-Filename: pool/main/w/webkit2gtk/libjavascriptcoregtk-4.1-0_2.48.3-1_amd64.deb
-Size: 6934760
-SHA256: f753c80018cea3e3f420334a19f15ea397eae0daaa7fd1e91a2bced94a9e6dbb
-SHA1: f48e114898337860d20d157e3de2407316148b81
-MD5sum: 97f85beaf51bed5369ea9af7dc832996
+Filename: pool/main/w/webkit2gtk/libjavascriptcoregtk-4.1-0_2.48.5-1~deb13u1_amd64.deb
+Size: 6938896
+SHA256: 57ff7f45bcf4f739662b4b495e93bf071ae33e81511104948756612154b22e50
+SHA1: c0bd56cf7ef2c0cf8159613c98723f7db26168da
+MD5sum: 792b055799a3d8a5737185e932625ac7
 Description: JavaScript engine library from WebKitGTK
  JavaScriptCore is the JavaScript engine used in WebKit. It consists
  of the following building blocks: lexer, parser, start-up interpreter
@@ -25254,21 +25252,21 @@ Description: Serial Graph Partitioning and Fill-reducing Matrix Ordering
 
 Package: libmm-glib0
 Source: modemmanager
-Version: 1.24.0-1
+Version: 1.24.0-1+deb13u1
 Architecture: amd64
 Maintainer: DebianOnMobile Maintainers <debian-on-mobile-maintainers@alioth-lists.debian.net>
-Installed-Size: 1360
+Installed-Size: 1361
 Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.62.0)
-Recommends: modemmanager (>= 1.24.0-1)
+Recommends: modemmanager (>= 1.24.0-1+deb13u1)
 Multi-Arch: same
 Homepage: https://www.freedesktop.org/wiki/Software/ModemManager/
 Priority: optional
 Section: libs
-Filename: pool/main/m/modemmanager/libmm-glib0_1.24.0-1_amd64.deb
-Size: 245076
-SHA256: 0c56df5cf044b04cf29e18aa98b3ebc4f817edb8f6b9675752d318704b31d68a
-SHA1: ee104513e631dd711bc893dbc324176d1ddf86df
-MD5sum: b060c5df08e2b3174a73066908151f60
+Filename: pool/main/m/modemmanager/libmm-glib0_1.24.0-1+deb13u1_amd64.deb
+Size: 244528
+SHA256: 7443ef1adddf02956be3ab9f4003a0e4f60bf167e92243594bcbdd7e06af0a82
+SHA1: 03569391b402a6cbaf6368fc9a97b4ca7d71d38b
+MD5sum: da578628dd09dd5bbc50b325f275d851
 Description: D-Bus service for managing modems - shared libraries
  ModemManager is a DBus-activated daemon which controls mobile broadband
  (2G/3G/4G/5G) devices and connections. Whether built-in devices, USB dongles,
@@ -26478,21 +26476,21 @@ Description: NSS module for Multicast DNS name resolution
 
 Package: libnss-systemd
 Source: systemd
-Version: 257.7-1
+Version: 257.8-1~deb13u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 490
-Depends: libc6 (>= 2.39), libcap2 (>= 1:2.10), systemd (= 257.7-1)
+Depends: libc6 (>= 2.39), libcap2 (>= 1:2.10), systemd (= 257.8-1~deb13u1)
 Suggests: libcryptsetup12, libidn2-0, libp11-kit0, libtss2-rc0t64
 Multi-Arch: same
 Homepage: https://systemd.io
 Priority: standard
 Section: admin
-Filename: pool/main/s/systemd/libnss-systemd_257.7-1_amd64.deb
-Size: 218136
-SHA256: a567a8a6ca49057a7c65bc48b1b223df0ab581bc0dad5b8b9c3b68b62f61c594
-SHA1: 80e974fa050367b7926a350aa3b64e5694908690
-MD5sum: d7b7b5bb8dd6f7fc684e3f46639a8fec
+Filename: pool/main/s/systemd/libnss-systemd_257.8-1~deb13u1_amd64.deb
+Size: 218556
+SHA256: 6147a30686249c4e6242249262372c304a79018fb6c779341bd394b40c4ce179
+SHA1: 24199162d3cfa705bf191495db88b80a19f6f818
+MD5sum: a7a3aef7ba35edd239295b0eaad8d267
 Description: nss module providing dynamic user and group name resolution
  nss-systemd is a plug-in module for the GNU Name Service Switch (NSS)
  functionality of the GNU C Library (glibc), providing UNIX user and group name
@@ -26837,20 +26835,20 @@ Description: Vendor neutral GL dispatch library -- OpenGL support
 
 Package: libopenjp2-7
 Source: openjpeg2
-Version: 2.5.3-2
+Version: 2.5.3-2.1~deb13u1
 Architecture: amd64
 Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
-Installed-Size: 531
+Installed-Size: 532
 Depends: libc6 (>= 2.34)
 Multi-Arch: same
 Homepage: https://www.openjpeg.org
 Priority: optional
 Section: libs
-Filename: pool/main/o/openjpeg2/libopenjp2-7_2.5.3-2_amd64.deb
-Size: 204272
-SHA256: cb729b00f9ba77000e0376ac1c26d92a2c22d8a300a1d167d3acac87cd49c754
-SHA1: f73da8eca0630d46214e93575817f2f3d1416efd
-MD5sum: 8bb55e4d1563bae932f6074e74cc7a9a
+Filename: pool/main/o/openjpeg2/libopenjp2-7_2.5.3-2.1~deb13u1_amd64.deb
+Size: 204540
+SHA256: 72b3b6766151139a3901c86d42468b6191758c1d790dac347f7e35b1a44f7cf1
+SHA1: c28899172d200f9e7a7496f6faf71b4471f5ceae
+MD5sum: 08d52c2f65ad153c466bc133463b4566
 Description: JPEG 2000 image compression/decompression library
  OpenJPEG is a library for handling the JPEG 2000 image compression format.
  JPEG 2000 is a wavelet-based image compression standard and permits progressive
@@ -27192,24 +27190,24 @@ Description: Runtime support for the PAM library
 
 Package: libpam-systemd
 Source: systemd
-Version: 257.7-1
+Version: 257.8-1~deb13u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 699
-Depends: libc6 (>= 2.39), libcap2 (>= 1:2.10), libpam0g (>= 0.99.7.1), systemd (= 257.7-1), libpam-runtime, default-dbus-system-bus | dbus-system-bus, systemd-sysv
+Depends: libc6 (>= 2.39), libcap2 (>= 1:2.10), libpam0g (>= 0.99.7.1), systemd (= 257.8-1~deb13u1), libpam-runtime, default-dbus-system-bus | dbus-system-bus, systemd-sysv
 Recommends: dbus-user-session
 Suggests: libcryptsetup12, libidn2-0, libp11-kit0, libtss2-rc0t64
 Conflicts: libpam-elogind-compat
-Provides: default-logind (= 257.7-1), logind (= 257.7-1)
+Provides: default-logind (= 257.8-1~deb13u1), logind (= 257.8-1~deb13u1)
 Multi-Arch: same
 Homepage: https://systemd.io
 Priority: standard
 Section: admin
-Filename: pool/main/s/systemd/libpam-systemd_257.7-1_amd64.deb
-Size: 296504
-SHA256: ac9e057452634c43931c09d14e390b273551fbd7069b07f333327acc62fb7d86
-SHA1: d5f83c2699d561925a3ddd602d536e40218007c6
-MD5sum: 277295ab0e3c0f501bff7b3356503100
+Filename: pool/main/s/systemd/libpam-systemd_257.8-1~deb13u1_amd64.deb
+Size: 296740
+SHA256: 70f908e0816b89374d1fc27fa43234c601ecdeff463a95754b57fb54d4419126
+SHA1: 5ebd852348abc3ff56e20326038218324d52a5ef
+MD5sum: 792eda5e0a298188140eb7fb8b311615
 Description: system and service manager - PAM module
  This package contains the PAM module which registers user sessions in
  the systemd control group hierarchy for logind.
@@ -27560,7 +27558,7 @@ Description: Generic PCI access library for X
 
 Package: libpcre2-16-0
 Source: pcre2
-Version: 10.45-1
+Version: 10.46-1~deb13u1
 Architecture: amd64
 Maintainer: Matthew Vernon <matthew@debian.org>
 Installed-Size: 713
@@ -27569,11 +27567,11 @@ Multi-Arch: same
 Homepage: https://github.com/PCRE2Project/pcre2
 Priority: optional
 Section: libs
-Filename: pool/main/p/pcre2/libpcre2-16-0_10.45-1_amd64.deb
-Size: 280612
-SHA256: f4f7a5e0694329d2981154e4cf87c9f5dae763b4525b369e94c6ed7e7d396292
-SHA1: cccf00e6f476058c45604f0b0599d4a62a578469
-MD5sum: 0ce045c370fe55f7db4971aa3fe6aa3a
+Filename: pool/main/p/pcre2/libpcre2-16-0_10.46-1~deb13u1_amd64.deb
+Size: 280888
+SHA256: 9244175a8b0f82e568f17b5b5153fa02f4d8869683e241c0d3ab45872ab1a7d2
+SHA1: f149233a595001e5016d57bbe3ce8b9d93bc3b68
+MD5sum: 5639dcf8bd65bd666bae950bab5f777a
 Description: New Perl Compatible Regular Expression Library - 16 bit runtime files
  This is PCRE2, the new implementation of PCRE, a library of functions
  to support regular expressions whose syntax and semantics are as
@@ -27586,7 +27584,7 @@ Description: New Perl Compatible Regular Expression Library - 16 bit runtime fil
 
 Package: libpcre2-8-0
 Source: pcre2
-Version: 10.45-1
+Version: 10.46-1~deb13u1
 Architecture: amd64
 Maintainer: Matthew Vernon <matthew@debian.org>
 Installed-Size: 774
@@ -27595,11 +27593,11 @@ Multi-Arch: same
 Homepage: https://github.com/PCRE2Project/pcre2
 Priority: optional
 Section: libs
-Filename: pool/main/p/pcre2/libpcre2-8-0_10.45-1_amd64.deb
-Size: 298060
-SHA256: f2bd0bcb2a93c27bbac1453c223932ccebfc37b69b899b38dc389b064e4e2257
-SHA1: 18f04b1aa4b3f4186ee9067925451d5574118505
-MD5sum: 4ee1af17546aed7c7e694ae869608ed2
+Filename: pool/main/p/pcre2/libpcre2-8-0_10.46-1~deb13u1_amd64.deb
+Size: 298536
+SHA256: 6aa452af6a07e34498bf8e734e8789c9dd602fb34f12572e62dc1bba4889a60e
+SHA1: 1594986c3db12e53c6d738df0926766b852e8e9d
+MD5sum: 9e63b5d51cbde99cee8aa2f33a5cba88
 Description: New Perl Compatible Regular Expression Library- 8 bit runtime files
  This is PCRE2, the new implementation of PCRE, a library of functions
  to support regular expressions whose syntax and semantics are as
@@ -30482,7 +30480,7 @@ Description: Snowball stemming algorithms for use in Information Retrieval
 
 Package: libsystemd-shared
 Source: systemd
-Version: 257.7-1
+Version: 257.8-1~deb13u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 6812
@@ -30493,11 +30491,11 @@ Multi-Arch: same
 Homepage: https://systemd.io
 Priority: optional
 Section: libs
-Filename: pool/main/s/systemd/libsystemd-shared_257.7-1_amd64.deb
-Size: 2151252
-SHA256: e9545aacefa96a77c446fc0e03138a24a7a442e0cc43bbbf16d1b1641c2f7ff7
-SHA1: 7665fb23b9e29f33b25c0231538975c5111b08dd
-MD5sum: be88d504ecfb0656bae56f2bf71b7550
+Filename: pool/main/s/systemd/libsystemd-shared_257.8-1~deb13u1_amd64.deb
+Size: 2152564
+SHA256: b761a4222a98044498778ee9a8a83f5ccc828649eece3587ead0f989fb46c3d3
+SHA1: f07c66c09fa078343c4c46144193aa9dbe70d51f
+MD5sum: 8cadc629ce7885802d10edeb52ce63e3
 Description: systemd shared private library
  This internal shared library provides common code used by various systemd
  components. It is supposed to decrease memory and disk footprint.
@@ -30505,7 +30503,7 @@ Description: systemd shared private library
 
 Package: libsystemd0
 Source: systemd
-Version: 257.7-1
+Version: 257.8-1~deb13u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 1222
@@ -30516,18 +30514,18 @@ Multi-Arch: same
 Homepage: https://systemd.io
 Priority: optional
 Section: libs
-Filename: pool/main/s/systemd/libsystemd0_257.7-1_amd64.deb
-Size: 453092
-SHA256: f57fac341ff7dc43a1ee047d23d06be0c2b76bfdaa443cae0092685d9fc6055f
-SHA1: fe3fea9f5081ad22b40bde24cde899313fc0fdfb
-MD5sum: ffafb75b6d3a941649f669ee321365c0
+Filename: pool/main/s/systemd/libsystemd0_257.8-1~deb13u1_amd64.deb
+Size: 453180
+SHA256: 83075b5adadea315d869f1a9ec156fb72d5a3ac0cd582886d54e1344463248d3
+SHA1: 9fc7b71786f1bb7e01e848c40fceafa847282ab7
+MD5sum: 20105319268fd5195531b051561c8935
 Description: systemd utility library
  This library provides APIs to interface with various system components such as
  the system journal, the system service manager, D-Bus and more.
 
 Package: libtalloc2
-Source: samba (2:4.22.3+dfsg-4)
-Version: 2:2.4.3+samba4.22.3+dfsg-4
+Source: samba (2:4.22.4+dfsg-1~deb13u1)
+Version: 2:2.4.3+samba4.22.4+dfsg-1~deb13u1
 Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Installed-Size: 123
@@ -30536,11 +30534,11 @@ Multi-Arch: same
 Homepage: https://www.samba.org
 Priority: optional
 Section: libs
-Filename: pool/main/s/samba/libtalloc2_2.4.3+samba4.22.3+dfsg-4_amd64.deb
-Size: 60692
-SHA256: 04ffaa1b818b514ab975ee11283d43aae78cd0ca4d04b4074093a69ba26a65c5
-SHA1: 215aef98f683bb71ff46e2b3cda7e4b55935b10b
-MD5sum: f49dcde19f09cf0e1428202af83b1bfa
+Filename: pool/main/s/samba/libtalloc2_2.4.3+samba4.22.4+dfsg-1~deb13u1_amd64.deb
+Size: 61116
+SHA256: 35fa9087c081da05baa1deb930cb6ebef7910d89a252b59868268ec509df6677
+SHA1: 311d4e85f073fb534609dd8da2cf3020d0a90b54
+MD5sum: 9f8ec49f8721f4aa674c7f4de85f61a8
 Description: hierarchical pool based memory allocator
  A hierarchical pool based memory allocator with destructors. It uses
  reference counting to determine when memory should be freed.
@@ -30600,8 +30598,8 @@ Description: Tcl (the Tool Command Language) v8.6 - run-time library files
  includes thread support.
 
 Package: libtdb1
-Source: samba (2:4.22.3+dfsg-4)
-Version: 2:1.4.13+samba4.22.3+dfsg-4
+Source: samba (2:4.22.4+dfsg-1~deb13u1)
+Version: 2:1.4.13+samba4.22.4+dfsg-1~deb13u1
 Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Installed-Size: 168
@@ -30610,11 +30608,11 @@ Multi-Arch: same
 Homepage: https://www.samba.org
 Priority: optional
 Section: libs
-Filename: pool/main/s/samba/libtdb1_1.4.13+samba4.22.3+dfsg-4_amd64.deb
-Size: 80460
-SHA256: a610ee75f4c87c8f951727705abc122d69fd9854dfb28c9b56505d140f60897c
-SHA1: d14e2bfe2f405dc398f2c1551aeb7629d92518e6
-MD5sum: 1fe594cb46d6af4ea8c878008fa27785
+Filename: pool/main/s/samba/libtdb1_1.4.13+samba4.22.4+dfsg-1~deb13u1_amd64.deb
+Size: 80844
+SHA256: 4f0ba083bb7f735fcc788994a8110b34dda6905570cb714d567814cd8164cbad
+SHA1: c628c0a14852218c4c0895280f019a2604fc49b5
+MD5sum: 49f0b8f2e0432748a1257bd682109c75
 Description: Trivial Database - shared library
  This is a simple database API. It is modelled after the structure
  of GDBM. TDB features, unlike GDBM, multiple writers support with
@@ -31182,7 +31180,7 @@ Description: universal charset detection library - shared library
 
 Package: libudev1
 Source: systemd
-Version: 257.7-1
+Version: 257.8-1~deb13u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 356
@@ -31192,11 +31190,11 @@ Multi-Arch: same
 Homepage: https://systemd.io
 Priority: optional
 Section: libs
-Filename: pool/main/s/systemd/libudev1_257.7-1_amd64.deb
-Size: 151860
-SHA256: c85e5a087a2718c8025cc1b28d6da54546ef760a37ec962ba7fc22b60d58393a
-SHA1: 0305dc1007fa554caf8aaef8206af0b137873426
-MD5sum: fae863337da4b0b910785fb43ab16291
+Filename: pool/main/s/systemd/libudev1_257.8-1~deb13u1_amd64.deb
+Size: 151824
+SHA256: 25ae726832774759c696dec88d5edbf2655aebc4b202e216540f89873d0729e7
+SHA1: 440edb7d153de1a16c8974dd314da47a310f5bc6
+MD5sum: 8bcbb39244841d2467109e872155eda5
 Description: libudev shared library
  This library provides APIs to introspect and enumerate devices on the local
  system.
@@ -31225,7 +31223,7 @@ Description: UDF reader library
 
 Package: libudisks2-0
 Source: udisks2
-Version: 2.10.1-12.1
+Version: 2.10.1-12.1+deb13u1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 899
@@ -31234,11 +31232,11 @@ Multi-Arch: same
 Homepage: https://www.freedesktop.org/wiki/Software/udisks
 Priority: optional
 Section: libs
-Filename: pool/main/u/udisks2/libudisks2-0_2.10.1-12.1_amd64.deb
-Size: 154020
-SHA256: 0fe2b18d6486512c4b1c3f8f3b9085bc02a100a3ce80c0bb397146dbcc33a9d6
-SHA1: 41b5e8d9bf60cec20a8a966c67947a3a6f7af7dd
-MD5sum: b2f9ca40176c8220372c9e64f8240496
+Filename: pool/main/u/udisks2/libudisks2-0_2.10.1-12.1+deb13u1_amd64.deb
+Size: 153860
+SHA256: 83a56368611eea816b3584167607fdd89749d9037e60fc60815372fe1531ed05
+SHA1: 35de30d4617581989fd9093d69ebe4186d1ac637
+MD5sum: ffad756ea5ae9b5e8f7ecf6655e47a2a
 Description: GObject based library to access udisks2
  The udisks daemon serves as an interface to system block devices,
  implemented via D-Bus. It handles operations such as querying, mounting,
@@ -32251,7 +32249,7 @@ Description: wayland compositor infrastructure - server library
 
 Package: libwbclient0
 Source: samba
-Version: 2:4.22.3+dfsg-4
+Version: 2:4.22.4+dfsg-1~deb13u1
 Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Installed-Size: 150
@@ -32260,11 +32258,11 @@ Multi-Arch: same
 Homepage: https://www.samba.org
 Priority: optional
 Section: libs
-Filename: pool/main/s/samba/libwbclient0_4.22.3+dfsg-4_amd64.deb
-Size: 69228
-SHA256: d629093a7525d2fc53d350c3f543465ee7c9c97a43ba63fec025bdacf33cada7
-SHA1: 370d5a3e30be3aa11c94c3cf644676115f24729f
-MD5sum: 6c6a23134a3130d4f68f62781f257c9b
+Filename: pool/main/s/samba/libwbclient0_4.22.4+dfsg-1~deb13u1_amd64.deb
+Size: 69644
+SHA256: 571f49ebdb501281982d7fa45d53716b35f5128c57d4a10b0a27ec46c5ffe704
+SHA1: 340017c7c86b6bfd959fe50e5114f98ad90143ce
+MD5sum: a3d2dd103cdeb911c7f5210d7fc71dc7
 Description: Samba winbind client library
  Samba is an implementation of the SMB/CIFS protocol for Unix systems,
  providing support for cross-platform file and printer sharing with
@@ -32300,22 +32298,22 @@ Description: Plasma Workspace weather information library
 
 Package: libwebkit2gtk-4.1-0
 Source: webkit2gtk
-Version: 2.48.3-1
+Version: 2.48.5-1~deb13u1
 Architecture: amd64
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 90984
-Depends: libjavascriptcoregtk-4.1-0 (= 2.48.3-1), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libgles2, bubblewrap (>= 0.3.1), xdg-dbus-proxy, libatk1.0-0t64 (>= 1.32.0), libatomic1 (>= 4.8), libavif16 (>= 1.2.1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libdrm2 (>= 2.4.107), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libexpat1 (>= 2.1~beta3), libflite1 (>= 2.0.0-release), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.11.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgpg-error0 (>= 1.14), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-bad1.0-0 (>= 1.26.1), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.25.1), libgtk-3-0t64 (>= 3.23.0), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.8.6), libhyphen0 (>= 2.7.1), libicu76 (>= 76.1-1~), libjpeg62-turbo (>= 1:1.5.0), libjxl0.11 (>= 0.6.1), liblcms2-2 (>= 2.2+git20110628), libmanette-0.2-0 (>= 0.1.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libseccomp2 (>= 0.0.0~20120605), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.7.15), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.0.2), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwoff1 (>= 1.0.0), libx11-6, libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.2)
+Installed-Size: 90996
+Depends: libjavascriptcoregtk-4.1-0 (= 2.48.5-1~deb13u1), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libgles2, bubblewrap (>= 0.3.1), xdg-dbus-proxy, libatk1.0-0t64 (>= 1.32.0), libatomic1 (>= 4.8), libavif16 (>= 1.2.1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libdrm2 (>= 2.4.107), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libexpat1 (>= 2.1~beta3), libflite1 (>= 2.0.0-release), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.11.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgpg-error0 (>= 1.14), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-bad1.0-0 (>= 1.26.2), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.25.1), libgtk-3-0t64 (>= 3.23.0), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.8.6), libhyphen0 (>= 2.7.1), libicu76 (>= 76.1-1~), libjpeg62-turbo (>= 1:1.5.0), libjxl0.11 (>= 0.6.1), liblcms2-2 (>= 2.2+git20110628), libmanette-0.2-0 (>= 0.1.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libseccomp2 (>= 0.0.0~20120605), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.7.15), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.0.2), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwoff1 (>= 1.0.0), libx11-6, libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.2)
 Recommends: gstreamer1.0-gl, libgl1-mesa-dri, xdg-desktop-portal-gtk, gstreamer1.0-libav, gstreamer1.0-plugins-bad
 Suggests: gstreamer1.0-alsa
 Multi-Arch: same
 Homepage: https://webkitgtk.org/
 Priority: optional
 Section: libs
-Filename: pool/main/w/webkit2gtk/libwebkit2gtk-4.1-0_2.48.3-1_amd64.deb
-Size: 22492152
-SHA256: 0821257d058fd27af8b267f197416c0784e632d4d80fc6ff408a3afa6a8da4fe
-SHA1: 89b3400d6c31f68f9b7ddfbbda091e8260cd4eb5
-MD5sum: 26a24bc513fb7e7599d5a0322d4997a2
+Filename: pool/main/w/webkit2gtk/libwebkit2gtk-4.1-0_2.48.5-1~deb13u1_amd64.deb
+Size: 22523608
+SHA256: 6b296f54b52846fa240c886209ff3b51448bfa3c059764acfcdbb22af2c2488f
+SHA1: 5b9cc4cba82e5e7a2067ef27f8622ed8faba1b27
+MD5sum: e239f36cca74b620c5f1fad91d8324dd
 Description: Web content engine library for GTK
  WebKit is a web content engine, derived from KHTML and KJS from KDE, and
  used primarily in Apple's Safari browser.  It is made to be embedded in
@@ -34124,7 +34122,7 @@ Description: GNOME XML library
 
 Package: libxml2-utils
 Source: libxml2
-Version: 2.12.7+dfsg+really2.9.14-2.1
+Version: 2.12.7+dfsg+really2.9.14-2.1+deb13u1
 Architecture: amd64
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Installed-Size: 180
@@ -34133,11 +34131,11 @@ Multi-Arch: foreign
 Homepage: http://xmlsoft.org
 Priority: optional
 Section: text
-Filename: pool/main/libx/libxml2/libxml2-utils_2.12.7+dfsg+really2.9.14-2.1_amd64.deb
-Size: 100260
-SHA256: 688421890718b4202ade075b747c250555b987f4e885328a9bae89370e8e4c1e
-SHA1: fb9b75895da70e9783d60ae642db56222d235d7f
-MD5sum: bba34d2522d279351914396bb1ff8608
+Filename: pool/main/libx/libxml2/libxml2-utils_2.12.7+dfsg+really2.9.14-2.1+deb13u1_amd64.deb
+Size: 100332
+SHA256: c8dfd86a9fb25de95728b3da0696c2664350fe597fa1fea981ef6233e60929f8
+SHA1: 54ee30645f9dce344532776dbf5b7c1fa911ea93
+MD5sum: f2075f48976cca343b1a2ed4fa1ae645
 Description: GNOME XML library - utilities
  XML is a metalanguage to let you design your own markup language.
  A regular markup language defines a way to describe information in
@@ -35076,21 +35074,21 @@ Description: Common header files for Linux 6.12.35+deb13
  kernel you intend the build for.
 
 Package: linux-headers-amd64
-Source: linux-signed-amd64 (6.12.38+1)
-Version: 6.12.38-1
+Source: linux-signed-amd64 (6.12.43+1)
+Version: 6.12.43-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-headers-6.12.38+deb13-amd64 (= 6.12.38-1)
+Depends: linux-headers-6.12.43+deb13-amd64 (= 6.12.43-1)
 Provides: linux-headers-generic
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-signed-amd64/linux-headers-amd64_6.12.38-1_amd64.deb
-Size: 1412
-SHA256: c458d0fe7344e4d57c2e13f180b54f394352c1e7598ef0a9cc0104f6e2e9369b
-SHA1: 3cefead08ab69f8e9fa6d726f5ea1eed44fa839e
-MD5sum: 541957909430e4008a9fa0e9e9d6e84e
+Filename: pool/main/l/linux-signed-amd64/linux-headers-amd64_6.12.43-1_amd64.deb
+Size: 1416
+SHA256: f394edf67dc5abd5c487db5d3238ed3e68b6d62911f82fe300028cd9b7718daf
+SHA1: 645151eb5987054fdc8ea8234a115898b3978973
+MD5sum: 4e2e741d9342d6bc4ec751d878bbceca
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
@@ -35144,21 +35142,21 @@ Description: Linux 6.12 for 64-bit PCs (boot)
  The kernel image is signed for use with Secure Boot.
 
 Package: linux-image-amd64
-Source: linux-signed-amd64 (6.12.38+1)
-Version: 6.12.38-1
+Source: linux-signed-amd64 (6.12.43+1)
+Version: 6.12.43-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-image-6.12.38+deb13-amd64 (= 6.12.38-1)
-Provides: linux-image-generic, linux-latest-modules-6.12.38+deb13-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.12.43+deb13-amd64 (= 6.12.43-1)
+Provides: linux-image-generic, linux-latest-modules-6.12.43+deb13-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-signed-amd64/linux-image-amd64_6.12.38-1_amd64.deb
-Size: 1476
-SHA256: 29740d3426a77a485d5d0f472dfd50897e89b4108a5e81a66456b621081e864e
-SHA1: 16343a9757d537ae59cd4856c0713834b8997f9d
-MD5sum: f299100af0d4737408b396d98caf6a87
+Filename: pool/main/l/linux-signed-amd64/linux-image-amd64_6.12.43-1_amd64.deb
+Size: 1472
+SHA256: 785aa119387ebb72971a44affac0be5d5ffe9c25decdd95b5eb05f82f18c67f6
+SHA1: 2957dab43c5708c64255af2e55e745ad4ae347b6
+MD5sum: 45497d193ba563626b23bbca2982d25e
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.
@@ -35185,19 +35183,19 @@ Description: Kbuild infrastructure for Linux 6.12.35+deb13
 
 Package: linux-libc-dev
 Source: linux
-Version: 6.12.38-1
+Version: 6.12.43-1
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 10685
+Installed-Size: 10713
 Multi-Arch: foreign
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux/linux-libc-dev_6.12.38-1_all.deb
-Size: 2626624
-SHA256: 85b85662ef28e31364d6b00b041fade0ebcf649a368cc3e7899c2e2b87b77a46
-SHA1: 3a3665a3d51f8866faaf4a66fdf5735961fce181
-MD5sum: cb705a17206b0016637140b46379dd9a
+Filename: pool/main/l/linux/linux-libc-dev_6.12.43-1_all.deb
+Size: 2654296
+SHA256: de26712424f01a753d4ca5c5848efacafff3a374162a06e9810b293a19b76297
+SHA1: 06671a2d2333cfad17e50dafd0ecd2da8c8ba0ab
+MD5sum: 95cdb3df9044c4a09afa5e025984356d
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These
  files are going to be installed into /usr/include, and are used by the
@@ -35205,19 +35203,19 @@ Description: Linux support headers for userspace development
 
 Package: linux-source
 Source: linux
-Version: 6.12.38-1
+Version: 6.12.43-1
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 10
-Depends: linux-source-6.12 (= 6.12.38-1)
+Depends: linux-source-6.12 (= 6.12.43-1)
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-source_6.12.38-1_all.deb
+Filename: pool/main/l/linux/linux-source_6.12.43-1_all.deb
 Size: 1096
-SHA256: 4ec9a10df15c028f6bacc4427b86d4b99b9e32ce472e74c229f7c8c72be97d4e
-SHA1: c9e1035ba82636ff72dac638f0af1ff3d3df4065
-MD5sum: 6d342232a83e040c1560e272152b08e5
+SHA256: fdeb6674274bdca9a0cfd8463efced3f22a430c544dd7d076b9b0ea75d20199c
+SHA1: 22dc74f3597664bbae7001379cf9cfb38fba6d22
+MD5sum: a6d2a9bd7500d571317fe27eb464a754
 Description: Linux kernel source (meta-package)
  This package depends on packages containing the sources of the latest
  Linux kernel.
@@ -35241,7 +35239,7 @@ Description: default sysctl configuration for Linux
  sensible defaults for Linux.
 
 Package: live-boot
-Version: 1:20250225
+Version: 1:20250815~deb13u1
 Architecture: all
 Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
 Installed-Size: 124
@@ -35251,11 +35249,11 @@ Suggests: cryptsetup, curlftpfs, httpfs2, wget
 Homepage: https://wiki.debian.org/DebianLive
 Priority: optional
 Section: misc
-Filename: pool/main/l/live-boot/live-boot_20250225_all.deb
-Size: 30872
-SHA256: 7d83a4006fe1113b8747ea090c20bcb8bb1207fc8fd3a7a211bbfbe12a88a65b
-SHA1: c7d67283d1252ef4657463f83ebc7f544e0740c8
-MD5sum: dfa30add730e70ac62d5e1c4ecb36dce
+Filename: pool/main/l/live-boot/live-boot_20250815~deb13u1_all.deb
+Size: 31176
+SHA256: 9a2a1050345f783c31f980c54d15ee7ba66168394189a347f28e8f3d1bb58f41
+SHA1: b7f1673973feddf0a1c75d16cd72beb78a99746b
+MD5sum: 84dc94d49f898047dece60f6dfde22e0
 Description: Live System Boot Components
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -35269,7 +35267,7 @@ Description: Live System Boot Components
 
 Package: live-boot-doc
 Source: live-boot
-Version: 1:20250225
+Version: 1:20250815~deb13u1
 Architecture: all
 Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
 Installed-Size: 70
@@ -35277,11 +35275,11 @@ Multi-Arch: foreign
 Homepage: https://wiki.debian.org/DebianLive
 Priority: optional
 Section: doc
-Filename: pool/main/l/live-boot/live-boot-doc_20250225_all.deb
-Size: 48928
-SHA256: af3ee05f987f87e675ddb2f35269620bab47b4f01e15d00d9fd9baae20a5b1e2
-SHA1: c254a75dc33102f645c106cb7243ea4c9ad97107
-MD5sum: 75bd1371fb8702d30db2c1505339d02c
+Filename: pool/main/l/live-boot/live-boot-doc_20250815~deb13u1_all.deb
+Size: 49068
+SHA256: 2f7dea13fc665ba306dae0a71196fbe2290772bfc60782aa49dca2c541f0a5f2
+SHA1: 0a28562faa2c663e04c60704fb2edf0d28e06a71
+MD5sum: 9861eab724d8d016c76c657a00ac7163
 Description: Live System Boot Components (documentation)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -35293,7 +35291,7 @@ Description: Live System Boot Components (documentation)
 
 Package: live-boot-initramfs-tools
 Source: live-boot
-Version: 1:20250225
+Version: 1:20250815~deb13u1
 Architecture: all
 Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
 Installed-Size: 25
@@ -35304,11 +35302,11 @@ Provides: live-boot-backend
 Homepage: https://wiki.debian.org/DebianLive
 Priority: optional
 Section: misc
-Filename: pool/main/l/live-boot/live-boot-initramfs-tools_20250225_all.deb
-Size: 6264
-SHA256: 8b263eade64adc555474779f610167a47a24cfb349b1fbd151ce20627b6d60cf
-SHA1: 6800217d043aec76c13c9723f6926220ff120ef0
-MD5sum: e1bcf80b1c5dee7ec83c9ce05c89d7df
+Filename: pool/main/l/live-boot/live-boot-initramfs-tools_20250815~deb13u1_all.deb
+Size: 6400
+SHA256: 145eaa229910351d947ec1c2a009c6aa290d91f1b009123cbe79ce390fbbe65e
+SHA1: 55035ab0f4ab3978a59afe294322de6bc60808e6
+MD5sum: f5af07bb90fd8ac1a1c2c5286503e74d
 Description: Live System Boot Components (initramfs-tools backend)
  The Debian Live project maintains the components to build Debian based Live
  systems and the official Debian Live images themselves.
@@ -35918,23 +35916,23 @@ Description: Manual pages about using GNU/Linux for development
 
 Package: mariadb-client-core
 Source: mariadb
-Version: 1:11.8.2-1
+Version: 1:11.8.3-0+deb13u1
 Architecture: amd64
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Installed-Size: 15065
-Depends: libmariadb3 (>= 10.5.4), mariadb-common (>= 1:11.8.2-1), libc6 (>= 2.38), libedit2 (>= 2.11-20080614-0), libgcc-s1 (>= 3.0), libncurses6 (>= 6), libssl3t64 (>= 3.0.0), libstdc++6 (>= 4.1.1), libtinfo6 (>= 6), zlib1g (>= 1:1.1.4)
+Depends: libmariadb3 (>= 10.5.4), mariadb-common (>= 1:11.8.3-0+deb13u1), libc6 (>= 2.38), libedit2 (>= 2.11-20080614-0), libgcc-s1 (>= 3.0), libncurses6 (>= 6), libssl3t64 (>= 3.0.0), libstdc++6 (>= 4.1.1), libtinfo6 (>= 6), zlib1g (>= 1:1.1.4)
 Conflicts: mysql-client-5.5, mysql-client-5.6, mysql-client-5.7, mysql-client-8.0, virtual-mysql-client-core
-Breaks: mariadb-client-10.0, mariadb-client-core-10.0, mariadb-client-core-10.1, mariadb-client-core-10.2, mariadb-client-core-10.3, mariadb-client-core-10.4, mariadb-client-core-10.5, mariadb-client-core-10.6, mariadb-client-core-5.5, mariadb-server-10.0, mariadb-server-10.1, mariadb-server-core (<< 1:11.8.2-1), mariadb-server-core-10.3, mariadb-server-core-10.4, mariadb-server-core-10.5, mariadb-server-core-10.6, mysql-client-core (<< 9.9~), mysql-client-core-5.5, mysql-client-core-5.6, mysql-client-core-5.7, mysql-client-core-8.0, mysql-cluster-community-client-plugins, mysql-server-core (<< 9.9~), mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7, mysql-server-core-8.0, percona-server-server-5.6, percona-server-server-5.7, percona-server-server-8.0, percona-xtradb-cluster-server-5.6, percona-xtradb-cluster-server-5.7, percona-xtradb-cluster-server-8.0
-Replaces: mariadb-client-10.0, mariadb-client-core-10.0, mariadb-client-core-10.1, mariadb-client-core-10.2, mariadb-client-core-10.3, mariadb-client-core-10.4, mariadb-client-core-10.5, mariadb-client-core-10.6, mariadb-client-core-5.5, mariadb-server-10.0, mariadb-server-10.1, mariadb-server-core (<< 1:11.8.2-1), mariadb-server-core-10.3, mariadb-server-core-10.4, mariadb-server-core-10.5, mariadb-server-core-10.6, mysql-client-core (<< 9.9~), mysql-client-core-5.5, mysql-client-core-5.6, mysql-client-core-5.7, mysql-client-core-8.0, mysql-cluster-community-client-plugins, mysql-server-core (<< 9.9~), mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7, mysql-server-core-8.0, percona-server-server-5.6, percona-server-server-5.7, percona-server-server-8.0, percona-xtradb-cluster-server-5.6, percona-xtradb-cluster-server-5.7, percona-xtradb-cluster-server-8.0, virtual-mysql-client-core
+Breaks: mariadb-client-10.0, mariadb-client-core-10.0, mariadb-client-core-10.1, mariadb-client-core-10.2, mariadb-client-core-10.3, mariadb-client-core-10.4, mariadb-client-core-10.5, mariadb-client-core-10.6, mariadb-client-core-5.5, mariadb-server-10.0, mariadb-server-10.1, mariadb-server-core (<< 1:11.8.3-0+deb13u1), mariadb-server-core-10.3, mariadb-server-core-10.4, mariadb-server-core-10.5, mariadb-server-core-10.6, mysql-client-core (<< 9.9~), mysql-client-core-5.5, mysql-client-core-5.6, mysql-client-core-5.7, mysql-client-core-8.0, mysql-cluster-community-client-plugins, mysql-server-core (<< 9.9~), mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7, mysql-server-core-8.0, percona-server-server-5.6, percona-server-server-5.7, percona-server-server-8.0, percona-xtradb-cluster-server-5.6, percona-xtradb-cluster-server-5.7, percona-xtradb-cluster-server-8.0
+Replaces: mariadb-client-10.0, mariadb-client-core-10.0, mariadb-client-core-10.1, mariadb-client-core-10.2, mariadb-client-core-10.3, mariadb-client-core-10.4, mariadb-client-core-10.5, mariadb-client-core-10.6, mariadb-client-core-5.5, mariadb-server-10.0, mariadb-server-10.1, mariadb-server-core (<< 1:11.8.3-0+deb13u1), mariadb-server-core-10.3, mariadb-server-core-10.4, mariadb-server-core-10.5, mariadb-server-core-10.6, mysql-client-core (<< 9.9~), mysql-client-core-5.5, mysql-client-core-5.6, mysql-client-core-5.7, mysql-client-core-8.0, mysql-cluster-community-client-plugins, mysql-server-core (<< 9.9~), mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7, mysql-server-core-8.0, percona-server-server-5.6, percona-server-server-5.7, percona-server-server-8.0, percona-xtradb-cluster-server-5.6, percona-xtradb-cluster-server-5.7, percona-xtradb-cluster-server-8.0, virtual-mysql-client-core
 Provides: virtual-mysql-client-core
 Homepage: https://mariadb.org/
 Priority: optional
 Section: database
-Filename: pool/main/m/mariadb/mariadb-client-core_11.8.2-1_amd64.deb
-Size: 919728
-SHA256: 9667ce0f3cb76b3817ef59a51b4cc1305986e90cce2872ee93ca31fb843baa47
-SHA1: 032b437ece1ea87777e8648789da2673533380c9
-MD5sum: 60cefbd3dddd3addb618fff0133da4c2
+Filename: pool/main/m/mariadb/mariadb-client-core_11.8.3-0+deb13u1_amd64.deb
+Size: 918908
+SHA256: 2508c594b40b40b6ce0b6b5a2d1cf7066086df344901f2eed14f91b705cbe8fe
+SHA1: 88beeebae9d715fe0b9d4f50d72ac9ed1165ab08
+MD5sum: 3e6b4ba4127e6c242758e507d956c9fb
 Description: MariaDB database core client binaries
  MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
  server. SQL (Structured Query Language) is the most popular database query
@@ -35945,7 +35943,7 @@ Description: MariaDB database core client binaries
 
 Package: mariadb-common
 Source: mariadb
-Version: 1:11.8.2-1
+Version: 1:11.8.3-0+deb13u1
 Architecture: all
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Installed-Size: 69
@@ -35954,11 +35952,11 @@ Multi-Arch: foreign
 Homepage: https://mariadb.org/
 Priority: optional
 Section: database
-Filename: pool/main/m/mariadb/mariadb-common_11.8.2-1_all.deb
-Size: 28432
-SHA256: 8fe928c712bc83f712cbba5a2b53e64347680206ad184a54b5b8050c4afc88df
-SHA1: 8095a5891502fe02c8a0cdff61ca270a2f3751b3
-MD5sum: d39f63f29371aef74d9c1069ed57299c
+Filename: pool/main/m/mariadb/mariadb-common_11.8.3-0+deb13u1_all.deb
+Size: 28756
+SHA256: a7078ca69dc32533290a00d6559a2c274b20c11fc5f41d021a0edeeb98fc2ddc
+SHA1: f177391e51d71ae235401dbd1dc51d46a05d51aa
+MD5sum: 2364ac97b92a1b19b5daf05d2c7b3346
 Description: MariaDB database common config files (/etc/mysql/mariadb.conf.d/)
  MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
  server. SQL (Structured Query Language) is the most popular database query
@@ -35969,23 +35967,23 @@ Description: MariaDB database common config files (/etc/mysql/mariadb.conf.d/)
 
 Package: mariadb-server-core
 Source: mariadb
-Version: 1:11.8.2-1
+Version: 1:11.8.3-0+deb13u1
 Architecture: amd64
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
-Installed-Size: 47610
-Depends: mariadb-common (>= 1:11.8.2-1), libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libnuma1 (>= 2.0.11), libpcre2-8-0 (>= 10.22), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libsystemd0 (>= 227), liburing2 (>= 2.3), zlib1g (>= 1:1.2.0)
+Installed-Size: 47622
+Depends: mariadb-common (>= 1:11.8.3-0+deb13u1), libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libnuma1 (>= 2.0.11), libpcre2-8-0 (>= 10.22), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libsystemd0 (>= 227), liburing2 (>= 2.3), zlib1g (>= 1:1.2.0)
 Conflicts: mariadb-galera-server-5.5, mysql-server-5.5, mysql-server-5.6, mysql-server-5.7, mysql-server-8.0, virtual-mysql-server-core
-Breaks: mariadb-client-10.1, mariadb-server-10.0, mariadb-server-10.1, mariadb-server-10.2, mariadb-server-10.3, mariadb-server-10.4, mariadb-server-10.5 (<< 1:10.11), mariadb-server-compat (<< 1:11.8.2-1), mariadb-server-core-10.0, mariadb-server-core-10.1, mariadb-server-core-10.2, mariadb-server-core-10.3, mariadb-server-core-10.4, mariadb-server-core-10.5, mariadb-server-core-10.6, mariadb-server-core-5.5, mysql-client-5.5, mysql-client-5.6, mysql-server-core (<< 9.9~), mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7, mysql-server-core-8.0, percona-server-server-5.6, percona-xtradb-cluster-server-5.6, percona-xtradb-cluster-server-5.7
-Replaces: mariadb-client-10.1, mariadb-server (<< 1:11.8.2-1), mariadb-server-10.0, mariadb-server-10.1, mariadb-server-10.2, mariadb-server-10.3, mariadb-server-10.4, mariadb-server-10.5 (<< 1:10.11), mariadb-server-10.6, mariadb-server-compat (<< 1:11.8.2-1), mariadb-server-core-10.0, mariadb-server-core-10.1, mariadb-server-core-10.2, mariadb-server-core-10.3, mariadb-server-core-10.4, mariadb-server-core-10.5, mariadb-server-core-10.6, mariadb-server-core-5.5, mysql-client-5.5, mysql-client-5.6, mysql-client-5.7, mysql-client-8.0, mysql-server-core (<< 9.9~), mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7, mysql-server-core-8.0, percona-server-server-5.6, percona-xtradb-cluster-server-5.6, percona-xtradb-cluster-server-5.7, virtual-mysql-server-core
+Breaks: mariadb-client-10.1, mariadb-server-10.0, mariadb-server-10.1, mariadb-server-10.2, mariadb-server-10.3, mariadb-server-10.4, mariadb-server-10.5 (<< 1:10.11), mariadb-server-compat (<< 1:11.8.3-0+deb13u1), mariadb-server-core-10.0, mariadb-server-core-10.1, mariadb-server-core-10.2, mariadb-server-core-10.3, mariadb-server-core-10.4, mariadb-server-core-10.5, mariadb-server-core-10.6, mariadb-server-core-5.5, mysql-client-5.5, mysql-client-5.6, mysql-server-core (<< 9.9~), mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7, mysql-server-core-8.0, percona-server-server-5.6, percona-xtradb-cluster-server-5.6, percona-xtradb-cluster-server-5.7
+Replaces: mariadb-client-10.1, mariadb-server (<< 1:11.8.3-0+deb13u1), mariadb-server-10.0, mariadb-server-10.1, mariadb-server-10.2, mariadb-server-10.3, mariadb-server-10.4, mariadb-server-10.5 (<< 1:10.11), mariadb-server-10.6, mariadb-server-compat (<< 1:11.8.3-0+deb13u1), mariadb-server-core-10.0, mariadb-server-core-10.1, mariadb-server-core-10.2, mariadb-server-core-10.3, mariadb-server-core-10.4, mariadb-server-core-10.5, mariadb-server-core-10.6, mariadb-server-core-5.5, mysql-client-5.5, mysql-client-5.6, mysql-client-5.7, mysql-client-8.0, mysql-server-core (<< 9.9~), mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7, mysql-server-core-8.0, percona-server-server-5.6, percona-xtradb-cluster-server-5.6, percona-xtradb-cluster-server-5.7, virtual-mysql-server-core
 Provides: virtual-mysql-server-core
 Homepage: https://mariadb.org/
 Priority: optional
 Section: database
-Filename: pool/main/m/mariadb/mariadb-server-core_11.8.2-1_amd64.deb
-Size: 7926288
-SHA256: c1af4a2d7e456f687d6f78060d1573f3e1e06f10efdb05bb82802fd2b78256e4
-SHA1: 0c21b74af5f5c288a754f9c5f4b3c95c050a704d
-MD5sum: 9682ada8787789ab2877ccd992b5e888
+Filename: pool/main/m/mariadb/mariadb-server-core_11.8.3-0+deb13u1_amd64.deb
+Size: 7918580
+SHA256: 6e769544531588ef878cfe051239f06d1ee78f6c409fe4ce1fc39a36affa5f01
+SHA1: 09aba3495df9c31fcd266ef026a7fa7def61943a
+MD5sum: e353e0bcbc88564147be64da521c106a
 Description: MariaDB database core server files
  MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
  server. SQL (Structured Query Language) is the most popular database query
@@ -36369,20 +36367,20 @@ Description: database of mobile broadband service providers
  usage, such as APN (access point name), username, password, etc.
 
 Package: modemmanager
-Version: 1.24.0-1
+Version: 1.24.0-1+deb13u1
 Architecture: amd64
 Maintainer: DebianOnMobile Maintainers <debian-on-mobile-maintainers@alioth-lists.debian.net>
-Installed-Size: 4715
+Installed-Size: 4716
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.56.0), libgudev-1.0-0 (>= 212), libmbim-glib4 (>= 1.32~), libmbim-proxy, libmm-glib0 (>= 1.24.0), libpolkit-gobject-1-0 (>= 0.99), libqmi-glib5 (>= 1.36~), libqmi-proxy, libqrtr-glib0 (>= 1.0.0), libsystemd0 (>= 209), polkitd
 Recommends: libmbim-utils, libqmi-utils, usb-modeswitch
 Homepage: https://www.freedesktop.org/wiki/Software/ModemManager/
 Priority: optional
 Section: net
-Filename: pool/main/m/modemmanager/modemmanager_1.24.0-1_amd64.deb
-Size: 1062368
-SHA256: 5e70d8cb52b2be817002a759f38293b928e953d311ad4ff1bed39858961ee88c
-SHA1: 17187dd31bdd556f25302c6e3500e3c29f2f7019
-MD5sum: 10e790c1e3dba3ed4569891ccdfd1d86
+Filename: pool/main/m/modemmanager/modemmanager_1.24.0-1+deb13u1_amd64.deb
+Size: 1061296
+SHA256: 8f4c12ba14f4debde8b8b72a6a84720a030e6e643982dc12e01ee9bb7531709b
+SHA1: 146283b6e1633bb63874152d1a1c0fc800940b84
+MD5sum: 28d80a0923f415ea2d9b16d6ca49e788
 Description: D-Bus service for managing modems
  ModemManager is a DBus-activated daemon which controls mobile broadband
  (2G/3G/4G/5G) devices and connections. Whether built-in devices, USB dongles,
@@ -44716,8 +44714,8 @@ Description: Tor control library for Python 3 series
  This is Python 3 series module.
 
 Package: python3-talloc
-Source: samba (2:4.22.3+dfsg-4)
-Version: 2:2.4.3+samba4.22.3+dfsg-4
+Source: samba (2:4.22.4+dfsg-1~deb13u1)
+Version: 2:2.4.3+samba4.22.4+dfsg-1~deb13u1
 Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Installed-Size: 111
@@ -44728,11 +44726,11 @@ Multi-Arch: same
 Homepage: https://www.samba.org
 Priority: optional
 Section: python
-Filename: pool/main/s/samba/python3-talloc_2.4.3+samba4.22.3+dfsg-4_amd64.deb
-Size: 50360
-SHA256: 6074d51494ad6b2451a894f372189fe94be15148c0c9088669859cbe25adc8e9
-SHA1: ef6cbca7770bed543b3da4f97056cd294f8465f7
-MD5sum: 389369fa57ebbf93491991feb8d8799c
+Filename: pool/main/s/samba/python3-talloc_2.4.3+samba4.22.4+dfsg-1~deb13u1_amd64.deb
+Size: 50772
+SHA256: 4228aa9a85bcdba2189b0126d38e4dbdb96ea57b5b5a14d95808f9451eeccfa3
+SHA1: 4cb3cf9a432ec3ee659858a87883c519daedf226
+MD5sum: bdef37cfdd93cbf6c5d13c5018cb7dac
 Description: hierarchical pool based memory allocator - Python3 bindings
  A hierarchical pool based memory allocator with destructors. It uses
  reference counting to determine when memory should be freed.
@@ -44740,8 +44738,8 @@ Description: hierarchical pool based memory allocator - Python3 bindings
  This package contains the Python 3 bindings.
 
 Package: python3-tdb
-Source: samba (2:4.22.3+dfsg-4)
-Version: 2:1.4.13+samba4.22.3+dfsg-4
+Source: samba (2:4.22.4+dfsg-1~deb13u1)
+Version: 2:1.4.13+samba4.22.4+dfsg-1~deb13u1
 Architecture: amd64
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Installed-Size: 109
@@ -44749,11 +44747,11 @@ Depends: python3 (<< 3.14), python3 (>= 3.13~), python3:any, libc6 (>= 2.4), lib
 Homepage: https://www.samba.org
 Priority: optional
 Section: python
-Filename: pool/main/s/samba/python3-tdb_1.4.13+samba4.22.3+dfsg-4_amd64.deb
-Size: 52240
-SHA256: 6766c7417091f21e57fa485244bddd12c65f3c34c3111bc640331c089939e8c9
-SHA1: c9fcd8d06db5396bfb745bb715b50bc4ad02d9c1
-MD5sum: ff201b2c0a63a06472488e48140a2ec5
+Filename: pool/main/s/samba/python3-tdb_1.4.13+samba4.22.4+dfsg-1~deb13u1_amd64.deb
+Size: 52660
+SHA256: 6f2b5044bea126748edd1dbab8d793b80538e91dadbe01e7876376a4bd9438ec
+SHA1: 3302f15a73ec377112f1eb0c930fe686ef2b6a8a
+MD5sum: 42aa71c093a37db79d7aeef8131ec113
 Description: Python3 bindings for TDB
  This is a simple database API. It is modelled after the structure
  of GDBM. TDB features, unlike GDBM, multiple writers support with
@@ -45350,22 +45348,22 @@ Description: Qt 5 D-Bus tool
  the QtDBus library.
 
 Package: qemu-guest-agent
-Source: qemu (1:10.0.2+ds-2)
-Version: 1:10.0.2+ds-2+b1
+Source: qemu
+Version: 1:10.0.3+ds-0+deb13u1
 Architecture: amd64
 Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 3717
+Installed-Size: 3719
 Pre-Depends: init-system-helpers (>= 1.54~)
 Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.78.0), libnuma1 (>= 2.0.11), libudev1 (>= 183), liburing2 (>= 2.3)
 Multi-Arch: foreign
 Homepage: http://www.qemu.org/
 Priority: optional
 Section: otherosfs
-Filename: pool/main/q/qemu/qemu-guest-agent_10.0.2+ds-2+b1_amd64.deb
-Size: 537604
-SHA256: 8c4ee8ee76fe6c402d2aec5fc192afd32c65777e10365aafca411431df27206b
-SHA1: d9084a9be7656761aafbf2836424fd35380adfe7
-MD5sum: 5381cc6b30421ed52c157e3925e18918
+Filename: pool/main/q/qemu/qemu-guest-agent_10.0.3+ds-0+deb13u1_amd64.deb
+Size: 539936
+SHA256: 2754fcb5414d05df1071db37e2a24ccce8f286f235e38fcf29e755520f25aa88
+SHA1: 143c6f1eeb8b8ce0cdc638e309ecbb079db130b5
+MD5sum: a09c8e7686f88e60f812bf2f75bdf8fb
 Description: Guest-side qemu-system agent
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
  CRIS, i386, LoongArch, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, RISC-V,
@@ -47400,19 +47398,19 @@ Description: spell checking library for Qt, plugins
  be installed separatedly.
 
 Package: sound-theme-freedesktop
-Version: 0.8-4
+Version: 0.8-6~deb13u1
 Architecture: all
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 534
+Installed-Size: 535
 Multi-Arch: foreign
 Homepage: https://www.freedesktop.org/wiki/Specifications/sound-theme-spec/
 Priority: optional
 Section: sound
-Filename: pool/main/s/sound-theme-freedesktop/sound-theme-freedesktop_0.8-4_all.deb
-Size: 383328
-SHA256: 83eab194419c8654fb60f5a8e8f83a3b1a98a5fa2e367cd3ed1cf0690ac8a543
-SHA1: 49b97335e5cd7fe1ff18cec7efd3c002bafafed3
-MD5sum: 7aa0b5433026693fae93dd65f2d49d65
+Filename: pool/main/s/sound-theme-freedesktop/sound-theme-freedesktop_0.8-6~deb13u1_all.deb
+Size: 383296
+SHA256: b88c0a3f598c2e423f37db5af9e71324a122729edb8df4fb13b54252401c1a8a
+SHA1: e64f4a521459bc3001a4c8e78ec9916285f8d222
+MD5sum: 9ac4cb1875ec39e6532ebb646b287fe0
 Description: freedesktop.org sound theme
  The default freedesktop.org sound theme following the XDG theming
  specification. It contains a full set of sounds for different
@@ -47613,26 +47611,26 @@ Description: collection of bootloaders (common)
  This package contains the common files.
 
 Package: systemd
-Version: 257.7-1
+Version: 257.8-1~deb13u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 9950
-Pre-Depends: libc6 (>= 2.38), libsystemd-shared (= 257.7-1)
-Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.13), libc6 (>= 2.41), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.3.1), libselinux1 (>= 3.1~), libssl3t64 (>= 3.4.0), libsystemd0 (= 257.7-1), mount
+Installed-Size: 9946
+Pre-Depends: libc6 (>= 2.38), libsystemd-shared (= 257.8-1~deb13u1)
+Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.13), libc6 (>= 2.41), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.3.1), libselinux1 (>= 3.1~), libssl3t64 (>= 3.4.0), libsystemd0 (= 257.8-1~deb13u1), mount
 Recommends: default-dbus-system-bus | dbus-system-bus, linux-sysctl-defaults, systemd-timesyncd | time-daemon, systemd-cryptsetup
 Suggests: systemd-container, systemd-homed, systemd-userdbd, systemd-boot, systemd-resolved, systemd-repart, libtss2-tcti-device0, polkitd
 Conflicts: consolekit, libpam-ck-connector, opensysusers (<< 0.7.3-4.1~), systemd-shim
 Breaks: dracut-core (<< 102-2~), less (<< 563), sicherboot (<< 0.1.6)
-Provides: systemd-sysusers (= 257.7-1), systemd-tmpfiles (= 257.7-1)
+Provides: systemd-sysusers (= 257.8-1~deb13u1), systemd-tmpfiles (= 257.8-1~deb13u1)
 Multi-Arch: foreign
 Homepage: https://systemd.io
 Priority: important
 Section: admin
-Filename: pool/main/s/systemd/systemd_257.7-1_amd64.deb
-Size: 3099072
-SHA256: c5b56a8e78a5f6e032da90155a84cb402dd026b2dca71706d3f505793a5b066e
-SHA1: 7a3f4ec1b469151e75c43b32b362c2ba10ce77f5
-MD5sum: 324f19f1e9f6b747f3784b63ca5b3cb3
+Filename: pool/main/s/systemd/systemd_257.8-1~deb13u1_amd64.deb
+Size: 3099252
+SHA256: 6fd9b9b8a034a990765da88910297d9a0fe1072686054230eaac311899fc5a38
+SHA1: 9b3464fb71172dc3e8da15ed574c13a72efd4a65
+MD5sum: 5c9946155802dd4d2b7b9e21b3fdca35
 Description: system and service manager
  systemd is a system and service manager for Linux. It provides aggressive
  parallelization capabilities, uses socket and D-Bus activation for starting
@@ -47645,11 +47643,11 @@ Description: system and service manager
 
 Package: systemd-coredump
 Source: systemd
-Version: 257.7-1
+Version: 257.8-1~deb13u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 261
-Depends: libc6 (>= 2.36), libsystemd-shared (= 257.7-1), systemd
+Depends: libc6 (>= 2.36), libsystemd-shared (= 257.8-1~deb13u1), systemd
 Conflicts: core-dump-handler
 Replaces: core-dump-handler
 Provides: core-dump-handler
@@ -47657,11 +47655,11 @@ Multi-Arch: foreign
 Homepage: https://systemd.io
 Priority: optional
 Section: admin
-Filename: pool/main/s/systemd/systemd-coredump_257.7-1_amd64.deb
-Size: 117452
-SHA256: 08babbf803c14a689c18fb2450745d0d11af0af193702db6bd912f0404932564
-SHA1: 853f6c23552aec73471cd5b2633f922bd2238378
-MD5sum: bb33eb9d84fde8510473e01bc909371c
+Filename: pool/main/s/systemd/systemd-coredump_257.8-1~deb13u1_amd64.deb
+Size: 117888
+SHA256: 7d3476ebb8c238208fa1f83ea740bc5412402b8a6486a7257d42498df1eb7eaa
+SHA1: 09587fda0250f7720df5a304a096f7744e02d124
+MD5sum: 7b082ece90c8bad57ebab10c481ad27b
 Description: tools for storing and retrieving coredumps
  This package provides systemd tools for storing and retrieving coredumps:
   * systemd-coredump
@@ -47669,7 +47667,7 @@ Description: tools for storing and retrieving coredumps
 
 Package: systemd-dev
 Source: systemd
-Version: 257.7-1
+Version: 257.8-1~deb13u1
 Architecture: all
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 714
@@ -47679,11 +47677,11 @@ Multi-Arch: foreign
 Homepage: https://systemd.io
 Priority: optional
 Section: devel
-Filename: pool/main/s/systemd/systemd-dev_257.7-1_all.deb
-Size: 73888
-SHA256: 7d6988e8e56a5ff8ec228e57ee1f1c92133aacd592e8c0db7d930c347d82f040
-SHA1: 6c079d301642c284d844c558181f17112a6da5fe
-MD5sum: ca9dc1dca37b63d0aef266a71e590f96
+Filename: pool/main/s/systemd/systemd-dev_257.8-1~deb13u1_all.deb
+Size: 74160
+SHA256: dcf93cc5516d2100611bc947ff32a3ec20e8927120921f8f0399e75de390e228
+SHA1: 105efb3da275f00bab7099114c058ed982618038
+MD5sum: 794a700a4b57bf5197e1ec97a99d273d
 Description: systemd development files
  This package contains the systemd and udev pkg-config files. Note that these
  are different from the libsystemd's and libudev's pkg-config files, which can
@@ -47692,13 +47690,13 @@ Description: systemd development files
 
 Package: systemd-sysv
 Source: systemd
-Version: 257.7-1
+Version: 257.8-1~deb13u1
 Architecture: amd64
 Protected: yes
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 96
 Pre-Depends: systemd
-Depends: systemd (= 257.7-1)
+Depends: systemd (= 257.8-1~deb13u1)
 Recommends: libpam-systemd, libnss-systemd
 Conflicts: bfh-container (<< 20211009-22~), file-rc, initscripts, insserv, molly-guard (<< 0.8.2~), orphan-sysvinit-scripts, progress-linux-container (<< 20221002-11~), startpar, systemd-shim, sysv-rc, sysvinit-core
 Replaces: sysvinit-core
@@ -47706,11 +47704,11 @@ Multi-Arch: foreign
 Homepage: https://systemd.io
 Priority: important
 Section: admin
-Filename: pool/main/s/systemd/systemd-sysv_257.7-1_amd64.deb
-Size: 64184
-SHA256: a01d249c3bf7def467788225844f0a36cb490c2961b54487cd7b0d30cb517e10
-SHA1: dbd07b3dbd0b7f2e7b92ab1d80c8beb992415130
-MD5sum: 5f6633cff653fb3b02083cfc2964757d
+Filename: pool/main/s/systemd/systemd-sysv_257.8-1~deb13u1_amd64.deb
+Size: 64452
+SHA256: 63b3a04a6fd5dfc450f1d07f6f758756a184b7742bc04f807495d3d8c9f49458
+SHA1: db42453734441d1fc707837cf0cc0938a412c82b
+MD5sum: 683377de13b774f0fd155d3bd60c13e8
 Description: system and service manager - SysV compatibility symlinks
  This package provides manual pages and compatibility symlinks needed for
  systemd to replace sysvinit.
@@ -47719,11 +47717,11 @@ Description: system and service manager - SysV compatibility symlinks
 
 Package: systemd-timesyncd
 Source: systemd
-Version: 257.7-1
+Version: 257.8-1~deb13u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 202
-Depends: libc6 (>= 2.34), libsystemd-shared (= 257.7-1), systemd
+Depends: libc6 (>= 2.34), libsystemd-shared (= 257.8-1~deb13u1), systemd
 Conflicts: systemd (<< 256.2-2~), time-daemon
 Replaces: time-daemon
 Provides: time-daemon
@@ -47731,11 +47729,11 @@ Multi-Arch: foreign
 Homepage: https://systemd.io
 Priority: standard
 Section: admin
-Filename: pool/main/s/systemd/systemd-timesyncd_257.7-1_amd64.deb
-Size: 92544
-SHA256: 4d163cc6c7a59a75aa756103f6b7e0fdc1861da25a2a0b314eb877d7e36e42a6
-SHA1: a70d72a80734b70660ddfcd2a720dbebad597e4c
-MD5sum: 7d915014c69eaac17ebef4dae3cd5642
+Filename: pool/main/s/systemd/systemd-timesyncd_257.8-1~deb13u1_amd64.deb
+Size: 92900
+SHA256: 9f7a86dd6ae234322738e9b62fd45914d0b1ff2814aac29f0dff7eeb018bed66
+SHA1: 58b2601a19a1cd4971e6cae0e518754a561c609b
+MD5sum: 7241a6ac2905554d180a43d071841fd8
 Description: minimalistic service to synchronize local time with NTP servers
  The package contains the systemd-timesyncd system service that may be used to
  synchronize the local system clock with a remote Network Time Protocol server.
@@ -48321,7 +48319,7 @@ Description: displays an indented directory tree, in color
  variable is set and output is to tty.
 
 Package: tzdata
-Version: 2025b-4
+Version: 2025b-4+deb13u1
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 1357
@@ -48333,11 +48331,11 @@ Multi-Arch: foreign
 Homepage: https://www.iana.org/time-zones
 Priority: required
 Section: localization
-Filename: pool/main/t/tzdata/tzdata_2025b-4_all.deb
-Size: 259692
-SHA256: 5f1b0cb03200efd1e1e9d185d366ac7ccc61f27de491cf71fc468b2f8ed6f59b
-SHA1: 9f26f37801443ef374e176af9ef92b7228ca9f8e
-MD5sum: 8e1e4da602a60ee7be4c80231e845f80
+Filename: pool/main/t/tzdata/tzdata_2025b-4+deb13u1_all.deb
+Size: 259720
+SHA256: 19a87f5184503fb5eeffe97bd7e107e193ac28107789a1e85331ed9381040f17
+SHA1: f0478ecaed0b730e282ec8e4f8c8f792ce31971c
+MD5sum: 7dce4de6a803790d887b13bcbbc70ac2
 Description: time zone and daylight-saving time data
  This package contains data required for the implementation of
  standard local time for many representative locations around the
@@ -48389,23 +48387,23 @@ Description: Update Configuration File(s): preserve user changes to config files
 
 Package: udev
 Source: systemd
-Version: 257.7-1
+Version: 257.8-1~deb13u1
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
-Installed-Size: 9866
-Depends: libblkid1 (>= 2.37.2), libc6 (>= 2.38), libsystemd-shared (= 257.7-1), systemd | systemd-standalone-sysusers | systemd-sysusers, libkmod2, libudev1 (= 257.7-1)
+Installed-Size: 9995
+Depends: libblkid1 (>= 2.37.2), libc6 (>= 2.38), libsystemd-shared (= 257.8-1~deb13u1), systemd | systemd-standalone-sysusers | systemd-sysusers, libkmod2, libudev1 (= 257.8-1~deb13u1)
 Conflicts: systemd (<< 255~rc1-4~)
-Breaks: systemd (<< 257.7-1)
+Breaks: systemd (<< 257.8-1~deb13u1)
 Replaces: systemd (<< 255~rc1-4~)
 Multi-Arch: foreign
 Homepage: https://systemd.io
 Priority: important
 Section: admin
-Filename: pool/main/s/systemd/udev_257.7-1_amd64.deb
-Size: 1382268
-SHA256: bd8c14a0acf40357eef142ae95beda0aacf8cf57e6d77407e0fca6654a1bf77c
-SHA1: 80947a4faba9df07e78b1d75b46305d23db0852c
-MD5sum: 745632500ddd852e2e146d0b7d6bf63b
+Filename: pool/main/s/systemd/udev_257.8-1~deb13u1_amd64.deb
+Size: 1390856
+SHA256: b8d8d5ff71d4405d051611eaabcbd06893deb0846071e980da5ecd748d5a4ec6
+SHA1: 3403694e5da2995018368eb0c152c1a1af0157c9
+MD5sum: 0bd9fb70b90abfd7c66de7e8464959b4
 Description: /dev/ and hotplug management daemon
  udev is a daemon which dynamically creates and removes device nodes from
  /dev/, handles hotplug events and loads drivers at boot time.
@@ -48439,22 +48437,22 @@ Description: tools for UDF filesystems and DVD/CD-R(W) drives
   pktsetup - Set up a packet writing device (/dev/pktcdvd0) for a drive
 
 Package: udisks2
-Version: 2.10.1-12.1
+Version: 2.10.1-12.1+deb13u1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Installed-Size: 2806
-Depends: libudisks2-0 (= 2.10.1-12.1), libblockdev-crypto3, libblockdev-fs3, libblockdev-loop3, libblockdev-mdraid3, libblockdev-nvme3, libblockdev-part3, libblockdev-swap3, default-dbus-system-bus | dbus-system-bus, parted, udev, libacl1 (>= 2.2.23), libatasmart4 (>= 0.13), libblkid1 (>= 2.16), libblockdev-utils3 (>= 3.0), libblockdev3 (>= 3.0), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgudev-1.0-0 (>= 212), libmount1 (>= 2.30), libpolkit-agent-1-0 (>= 0.102), libpolkit-gobject-1-0 (>= 0.102), libsystemd0 (>= 209), libuuid1 (>= 2.16)
+Depends: libudisks2-0 (= 2.10.1-12.1+deb13u1), libblockdev-crypto3, libblockdev-fs3, libblockdev-loop3, libblockdev-mdraid3, libblockdev-nvme3, libblockdev-part3, libblockdev-swap3, default-dbus-system-bus | dbus-system-bus, parted, udev, libacl1 (>= 2.2.23), libatasmart4 (>= 0.13), libblkid1 (>= 2.16), libblockdev-utils3 (>= 3.0), libblockdev3 (>= 3.0), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgudev-1.0-0 (>= 212), libmount1 (>= 2.30), libpolkit-agent-1-0 (>= 0.102), libpolkit-gobject-1-0 (>= 0.102), libsystemd0 (>= 209), libuuid1 (>= 2.16)
 Recommends: dosfstools, e2fsprogs, eject, ntfs-3g, polkitd, libpam-systemd, exfatprogs
 Suggests: btrfs-progs, f2fs-tools, mdadm, nilfs-tools, reiserfsprogs, udftools, udisks2-btrfs, udisks2-lvm2, xfsprogs
 Multi-Arch: foreign
 Homepage: https://www.freedesktop.org/wiki/Software/udisks
 Priority: optional
 Section: admin
-Filename: pool/main/u/udisks2/udisks2_2.10.1-12.1_amd64.deb
-Size: 449852
-SHA256: 32ea570fe3f9da27fa70f4d2c8d268c2f7855e99f9196430fe70bbafccf377e8
-SHA1: e4b99f5253939721086676542f5d1a95559ca9ce
-MD5sum: 03e6fb51ca1482773f1ee0a6bfcb3787
+Filename: pool/main/u/udisks2/udisks2_2.10.1-12.1+deb13u1_amd64.deb
+Size: 449868
+SHA256: f1c401930f8b2a8282ec9635cf1bfc19b7f892ce5b64b894beb56e96ecbcc155
+SHA1: c1377ba0b4c01825ac17d81201f47542c2833b9c
+MD5sum: 0c76e50c3a68b20d59b014eaaf2ef39b
 Description: D-Bus service to access and manipulate storage devices
  The udisks daemon serves as an interface to system block devices,
  implemented via D-Bus. It handles operations such as querying, mounting,
@@ -49146,6 +49144,56 @@ Description: intelligent WHOIS client
  .
  The package also contains mkpasswd, a features-rich front end to the
  password encryption function crypt(3).
+
+Package: wine-stable
+Source: wine
+Version: 10.0.0.0~trixie-1
+Architecture: amd64
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Installed-Size: 13624
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.38), wine-stable-i386 (= 10.0.0.0~trixie-1), wine-stable-amd64 (= 10.0.0.0~trixie-1)
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Filename: pool/main/w/wine/wine-stable_10.0.0.0~trixie-1_amd64.deb
+Size: 2216164
+SHA256: 0b3d9379b93c65185d0463f3fe204309db5b3e4babea4fbae9773d3b9b054d6d
+SHA1: 0dbc886358cbb89a90a0c10b4816530fc7851222
+MD5sum: 31bb8297aec7deca5c5a7e60a5e34563
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix. It
+ consists of a program loader which loads and executes a Microsoft
+ Windows binary, and a library (called Winelib) that implements Windows
+ API calls using their Unix or X11 equivalents.  The library may also
+ be used for porting Win32 code into native Unix executables.
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+
+Package: winehq-stable
+Source: wine
+Version: 10.0.0.0~trixie-1
+Architecture: amd64
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Installed-Size: 73
+Depends: wine-stable (= 10.0.0.0~trixie-1)
+Conflicts: wine, wine-amd64, wine-i386
+Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
+Provides: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
+Priority: optional
+Section: otherosfs
+Filename: pool/main/w/wine/winehq-stable_10.0.0.0~trixie-1_amd64.deb
+Size: 1928
+SHA256: 4c1a4e0db2217ad7443126ac39276bee80de1e7905faeee3b2cb1b1e28cc4eca
+SHA1: 3fc1ea0d3890334b44a09e957f4609b426b96537
+MD5sum: 4abdea26dcf015606c2336ce557ec3fe
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This compatibility package allows to use wine-stable system-wide as
+ the default Wine version.
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 
 Package: wireless-regdb
 Version: 2025.07.10-1
