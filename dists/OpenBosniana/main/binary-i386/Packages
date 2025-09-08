@@ -1,3 +1,43 @@
+Package: breeze-wallpaper
+Source: breeze
+Version: 4:6.3.6-openbosniana4
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 5
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/?p=breeze.git/breeze
+Priority: optional
+Section: kde
+Filename: pool/main/b/breeze/breeze-wallpaper_6.3.6-openbosniana4_all.deb
+Size: 784
+SHA256: 6d5d75cb900c25924f7e32fd43917b6c946c007ec4715349c4691fc3e0758efa
+SHA1: 8033ffc6d7e9111f6536da26387a50b53d255f0a
+MD5sum: 895308a16adda0f283a46169f44a95ec
+Description: Empty
+
+Package: desktop-base
+Version: 2025.01.09
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 21790
+Depends: librsvg2-common, fonts-quicksand, openbosniana-wallpaper
+Recommends: plymouth-label
+Homepage: https://www.bosniana.org/
+Priority: optional
+Section: x11
+Filename: pool/main/d/desktop-base/desktop-base_2025.01.09_all.deb
+Size: 3153436
+SHA256: eb318d2f9559dda1c389aa29af03752aa9f11d02ebe2f6b4e46a71724a8142f3
+SHA1: bfb01ac717bb4fb660520bb6d9d8320fbe81a06f
+MD5sum: 102591be7f4d71c3c72221159129b7f4
+Description: common files for the OpenBosniana Desktop
+ This package contains various miscellaneous files which are used by
+ Debian Desktop installations.  Currently, it provides some
+ Debian-related artwork and themes, .desktop files containing links to
+ Debian related material (suitable for placement on a user's desktop),
+ and other common files between the available desktop environments
+ such as GNOME and KDE.
+
 Package: fonts-opensymbol
 Source: libreoffice (4:25.2.3-2+deb13u2)
 Version: 4:102.12+LibO25.2.3-2+deb13u2
@@ -217,7 +257,7 @@ Description: VAAPI driver for the Intel GEN8+ Graphics family
 
 Package: kf6-breeze-icon-theme
 Source: kf6-breeze-icons
-Version: 2025.13.0-5
+Version: 2025.13.0-6
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 59719
@@ -228,11 +268,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme_2025.13.0-5_all.deb
-Size: 5751112
-SHA256: 4d8d587f83052ff0195fc099da30d91b9985f9da609b067e5f48b57f4695cb27
-SHA1: ce2e85eac6f123f224ca34d3849466b85c7475bd
-MD5sum: a94a4c561ce4a753c519a4d03ba63a1b
+Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme_2025.13.0-6_all.deb
+Size: 5761096
+SHA256: d6566033ab779cb51d7b479306f9983e4067f2144ac6af50dc469552e3c8603f
+SHA1: 5b2d3bb85a519dc46686794fb523fc671fe6379f
+MD5sum: 084597ca8b754eeaf97850b6ef7ca0fe
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 6 desktop.
  .
@@ -240,7 +280,7 @@ Description: Default Plasma icon theme
 
 Package: kf6-breeze-icon-theme-rcc
 Source: kf6-breeze-icons
-Version: 2025.13.0-5
+Version: 2025.13.0-6
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 25285
@@ -250,11 +290,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme-rcc_2025.13.0-5_all.deb
-Size: 5472196
-SHA256: 070ec635c9f3f332b9bf8ce81229b43cd574ec212a54b2c5570e4c53b2652afb
-SHA1: cef58e0bd7ba4d4c52a50f7a8ddf1a695af4139f
-MD5sum: 89d80c633d8fe9a338a28f6fa8585715
+Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme-rcc_2025.13.0-6_all.deb
+Size: 5458140
+SHA256: a40c334710002c82c985b79b2cad4833c8cbae23d5628cd172ab962f8b8debcd
+SHA1: 7e5042984fa666a7760a4f2f8fcd8cc4821de354
+MD5sum: f68b003f1784477435ebe7274b3938fc
 Description: RCC resources for the breeze icon theme
  Breeze is the default icon theme for the KDE Plasma 6 desktop. This package
  contains the icons in RCC format.
@@ -7046,6 +7086,24 @@ Description: Generic OpenCL ICD Loader
  library that can be used to load any (free or non-free) installable client
  driver (ICD) for OpenCL. It acts as a demultiplexer so several ICD can
  be installed and used together.
+
+Package: openbosniana-wallpaper
+Version: 2025.09.03+trixie6
+Maintainer: Denis Maslo <denni@bosniana.org>
+Architecture: all
+Installed-Size: 42210
+Replaces: breeze-wallpaper
+Multi-Arch: foreign
+Homepage: https://bosniana.org/
+Priority: optional
+Section: openbosniana
+Filename: pool/main/o/openbosniana-wallpaper/openbosniana-wallpaper_2025.09.03+trixie6_all.deb
+Size: 486388
+SHA256: 376cd6c66abe920195a217656c96b644d57b72a3dba528a83dd32fd0b0d4f21a
+SHA1: 3e220ddd1dff8e889c94719187d2a648faf5c93a
+MD5sum: a0bcc917faf1df17c206d505bb5b091b
+Description: Default OpenBosniana OS wallpapers
+ This is the default wallpaper for the OpenBosniana OS desktop.
 
 Package: publicsuffix
 Version: 20250328.1952-0.1
