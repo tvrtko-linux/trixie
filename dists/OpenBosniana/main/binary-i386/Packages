@@ -16,7 +16,7 @@ MD5sum: 895308a16adda0f283a46169f44a95ec
 Description: Empty
 
 Package: desktop-base
-Version: 2025.01.09
+Version: 2025.01.11
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 21790
@@ -25,11 +25,11 @@ Recommends: plymouth-label
 Homepage: https://www.bosniana.org/
 Priority: optional
 Section: x11
-Filename: pool/main/d/desktop-base/desktop-base_2025.01.09_all.deb
-Size: 3153436
-SHA256: eb318d2f9559dda1c389aa29af03752aa9f11d02ebe2f6b4e46a71724a8142f3
-SHA1: bfb01ac717bb4fb660520bb6d9d8320fbe81a06f
-MD5sum: 102591be7f4d71c3c72221159129b7f4
+Filename: pool/main/d/desktop-base/desktop-base_2025.01.11_all.deb
+Size: 3153448
+SHA256: 8b2a7fceaa74d8d33d662b38004ac3b3f95136c64575a91a72c56674afc661f6
+SHA1: 17057446b3d1694187f6b0066f1a414e2d224051
+MD5sum: 1bee05a7e25218d7137b16ac6ca31df5
 Description: common files for the OpenBosniana Desktop
  This package contains various miscellaneous files which are used by
  Debian Desktop installations.  Currently, it provides some
@@ -7088,7 +7088,7 @@ Description: Generic OpenCL ICD Loader
  be installed and used together.
 
 Package: openbosniana-wallpaper
-Version: 2025.09.03+trixie6
+Version: 2025.09.03+trixie7
 Maintainer: Denis Maslo <denni@bosniana.org>
 Architecture: all
 Installed-Size: 42210
@@ -7097,11 +7097,11 @@ Multi-Arch: foreign
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-wallpaper/openbosniana-wallpaper_2025.09.03+trixie6_all.deb
-Size: 486388
-SHA256: 376cd6c66abe920195a217656c96b644d57b72a3dba528a83dd32fd0b0d4f21a
-SHA1: 3e220ddd1dff8e889c94719187d2a648faf5c93a
-MD5sum: a0bcc917faf1df17c206d505bb5b091b
+Filename: pool/main/o/openbosniana-wallpaper/openbosniana-wallpaper_2025.09.03+trixie7_all.deb
+Size: 487344
+SHA256: 7e3ac7d1e43c967f31ce400a3871a0602e0d030d978fc150f1d813f25a464fe4
+SHA1: c52f478296dd9e31e76fafb8fdabaf99e253a267
+MD5sum: e5bb84b329ee6f1a2825646558cee138
 Description: Default OpenBosniana OS wallpapers
  This is the default wallpaper for the OpenBosniana OS desktop.
 
