@@ -3324,7 +3324,7 @@ Description: MySQL database server binaries (metapackage)
  doesn't depend on all the infrastructure needed to setup system databases.
 
 Package: desktop-base
-Version: 2025.01.13
+Version: 2025.01.15
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 21790
@@ -3333,11 +3333,11 @@ Recommends: plymouth-label
 Homepage: https://www.bosniana.org/
 Priority: optional
 Section: x11
-Filename: pool/main/d/desktop-base/desktop-base_2025.01.13_all.deb
-Size: 4792668
-SHA256: 9dbd82da29ee1686fd3b3d111b135853a0048dee5a955819db34329b4c2645cb
-SHA1: f3ce4fc87033997da6687038fd683e30af529577
-MD5sum: 91e5900559389a6b077cb0bb8b109852
+Filename: pool/main/d/desktop-base/desktop-base_2025.01.15_all.deb
+Size: 4858000
+SHA256: b5b0066223d243c168a15a34811a286895824d4bf560650a76767f82ae76464b
+SHA1: ea23d642c2e84a5836b0433c7f549d943d72bdd0
+MD5sum: ad2871fb7c1cc9207e50e597d357bcf3
 Description: common files for the OpenBosniana Desktop
  This package contains various miscellaneous files which are used by
  Debian Desktop installations.  Currently, it provides some
@@ -11848,7 +11848,7 @@ Description: Linux Key Management Utilities
 
 Package: kf6-breeze-icon-theme
 Source: kf6-breeze-icons
-Version: 2025.13.0-7
+Version: 2025.13.0-8
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 59719
@@ -11859,11 +11859,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme_2025.13.0-7_all.deb
-Size: 5763432
-SHA256: 0646432d382ccc5cb2fa213bfece8f66517e81537692b3f7dda4c4a00cd267cc
-SHA1: c31c0f37582c4f24ebb098ee66c4322365bd7207
-MD5sum: 4e0cd66e80ddfc922aa6be23a7ec2f5e
+Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme_2025.13.0-8_all.deb
+Size: 5779380
+SHA256: 44eea088050feaaef1b5b49da88d116e7d7324df7734f17babbfa86ef1ebee86
+SHA1: a51874ea90a5f29e51ae8e08b0a2b6b6d3f86c6c
+MD5sum: af454a6af602585008ca206d3f320b4e
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 6 desktop.
  .
@@ -11871,7 +11871,7 @@ Description: Default Plasma icon theme
 
 Package: kf6-breeze-icon-theme-rcc
 Source: kf6-breeze-icons
-Version: 2025.13.0-7
+Version: 2025.13.0-8
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 25285
@@ -11881,11 +11881,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme-rcc_2025.13.0-7_all.deb
-Size: 5477756
-SHA256: e28039610fa762ec5be7cc4aafd921329dc5b71f98644137c59ba2ff6e7c97c3
-SHA1: 0a36c5b43b6740ad454f4eda7599af2b50f945e6
-MD5sum: d244d229a059d8f7940f40c88fa078a8
+Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme-rcc_2025.13.0-8_all.deb
+Size: 5500480
+SHA256: aa30206c480e74c6f8a9ada53b21fb4d7209f36654f2882f7d6c1bb6e48c4adc
+SHA1: a2c2374ff33dad0a46d7fd1c329881870d777819
+MD5sum: a19021f7a65ec6f718e0f4c732dc4299
 Description: RCC resources for the breeze icon theme
  Breeze is the default icon theme for the KDE Plasma 6 desktop. This package
  contains the icons in RCC format.
