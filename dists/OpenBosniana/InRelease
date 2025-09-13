@@ -6,18 +6,18 @@ Label: OpenBosniana Repository
 Suite: 2024
 Codename: OpenBosniana
 Version: 2024
-Date: Fri, 12 Sep 2025 14:04:54 UTC
+Date: Sat, 13 Sep 2025 00:11:13 UTC
 Architectures: amd64 i386
 Components: main
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
 MD5Sum:
- 9fd6eba8ebf8184d76fb9072bba67bbb 2293775 main/binary-amd64/Packages
- dba438cb9724df3a1d04e9972b686044 659654 main/binary-amd64/Packages.gz
+ 4918dc552059f2d9049fc0841b63c202 2293775 main/binary-amd64/Packages
+ dbfc07b7862771c7cd3947dc594e52dc 659647 main/binary-amd64/Packages.gz
  b0d9e12f1ae63a1b0d1b394068735023 185 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
- 71eb695d09946c9bd6d4a399ddd8b95d 295694 main/binary-i386/Packages
- 798cf599c58a76b50096127a4f963ba5 89463 main/binary-i386/Packages.gz
+ 0b3ceac53348d69efe54559a2e74c397 295694 main/binary-i386/Packages
+ 208833ea1d935b20b299351aa13b5764 89465 main/binary-i386/Packages.gz
  96cd2230bf404dfaf33f72ff6ccfa8cf 184 main/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-i386/Packages.gz
@@ -25,13 +25,13 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  e50c7529a4057e38768db62af08b9e96 186 main/source/Release
 SHA1:
- 3b4fac52b462dc86ebaf5d17029860990559429f 2293775 main/binary-amd64/Packages
- 577184d4d0a7fb880dfa9df85c8b6b0aa24d75ef 659654 main/binary-amd64/Packages.gz
+ a6cd3cd456b7c67634bbe38deaf8b1ce52f57689 2293775 main/binary-amd64/Packages
+ 711e22a3622044763305e7acafe79e6bd16d4312 659647 main/binary-amd64/Packages.gz
  2d122413bcff69dcea094395c604b68d0bf8ed24 185 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
- 660ac50623d05689a67c534b39e759f7c6cf141d 295694 main/binary-i386/Packages
- f5caab3639d83579e630424b65ba9bb06d2d5b71 89463 main/binary-i386/Packages.gz
+ ae040c0fd5d2d5c5e0a4c38c300bc0b029fb6d34 295694 main/binary-i386/Packages
+ 2cd138ea2dbd5a3ee3d02b231ad35186119dfd4b 89465 main/binary-i386/Packages.gz
  ab992624680d1d04c2b06fa0e53e628a4c817399 184 main/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-i386/Packages.gz
@@ -39,13 +39,13 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  12e8d3f62d41daed04b6ea7defc0aa483687d786 186 main/source/Release
 SHA256:
- 134b90e07506fa5601bbc90071bf4611a0185ad27841e448aaf5b4058a0b8b53 2293775 main/binary-amd64/Packages
- 59cf2e601a88419c530664bb5f28b13db5c02724db64b715316161fd8d7f88fd 659654 main/binary-amd64/Packages.gz
+ fc70041e63318a5c9db7b904e7580d3ef5eb9bec68966a4bcc065c2ad9044cfa 2293775 main/binary-amd64/Packages
+ 0c324dbdc20635fdcf35b27a53863212059de5218035c369dec94f8180eda844 659647 main/binary-amd64/Packages.gz
  1f2ec1d7026705d80c7fea2c53f0a31517c91a62113552a8924f001cdd3ed587 185 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
- 67a13751c637cecc7c4376efb0e0b99436645cfefb6ac0251f5f20425157f32f 295694 main/binary-i386/Packages
- 64850199a093c1e71b378c5eaa4921f62d523c60a763ed5f02aa046dbef73065 89463 main/binary-i386/Packages.gz
+ 7cf92e78fa38eb0e6701f6dad28c80d8e216588a3aa3ad9bb90aff16c34921ff 295694 main/binary-i386/Packages
+ 02f15c85fa480aa9fd6db2c5e1abb905436657fcc2a80e003c940aa7c6b2642c 89465 main/binary-i386/Packages.gz
  8ab63ea05bc30c9d05243caa4823d290af64469e22bf30285de8ce79da7a71bd 184 main/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-i386/Packages.gz
@@ -54,17 +54,17 @@ SHA256:
  6bde14b468ac13ed6558893b6a4a334cab2a30fdf43113c1beb6caae88e9e1e1 186 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmjEKIYACgkQ5Vfn9vbt
-T6qkXhAAmXGrizDfW+i3k0Up3pNvDw3hdoKcC/FEb3asG/tsnJje5V5FqwcbuRBm
-JPJ5qynHQlW69deEiPTp/NOIPRkJhs7mAxMjU/524D8nzhhL77HJ9TQGjXkZhpKP
-bS5BPAWwdPGXo1p+wK475Bq5MwixpTEcpPIQrvikt3mF1F+z3zTkYbq4nkwOynp4
-UE3+NOkuc8V0NTjWDfvAqxEj/QjHRpgfuN5hR/x8QxNYbOuwB5DPF7lnpyOQV355
-fJcOed8DMgceJpf72Q98b0+SS33tyOXtJSJGWbq6ipJwE0p+NuzEdVemOJyLZZ4M
-1X2ixJrk5b4LhW2bjQtri2r+vOtX84pkJPut1lt/exS1l5b7Scbc+ly2OZimmXAj
-q6Vcv4doX6w1aiEATM47wsOO3L8fS8qXptp7tY1GATOs8EJQCtUC3EnGyRZpnwWW
-NqvmTmoiTj2OSOnwXeIEM6AhE/BxJGTVf5AC4HYfOFvQVhuWWdR4fURqT8wyeEOb
-cwocgT4TZx3+H4aa2xU2UWNjgAjQmmS6qttR6NiVRQNpGOuUNfoR1532f/NjsWse
-bHKdo9WESUK8TV64pRWvTLMMMNO6di2wtUab8srtjgVYzJCMiNmOzp1y4eUO06U/
-BjDYRidNrsrlK3saPxxiMxs04FAqrfwfDGiblRqcZwNpYOAnZLc=
-=Nv+3
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmjEtqYACgkQ5Vfn9vbt
+T6qOIA//bgIt5Xiq6Xw77bwxbE+wDSRtqaKLD2GBTeqLi/b5+Tq4+JEC8VSr6AZq
++o20p2uckuIQUWzVnxv2U/nCEAg/RBctnLrRM7hGgzPL7Cs+MUx+D2/u0c3t6XZL
+2gNAbulQeHOqi/ogzQt9M4rqURjmAWeRpQxkZQAVTVOuesnMe0nhMe2Bia6U4cxQ
+LvLB8xrpWXJilrHlv/J4ucPQeglINeKwQPwLoif2AGk4e/F6XK4yufurnEh1/5Pr
+xIQpQY/ZieQRg9yprNDb0a4y1UI7npPlaOYuZ8N51C0t+GgG7dkrKtWIXm6kDSuQ
+8WXGlqQ0DzjXuZAA/UvVFfreHqp84spjxB5UWbBIhSQDDCawR6I88savu9jHerV6
+CFEaJe/X0gZGGZwib6PMgycJcCLwDA+qAnx0Kqjo2pZhPVgp2KYawGfbYNsfr+tS
+d0fG/OkdYDfjwoBCVzWVtcecQn9uo2u5QrkiC+LTpxS4M3l8JDkKkyeouy22ToRa
+49ZwWnYCb7+XweeVPTUEezSF89Fqe/xYVeKiys47JBVDcHREjAjlborjPX6EDSbH
+f8JGqAPOca2GCkbYOR278anFeJvJhQtRRbpC2eESAhzUFQJFgT+JxRJKrZ2Jf3hy
+CauztJlDHez2D6nWx9hMFYd16O6PCrUcb0sp+jU1i3M46DN29Eg=
+=eDnJ
 -----END PGP SIGNATURE-----

@@ -16,7 +16,7 @@ MD5sum: b8c8eece40cec152c39ab538be87e147
 Description: Empty
 
 Package: desktop-base
-Version: 2025.01.15
+Version: 2025.01.16
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 21790
@@ -25,11 +25,11 @@ Recommends: plymouth-label
 Homepage: https://www.bosniana.org/
 Priority: optional
 Section: x11
-Filename: pool/main/d/desktop-base/desktop-base_2025.01.15_all.deb
-Size: 4858000
-SHA256: b5b0066223d243c168a15a34811a286895824d4bf560650a76767f82ae76464b
-SHA1: ea23d642c2e84a5836b0433c7f549d943d72bdd0
-MD5sum: ad2871fb7c1cc9207e50e597d357bcf3
+Filename: pool/main/d/desktop-base/desktop-base_2025.01.16_all.deb
+Size: 4037752
+SHA256: 0c1b1fee9c27c4c84fe14dff0310908ec41fca1503d899a4fd5034db23a5a521
+SHA1: d96df5365761e8cb0bb5ebd795361a3db5004c0d
+MD5sum: fbced5631c97b3bdba000ec88ddb043e
 Description: common files for the OpenBosniana Desktop
  This package contains various miscellaneous files which are used by
  Debian Desktop installations.  Currently, it provides some
