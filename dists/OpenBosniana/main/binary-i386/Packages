@@ -1,22 +1,5 @@
-Package: breeze-wallpaper
-Source: breeze
-Version: 4:6.3.5-1
-Architecture: all
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 5
-Multi-Arch: foreign
-Homepage: https://invent.kde.org/?p=breeze.git/breeze
-Priority: optional
-Section: kde
-Filename: pool/main/b/breeze/breeze-wallpaper_6.3.5-1_all.deb
-Size: 486372
-SHA256: be434b24b0b65129ae6665bf622c9362926b372a1c10729f72b90524fd9c366e
-SHA1: 88cd9781e60b0c1aafddd011a11e13ae22f074bc
-MD5sum: b8c8eece40cec152c39ab538be87e147
-Description: Empty
-
 Package: desktop-base
-Version: 2025.01.16
+Version: 2025.01.17
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 21790
@@ -25,11 +8,11 @@ Recommends: plymouth-label
 Homepage: https://www.bosniana.org/
 Priority: optional
 Section: x11
-Filename: pool/main/d/desktop-base/desktop-base_2025.01.16_all.deb
-Size: 4037752
-SHA256: 0c1b1fee9c27c4c84fe14dff0310908ec41fca1503d899a4fd5034db23a5a521
-SHA1: d96df5365761e8cb0bb5ebd795361a3db5004c0d
-MD5sum: fbced5631c97b3bdba000ec88ddb043e
+Filename: pool/main/d/desktop-base/desktop-base_2025.01.17_all.deb
+Size: 24829932
+SHA256: 1d6e661cc7e5f096254ff20a95e849fad7cea9f569cd09283d43af467d3db02c
+SHA1: 6312a3e26894865e6d4faf581a76794c3b154fae
+MD5sum: 5885035dd2aa3716e80677cf923b4d94
 Description: common files for the OpenBosniana Desktop
  This package contains various miscellaneous files which are used by
  Debian Desktop installations.  Currently, it provides some
@@ -7086,24 +7069,6 @@ Description: Generic OpenCL ICD Loader
  library that can be used to load any (free or non-free) installable client
  driver (ICD) for OpenCL. It acts as a demultiplexer so several ICD can
  be installed and used together.
-
-Package: openbosniana-wallpaper
-Version: 2025.09.03+trixie8
-Maintainer: Denis Maslo <denni@bosniana.org>
-Architecture: all
-Installed-Size: 42210
-Replaces: breeze-wallpaper
-Multi-Arch: foreign
-Homepage: https://bosniana.org/
-Priority: optional
-Section: openbosniana
-Filename: pool/main/o/openbosniana-wallpaper/openbosniana-wallpaper_2025.09.03+trixie8_all.deb
-Size: 486584
-SHA256: e0ab99d25f92711b1ed87c91f83fb2adc38bf296d3f806d5b0628c25deb93f11
-SHA1: abe85ea530989a83aa78c47bb6e65447466a514e
-MD5sum: fdb7f7625f04ae081bcc6079975363f0
-Description: Default OpenBosniana OS wallpapers
- This is the default wallpaper for the OpenBosniana OS desktop.
 
 Package: publicsuffix
 Version: 20250328.1952-0.1
