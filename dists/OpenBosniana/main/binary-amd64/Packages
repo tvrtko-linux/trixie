@@ -1371,6 +1371,23 @@ MD5sum: 65bccabcac632fbe42cee78a2419c28f
 Description: GTK theme built to match KDE's Breeze
  A GTK Theme Built to Match KDE's Breeze. Widget theme for GTK 2 and 3.
 
+Package: breeze-wallpaper
+Source: breeze
+Version: 4:6.3.5-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 5
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/?p=breeze.git/breeze
+Priority: optional
+Section: kde
+Filename: pool/main/b/breeze/breeze-wallpaper_6.3.5-1_all.deb
+Size: 1104060
+SHA256: c58bdf4e39657c12bb98996053a1319f111be2e695afb1d029e1656bd3e535c0
+SHA1: 5524e62343a595fb58269a606315609fd7ea022a
+MD5sum: be68345b3863994564a57b52ebbbcefa
+Description: Empty
+
 Package: bsd-mailx
 Version: 8.1.2-0.20220412cvs-1.1
 Architecture: amd64
@@ -39777,7 +39794,7 @@ Description: OpenBosniana GPG Archive Keyring
  Public keys for the openbosniana archives digital signature.
 
 Package: openbosniana-core
-Version: 2025.09.03+trixie6
+Version: 2025.09.04+trixie6
 Architecture: amd64
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 705
@@ -39788,11 +39805,11 @@ Replaces: apt-openbosniana, base-files, bash, dnsmasq, fish, nano, nvim, openbos
 Homepage: https://bosniana.org/
 Priority: optional
 Section: openbosniana
-Filename: pool/main/o/openbosniana-core/openbosniana-core_2025.09.03+trixie6_amd64.deb
-Size: 97856
-SHA256: 33d13f23b9a16b109108e3c4db34178e84e846e5aac9894be09ccd93c0dd3614
-SHA1: 095b581de513b041edd3bf2f3004df125d8b662b
-MD5sum: 77c5c6a5953d36905f3dff0593321829
+Filename: pool/main/o/openbosniana-core/openbosniana-core_2025.09.04+trixie6_amd64.deb
+Size: 71108
+SHA256: 79d5feaffec5149424049347fa05b41aeed3063e5c9c3f9eff2678d986ea0460
+SHA1: 78866740a98f132fdf587b19911fb5afca22ca80
+MD5sum: df27643707e9cba2eccbbda3d07c1f21
 Description: Core package for OpenBosniana OS
   Core package for the OpenBosniana Debian distribution.
   .
@@ -40045,6 +40062,24 @@ SHA1: 2097135cb58a8cf2e5785368a83b7c46b9cc8fb1
 MD5sum: 2e74cfde4c94c92912545dc4076ad56c
 Description: OpenBosniana OS meta
  .
+
+Package: openbosniana-wallpaper
+Version: 2025.09.03+trixie8
+Maintainer: Denis Maslo <denni@bosniana.org>
+Architecture: all
+Installed-Size: 42210
+Replaces: breeze-wallpaper
+Multi-Arch: foreign
+Homepage: https://bosniana.org/
+Priority: optional
+Section: openbosniana
+Filename: pool/main/o/openbosniana-wallpaper/openbosniana-wallpaper_2025.09.03+trixie8_all.deb
+Size: 1104228
+SHA256: 739689af3959efa34943bd83cdcb098405dc3bd2997c6ccd05cf42dc55570c56
+SHA1: 8b4ea5f6c840a46119650dc6346f6a9f5ddb7fa8
+MD5sum: 25f67044e9f313e0c4e1ec4218c083b6
+Description: Default OpenBosniana OS wallpapers
+ This is the default wallpaper for the OpenBosniana OS desktop.
 
 Package: openssh-client
 Source: openssh
