@@ -8114,6 +8114,34 @@ Description: OpenType text shaping engine (GObject introspection data)
  .
  This package contains introspection data for the GObject bindings library.
 
+Package: gir1.2-javascriptcoregtk-4.1
+Source: webkit2gtk
+Version: 2.50.1-1~deb13u1
+Architecture: amd64
+Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
+Installed-Size: 311
+Depends: libjavascriptcoregtk-4.1-0 (= 2.50.1-1~deb13u1), gir1.2-gobject-2.0
+Provides: gir1.2-javascriptcore-4.1 (= 2.50.1-1~deb13u1)
+Multi-Arch: same
+Homepage: https://webkitgtk.org/
+Priority: optional
+Section: introspection
+Filename: pool/main/w/webkit2gtk/gir1.2-javascriptcoregtk-4.1_2.50.1-1~deb13u1_amd64.deb
+Size: 51120
+SHA256: 33a8b0d8f28af462a3da2d6d8dc5b283955c265538c6f888c84dc25a624d2765
+SHA1: e3685fa45421a74678f506832f6dc625b5892455
+MD5sum: c6839f985617dfa034ac99efd100680a
+Description: JavaScript engine library from WebKitGTK - GObject introspection data
+ JavaScriptCore is the JavaScript engine used in WebKit. It consists
+ of the following building blocks: lexer, parser, start-up interpreter
+ (LLInt), baseline JIT, a low-latency optimizing JIT (DFG), and a
+ high-throughput optimizing JIT (FTL).
+ .
+ This build comes from the GTK port of WebKit (API version 4.1).
+ .
+ This package contains the introspection data, which can be used by
+ packages using the GIRepository format to generate dynamic bindings.
+
 Package: gir1.2-nm-1.0
 Source: network-manager
 Version: 1.52.1-1
@@ -8322,6 +8350,38 @@ Description: Secret store (GObject-Introspection)
  It communicates with the "Secret Service" using DBus.
  .
  This package contains the introspection datas for the libsecret library.
+
+Package: gir1.2-webkit2-4.1
+Source: webkit2gtk
+Version: 2.50.1-1~deb13u1
+Architecture: amd64
+Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
+Installed-Size: 608
+Depends: libwebkit2gtk-4.1-0 (= 2.50.1-1~deb13u1), gir1.2-gtk-3.0, gir1.2-javascriptcoregtk-4.1 (= 2.50.1-1~deb13u1), gir1.2-soup-3.0
+Provides: gir1.2-webkit2webextension-4.1 (= 2.50.1-1~deb13u1)
+Multi-Arch: same
+Homepage: https://webkitgtk.org/
+Priority: optional
+Section: introspection
+Filename: pool/main/w/webkit2gtk/gir1.2-webkit2-4.1_2.50.1-1~deb13u1_amd64.deb
+Size: 107484
+SHA256: 7353c0ee614713bbdadaa471cb6da8cfaa72d57407e4dc6fba1e9861375bb9e4
+SHA1: 247bfa9eacc6e3aefb3a6c11b5b1648fc57fd7b3
+MD5sum: a28b7e8127e5d1d186454fa4c9b394e1
+Description: Web content engine library for GTK - GObject introspection data
+ WebKit is a web content engine, derived from KHTML and KJS from KDE, and
+ used primarily in Apple's Safari browser.  It is made to be embedded in
+ other applications, such as mail readers, or web browsers.
+ .
+ It is able to display content such as HTML, SVG, XML, and others. It also
+ supports DOM, XMLHttpRequest, XSLT, CSS, JavaScript/ECMAScript and more.
+ .
+ WebKitGTK is a WebKit port designed to be used in GTK applications.
+ This build provides version 4.1 of the API and uses libsoup v3 for
+ the networking stack and the GTK 3 widget toolkit.
+ .
+ This package contains introspection data, which can be used by
+ packages using the GIRepository format to generate dynamic bindings.
 
 Package: git
 Version: 1:2.47.3-0+deb13u1
