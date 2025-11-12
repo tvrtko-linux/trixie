@@ -941,21 +941,21 @@ Description: GNU bc arbitrary precision calculator language
 
 Package: bind9-dnsutils
 Source: bind9
-Version: 1:9.20.11-4
+Version: 1:9.20.15-1~deb13u1
 Architecture: amd64
 Maintainer: Debian DNS Team <team+dns@tracker.debian.org>
 Installed-Size: 524
-Depends: bind9-host | host, bind9-libs (= 1:9.20.11-4), libc6 (>= 2.38), libedit2 (>= 2.11-20080614-0), libidn2-0 (>= 2.0.0), libjemalloc2 (>= 3.5.0), libkrb5-3 (>= 1.6.dfsg.2), libprotobuf-c1 (>= 1.0.0)
+Depends: bind9-host | host, bind9-libs (= 1:9.20.15-1~deb13u1), libc6 (>= 2.38), libedit2 (>= 2.11-20080614-0), libidn2-0 (>= 2.0.0), libjemalloc2 (>= 3.5.0), libkrb5-3 (>= 1.6.dfsg.2), libprotobuf-c1 (>= 1.0.0)
 Provides: dnsutils
 Multi-Arch: foreign
 Homepage: https://www.isc.org/downloads/bind/
 Priority: standard
 Section: net
-Filename: pool/main/b/bind9/bind9-dnsutils_9.20.11-4_amd64.deb
-Size: 165216
-SHA256: e4e98fc8813796f8fea88f51d478a5ba0d90980c94f75bc1bd0f374a7143e594
-SHA1: edead4eb32b63b0c903be84733447d57151a2bc0
-MD5sum: bc0995e199d172de47c529dab3c40e85
+Filename: pool/main/b/bind9/bind9-dnsutils_9.20.15-1~deb13u1_amd64.deb
+Size: 165344
+SHA256: 654787a41005ac5a5edc099ce5ce976340737c6ac69e6cc169ca3bded17a900b
+SHA1: ac6bef800c72ad6080b88a59df061f2232aa2268
+MD5sum: a7b0545313a3bd4bea0629adab6c20d9
 Description: Clients provided with BIND 9
  The Berkeley Internet Name Domain (BIND 9) implements an Internet domain
  name server.  BIND 9 is the most widely-used name server software on the
@@ -970,11 +970,11 @@ Description: Clients provided with BIND 9
 
 Package: bind9-host
 Source: bind9
-Version: 1:9.20.11-4
+Version: 1:9.20.15-1~deb13u1
 Architecture: amd64
 Maintainer: Debian DNS Team <team+dns@tracker.debian.org>
 Installed-Size: 140
-Depends: bind9-libs (= 1:9.20.11-4), libc6 (>= 2.38), libidn2-0 (>= 2.0.0)
+Depends: bind9-libs (= 1:9.20.15-1~deb13u1), libc6 (>= 2.38), libidn2-0 (>= 2.0.0)
 Breaks: bind-host (<< 1:9.13.6~)
 Replaces: bind-host (<< 1:9.13.6~)
 Provides: host
@@ -982,21 +982,21 @@ Multi-Arch: foreign
 Homepage: https://www.isc.org/downloads/bind/
 Priority: standard
 Section: net
-Filename: pool/main/b/bind9/bind9-host_9.20.11-4_amd64.deb
-Size: 55264
-SHA256: 684e616a0e139dbe156e53a4a890127434868941035dfdf8908dab00d21aa320
-SHA1: 776ed1ca87643231fac9e77aed64680334cd0035
-MD5sum: bc9fd6d0f9ae71913f6087bdaeba0a2a
+Filename: pool/main/b/bind9/bind9-host_9.20.15-1~deb13u1_amd64.deb
+Size: 55424
+SHA256: ac2dc2952b1f4a061d413c8a524e3f00f9b627b864b64398af359193ecfa1d83
+SHA1: 94a9525d9ef1fad7058198c0489a857a71e95611
+MD5sum: 468e266d4a535630519ea4ec5afa0ce2
 Description: DNS Lookup Utility
  This package provides the 'host' DNS lookup utility in the form that
  is bundled with the BIND 9 sources.
 
 Package: bind9-libs
 Source: bind9
-Version: 1:9.20.11-4
+Version: 1:9.20.15-1~deb13u1
 Architecture: amd64
 Maintainer: Debian DNS Team <team+dns@tracker.debian.org>
-Installed-Size: 3604
+Installed-Size: 3628
 Depends: libc6 (>= 2.38), libfstrm0 (>= 0.2.0), libgssapi-krb5-2 (>= 1.17), libjemalloc2 (>= 4.0.0), libjson-c5 (>= 0.15), libkrb5-3 (>= 1.6.dfsg.2), liblmdb0 (>= 0.9.7), libmaxminddb0 (>= 1.3.0), libnghttp2-14 (>= 1.12.0), libprotobuf-c1 (>= 1.0.1), libssl3t64 (>= 3.4.0), liburcu8t64 (>= 0.13.0), libuv1t64 (>= 1.38.0), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
 Breaks: bind-libs (<< 1:9.13.6~)
 Replaces: bind-libs (<< 1:9.13.6~)
@@ -1004,11 +1004,11 @@ Multi-Arch: same
 Homepage: https://www.isc.org/downloads/bind/
 Priority: standard
 Section: libs
-Filename: pool/main/b/bind9/bind9-libs_9.20.11-4_amd64.deb
-Size: 1230144
-SHA256: 40ef2cf0596496e7790c3776bef27adfa36de1deb9851586ba10d5e7654956c6
-SHA1: 4d08c4d4d7ae44f986acf72ec86287b7803c97a1
-MD5sum: 7ce2af440e856556183ad0e0cf61e9be
+Filename: pool/main/b/bind9/bind9-libs_9.20.15-1~deb13u1_amd64.deb
+Size: 1238128
+SHA256: b8a24e6966da84dac97e95809f2b49d3484ac7c0c04583fef07fb70055d98492
+SHA1: cc368eed5b5f30990d2aa775a4ba42a359375382
+MD5sum: f459e555a570ccf502d346c2833b66c9
 Description: Shared Libraries used by BIND 9
  The Berkeley Internet Name Domain (BIND 9) implements an Internet domain
  name server.  BIND 9 is the most widely-used name server software on the
@@ -2300,22 +2300,22 @@ Description: Erase the LUKS keys with a special password on the unlock prompt
  configure your nuke password.
 
 Package: cups
-Version: 2.4.10-3
+Version: 2.4.10-3+deb13u1
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 1101
-Depends: cups-client (>= 2.4.10-3), cups-common (>= 2.4.10-3), cups-core-drivers (>= 2.4.10-3), cups-daemon (>= 2.4.10-3), cups-filters, cups-ppdc, cups-server-common (>= 2.4.10-3), debconf (>= 0.5) | debconf-2.0, ghostscript, libcups2t64 (= 2.4.10-3), poppler-utils, procps, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 5), libusb-1.0-0 (>= 2:1.0.16)
+Depends: cups-client (>= 2.4.10-3+deb13u1), cups-common (>= 2.4.10-3+deb13u1), cups-core-drivers (>= 2.4.10-3+deb13u1), cups-daemon (>= 2.4.10-3+deb13u1), cups-filters, cups-ppdc, cups-server-common (>= 2.4.10-3+deb13u1), debconf (>= 0.5) | debconf-2.0, ghostscript, libcups2t64 (= 2.4.10-3+deb13u1), poppler-utils, procps, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 5), libusb-1.0-0 (>= 2:1.0.16)
 Recommends: avahi-daemon, colord
 Suggests: cups-bsd, cups-pdf, foomatic-db-compressed-ppds | foomatic-db, smbclient, udev
 Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups_2.4.10-3_amd64.deb
-Size: 296072
-SHA256: a1611118ebe6ceeead49aac76cc9c9d7d1f891701584fc62cf5c6c1542267ab0
-SHA1: 5a9f826fb43052e9b2749a877990a0d6a43bc65c
-MD5sum: cd1cecacbf9a0d104a6ec0d1c43905c4
+Filename: pool/main/c/cups/cups_2.4.10-3+deb13u1_amd64.deb
+Size: 295904
+SHA256: 58c81d6ee9cc4e826b787eedaadd563003154d8a15c71a1e31bda578bb303114
+SHA1: 24189691dda565bc54b6964d256d313e68257098
+MD5sum: 4c0c539574205d4f794947683224a5e7
 Description: Common UNIX Printing System(tm) - PPD/driver support, web interface
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -2362,11 +2362,11 @@ Description: OpenPrinting CUPS Filters - cups-browsed
 
 Package: cups-bsd
 Source: cups
-Version: 2.4.10-3
+Version: 2.4.10-3+deb13u1
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 131
-Depends: cups-client (= 2.4.10-3), cups-common (>= 2.4.10-3), debconf (>= 0.5) | debconf-2.0, libcups2t64 (= 2.4.10-3), libc6 (>= 2.38)
+Depends: cups-client (= 2.4.10-3+deb13u1), cups-common (>= 2.4.10-3+deb13u1), debconf (>= 0.5) | debconf-2.0, libcups2t64 (= 2.4.10-3+deb13u1), libc6 (>= 2.38)
 Suggests: cups, inetutils-inetd | inet-superserver, update-inetd
 Conflicts: lpr, lprng
 Replaces: lpr
@@ -2375,11 +2375,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups-bsd_2.4.10-3_amd64.deb
-Size: 41108
-SHA256: 1cbd8deb41022ddefe21fc4ec717d35a0bbc94233564861ccce279d5affc0684
-SHA1: 6805b8455ed543ea15b62ac527cb00c9eed55c21
-MD5sum: 73179d41f72f2c85875b4e46616de47c
+Filename: pool/main/c/cups/cups-bsd_2.4.10-3+deb13u1_amd64.deb
+Size: 41100
+SHA256: 3689fb0f7bba7069896a8ec630f0540c941683da12c19917766319ee06962a03
+SHA1: 4fdd9cabc6eb57848d4dc0a14aa06b1110ee204a
+MD5sum: b55eabf46a619d34b78b9b5a1e217195
 Description: Common UNIX Printing System(tm) - BSD commands
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpr, lpd and the like.  It supports the
@@ -2392,22 +2392,22 @@ Description: Common UNIX Printing System(tm) - BSD commands
 
 Package: cups-client
 Source: cups
-Version: 2.4.10-3
+Version: 2.4.10-3+deb13u1
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 430
-Depends: adduser, cups-common (>= 2.4.10-3), libcups2t64 (= 2.4.10-3), libc6 (>= 2.38)
+Depends: adduser, cups-common (>= 2.4.10-3+deb13u1), libcups2t64 (= 2.4.10-3+deb13u1), libc6 (>= 2.38)
 Suggests: cups, cups-bsd, smbclient
 Conflicts: lprng
 Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups-client_2.4.10-3_amd64.deb
-Size: 163608
-SHA256: d08e6cfca37fc60041c8397a740d00eb1537976142f5c1907f18b763b034ddc0
-SHA1: d8282b98b704b4c971e30fccbd1bb4f6becf9b0b
-MD5sum: 5b5524d8a59722696fa3ed1dc3f4e6f9
+Filename: pool/main/c/cups/cups-client_2.4.10-3+deb13u1_amd64.deb
+Size: 163564
+SHA256: cac669cbd30456b93489a63d603ea11c4101180a54d4688193113f5a640b0db0
+SHA1: 2333e22d183089586a9120523f20ddeb7f77db17
+MD5sum: ca4e1391e3d881ffbbe35c97493a5cd8
 Description: Common UNIX Printing System(tm) - client programs (SysV)
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -2418,7 +2418,7 @@ Description: Common UNIX Printing System(tm) - client programs (SysV)
 
 Package: cups-common
 Source: cups
-Version: 2.4.10-3
+Version: 2.4.10-3+deb13u1
 Architecture: all
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 4241
@@ -2426,11 +2426,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups-common_2.4.10-3_all.deb
-Size: 257964
-SHA256: 9bbca7e14f32ea680c2c9c503969a525862616a6a91dd662fad2aceba8af7d4e
-SHA1: a482343efb4d450e097dfcdcd582f05a54ef2d0b
-MD5sum: 526de742f386dcd2adf0b995cadaea14
+Filename: pool/main/c/cups/cups-common_2.4.10-3+deb13u1_all.deb
+Size: 258108
+SHA256: 9a42f41c6ba781e2f896254876a32bb9808b4b55d0d17bbc7cee8fca7f56074d
+SHA1: 6a508247031e4d3996c34cacb97030fd8381e2d9
+MD5sum: c870796c038cdf328a9cc4420a1289b0
 Description: Common UNIX Printing System(tm) - common files
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -2441,11 +2441,11 @@ Description: Common UNIX Printing System(tm) - common files
 
 Package: cups-core-drivers
 Source: cups
-Version: 2.4.10-3
+Version: 2.4.10-3+deb13u1
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 126
-Depends: cups-daemon (>= 2.4.10-3), cups-filters-core-drivers, libcups2t64 (= 2.4.10-3), libc6 (>= 2.38)
+Depends: cups-daemon (>= 2.4.10-3+deb13u1), cups-filters-core-drivers, libcups2t64 (= 2.4.10-3+deb13u1), libc6 (>= 2.38)
 Recommends: avahi-daemon
 Breaks: cups-server-common (<< 2.1.0-7~)
 Replaces: cups-server-common (<< 2.1.0-7~)
@@ -2453,11 +2453,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups-core-drivers_2.4.10-3_amd64.deb
-Size: 40848
-SHA256: 00e6ecce2f96fb15c62ea76a1e0d32c38576ac46a9c585e7c5f478063d61ff20
-SHA1: 75bcad6ee2dbf160fef52a02195e23dfc42dfafe
-MD5sum: 1af2560e3d38c1220793a27530fd13f0
+Filename: pool/main/c/cups/cups-core-drivers_2.4.10-3+deb13u1_amd64.deb
+Size: 40944
+SHA256: 9d8ca058410e3ab4a4ed3716d1d23e8a4a8ffd8244c3152eaa4de87c1691d0ea
+SHA1: a078d3065b91f2665d02576bdd05c822feed0fe1
+MD5sum: 7c1a3487d081380ec91ea1b181ce3a44
 Description: Common UNIX Printing System(tm) - driverless printing
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -2469,25 +2469,25 @@ Description: Common UNIX Printing System(tm) - driverless printing
 
 Package: cups-daemon
 Source: cups
-Version: 2.4.10-3
+Version: 2.4.10-3+deb13u1
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 884
 Pre-Depends: init-system-helpers (>= 1.54~)
-Depends: adduser, bc, libcups2t64 (= 2.4.10-3), lsb-base, procps, ssl-cert, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libgssapi-krb5-2 (>= 1.17), libpam0g (>= 0.99.7.1), libpaper2 (>= 2.2.5), libsystemd0
+Depends: adduser, bc, libcups2t64 (= 2.4.10-3+deb13u1), lsb-base, procps, ssl-cert, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libgssapi-krb5-2 (>= 1.17), libpam0g (>= 0.99.7.1), libpaper2 (>= 2.2.5), libsystemd0
 Recommends: avahi-daemon, colord, cups-browsed, ipp-usb
-Suggests: cups, cups-bsd, cups-client (>= 2.4.10-3), cups-common (>= 2.4.10-3), cups-filters, cups-pdf, cups-ppdc, cups-server-common (>= 2.4.10-3), foomatic-db-compressed-ppds | foomatic-db, ghostscript, poppler-utils, smbclient, udev
+Suggests: cups, cups-bsd, cups-client (>= 2.4.10-3+deb13u1), cups-common (>= 2.4.10-3+deb13u1), cups-filters, cups-pdf, cups-ppdc, cups-server-common (>= 2.4.10-3+deb13u1), foomatic-db-compressed-ppds | foomatic-db, ghostscript, poppler-utils, smbclient, udev
 Breaks: cups (<< 2.1.0-6~)
 Replaces: cups (<< 2.1.0-6~)
 Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups-daemon_2.4.10-3_amd64.deb
-Size: 360032
-SHA256: 20638ea101ab807be590a72eb8b9edfa5ac428b1c2eb39a61ecf9619e7cf729c
-SHA1: 01170228e31c54aa7910190ac8454c1964e716ac
-MD5sum: a3ae9b8e8659155a33629f8777687ddb
+Filename: pool/main/c/cups/cups-daemon_2.4.10-3+deb13u1_amd64.deb
+Size: 360484
+SHA256: 851b9735d4c97d69daa9c530032a7664135b2d039d4c1164ffe09e61d7eaa7c8
+SHA1: 45fd47b1b715924fb972b6e0cc78c047bf6cb22e
+MD5sum: 305a21c00b4ea76c28ce43bb1f72dacd
 Description: Common UNIX Printing System(tm) - daemon
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -2551,11 +2551,11 @@ Description: OpenPrinting CUPS Filters - Driverless printing
 
 Package: cups-ipp-utils
 Source: cups
-Version: 2.4.10-3
+Version: 2.4.10-3+deb13u1
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 983
-Depends: libcups2t64 (= 2.4.10-3), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libpam0g (>= 0.99.7.1)
+Depends: libcups2t64 (= 2.4.10-3+deb13u1), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libpam0g (>= 0.99.7.1)
 Recommends: avahi-daemon
 Breaks: cups-client (<< 2.0.3-2~)
 Replaces: cups-client (<< 2.0.3-2~)
@@ -2563,11 +2563,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups-ipp-utils_2.4.10-3_amd64.deb
-Size: 238756
-SHA256: 6686ab3334bf2f1cffa9adedcb94deb148772331ece1637ab0e63518820bb869
-SHA1: 68a3266a2d05e34b1b712ee197855a803954d90a
-MD5sum: 4a8f49cabf8fe6322a0d4d4940f132aa
+Filename: pool/main/c/cups/cups-ipp-utils_2.4.10-3+deb13u1_amd64.deb
+Size: 238892
+SHA256: 98f9926d7636e57832714f16547066c6d54338aaff96942778b389f61e45951d
+SHA1: eaccee6937adf82ea71c6ad7d2f5fa4040291f28
+MD5sum: 65a2a164ca17f8fe0157255a33c0221b
 Description: Common UNIX Printing System(tm) - IPP developer/admin utilities
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -2599,20 +2599,20 @@ Description: PolicyKit helper to configure cups with fine-grained privileges
 
 Package: cups-ppdc
 Source: cups
-Version: 2.4.10-3
+Version: 2.4.10-3+deb13u1
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 554
-Depends: cups-common (>= 2.4.10-3), libc6 (>= 2.38), libcups2t64 (>= 2.3~b6), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Depends: cups-common (>= 2.4.10-3+deb13u1), libc6 (>= 2.38), libcups2t64 (>= 2.3~b6), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: utils
-Filename: pool/main/c/cups/cups-ppdc_2.4.10-3_amd64.deb
-Size: 128160
-SHA256: 970dfce8406401681ad0b8e14dcdd77a5d12d48bf74ff101262f3236365ce0bf
-SHA1: 5d44998a4d41d92f6b3c540c288ab1c38090683d
-MD5sum: 25d605c0f8afe995c5be32697091580b
+Filename: pool/main/c/cups/cups-ppdc_2.4.10-3+deb13u1_amd64.deb
+Size: 128336
+SHA256: 1b3187fd558aa68c24b3d5deeb889643a4ae9882dc9b5dae33df9388acf348b7
+SHA1: bdd856e586b78dad537cca5c0a99c67af69c466e
+MD5sum: e4b42fbb4ff94365139e231e94604367
 Description: Common UNIX Printing System(tm) - PPD manipulation utilities
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -2623,7 +2623,7 @@ Description: Common UNIX Printing System(tm) - PPD manipulation utilities
 
 Package: cups-server-common
 Source: cups
-Version: 2.4.10-3
+Version: 2.4.10-3+deb13u1
 Architecture: all
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 2382
@@ -2631,11 +2631,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: net
-Filename: pool/main/c/cups/cups-server-common_2.4.10-3_all.deb
-Size: 414468
-SHA256: 0bad814e5cf30ac1e6151ff2658d1e932c3c5d67324cb27e38b6fa5a1db00ae3
-SHA1: 77d772cdda9fad630ec7d6114420afe2cdbd4736
-MD5sum: d102eefeb7de8b1262ecf80a765832cb
+Filename: pool/main/c/cups/cups-server-common_2.4.10-3+deb13u1_all.deb
+Size: 414528
+SHA256: e752c0d3de98ba279e2da817a1b22dbf2a2da93df68c627a0d39073db4ee4ae9
+SHA1: ce8571ede5b4c055e5a8e58a2a014caa3868e891
+MD5sum: 6188effa3564d0fa48bebf10afd87b8d
 Description: Common UNIX Printing System(tm) - server common files
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -4358,22 +4358,21 @@ Description: collection of partitioning utilities
  The sfdisk utility is mostly for automation and scripting uses.
 
 Package: ffmpeg
-Source: ffmpeg (7:7.1.1-1)
-Version: 7:7.1.1-1+b1
+Version: 7:7.1.2-0+deb13u1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 2671
+Installed-Size: 2672
 Depends: libavcodec61 (>= 7:7.1), libavdevice61 (>= 7:7.0), libavfilter10 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.1), libc6 (>= 2.35), libplacebo349 (>= 7.349.0), libpostproc58 (>= 7:7.0), libsdl2-2.0-0 (>= 2.0.12), libswresample5 (>= 7:7.0), libswscale8 (>= 7:7.0)
 Suggests: ffmpeg-doc
 Multi-Arch: foreign
 Homepage: https://ffmpeg.org/
 Priority: optional
 Section: video
-Filename: pool/main/f/ffmpeg/ffmpeg_7.1.1-1+b1_amd64.deb
-Size: 1991012
-SHA256: 12004b80fbade3d22e0303f2a308188a9c6f1b1aa7f60d62b60d03258a0aa215
-SHA1: 6a78a3b411be994859eb727560fccab18de655ac
-MD5sum: e9609f07291855c8619c947b300ebf8e
+Filename: pool/main/f/ffmpeg/ffmpeg_7.1.2-0+deb13u1_amd64.deb
+Size: 1993804
+SHA256: 6bccd9dde2f9f11d4af9a5644cb9361889da56ad923804154f90a4360cc98b3f
+SHA1: e712e682eb1f249e5b0284332c7c63fc1c6b1b22
+MD5sum: 50e3ed08aec3444deaefb49e9ad561cc
 Description: Tools for transcoding, streaming and playing of multimedia files
  FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
  mux, demux, stream, filter and play pretty much anything that humans and
@@ -4432,21 +4431,21 @@ Description: utilities for finding files--find, xargs
  been split off into a separate package.
 
 Package: firefox-esr
-Version: 128.14.0esr-1~deb13u1
+Version: 140.4.0esr-1~deb13u1
 Architecture: amd64
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
-Installed-Size: 239765
-Depends: libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.39), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.10), libevent-2.1-7t64 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.13.7), libnspr4 (>= 2:4.32~), libnss3 (>= 2:3.101), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 13.1), libvpx9 (>= 1.12.0), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4), fontconfig, procps, debianutils (>= 1.16)
+Installed-Size: 266365
+Depends: libasound2t64 (>= 1.0.16), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.39), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.10), libevent-2.1-7t64 (>= 2.1.8-stable), libffi8 (>= 3.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.38.0), libgtk-3-0t64 (>= 3.13.7), libnspr4 (>= 2:4.32~), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 12), libvpx9 (>= 1.12.0), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.4.0), zlib1g (>= 1:1.2.3.4), fontconfig, procps, debianutils (>= 1.16)
 Recommends: libavcodec61 | libavcodec-extra61 | libavcodec60 | libavcodec-extra60 | libavcodec59 | libavcodec-extra59 | libavcodec58 | libavcodec-extra58 | libavcodec57 | libavcodec-extra57 | libavcodec56 | libavcodec-extra56 | libavcodec55 | libavcodec-extra55 | libavcodec54 | libavcodec-extra54 | libavcodec53 | libavcodec-extra53
 Suggests: fonts-stix | otf-stix, fonts-lmodern, libgssapi-krb5-2 | libkrb53, libcanberra0, pulseaudio
 Provides: gnome-www-browser, www-browser
 Priority: optional
 Section: web
-Filename: pool/main/f/firefox-esr/firefox-esr_128.14.0esr-1~deb13u1_amd64.deb
-Size: 64948456
-SHA256: da9027c4955a1f2ee72b4711e19bc8aa2bea91ef190700c82f0ba13206913b07
-SHA1: 5968bea9b9e3d4483d8bae3940b2fe7305df6e11
-MD5sum: ad136a744be939616e880f7474a0dd5d
+Filename: pool/main/f/firefox-esr/firefox-esr_140.4.0esr-1~deb13u1_amd64.deb
+Size: 71696764
+SHA256: 9127793194d92d225cea89914f2a3322c71fffcb063dca727bd698d8942116a0
+SHA1: afc4a76b99ad818c79e8f4ecc8ad99b4cd7f9cd0
+MD5sum: 1e8159bed23765637598be451a366ee7
 Description: Mozilla Firefox web browser - Extended Support Release (ESR)
  Firefox ESR is a powerful, extensible web browser with support for modern
  web application technologies.
@@ -7746,25 +7745,25 @@ Description: GNU Internationalization utilities for the base system
  other packages to internationalize the messages given by shell scripts.
 
 Package: ghostscript
-Version: 10.05.1~dfsg-1
+Version: 10.05.1~dfsg-1+deb13u1
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 183
-Depends: libgs10 (= 10.05.1~dfsg-1), libc6 (>= 2.34)
+Depends: libgs10 (= 10.05.1~dfsg-1+deb13u1), libc6 (>= 2.34)
 Suggests: texlive-binaries
 Conflicts: ghostscript-x (<< 10.02.0~dfsg-1)
 Breaks: manpages-l10n (<< 4.22)
 Replaces: ghostscript-x (<< 10.02.0~dfsg-1)
-Provides: ghostscript-x (= 10.05.1~dfsg-1), postscript-viewer
+Provides: ghostscript-x (= 10.05.1~dfsg-1+deb13u1), postscript-viewer
 Multi-Arch: foreign
 Homepage: https://www.ghostscript.com/
 Priority: optional
 Section: text
-Filename: pool/main/g/ghostscript/ghostscript_10.05.1~dfsg-1_amd64.deb
-Size: 50196
-SHA256: 5579043c1215d13444e74ace98a1f55d26dd7a4f429060effebb0e5a72db17a0
-SHA1: 5c8269139aee66b62453873e90bf56cfbadad1e4
-MD5sum: 121e04bbb77e2b35edcc9c53c9b42768
+Filename: pool/main/g/ghostscript/ghostscript_10.05.1~dfsg-1+deb13u1_amd64.deb
+Size: 50360
+SHA256: 82f9974dcc297bca32994a365b29f255d531060ad2c5012260f0a2b4138a9c9e
+SHA1: 13a8341d21e2783e9a4eaf77e7ee52f725bb0f02
+MD5sum: 6f241bd307ae7b62d4d3f97d96e1ba9b
 Description: interpreter for the PostScript language and for PDF
  GPL Ghostscript is used for PostScript/PDF preview and printing.
  Usually as a back-end to a program such as ghostview,
@@ -10526,20 +10525,20 @@ Description: hardware identification / configuration data
 
 Package: hyperv-daemons
 Source: linux
-Version: 6.12.43-1
+Version: 6.12.48-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 1165
+Installed-Size: 1181
 Pre-Depends: init-system-helpers (>= 1.54~)
 Depends: libc6 (>= 2.34)
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux/hyperv-daemons_6.12.43-1_amd64.deb
-Size: 1114956
-SHA256: d0feef07472bb85c17ab6163d36fd3dc79656629564d0d858d4fff9ef9e95604
-SHA1: 570435e84531a20ee6a51eb5ca07d0c431f5a42c
-MD5sum: c6aaca49580ee743e369032b3275d275
+Filename: pool/main/l/linux/hyperv-daemons_6.12.48-1_amd64.deb
+Size: 1131476
+SHA256: 39a6e562820deb7488dfb995a769416e90fdfd8b5b2d7befe753c16637bd0c2c
+SHA1: e90e7de89dd046aa91d69007bb43e466c4476f6e
+MD5sum: 8193bd190afb6b53df5b185d298fa97e
 Description: Support daemons for Linux running on Hyper-V
  Suite of daemons for Linux guests running on Hyper-V, consisting of
  hv_kvp_daemon and hv_vss_daemon.
@@ -10902,21 +10901,21 @@ Description: VAAPI driver for the Intel GEN8+ Graphics family
  newer). Media shaders are only available on Ice Lake and newer.
 
 Package: intel-microcode
-Version: 3.20250512.1
+Version: 3.20250812.1~deb13u1
 Architecture: amd64
 Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
-Installed-Size: 19285
+Installed-Size: 19295
 Depends: iucode-tool (>= 1.0)
 Recommends: initramfs-tools (>= 0.113~)
 Conflicts: microcode.ctl (<< 0.18~0)
 Homepage: https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files
 Priority: standard
 Section: non-free-firmware/admin
-Filename: pool/main/i/intel-microcode/intel-microcode_3.20250512.1_amd64.deb
-Size: 11121440
-SHA256: f21bfdb8911f6bd91fa583041f994b75f387346b25f96a72a75e184248140fb6
-SHA1: 93918189d01e4e9fe9014463481881789f6400e6
-MD5sum: 1486361fb8313ecaaa534b4c0d07b99e
+Filename: pool/main/i/intel-microcode/intel-microcode_3.20250812.1~deb13u1_amd64.deb
+Size: 11548812
+SHA256: 7cf3e9141eb155b7504342ae7f65bd19bc69a8dee5f2f7f415c4ff30360775f4
+SHA1: 7e30ca1ef11bde400a6af1c756e3bf92c6ff8371
+MD5sum: 4bdbb4ea4f517e3b3d26877de5ed5fb4
 Description: Processor microcode firmware for Intel CPUs
  This package contains updated system processor microcode for
  Intel i686 and Intel X86-64 processors.  Intel releases microcode
@@ -14729,7 +14728,7 @@ Description: audio fingerprint library
 
 Package: libcjson1
 Source: cjson
-Version: 1.7.18-3.1
+Version: 1.7.18-3.1+deb13u1
 Architecture: amd64
 Maintainer: Maytham Alsudany <maytha8thedev@gmail.com>
 Installed-Size: 86
@@ -14738,11 +14737,11 @@ Multi-Arch: same
 Homepage: https://github.com/DaveGamble/cJSON
 Priority: optional
 Section: libs
-Filename: pool/main/c/cjson/libcjson1_1.7.18-3.1_amd64.deb
-Size: 29760
-SHA256: a38d90518c9ec3296c49dbc8dda0b31e7f01869de5ea5deac4501fd19d595736
-SHA1: 4007115b7b671a3c0613a0198a7c69f44b1b834d
-MD5sum: 4e51e79167f68fb91837eb1fcb0bc613
+Filename: pool/main/c/cjson/libcjson1_1.7.18-3.1+deb13u1_amd64.deb
+Size: 29848
+SHA256: e10b7fb966251f4f09690cb35f9e8fed6924194ec2d6973910d9e157cda82657
+SHA1: c46f18a32dd4ddf8d79c3983229ed4230ec77cbd
+MD5sum: 66b9ac35f46c712e2c9e48f0ea52dddb
 Description: Ultralightweight JSON parser in ANSI C
  cJSON is a ultralightweight json parse.
  .
@@ -14994,24 +14993,24 @@ Description: Compact C Type Format library (runtime, BFD dependency)
 
 Package: libcups2t64
 Source: cups
-Version: 2.4.10-3
+Version: 2.4.10-3+deb13u1
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 699
 Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libgnutls30t64 (>= 3.8.1), libgssapi-krb5-2 (>= 1.17), zlib1g (>= 1:1.2.0)
 Suggests: cups-common
-Breaks: libcups2 (<< 2.4.10-3)
+Breaks: libcups2 (<< 2.4.10-3+deb13u1)
 Replaces: libcups2
-Provides: libcups2 (= 2.4.10-3)
+Provides: libcups2 (= 2.4.10-3+deb13u1)
 Multi-Arch: same
 Homepage: https://github.com/OpenPrinting/cups/
 Priority: optional
 Section: libs
-Filename: pool/main/c/cups/libcups2t64_2.4.10-3_amd64.deb
-Size: 251168
-SHA256: 63466156ab05dacb9168b947bc4c3b77df01afbd5af42252c7f966477eb9e8d5
-SHA1: d9d764d1f62cc9ece16fb8a226c379db85aee104
-MD5sum: 7cea1263b85fa06e8a369eae885b8445
+Filename: pool/main/c/cups/libcups2t64_2.4.10-3+deb13u1_amd64.deb
+Size: 251328
+SHA256: 3ad4c8a3aeb00f3e5c950e43e92618f1b6ebffc6a1d7d46a62c75a56098dded4
+SHA1: 5b9e654b6e040c48681682d9724ae04033c75238
+MD5sum: 70f7227f29e3e7136b744b64cb0c5f73
 Description: Common UNIX Printing System(tm) - Core library
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -17390,7 +17389,7 @@ Description: GDK Pixbuf library - data files
 
 Package: libgegl-common
 Source: gegl
-Version: 1:0.4.62-2
+Version: 1:0.4.62-2+deb13u1
 Architecture: all
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 5323
@@ -17398,11 +17397,11 @@ Multi-Arch: foreign
 Homepage: https://gegl.org/
 Priority: optional
 Section: devel
-Filename: pool/main/g/gegl/libgegl-common_0.4.62-2_all.deb
-Size: 825504
-SHA256: 317be2b492c1ec8799f21e8de25b78a45ce790a17bdcfce17cc32e2a4eee019f
-SHA1: 8eaa2abd338d954ab68578266fbe4c973db8fdcf
-MD5sum: 9c1cc0ffeebb20a8c06f758f21be184f
+Filename: pool/main/g/gegl/libgegl-common_0.4.62-2+deb13u1_all.deb
+Size: 826464
+SHA256: 05a5eb9074b9f7df163dd63d67e4c15d5cf2e8809662ad77f0fe80bb1668d5fd
+SHA1: f4f72f633ea553aa542f52080f4cf08c6a8b9ceb
+MD5sum: bb218e72168b2d58471fe2e38312216d
 Description: Generic Graphics Library - common files
  GEGL (Generic Graphics Library) is a graph based image processing
  framework.
@@ -18119,7 +18118,7 @@ Description: Font rendering engine for Complex Scripts -- library
 
 Package: libgs-common
 Source: ghostscript
-Version: 10.05.1~dfsg-1
+Version: 10.05.1~dfsg-1+deb13u1
 Architecture: all
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 316
@@ -18129,11 +18128,11 @@ Multi-Arch: foreign
 Homepage: https://www.ghostscript.com/
 Priority: optional
 Section: libs
-Filename: pool/main/g/ghostscript/libgs-common_10.05.1~dfsg-1_all.deb
-Size: 148200
-SHA256: ad2a96a7ba08023d465c416d9325210914b0b99d828d435f512237e4f053d3ac
-SHA1: 328ad5064a7189a8fb87f6522e4060ddd01ce184
-MD5sum: 4009d4c413f33e4d4754e1886ef20980
+Filename: pool/main/g/ghostscript/libgs-common_10.05.1~dfsg-1+deb13u1_all.deb
+Size: 148244
+SHA256: 695829a596975d46ad1edd97557500dfd6ccbe67bdc88512607bb57967ebc8c1
+SHA1: 3eaf35550bcf7d91e53f6ab62fc5387745875113
+MD5sum: b00ce7ef650b2edac88ecf59ec5f71cf
 Description: interpreter for the PostScript language and for PDF - ICC profiles
  GPL Ghostscript is used for PostScript/PDF preview and printing.
  Usually as a back-end to a program such as ghostview,
@@ -18143,20 +18142,20 @@ Description: interpreter for the PostScript language and for PDF - ICC profiles
 
 Package: libgs10
 Source: ghostscript
-Version: 10.05.1~dfsg-1
+Version: 10.05.1~dfsg-1+deb13u1
 Architecture: amd64
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 22216
-Depends: libgs10-common (= 10.05.1~dfsg-1), poppler-data, libc6 (>= 2.38), libcups2t64 (>= 2.3~b6), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libidn12 (>= 1.13), libijs-0.35 (>= 0.35), libjbig2dec0 (>= 0.16+20190905), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.6), libopenjp2-7 (>= 2.0.0), libpaper2 (>= 2.2.5), libpng16-16t64 (>= 1.6.46), libtiff6 (>= 4.0.3), libx11-6, libxt6t64, zlib1g (>= 1:1.2.0)
+Depends: libgs10-common (= 10.05.1~dfsg-1+deb13u1), poppler-data, libc6 (>= 2.38), libcups2t64 (>= 2.3~b6), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libidn12 (>= 1.13), libijs-0.35 (>= 0.35), libjbig2dec0 (>= 0.16+20190905), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.6), libopenjp2-7 (>= 2.0.0), libpaper2 (>= 2.2.5), libpng16-16t64 (>= 1.6.46), libtiff6 (>= 4.0.3), libx11-6, libxt6t64, zlib1g (>= 1:1.2.0)
 Multi-Arch: same
 Homepage: https://www.ghostscript.com/
 Priority: optional
 Section: libs
-Filename: pool/main/g/ghostscript/libgs10_10.05.1~dfsg-1_amd64.deb
-Size: 2566536
-SHA256: be7194193e6d10cb8f3e1fc827e946d05b775cb16a2b85fd41ea2e5032a18460
-SHA1: 0c8eb53b57885cbe64c9e1c3845ac15f8d630c24
-MD5sum: 1d9a6778636d8404b3d783fb6014c5a2
+Filename: pool/main/g/ghostscript/libgs10_10.05.1~dfsg-1+deb13u1_amd64.deb
+Size: 2565904
+SHA256: 64d591dce496f176c41e212d70ef3a312c5273d55294e81dc485d884da9f2e65
+SHA1: af6d97381e720dff07019bcd22fd4c42935cf2b4
+MD5sum: c307a226b6e31b27c8c55101a2b1071c
 Description: interpreter for the PostScript language and for PDF - Library
  GPL Ghostscript is used for PostScript/PDF preview and printing.
  Usually as a back-end to a program such as ghostview,
@@ -18168,7 +18167,7 @@ Description: interpreter for the PostScript language and for PDF - Library
 
 Package: libgs10-common
 Source: ghostscript
-Version: 10.05.1~dfsg-1
+Version: 10.05.1~dfsg-1+deb13u1
 Architecture: all
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Installed-Size: 2265
@@ -18180,11 +18179,11 @@ Multi-Arch: foreign
 Homepage: https://www.ghostscript.com/
 Priority: optional
 Section: libs
-Filename: pool/main/g/ghostscript/libgs10-common_10.05.1~dfsg-1_all.deb
-Size: 478812
-SHA256: d7d8858aafe2ee7212f4c708009ee3127f8e48dd6f19dcf43b5a40fc217b09f5
-SHA1: 96456a6eca98f6a529ce5eac6b6ebb0a650b1e8c
-MD5sum: b99db6c98264fbe640ecf2d640965ea5
+Filename: pool/main/g/ghostscript/libgs10-common_10.05.1~dfsg-1+deb13u1_all.deb
+Size: 479200
+SHA256: 05b4cb3b0f9012a0d1e7024e5ce1cc13db4c70cc7554e8b64bc00db95a69f47e
+SHA1: 0c695250b013516c361977267953d5a1296de78d
+MD5sum: 39d304193ace26be83710e96d729602f
 Description: interpreter for the PostScript language and for PDF - common files
  GPL Ghostscript is used for PostScript/PDF preview and printing.
  Usually as a back-end to a program such as ghostview,
@@ -20032,20 +20031,20 @@ Description: C library for encoding, decoding and manipulating JSON data
 
 Package: libjavascriptcoregtk-4.1-0
 Source: webkit2gtk
-Version: 2.48.5-1~deb13u1
+Version: 2.50.1-1~deb13u1
 Architecture: amd64
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 30194
+Installed-Size: 31548
 Depends: libatomic1 (>= 4.8), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.66.0), libicu76 (>= 76.1-1~), libstdc++6 (>= 12), libsystemd0, zlib1g (>= 1:1.1.4)
 Multi-Arch: same
 Homepage: https://webkitgtk.org/
 Priority: optional
 Section: libs
-Filename: pool/main/w/webkit2gtk/libjavascriptcoregtk-4.1-0_2.48.5-1~deb13u1_amd64.deb
-Size: 6938896
-SHA256: 57ff7f45bcf4f739662b4b495e93bf071ae33e81511104948756612154b22e50
-SHA1: c0bd56cf7ef2c0cf8159613c98723f7db26168da
-MD5sum: 792b055799a3d8a5737185e932625ac7
+Filename: pool/main/w/webkit2gtk/libjavascriptcoregtk-4.1-0_2.50.1-1~deb13u1_amd64.deb
+Size: 7272092
+SHA256: 476b76b0d85faf37013c813f0199dbfaf3313050d55af5aaa752780f4fd418fc
+SHA1: eacd91c6fb0e12eefc58960c11073a1fc58e2110
+MD5sum: dcc8611001d811113b2dda4964c7edf0
 Description: JavaScript engine library from WebKitGTK
  JavaScriptCore is the JavaScript engine used in WebKit. It consists
  of the following building blocks: lexer, parser, start-up interpreter
@@ -26492,21 +26491,21 @@ Description: NSS module for Multicast DNS name resolution
 
 Package: libnss-systemd
 Source: systemd
-Version: 257.8-1~deb13u1
+Version: 257.8-1~deb13u2
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 490
-Depends: libc6 (>= 2.39), libcap2 (>= 1:2.10), systemd (= 257.8-1~deb13u1)
+Depends: libc6 (>= 2.39), libcap2 (>= 1:2.10), systemd (= 257.8-1~deb13u2)
 Suggests: libcryptsetup12, libidn2-0, libp11-kit0, libtss2-rc0t64
 Multi-Arch: same
 Homepage: https://systemd.io
 Priority: standard
 Section: admin
-Filename: pool/main/s/systemd/libnss-systemd_257.8-1~deb13u1_amd64.deb
-Size: 218556
-SHA256: 6147a30686249c4e6242249262372c304a79018fb6c779341bd394b40c4ce179
-SHA1: 24199162d3cfa705bf191495db88b80a19f6f818
-MD5sum: a7a3aef7ba35edd239295b0eaad8d267
+Filename: pool/main/s/systemd/libnss-systemd_257.8-1~deb13u2_amd64.deb
+Size: 218756
+SHA256: b7034ad4f51142fd336060349de5145c9e2efbebbdee3ceb2233db12461b2cd3
+SHA1: e3c639257e0fb5b58ef3bdfd31647dee13ef6dc8
+MD5sum: 7771e7856d646422c336e56059deaf72
 Description: nss module providing dynamic user and group name resolution
  nss-systemd is a plug-in module for the GNU Name Service Switch (NSS)
  functionality of the GNU C Library (glibc), providing UNIX user and group name
@@ -27206,24 +27205,24 @@ Description: Runtime support for the PAM library
 
 Package: libpam-systemd
 Source: systemd
-Version: 257.8-1~deb13u1
+Version: 257.8-1~deb13u2
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 699
-Depends: libc6 (>= 2.39), libcap2 (>= 1:2.10), libpam0g (>= 0.99.7.1), systemd (= 257.8-1~deb13u1), libpam-runtime, default-dbus-system-bus | dbus-system-bus, systemd-sysv
+Depends: libc6 (>= 2.39), libcap2 (>= 1:2.10), libpam0g (>= 0.99.7.1), systemd (= 257.8-1~deb13u2), libpam-runtime, default-dbus-system-bus | dbus-system-bus, systemd-sysv
 Recommends: dbus-user-session
 Suggests: libcryptsetup12, libidn2-0, libp11-kit0, libtss2-rc0t64
 Conflicts: libpam-elogind-compat
-Provides: default-logind (= 257.8-1~deb13u1), logind (= 257.8-1~deb13u1)
+Provides: default-logind (= 257.8-1~deb13u2), logind (= 257.8-1~deb13u2)
 Multi-Arch: same
 Homepage: https://systemd.io
 Priority: standard
 Section: admin
-Filename: pool/main/s/systemd/libpam-systemd_257.8-1~deb13u1_amd64.deb
-Size: 296740
-SHA256: 70f908e0816b89374d1fc27fa43234c601ecdeff463a95754b57fb54d4419126
-SHA1: 5ebd852348abc3ff56e20326038218324d52a5ef
-MD5sum: 792eda5e0a298188140eb7fb8b311615
+Filename: pool/main/s/systemd/libpam-systemd_257.8-1~deb13u2_amd64.deb
+Size: 296968
+SHA256: cde55afd86c9f3b5f3a4f26c1e23ec37d9a87f387ddea9f1e4e1b21e90171b3c
+SHA1: 0875270309978b81519bff5aa297af17a07a2c03
+MD5sum: f349129596e7dbfcfca020f075d2f560
 Description: system and service manager - PAM module
  This package contains the PAM module which registers user sessions in
  the systemd control group hierarchy for logind.
@@ -30361,21 +30360,21 @@ Description: SSH2 client-side library
 
 Package: libssl-dev
 Source: openssl
-Version: 3.5.1-1
+Version: 3.5.1-1+deb13u1
 Architecture: amd64
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>
 Installed-Size: 16151
-Depends: libssl3t64 (= 3.5.1-1)
+Depends: libssl3t64 (= 3.5.1-1+deb13u1)
 Suggests: libssl-doc
 Multi-Arch: same
 Homepage: https://openssl-library.org
 Priority: optional
 Section: libdevel
-Filename: pool/main/o/openssl/libssl-dev_3.5.1-1_amd64.deb
-Size: 2954156
-SHA256: 8d9f4347ad1b537a51faeb1976db493f0b1e50c626da4d0a3f4b675f6fb7152a
-SHA1: 6a4270994bec8a3187938e090f3a2591372bd95c
-MD5sum: e2e1e30f775ba3250a99ace5a801e2ce
+Filename: pool/main/o/openssl/libssl-dev_3.5.1-1+deb13u1_amd64.deb
+Size: 2955444
+SHA256: 9d4ae1840c3cb239afae4d3526e5a5093429d95f0f15d56a74d14486ac142afd
+SHA1: 94e4c4d18fe171c14af5ee41581120aafdf1db07
+MD5sum: 1ae8c3dae30fe655c09be198cfd6e247
 Description: Secure Sockets Layer toolkit - development files
  This package is part of the OpenSSL project's implementation of the SSL
  and TLS cryptographic protocols for secure communication over the
@@ -30386,23 +30385,23 @@ Description: Secure Sockets Layer toolkit - development files
 
 Package: libssl3t64
 Source: openssl
-Version: 3.5.1-1
+Version: 3.5.1-1+deb13u1
 Architecture: amd64
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>
 Installed-Size: 8081
 Depends: libc6 (>= 2.38), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4), openssl-provider-legacy
-Breaks: libssl3 (<< 3.5.1-1), openssh-client (<< 1:9.4p1), openssh-server (<< 1:9.4p1), python3-m2crypto (<< 0.38.0-4)
+Breaks: libssl3 (<< 3.5.1-1+deb13u1), openssh-client (<< 1:9.4p1), openssh-server (<< 1:9.4p1), python3-m2crypto (<< 0.38.0-4)
 Replaces: libssl3
-Provides: libssl3 (= 3.5.1-1)
+Provides: libssl3 (= 3.5.1-1+deb13u1)
 Multi-Arch: same
 Homepage: https://openssl-library.org
 Priority: optional
 Section: libs
-Filename: pool/main/o/openssl/libssl3t64_3.5.1-1_amd64.deb
-Size: 2436580
-SHA256: 55deab9b51f8b0f419c2e1cdc3ec0de9a3625ed88ff6759106c99dadbd84e1ce
-SHA1: e0cb06ffbd11aa46c2391959cb5a238de6d121a9
-MD5sum: 96a67b2d446476b5f889c4d1ccd6794a
+Filename: pool/main/o/openssl/libssl3t64_3.5.1-1+deb13u1_amd64.deb
+Size: 2436816
+SHA256: a726a9113e32b6e593baab570db5d85589e92ef76a7a2c11bbd6c5260fb4adb3
+SHA1: 2f0f4be30aa62c2a6d52c846cd62f8a69a822be8
+MD5sum: 2ad394f8dc606b04c6972737c4595738
 Description: Secure Sockets Layer toolkit - shared libraries
  This package is part of the OpenSSL project's implementation of the SSL
  and TLS cryptographic protocols for secure communication over the
@@ -30496,7 +30495,7 @@ Description: Snowball stemming algorithms for use in Information Retrieval
 
 Package: libsystemd-shared
 Source: systemd
-Version: 257.8-1~deb13u1
+Version: 257.8-1~deb13u2
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 6812
@@ -30507,11 +30506,11 @@ Multi-Arch: same
 Homepage: https://systemd.io
 Priority: optional
 Section: libs
-Filename: pool/main/s/systemd/libsystemd-shared_257.8-1~deb13u1_amd64.deb
-Size: 2152564
-SHA256: b761a4222a98044498778ee9a8a83f5ccc828649eece3587ead0f989fb46c3d3
-SHA1: f07c66c09fa078343c4c46144193aa9dbe70d51f
-MD5sum: 8cadc629ce7885802d10edeb52ce63e3
+Filename: pool/main/s/systemd/libsystemd-shared_257.8-1~deb13u2_amd64.deb
+Size: 2151368
+SHA256: 11730fa5a7b9c9afb5f146ec626a89dd5bd4f66ca4d71c93a645fe760e448166
+SHA1: 2a93b137197ac5175798d8d66f1d915ae368acec
+MD5sum: 1f528a80d8e3ffbdc7272be649313ef2
 Description: systemd shared private library
  This internal shared library provides common code used by various systemd
  components. It is supposed to decrease memory and disk footprint.
@@ -30519,7 +30518,7 @@ Description: systemd shared private library
 
 Package: libsystemd0
 Source: systemd
-Version: 257.8-1~deb13u1
+Version: 257.8-1~deb13u2
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 1222
@@ -30530,11 +30529,11 @@ Multi-Arch: same
 Homepage: https://systemd.io
 Priority: optional
 Section: libs
-Filename: pool/main/s/systemd/libsystemd0_257.8-1~deb13u1_amd64.deb
-Size: 453180
-SHA256: 83075b5adadea315d869f1a9ec156fb72d5a3ac0cd582886d54e1344463248d3
-SHA1: 9fc7b71786f1bb7e01e848c40fceafa847282ab7
-MD5sum: 20105319268fd5195531b051561c8935
+Filename: pool/main/s/systemd/libsystemd0_257.8-1~deb13u2_amd64.deb
+Size: 453736
+SHA256: 9ba2e8a264858399f2b8b51440202eb081b23772a056457a1e357f95c1a0943c
+SHA1: ee32845ad6225daf2ff46ff9a81694e39aeda7a7
+MD5sum: daeaa457fed91824231ab0a3d091be48
 Description: systemd utility library
  This library provides APIs to interface with various system components such as
  the system journal, the system service manager, D-Bus and more.
@@ -30814,7 +30813,7 @@ Description: Theora Video Compression Codec (shared library - libtheora)
 
 Package: libtiff6
 Source: tiff
-Version: 4.7.0-3
+Version: 4.7.0-3+deb13u1
 Architecture: amd64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 766
@@ -30824,11 +30823,11 @@ Multi-Arch: same
 Homepage: https://libtiff.gitlab.io/libtiff/
 Priority: optional
 Section: libs
-Filename: pool/main/t/tiff/libtiff6_4.7.0-3_amd64.deb
-Size: 345528
-SHA256: 115e45bbf1f8715184e05298e9e3e315197f77dded232384dee6e31578788f0d
-SHA1: 6a3a97b4a3c2cbe776d9bfc5a8adf182a164558e
-MD5sum: 0f2661ff4c3ba31dfadd8144ba4fbe7b
+Filename: pool/main/t/tiff/libtiff6_4.7.0-3+deb13u1_amd64.deb
+Size: 345516
+SHA256: ef77e41667bbadd3540130cc1d6fba44aab1af89b46716908c9830717770ece5
+SHA1: 6271d848b59c667b4d3f209e5ffc60f296693e57
+MD5sum: a3978a2540d6d52de7fbe3983b1000ec
 Description: Tag Image File Format (TIFF) library
  libtiff is a library providing support for the Tag Image File Format
  (TIFF), a widely used format for storing image data.  This package
@@ -31196,7 +31195,7 @@ Description: universal charset detection library - shared library
 
 Package: libudev1
 Source: systemd
-Version: 257.8-1~deb13u1
+Version: 257.8-1~deb13u2
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 356
@@ -31206,11 +31205,11 @@ Multi-Arch: same
 Homepage: https://systemd.io
 Priority: optional
 Section: libs
-Filename: pool/main/s/systemd/libudev1_257.8-1~deb13u1_amd64.deb
-Size: 151824
-SHA256: 25ae726832774759c696dec88d5edbf2655aebc4b202e216540f89873d0729e7
-SHA1: 440edb7d153de1a16c8974dd314da47a310f5bc6
-MD5sum: 8bcbb39244841d2467109e872155eda5
+Filename: pool/main/s/systemd/libudev1_257.8-1~deb13u2_amd64.deb
+Size: 151884
+SHA256: e3839ae9a70712e83eb85081c88a7540294ae66b63a932a3f3e65ca67f01a47a
+SHA1: 9a81e8c43b3631d54be51ab13c24f99b91765dc2
+MD5sum: 8d70b28ff049d4ef5e7fac3c442a02f0
 Description: libudev shared library
  This library provides APIs to introspect and enumerate devices on the local
  system.
@@ -32314,22 +32313,22 @@ Description: Plasma Workspace weather information library
 
 Package: libwebkit2gtk-4.1-0
 Source: webkit2gtk
-Version: 2.48.5-1~deb13u1
+Version: 2.50.1-1~deb13u1
 Architecture: amd64
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
-Installed-Size: 90996
-Depends: libjavascriptcoregtk-4.1-0 (= 2.48.5-1~deb13u1), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libgles2, bubblewrap (>= 0.3.1), xdg-dbus-proxy, libatk1.0-0t64 (>= 1.32.0), libatomic1 (>= 4.8), libavif16 (>= 1.2.1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libdrm2 (>= 2.4.107), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libexpat1 (>= 2.1~beta3), libflite1 (>= 2.0.0-release), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.11.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgpg-error0 (>= 1.14), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-bad1.0-0 (>= 1.26.2), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.25.1), libgtk-3-0t64 (>= 3.23.0), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.8.6), libhyphen0 (>= 2.7.1), libicu76 (>= 76.1-1~), libjpeg62-turbo (>= 1:1.5.0), libjxl0.11 (>= 0.6.1), liblcms2-2 (>= 2.2+git20110628), libmanette-0.2-0 (>= 0.1.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libseccomp2 (>= 0.0.0~20120605), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.7.15), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.0.2), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwoff1 (>= 1.0.0), libx11-6, libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.2)
+Installed-Size: 91891
+Depends: libjavascriptcoregtk-4.1-0 (= 2.50.1-1~deb13u1), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libgles2, bubblewrap (>= 0.3.1), xdg-dbus-proxy, libatk1.0-0t64 (>= 1.32.0), libatomic1 (>= 4.8), libavif16 (>= 1.2.1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libdrm2 (>= 2.4.107), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libexpat1 (>= 2.1~beta3), libflite1 (>= 2.0.0-release), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.11.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgpg-error0 (>= 1.14), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.25.1), libgtk-3-0t64 (>= 3.23.0), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.8.6), libhyphen0 (>= 2.7.1), libicu76 (>= 76.1-1~), libjpeg62-turbo (>= 1:1.5.0), libjxl0.11 (>= 0.6.1), liblcms2-2 (>= 2.2+git20110628), libmanette-0.2-0 (>= 0.1.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.46), libseccomp2 (>= 0.0.0~20120605), libsecret-1-0 (>= 0.7), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.8.7), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.0.2), libwebp7 (>= 1.5.0), libwebpdemux2 (>= 1.5.0), libwebpmux3 (>= 1.5.0), libwoff1 (>= 1.0.0), libx11-6, libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.2)
 Recommends: gstreamer1.0-gl, libgl1-mesa-dri, xdg-desktop-portal-gtk, gstreamer1.0-libav, gstreamer1.0-plugins-bad
 Suggests: gstreamer1.0-alsa
 Multi-Arch: same
 Homepage: https://webkitgtk.org/
 Priority: optional
 Section: libs
-Filename: pool/main/w/webkit2gtk/libwebkit2gtk-4.1-0_2.48.5-1~deb13u1_amd64.deb
-Size: 22523608
-SHA256: 6b296f54b52846fa240c886209ff3b51448bfa3c059764acfcdbb22af2c2488f
-SHA1: 5b9cc4cba82e5e7a2067ef27f8622ed8faba1b27
-MD5sum: e239f36cca74b620c5f1fad91d8324dd
+Filename: pool/main/w/webkit2gtk/libwebkit2gtk-4.1-0_2.50.1-1~deb13u1_amd64.deb
+Size: 22879092
+SHA256: 24daebcaaa0636da686f3395562818f23ef90e9633dd0289438b77327ee43cdc
+SHA1: 1c7dc7e8045c81eea701cd9328625db069679b61
+MD5sum: e4700df807d522a06a46c8f7ae1c6bc7
 Description: Web content engine library for GTK
  WebKit is a web content engine, derived from KHTML and KJS from KDE, and
  used primarily in Apple's Safari browser.  It is made to be embedded in
@@ -34452,7 +34451,7 @@ Description: X shared memory fences - shared library
 
 Package: libxslt1.1
 Source: libxslt
-Version: 1.1.35-1.2+deb13u1
+Version: 1.1.35-1.2+deb13u2
 Architecture: amd64
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Installed-Size: 497
@@ -34461,11 +34460,11 @@ Multi-Arch: same
 Homepage: https://gitlab.gnome.org/GNOME/libxslt/-/wikis/home
 Priority: optional
 Section: libs
-Filename: pool/main/libx/libxslt/libxslt1.1_1.1.35-1.2+deb13u1_amd64.deb
-Size: 232564
-SHA256: 08e07b926b8446415e37de3eacbab32296123c383c467255d5b4f0356cb35b75
-SHA1: a1363f91993056921924834d3744eb0d0a8b578e
-MD5sum: eadd00266141666ea0ba7947b31b0fe2
+Filename: pool/main/libx/libxslt/libxslt1.1_1.1.35-1.2+deb13u2_amd64.deb
+Size: 233008
+SHA256: 9bc71cdba622881dc1ad97a9854309025623ad10e9b545adeb7587cb26ecafe5
+SHA1: 6aacb7be9da3ae00362a1c025267f7b91815164e
+MD5sum: e4be2efdf330d90bf3cba9f4f30a1c77
 Description: XSLT 1.0 processing library - runtime library
  XSLT is an XML language for defining transformations of XML files from
  XML to some other arbitrary format, such as XML, HTML, plain text, etc.
@@ -35090,21 +35089,21 @@ Description: Common header files for Linux 6.12.35+deb13
  kernel you intend the build for.
 
 Package: linux-headers-amd64
-Source: linux-signed-amd64 (6.12.43+1)
-Version: 6.12.43-1
+Source: linux-signed-amd64 (6.12.48+1)
+Version: 6.12.48-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-headers-6.12.43+deb13-amd64 (= 6.12.43-1)
+Depends: linux-headers-6.12.48+deb13-amd64 (= 6.12.48-1)
 Provides: linux-headers-generic
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-signed-amd64/linux-headers-amd64_6.12.43-1_amd64.deb
-Size: 1416
-SHA256: f394edf67dc5abd5c487db5d3238ed3e68b6d62911f82fe300028cd9b7718daf
-SHA1: 645151eb5987054fdc8ea8234a115898b3978973
-MD5sum: 4e2e741d9342d6bc4ec751d878bbceca
+Filename: pool/main/l/linux-signed-amd64/linux-headers-amd64_6.12.48-1_amd64.deb
+Size: 1412
+SHA256: aa4a1329c9a019bae22e8b1becc888d53f1731da3e42c3dd4dbf51ec64f32505
+SHA1: 69700f19a735ead57de0fadf1785fc518d0d0dfb
+MD5sum: 06fb847146f70ce887714993713db229
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
@@ -35158,21 +35157,21 @@ Description: Linux 6.12 for 64-bit PCs (boot)
  The kernel image is signed for use with Secure Boot.
 
 Package: linux-image-amd64
-Source: linux-signed-amd64 (6.12.43+1)
-Version: 6.12.43-1
+Source: linux-signed-amd64 (6.12.48+1)
+Version: 6.12.48-1
 Architecture: amd64
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 13
-Depends: linux-image-6.12.43+deb13-amd64 (= 6.12.43-1)
-Provides: linux-image-generic, linux-latest-modules-6.12.43+deb13-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.12.48+deb13-amd64 (= 6.12.48-1)
+Provides: linux-image-generic, linux-latest-modules-6.12.48+deb13-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-signed-amd64/linux-image-amd64_6.12.43-1_amd64.deb
+Filename: pool/main/l/linux-signed-amd64/linux-image-amd64_6.12.48-1_amd64.deb
 Size: 1472
-SHA256: 785aa119387ebb72971a44affac0be5d5ffe9c25decdd95b5eb05f82f18c67f6
-SHA1: 2957dab43c5708c64255af2e55e745ad4ae347b6
-MD5sum: 45497d193ba563626b23bbca2982d25e
+SHA256: 4c7d95b4cac2d138f941cc0d9d39f682e71e63f082d3a11895ba526a2b18f29a
+SHA1: 0892ed6b24e51a2a68e88d0d2a43ef24b7e72181
+MD5sum: 763f91c6b0266d11ff1024c521a546e1
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.
@@ -35199,19 +35198,19 @@ Description: Kbuild infrastructure for Linux 6.12.35+deb13
 
 Package: linux-libc-dev
 Source: linux
-Version: 6.12.43-1
+Version: 6.12.48-1
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 10713
+Installed-Size: 10729
 Multi-Arch: foreign
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux/linux-libc-dev_6.12.43-1_all.deb
-Size: 2654296
-SHA256: de26712424f01a753d4ca5c5848efacafff3a374162a06e9810b293a19b76297
-SHA1: 06671a2d2333cfad17e50dafd0ecd2da8c8ba0ab
-MD5sum: 95cdb3df9044c4a09afa5e025984356d
+Filename: pool/main/l/linux/linux-libc-dev_6.12.48-1_all.deb
+Size: 2670816
+SHA256: 54ebd4bef6c264f3d100a0b03a00035ca6eb9c8e172a2b6425e2cb5c804b1067
+SHA1: 1e41e9a5fcdf17a05187eb1b28b75f30cac2cb45
+MD5sum: fdb6d6d58237025c73461f58fb56ec38
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These
  files are going to be installed into /usr/include, and are used by the
@@ -35219,19 +35218,19 @@ Description: Linux support headers for userspace development
 
 Package: linux-source
 Source: linux
-Version: 6.12.43-1
+Version: 6.12.48-1
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 10
-Depends: linux-source-6.12 (= 6.12.43-1)
+Depends: linux-source-6.12 (= 6.12.48-1)
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-source_6.12.43-1_all.deb
+Filename: pool/main/l/linux/linux-source_6.12.48-1_all.deb
 Size: 1096
-SHA256: fdeb6674274bdca9a0cfd8463efced3f22a430c544dd7d076b9b0ea75d20199c
-SHA1: 22dc74f3597664bbae7001379cf9cfb38fba6d22
-MD5sum: a6d2a9bd7500d571317fe27eb464a754
+SHA256: ff65513b959f71dc649f5035956264b7d29aef68778041d0e3bcce13e406a015
+SHA1: 5ea91853e60cda75021137f43d22055c0f541794
+MD5sum: 1cdc6089dc4b3e76da2febd4112032e7
 Description: Linux kernel source (meta-package)
  This package depends on packages containing the sources of the latest
  Linux kernel.
@@ -40127,7 +40126,7 @@ Description: secure shell (SSH) client, for secure access to remote machines
  obsolete for most purposes.
 
 Package: openssl
-Version: 3.5.1-1
+Version: 3.5.1-1+deb13u1
 Architecture: amd64
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>
 Installed-Size: 2491
@@ -40137,11 +40136,11 @@ Multi-Arch: foreign
 Homepage: https://openssl-library.org
 Priority: optional
 Section: utils
-Filename: pool/main/o/openssl/openssl_3.5.1-1_amd64.deb
-Size: 1493560
-SHA256: be9d67e4e0b451a4284a29e73455867d1f6db3c0dbdc052fff3858b7c9ac00b0
-SHA1: 42c62128b467269cd7ee81a944d10e53b69e2661
-MD5sum: 57de810bc5ee99a556111a3e5d0de157
+Filename: pool/main/o/openssl/openssl_3.5.1-1+deb13u1_amd64.deb
+Size: 1494316
+SHA256: af00437bf10025c3ac98b920c569a262ca521272917469fc50724dad5b082338
+SHA1: 430acc6b57b5fc6e58f8f1f6bc9379c7dd8981ff
+MD5sum: 53d92124662e49de631632b47031c802
 Description: Secure Sockets Layer toolkit - cryptographic utility
  This package is part of the OpenSSL project's implementation of the SSL
  and TLS cryptographic protocols for secure communication over the
@@ -40158,7 +40157,7 @@ Description: Secure Sockets Layer toolkit - cryptographic utility
 
 Package: openssl-provider-legacy
 Source: openssl
-Version: 3.5.1-1
+Version: 3.5.1-1+deb13u1
 Architecture: amd64
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>
 Installed-Size: 414
@@ -40169,11 +40168,11 @@ Multi-Arch: foreign
 Homepage: https://openssl-library.org
 Priority: optional
 Section: utils
-Filename: pool/main/o/openssl/openssl-provider-legacy_3.5.1-1_amd64.deb
-Size: 307288
-SHA256: c7c96877213071f6eb1f9978f37ca2ba291abd1a6d4268dd3b90faa7fab750ae
-SHA1: 564c0abbea1fea6422ae38d4125e764305b9a33c
-MD5sum: 266edd9a9bd159d7dc7e6f28f1812a96
+Filename: pool/main/o/openssl/openssl-provider-legacy_3.5.1-1+deb13u1_amd64.deb
+Size: 306864
+SHA256: 3c036239f4370d925d6fd0ffe9bcfd775c5252bfc01c8cb5b8a55e1696133944
+SHA1: bce4c317462d684033ac93763a0b9caf6cb157cc
+MD5sum: 6af01ed5d517b98a74ec7190dc7f5d99
 Description: Secure Sockets Layer toolkit - cryptographic utility
  This package is part of the OpenSSL project's implementation of the SSL
  and TLS cryptographic protocols for secure communication over the
@@ -47645,26 +47644,26 @@ Description: collection of bootloaders (common)
  This package contains the common files.
 
 Package: systemd
-Version: 257.8-1~deb13u1
+Version: 257.8-1~deb13u2
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 9946
-Pre-Depends: libc6 (>= 2.38), libsystemd-shared (= 257.8-1~deb13u1)
-Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.13), libc6 (>= 2.41), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.3.1), libselinux1 (>= 3.1~), libssl3t64 (>= 3.4.0), libsystemd0 (= 257.8-1~deb13u1), mount
+Pre-Depends: libc6 (>= 2.38), libsystemd-shared (= 257.8-1~deb13u2)
+Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.13), libc6 (>= 2.41), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.3.1), libselinux1 (>= 3.1~), libssl3t64 (>= 3.4.0), libsystemd0 (= 257.8-1~deb13u2), mount
 Recommends: default-dbus-system-bus | dbus-system-bus, linux-sysctl-defaults, systemd-timesyncd | time-daemon, systemd-cryptsetup
 Suggests: systemd-container, systemd-homed, systemd-userdbd, systemd-boot, systemd-resolved, systemd-repart, libtss2-tcti-device0, polkitd
 Conflicts: consolekit, libpam-ck-connector, opensysusers (<< 0.7.3-4.1~), systemd-shim
 Breaks: dracut-core (<< 102-2~), less (<< 563), sicherboot (<< 0.1.6)
-Provides: systemd-sysusers (= 257.8-1~deb13u1), systemd-tmpfiles (= 257.8-1~deb13u1)
+Provides: systemd-sysusers (= 257.8-1~deb13u2), systemd-tmpfiles (= 257.8-1~deb13u2)
 Multi-Arch: foreign
 Homepage: https://systemd.io
 Priority: important
 Section: admin
-Filename: pool/main/s/systemd/systemd_257.8-1~deb13u1_amd64.deb
-Size: 3099252
-SHA256: 6fd9b9b8a034a990765da88910297d9a0fe1072686054230eaac311899fc5a38
-SHA1: 9b3464fb71172dc3e8da15ed574c13a72efd4a65
-MD5sum: 5c9946155802dd4d2b7b9e21b3fdca35
+Filename: pool/main/s/systemd/systemd_257.8-1~deb13u2_amd64.deb
+Size: 3098692
+SHA256: 7b3c5da62f37e75deb15517c390e2a76e8282e31ea539bc7f0e5e51faf94d0ff
+SHA1: a1b00921c55dc2355cd7db54000026c55a40e4d3
+MD5sum: 861ea66e7b42f948bbe0a99b8d563ffa
 Description: system and service manager
  systemd is a system and service manager for Linux. It provides aggressive
  parallelization capabilities, uses socket and D-Bus activation for starting
@@ -47677,11 +47676,11 @@ Description: system and service manager
 
 Package: systemd-coredump
 Source: systemd
-Version: 257.8-1~deb13u1
+Version: 257.8-1~deb13u2
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 261
-Depends: libc6 (>= 2.36), libsystemd-shared (= 257.8-1~deb13u1), systemd
+Depends: libc6 (>= 2.36), libsystemd-shared (= 257.8-1~deb13u2), systemd
 Conflicts: core-dump-handler
 Replaces: core-dump-handler
 Provides: core-dump-handler
@@ -47689,11 +47688,11 @@ Multi-Arch: foreign
 Homepage: https://systemd.io
 Priority: optional
 Section: admin
-Filename: pool/main/s/systemd/systemd-coredump_257.8-1~deb13u1_amd64.deb
-Size: 117888
-SHA256: 7d3476ebb8c238208fa1f83ea740bc5412402b8a6486a7257d42498df1eb7eaa
-SHA1: 09587fda0250f7720df5a304a096f7744e02d124
-MD5sum: 7b082ece90c8bad57ebab10c481ad27b
+Filename: pool/main/s/systemd/systemd-coredump_257.8-1~deb13u2_amd64.deb
+Size: 117896
+SHA256: b1f864bdffb23ee058f51edfac092c7c29fa47396667db795ba210205d3cf588
+SHA1: efecc33f3772759866893a2129068fd695b2ebd8
+MD5sum: 778345971f4c1aabd8df27f3df6f20cc
 Description: tools for storing and retrieving coredumps
  This package provides systemd tools for storing and retrieving coredumps:
   * systemd-coredump
@@ -47701,7 +47700,7 @@ Description: tools for storing and retrieving coredumps
 
 Package: systemd-dev
 Source: systemd
-Version: 257.8-1~deb13u1
+Version: 257.8-1~deb13u2
 Architecture: all
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 714
@@ -47711,11 +47710,11 @@ Multi-Arch: foreign
 Homepage: https://systemd.io
 Priority: optional
 Section: devel
-Filename: pool/main/s/systemd/systemd-dev_257.8-1~deb13u1_all.deb
-Size: 74160
-SHA256: dcf93cc5516d2100611bc947ff32a3ec20e8927120921f8f0399e75de390e228
-SHA1: 105efb3da275f00bab7099114c058ed982618038
-MD5sum: 794a700a4b57bf5197e1ec97a99d273d
+Filename: pool/main/s/systemd/systemd-dev_257.8-1~deb13u2_all.deb
+Size: 74268
+SHA256: d46171ade6bb99683c919037b09126e2563e74c6c202d15d56414bc6cfdb443c
+SHA1: fff0ef13abb5dd0463b8f8ed0bb90fd41d93db33
+MD5sum: 4715db3985651ed5de141a4e0fbe8828
 Description: systemd development files
  This package contains the systemd and udev pkg-config files. Note that these
  are different from the libsystemd's and libudev's pkg-config files, which can
@@ -47724,13 +47723,13 @@ Description: systemd development files
 
 Package: systemd-sysv
 Source: systemd
-Version: 257.8-1~deb13u1
+Version: 257.8-1~deb13u2
 Architecture: amd64
 Protected: yes
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 96
 Pre-Depends: systemd
-Depends: systemd (= 257.8-1~deb13u1)
+Depends: systemd (= 257.8-1~deb13u2)
 Recommends: libpam-systemd, libnss-systemd
 Conflicts: bfh-container (<< 20211009-22~), file-rc, initscripts, insserv, molly-guard (<< 0.8.2~), orphan-sysvinit-scripts, progress-linux-container (<< 20221002-11~), startpar, systemd-shim, sysv-rc, sysvinit-core
 Replaces: sysvinit-core
@@ -47738,11 +47737,11 @@ Multi-Arch: foreign
 Homepage: https://systemd.io
 Priority: important
 Section: admin
-Filename: pool/main/s/systemd/systemd-sysv_257.8-1~deb13u1_amd64.deb
-Size: 64452
-SHA256: 63b3a04a6fd5dfc450f1d07f6f758756a184b7742bc04f807495d3d8c9f49458
-SHA1: db42453734441d1fc707837cf0cc0938a412c82b
-MD5sum: 683377de13b774f0fd155d3bd60c13e8
+Filename: pool/main/s/systemd/systemd-sysv_257.8-1~deb13u2_amd64.deb
+Size: 64540
+SHA256: f908a59511b10ffa4004624985c4f28dfbbc34af8e4e1e71f537268274541f92
+SHA1: 53546870545b6f2087c9b913a891b3eff706215e
+MD5sum: de08ab1e4bd61fb7607ad818dca69d18
 Description: system and service manager - SysV compatibility symlinks
  This package provides manual pages and compatibility symlinks needed for
  systemd to replace sysvinit.
@@ -47751,11 +47750,11 @@ Description: system and service manager - SysV compatibility symlinks
 
 Package: systemd-timesyncd
 Source: systemd
-Version: 257.8-1~deb13u1
+Version: 257.8-1~deb13u2
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 202
-Depends: libc6 (>= 2.34), libsystemd-shared (= 257.8-1~deb13u1), systemd
+Depends: libc6 (>= 2.34), libsystemd-shared (= 257.8-1~deb13u2), systemd
 Conflicts: systemd (<< 256.2-2~), time-daemon
 Replaces: time-daemon
 Provides: time-daemon
@@ -47763,11 +47762,11 @@ Multi-Arch: foreign
 Homepage: https://systemd.io
 Priority: standard
 Section: admin
-Filename: pool/main/s/systemd/systemd-timesyncd_257.8-1~deb13u1_amd64.deb
-Size: 92900
-SHA256: 9f7a86dd6ae234322738e9b62fd45914d0b1ff2814aac29f0dff7eeb018bed66
-SHA1: 58b2601a19a1cd4971e6cae0e518754a561c609b
-MD5sum: 7241a6ac2905554d180a43d071841fd8
+Filename: pool/main/s/systemd/systemd-timesyncd_257.8-1~deb13u2_amd64.deb
+Size: 92928
+SHA256: 2d6c5c1184b71d6e8eb06f246b28802edd1781a5cfd93219f9b6dfdf608a1c8a
+SHA1: 88ee2922c7226efa3b9570f28438cf6ee2c99936
+MD5sum: 8775b49cb06d6692801cad193d1f4d93
 Description: minimalistic service to synchronize local time with NTP servers
  The package contains the systemd-timesyncd system service that may be used to
  synchronize the local system clock with a remote Network Time Protocol server.
@@ -48421,23 +48420,23 @@ Description: Update Configuration File(s): preserve user changes to config files
 
 Package: udev
 Source: systemd
-Version: 257.8-1~deb13u1
+Version: 257.8-1~deb13u2
 Architecture: amd64
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 9995
-Depends: libblkid1 (>= 2.37.2), libc6 (>= 2.38), libsystemd-shared (= 257.8-1~deb13u1), systemd | systemd-standalone-sysusers | systemd-sysusers, libkmod2, libudev1 (= 257.8-1~deb13u1)
+Depends: libblkid1 (>= 2.37.2), libc6 (>= 2.38), libsystemd-shared (= 257.8-1~deb13u2), systemd | systemd-standalone-sysusers | systemd-sysusers, libkmod2, libudev1 (= 257.8-1~deb13u2)
 Conflicts: systemd (<< 255~rc1-4~)
-Breaks: systemd (<< 257.8-1~deb13u1)
+Breaks: systemd (<< 257.8-1~deb13u2)
 Replaces: systemd (<< 255~rc1-4~)
 Multi-Arch: foreign
 Homepage: https://systemd.io
 Priority: important
 Section: admin
-Filename: pool/main/s/systemd/udev_257.8-1~deb13u1_amd64.deb
-Size: 1390856
-SHA256: b8d8d5ff71d4405d051611eaabcbd06893deb0846071e980da5ecd748d5a4ec6
-SHA1: 3403694e5da2995018368eb0c152c1a1af0157c9
-MD5sum: 0bd9fb70b90abfd7c66de7e8464959b4
+Filename: pool/main/s/systemd/udev_257.8-1~deb13u2_amd64.deb
+Size: 1389744
+SHA256: 651b06c77bf73fb521f055e8bdd77bab2665f9d6a3405021445ab14fca452a59
+SHA1: 24edb257f763a8eec47f87082e7eb10672b3978f
+MD5sum: 14e373e466acc77fa2a120b6a67201e5
 Description: /dev/ and hotplug management daemon
  udev is a daemon which dynamically creates and removes device nodes from
  /dev/, handles hotplug events and loads drivers at boot time.
@@ -50024,10 +50023,10 @@ Description: command line ISO-9660 and Rock Ridge manipulation tool
 
 Package: xserver-common
 Source: xorg-server
-Version: 2:21.1.16-1.3
+Version: 2:21.1.16-1.3+deb13u1
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 2469
+Installed-Size: 2470
 Depends: x11-common, xkb-data, x11-xkb-utils
 Recommends: xfonts-base, xauth
 Replaces: xserver-xorg-core (<< 2:1.5.2)
@@ -50035,11 +50034,11 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-common_21.1.16-1.3_all.deb
-Size: 2409392
-SHA256: cfcfcab1fde65dca46a93c30790644a7837debacb317bc824469a2faf17a5a15
-SHA1: 2c74089e2a4145e7378e5ef15a045477d4020dfb
-MD5sum: a9e80d86184b5795373714220caca772
+Filename: pool/main/x/xorg-server/xserver-common_21.1.16-1.3+deb13u1_all.deb
+Size: 2409556
+SHA256: bc8d2422ccb93b15b12858ae49d27d8dfcc57703cb33db6f197acee718f5aac8
+SHA1: 488c08b60977fd16c12e5a04921bfc8f8271f888
+MD5sum: 37e0807b544dc5a5624621a4a4d2acbb
 Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
 
@@ -50066,11 +50065,11 @@ Description: X.Org X server
 
 Package: xserver-xorg-core
 Source: xorg-server
-Version: 2:21.1.16-1.3
+Version: 2:21.1.16-1.3+deb13u1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 6260
-Depends: xserver-common (>= 2:21.1.16-1.3), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 17.1.0~rc2), libgl1, libnettle8t64, libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Installed-Size: 6261
+Depends: xserver-common (>= 2:21.1.16-1.3+deb13u1), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 17.1.0~rc2), libgl1, libnettle8t64, libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
 Recommends: libgl1-mesa-dri (>= 7.10.2-4), default-logind | logind, xcvt
 Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
 Conflicts: xserver-xorg-input-evtouch, xserver-xorg-video-modesetting
@@ -50080,11 +50079,11 @@ Provides: xorg-input-abi-24, xorg-video-abi-25, xserver-xorg-video-modesetting
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-xorg-core_21.1.16-1.3_amd64.deb
-Size: 3776316
-SHA256: bdba8ce1fccf68201d9bca4a1625ae715daf6a5817db212aeab7dc76c9148dc7
-SHA1: 69b738d673f177a8c5de5e8cd75801ef68a68a1a
-MD5sum: 2a0e5b7ebe5a307e95e7bc726e1a77a2
+Filename: pool/main/x/xorg-server/xserver-xorg-core_21.1.16-1.3+deb13u1_amd64.deb
+Size: 3776796
+SHA256: 463c5923a7656f2574233f47c91192d5b7ce118224ce2d04b626570bce0b627a
+SHA1: 2d3ee5f6dc0e6037f8e32b112fc2a906b9e81cd4
+MD5sum: 8a3f4678c977c6c09a396915f4955218
 Description: Xorg X server - core server
  The Xorg X server is an X server for several architectures and operating
  systems, which is derived from the XFree86 4.x series of X servers.
@@ -50232,21 +50231,21 @@ Description: X.Org X server -- Wacom input driver
 
 Package: xserver-xorg-legacy
 Source: xorg-server
-Version: 2:21.1.16-1.3
+Version: 2:21.1.16-1.3+deb13u1
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 2500
-Depends: xserver-common (>= 2:21.1.16-1.3), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
+Installed-Size: 2501
+Depends: xserver-common (>= 2:21.1.16-1.3+deb13u1), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
 Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
 Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-xorg-legacy_21.1.16-1.3_amd64.deb
-Size: 2414836
-SHA256: 3e7a3628c92dd540959ffa1b8549e2579b3c861757c01c15e60cb9ff762cb0fb
-SHA1: 0f148858d24eb9c656b95a1f867ec07f8e94b61e
-MD5sum: c624246d4650527308bcc9f4b3ef6812
+Filename: pool/main/x/xorg-server/xserver-xorg-legacy_21.1.16-1.3+deb13u1_amd64.deb
+Size: 2414976
+SHA256: 3ea73af75afa4c47dab158f3ace318ce65125b8517726794f2e72d24145dd096
+SHA1: 81ef58ca40ec8407dda0aa0ba131758929ae6656
+MD5sum: f558ecb884614d45ef02dc9c9db69b14
 Description: setuid root Xorg server wrapper
  This package provides a wrapper for the Xorg X server, which is
  necessary for legacy drivers and non-Linux kernels.

@@ -15,6 +15,52 @@ SHA1: 5524e62343a595fb58269a606315609fd7ea022a
 MD5sum: be68345b3863994564a57b52ebbbcefa
 Description: Empty
 
+Package: cups-common
+Source: cups
+Version: 2.4.10-3+deb13u1
+Architecture: all
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Installed-Size: 4241
+Multi-Arch: foreign
+Homepage: https://github.com/OpenPrinting/cups/
+Priority: optional
+Section: net
+Filename: pool/main/c/cups/cups-common_2.4.10-3+deb13u1_all.deb
+Size: 258108
+SHA256: 9a42f41c6ba781e2f896254876a32bb9808b4b55d0d17bbc7cee8fca7f56074d
+SHA1: 6a508247031e4d3996c34cacb97030fd8381e2d9
+MD5sum: c870796c038cdf328a9cc4420a1289b0
+Description: Common UNIX Printing System(tm) - common files
+ The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+ general replacement for lpd and the like.  It supports the Internet
+ Printing Protocol (IPP), and has its own filtering driver model for
+ handling various document types.
+ .
+ This package provides common files for CUPS server and client packages.
+
+Package: cups-server-common
+Source: cups
+Version: 2.4.10-3+deb13u1
+Architecture: all
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Installed-Size: 2382
+Multi-Arch: foreign
+Homepage: https://github.com/OpenPrinting/cups/
+Priority: optional
+Section: net
+Filename: pool/main/c/cups/cups-server-common_2.4.10-3+deb13u1_all.deb
+Size: 414528
+SHA256: e752c0d3de98ba279e2da817a1b22dbf2a2da93df68c627a0d39073db4ee4ae9
+SHA1: ce8571ede5b4c055e5a8e58a2a014caa3868e891
+MD5sum: 6188effa3564d0fa48bebf10afd87b8d
+Description: Common UNIX Printing System(tm) - server common files
+ The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+ general replacement for lpd and the like.  It supports the Internet
+ Printing Protocol (IPP), and has its own filtering driver model for
+ handling various document types.
+ .
+ This package provides common files for CUPS server.
+
 Package: desktop-base
 Version: 2025.01.17
 Architecture: all
@@ -1950,6 +1996,31 @@ Description: GDK Pixbuf library
   - Fast scaling and compositing of pixbufs.
   - Simple animation loading (ie. animated GIFs)
 
+Package: libgegl-common
+Source: gegl
+Version: 1:0.4.62-2+deb13u1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 5323
+Multi-Arch: foreign
+Homepage: https://gegl.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gegl/libgegl-common_0.4.62-2+deb13u1_all.deb
+Size: 826464
+SHA256: 05a5eb9074b9f7df163dd63d67e4c15d5cf2e8809662ad77f0fe80bb1668d5fd
+SHA1: f4f72f633ea553aa542f52080f4cf08c6a8b9ceb
+MD5sum: bb218e72168b2d58471fe2e38312216d
+Description: Generic Graphics Library - common files
+ GEGL (Generic Graphics Library) is a graph based image processing
+ framework.
+ .
+ GEGL's original design was made to scratch GIMP's itches for a new
+ compositing and processing core. This core is being designed to have
+ minimal dependencies and a simple well defined API.
+ .
+ This package contains common data files and translations.
+
 Package: libgl1
 Source: libglvnd (1.7.0-1)
 Version: 1.7.0-1+b2
@@ -2465,6 +2536,63 @@ Description: Font rendering engine for Complex Scripts -- library
  grcompiler.
  .
  This package contains the shared library.
+
+Package: libgs-common
+Source: ghostscript
+Version: 10.05.1~dfsg-1+deb13u1
+Architecture: all
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Installed-Size: 316
+Breaks: libgs9-common (<< 10)
+Replaces: libgs9-common (<< 10)
+Multi-Arch: foreign
+Homepage: https://www.ghostscript.com/
+Priority: optional
+Section: libs
+Filename: pool/main/g/ghostscript/libgs-common_10.05.1~dfsg-1+deb13u1_all.deb
+Size: 148244
+SHA256: 695829a596975d46ad1edd97557500dfd6ccbe67bdc88512607bb57967ebc8c1
+SHA1: 3eaf35550bcf7d91e53f6ab62fc5387745875113
+MD5sum: b00ce7ef650b2edac88ecf59ec5f71cf
+Description: interpreter for the PostScript language and for PDF - ICC profiles
+ GPL Ghostscript is used for PostScript/PDF preview and printing.
+ Usually as a back-end to a program such as ghostview,
+ it can display PostScript and PDF documents in an X11 environment.
+ .
+ This package provides common ICC profiles.
+
+Package: libgs10-common
+Source: ghostscript
+Version: 10.05.1~dfsg-1+deb13u1
+Architecture: all
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Installed-Size: 2265
+Depends: fonts-urw-base35 (>= 20200910), libgs-common
+Recommends: fonts-droid-fallback
+Breaks: libgs-common (<< 10.0.0~dfsg-5)
+Replaces: libgs-common (<< 10.0.0~dfsg-5)
+Multi-Arch: foreign
+Homepage: https://www.ghostscript.com/
+Priority: optional
+Section: libs
+Filename: pool/main/g/ghostscript/libgs10-common_10.05.1~dfsg-1+deb13u1_all.deb
+Size: 479200
+SHA256: 05b4cb3b0f9012a0d1e7024e5ce1cc13db4c70cc7554e8b64bc00db95a69f47e
+SHA1: 0c695250b013516c361977267953d5a1296de78d
+MD5sum: 39d304193ace26be83710e96d729602f
+Description: interpreter for the PostScript language and for PDF - common files
+ GPL Ghostscript is used for PostScript/PDF preview and printing.
+ Usually as a back-end to a program such as ghostview,
+ it can display PostScript and PDF documents in an X11 environment.
+ .
+ This package provides common architecture-independent files
+ needed by the GPL Ghostscript library.
+ .
+ By default, GPL Ghostscript uses a font from the fonts-droid package
+ to approximate glyphs in PDFs
+ for which the requested CJK TrueType font is missing.
+ If the fonts-droid package is not installed,
+ these glyphs will be rendered as bullets.
 
 Package: libgsm1
 Source: libgsm (1.0.22-1)
@@ -4973,7 +5101,7 @@ Description: FFmpeg library for audio resampling, rematrixing etc. - runtime fil
 
 Package: libsystemd0
 Source: systemd
-Version: 257.8-1~deb13u1
+Version: 257.8-1~deb13u2
 Architecture: i386
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 1272
@@ -4984,11 +5112,11 @@ Multi-Arch: same
 Homepage: https://systemd.io
 Priority: optional
 Section: libs
-Filename: pool/main/s/systemd/libsystemd0_257.8-1~deb13u1_i386.deb
-Size: 485024
-SHA256: bad9f3601db8847b7db7f8a695280e87180cb6c6358a174c9e392b94ba690b43
-SHA1: b4c5bed648d5a17557b84a14645234428acaa8d3
-MD5sum: 9c568901bd5951821b4994b5a84c18b7
+Filename: pool/main/s/systemd/libsystemd0_257.8-1~deb13u2_i386.deb
+Size: 485344
+SHA256: 4006db714728d9df98a1bc5e3b9ccd0c44d89b024e88ba41690be8081bd82a4a
+SHA1: a961942957ad5aa5d70257f38f7f6773ff38914b
+MD5sum: b50bf3c26980591f7b5cc87fb75295d4
 Description: systemd utility library
  This library provides APIs to interface with various system components such as
  the system journal, the system service manager, D-Bus and more.
@@ -5175,7 +5303,7 @@ Description: MPEG Audio Layer 2 encoding library
 
 Package: libudev1
 Source: systemd
-Version: 257.8-1~deb13u1
+Version: 257.8-1~deb13u2
 Architecture: i386
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 331
@@ -5185,11 +5313,11 @@ Multi-Arch: same
 Homepage: https://systemd.io
 Priority: optional
 Section: libs
-Filename: pool/main/s/systemd/libudev1_257.8-1~deb13u1_i386.deb
-Size: 155708
-SHA256: a0c0cf7612b32e26988822ffba876c1aef922694555cc8e20cb414c367012670
-SHA1: 55737f1b654f949e1291a14fd3c58bb8905f827e
-MD5sum: 7c88c8cbf6ebfe943cddb13c288bee47
+Filename: pool/main/s/systemd/libudev1_257.8-1~deb13u2_i386.deb
+Size: 155796
+SHA256: 19df6a6f77ec9e5895f993c695d36c54e3dd594db5293396b199aba7fe3a2432
+SHA1: 0a51f77083f16574aee43a44ef6275303d34356f
+MD5sum: 404a2d673bafb4daa2c882727c1e55ff
 Description: libudev shared library
  This library provides APIs to introspect and enumerate devices on the local
  system.
@@ -6822,19 +6950,19 @@ Description: Vertical Blanking Interval decoder (VBI) - runtime files
 
 Package: linux-libc-dev
 Source: linux
-Version: 6.12.43-1
+Version: 6.12.48-1
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 10713
+Installed-Size: 10729
 Multi-Arch: foreign
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux/linux-libc-dev_6.12.43-1_all.deb
-Size: 2654296
-SHA256: de26712424f01a753d4ca5c5848efacafff3a374162a06e9810b293a19b76297
-SHA1: 06671a2d2333cfad17e50dafd0ecd2da8c8ba0ab
-MD5sum: 95cdb3df9044c4a09afa5e025984356d
+Filename: pool/main/l/linux/linux-libc-dev_6.12.48-1_all.deb
+Size: 2670816
+SHA256: 54ebd4bef6c264f3d100a0b03a00035ca6eb9c8e172a2b6425e2cb5c804b1067
+SHA1: 1e41e9a5fcdf17a05187eb1b28b75f30cac2cb45
+MD5sum: fdb6d6d58237025c73461f58fb56ec38
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These
  files are going to be installed into /usr/include, and are used by the
@@ -6842,19 +6970,19 @@ Description: Linux support headers for userspace development
 
 Package: linux-source
 Source: linux
-Version: 6.12.43-1
+Version: 6.12.48-1
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 10
-Depends: linux-source-6.12 (= 6.12.43-1)
+Depends: linux-source-6.12 (= 6.12.48-1)
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-source_6.12.43-1_all.deb
+Filename: pool/main/l/linux/linux-source_6.12.48-1_all.deb
 Size: 1096
-SHA256: fdeb6674274bdca9a0cfd8463efced3f22a430c544dd7d076b9b0ea75d20199c
-SHA1: 22dc74f3597664bbae7001379cf9cfb38fba6d22
-MD5sum: a6d2a9bd7500d571317fe27eb464a754
+SHA256: ff65513b959f71dc649f5035956264b7d29aef68778041d0e3bcce13e406a015
+SHA1: 5ea91853e60cda75021137f43d22055c0f541794
+MD5sum: 1cdc6089dc4b3e76da2febd4112032e7
 Description: Linux kernel source (meta-package)
  This package depends on packages containing the sources of the latest
  Linux kernel.
@@ -7180,7 +7308,7 @@ Description: freedesktop.org sound theme
 
 Package: systemd-dev
 Source: systemd
-Version: 257.8-1~deb13u1
+Version: 257.8-1~deb13u2
 Architecture: all
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 714
@@ -7190,11 +7318,11 @@ Multi-Arch: foreign
 Homepage: https://systemd.io
 Priority: optional
 Section: devel
-Filename: pool/main/s/systemd/systemd-dev_257.8-1~deb13u1_all.deb
-Size: 74160
-SHA256: dcf93cc5516d2100611bc947ff32a3ec20e8927120921f8f0399e75de390e228
-SHA1: 105efb3da275f00bab7099114c058ed982618038
-MD5sum: 794a700a4b57bf5197e1ec97a99d273d
+Filename: pool/main/s/systemd/systemd-dev_257.8-1~deb13u2_all.deb
+Size: 74268
+SHA256: d46171ade6bb99683c919037b09126e2563e74c6c202d15d56414bc6cfdb443c
+SHA1: fff0ef13abb5dd0463b8f8ed0bb90fd41d93db33
+MD5sum: 4715db3985651ed5de141a4e0fbe8828
 Description: systemd development files
  This package contains the systemd and udev pkg-config files. Note that these
  are different from the libsystemd's and libudev's pkg-config files, which can
@@ -7275,6 +7403,27 @@ Description: Video Decode and Presentation API for Unix (driver metapackage)
  This package depends on the full suite of drivers for the VDPAU API.
  It does not provide any drivers itself, and may be removed if you wish to
  only have certain drivers installed.
+
+Package: xserver-common
+Source: xorg-server
+Version: 2:21.1.16-1.3+deb13u1
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2470
+Depends: x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-common_21.1.16-1.3+deb13u1_all.deb
+Size: 2409556
+SHA256: bc8d2422ccb93b15b12858ae49d27d8dfcc57703cb33db6f197acee718f5aac8
+SHA1: 488c08b60977fd16c12e5a04921bfc8f8271f888
+MD5sum: 37e0807b544dc5a5624621a4a4d2acbb
+Description: common files used by various X servers
+ This package provides files necessary for all X.Org based X servers.
 
 Package: zlib1g
 Source: zlib (1:1.3.dfsg+really1.3.1-1)
