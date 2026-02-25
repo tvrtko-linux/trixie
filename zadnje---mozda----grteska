@@ -1,0 +1,430 @@
+┌─[deni@openbosniana]─[~/Desktop/GitHub/trixie]
+└──╼ $repo
+Izaberi opciju:
+1. Dodavanje 1
+2. Brisanje 2
+3. Prikazi postojecih bez indeksa 3
+4. Brisanje postojecih bez indeksa 4
+5. Export upisanih paketa 5
+6. Sastavi deb paket 6
+7. Sastavi deb paket kao ROOT 7
+8. Preuzmi citav repo 8
+Upisi broj: 1
+Put do .deb paketa: /home/deni/Desktop/soft/
+/home/deni/Desktop/soft//7zip_25.01+dfsg-1~deb13u1_amd64.deb: component guessed as 'main'
+Created directory "./pool/main/7"
+Created directory "./pool/main/7/7zip"
+/home/deni/Desktop/soft//accountwizard_24.12.3-1+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//chromium-common_143.0.7499.109-1~deb13u1_amd64.deb: component guessed as 'main'
+Created directory "./pool/main/c/chromium"
+/home/deni/Desktop/soft//chromium-driver_143.0.7499.109-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//chromium-sandbox_143.0.7499.109-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//chromium_143.0.7499.109-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//console-setup-linux_1.242~deb13u1_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//console-setup_1.242~deb13u1_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//cups-bsd_2.4.10-3+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//cups-client_2.4.10-3+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//cups-common_2.4.10-3+deb13u2_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//cups-core-drivers_2.4.10-3+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//cups-daemon_2.4.10-3+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//cups-ipp-utils_2.4.10-3+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//cups-ppdc_2.4.10-3+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//cups-server-common_2.4.10-3+deb13u2_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//cups_2.4.10-3+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//curl_8.14.1-2+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//dhcpcd-base_10.1.0-11+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//distro-info-data_0.66+deb13u1_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//dkms_3.2.2-1~deb13u1_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//dns-root-data_2025080400~deb13u1_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//evolution-data-server-common_3.56.2-0+deb13u1_all.deb: component guessed as 'main'
+Created directory "./pool/main/e/evolution-data-server"
+/home/deni/Desktop/soft//ffmpeg_7.1.3-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//firefox-esr_140.6.0esr-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//fonts-noto-color-emoji_2.051-0+deb13u1_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//gir1.2-javascriptcoregtk-4.1_2.50.3-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//gir1.2-poppler-0.18_25.03.0-5+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//gir1.2-webkit2-4.1_2.50.3-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//google-chrome-stable_143.0.7499.109-1_amd64.deb: component guessed as 'main'
+Created directory "./pool/main/g/google-chrome-stable"
+/home/deni/Desktop/soft//hyperv-daemons_6.12.57-1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//imagemagick-7-common_7.1.1.43+dfsg1-1+deb13u3_all.deb: component guessed as 'main'
+Created directory "./pool/main/i/imagemagick"
+/home/deni/Desktop/soft//imagemagick-7.q16_7.1.1.43+dfsg1-1+deb13u3_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//imagemagick_7.1.1.43+dfsg1-1+deb13u3_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//kate_25.04.3-2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//kdeconnect-libs_25.04.2-1+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//kdeconnect_25.04.2-1+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//keyboard-configuration_1.242~deb13u1_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//kwrite_25.04.3-2_amd64.deb: component guessed as 'main'
+ERROR: '/home/deni/Desktop/soft//kwrite_25.04.3-2_amd64.deb' cannot be included as 'pool/main/k/kate/kwrite_25.04.3-2_amd64.deb'.
+Already existing files can only be included again, if they are the same, but:
+md5 expected: 29d8abc259390ca5d061bc4ad52b3e9e, got: e59e3495c097c30804710a9c83583896
+sha1 expected: 92db723453c475f5b84218262ab996df590f0d7b, got: e4e320ebf0d16721bc3061584c574694cb51fc9e
+sha256 expected: eb27b074dc9a00e37872fe075088b677b823dcb7b06cbfb2223d3328a48428ab, got: ccb771b474b098b113285ef27d3c89e8797380ca4f0accfc770e2fc1dac03b3a
+size expected: 137864, got: 137872
+/home/deni/Desktop/soft//libavcodec61_7.1.3-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libavcodec61_7.1.3-0+deb13u1_i386.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libavdevice61_7.1.3-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libavfilter10_7.1.3-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libavformat61_7.1.3-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libavutil59_7.1.3-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libavutil59_7.1.3-0+deb13u1_i386.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libcamel-1.2-64t64_3.56.2-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libcups2t64_2.4.10-3+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libcups2t64_2.4.10-3+deb13u2_i386.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libcurl3t64-gnutls_8.14.1-2+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libcurl3t64-gnutls_8.14.1-2+deb13u2_i386.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libcurl4t64_8.14.1-2+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libcurl4t64_8.14.1-2+deb13u2_i386.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libebackend-1.2-11t64_3.56.2-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libebook-1.2-21t64_3.56.2-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libebook-contacts-1.2-4t64_3.56.2-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libedata-book-1.2-27t64_3.56.2-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libedataserver-1.2-27t64_3.56.2-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libfluidsynth3_2.4.4+dfsg-1+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libimage-magick-perl_7.1.1.43+dfsg1-1+deb13u3_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libimage-magick-q16-perl_7.1.1.43+dfsg1-1+deb13u3_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libjavascriptcoregtk-4.1-0_2.50.3-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libldb2_2.11.0+samba4.22.6+dfsg-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libmagickcore-7.q16-10-extra_7.1.1.43+dfsg1-1+deb13u3_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libmagickcore-7.q16-10_7.1.1.43+dfsg1-1+deb13u3_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libmagickwand-7.q16-10_7.1.1.43+dfsg1-1+deb13u3_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libmalcontent-0-0_0.13.0-2+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libmpv2_0.40.0-3+deb13u1_amd64.deb: component guessed as 'main'
+Created directory "./pool/main/m/mpv"
+/home/deni/Desktop/soft//libnss-systemd_257.9-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libpam-systemd_257.9-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libpam-wtmpdb_0.73.0-3+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libpng16-16t64_1.6.48-1+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libpng16-16t64_1.6.48-1+deb13u1_i386.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libpoppler-cpp2_25.03.0-5+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libpoppler-glib8t64_25.03.0-5+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libpoppler-glib8t64_25.03.0-5+deb13u2_i386.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libpoppler-qt6-3t64_25.03.0-5+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libpoppler147_25.03.0-5+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libpoppler147_25.03.0-5+deb13u2_i386.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libpostproc58_7.1.3-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libqt6concurrent6_6.8.2+dfsg-9+deb13u1_amd64.deb: component guessed as 'main'
+Created directory "./pool/main/q/qt6-base"
+/home/deni/Desktop/soft//libqt6core6t64_6.8.2+dfsg-9+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libqt6dbus6_6.8.2+dfsg-9+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libqt6gui6_6.8.2+dfsg-9+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libqt6network6_6.8.2+dfsg-9+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libqt6opengl6_6.8.2+dfsg-9+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libqt6openglwidgets6_6.8.2+dfsg-9+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libqt6printsupport6_6.8.2+dfsg-9+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libqt6sql6-sqlite_6.8.2+dfsg-9+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libqt6sql6_6.8.2+dfsg-9+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libqt6test6_6.8.2+dfsg-9+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libqt6widgets6_6.8.2+dfsg-9+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libqt6xml6_6.8.2+dfsg-9+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libsmbclient0_4.22.6+dfsg-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libssh-4_0.11.2-1+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libssl-dev_3.5.4-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libssl3t64_3.5.4-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libssl3t64_3.5.4-1~deb13u1_i386.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libswresample5_7.1.3-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libswresample5_7.1.3-0+deb13u1_i386.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libswscale8_7.1.3-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libsystemd-shared_257.9-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libsystemd0_257.9-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libsystemd0_257.9-1~deb13u1_i386.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libtalloc2_2.4.3+samba4.22.6+dfsg-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libtbb12_2022.1.0-1+deb13u1_amd64.deb: component guessed as 'main'
+Created directory "./pool/main/o/onetbb"
+/home/deni/Desktop/soft//libtbbbind-2-5_2022.1.0-1+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libtbbmalloc2_2022.1.0-1+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libtdb1_1.4.13+samba4.22.6+dfsg-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libtevent0t64_0.16.2+samba4.22.6+dfsg-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libtiff6_4.7.0-3+deb13u1_amd64.deb: component guessed as 'main'
+Skipping inclusion of 'libtiff6' '4.7.0-3+deb13u1' in 'OpenBosniana|main|amd64', as it has already '4.7.0-3+deb13u1'.
+/home/deni/Desktop/soft//libtiff6_4.7.0-3+deb13u1_i386.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libudev1_257.9-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libudev1_257.9-1~deb13u1_i386.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libunbound8_1.22.0-2+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libvlc-bin_3.0.22-0+deb13u1_amd64.deb: component guessed as 'main'
+Created directory "./pool/main/v/vlc"
+/home/deni/Desktop/soft//libvlc5_3.0.22-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libvlccore9_3.0.22-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libwbclient0_4.22.6+dfsg-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libwebkit2gtk-4.1-0_2.50.3-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libwtmpdb0_0.73.0-3+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libxml2_2.12.7+dfsg+really2.9.14-2.1+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libxml2_2.12.7+dfsg+really2.9.14-2.1+deb13u2_i386.deb: component guessed as 'main'
+/home/deni/Desktop/soft//libxslt1.1_1.1.35-1.2+deb13u2_amd64.deb: component guessed as 'main'
+Skipping inclusion of 'libxslt1.1' '1.1.35-1.2+deb13u2' in 'OpenBosniana|main|amd64', as it has already '1.1.35-1.2+deb13u2'.
+/home/deni/Desktop/soft//libxslt1.1_1.1.35-1.2+deb13u2_i386.deb: component guessed as 'main'
+/home/deni/Desktop/soft//linux-headers-6.12.57+deb13-amd64_6.12.57-1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//linux-headers-6.12.57+deb13-common_6.12.57-1_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//linux-headers-amd64_6.12.57-1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//linux-image-6.12.57+deb13-amd64_6.12.57-1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//linux-image-amd64_6.12.57-1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//linux-kbuild-6.12.57+deb13_6.12.57-1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//linux-libc-dev_6.12.57-1_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//mintstick_1.6.3-1_all.deb: component guessed as 'main'
+Created directory "./pool/main/m/mintstick"
+/home/deni/Desktop/soft//open-vm-tools-desktop_12.5.0-2+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//open-vm-tools_12.5.0-2+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//openssl-provider-legacy_3.5.4-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//openssl_3.5.4-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//poppler-utils_25.03.0-5+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//python3-eventlet_0.39.1-2+deb13u1_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//python3-gbinder_1.3.0_amd64.deb: component guessed as 'main'
+Created directory "./pool/main/g/gbinder-python"
+/home/deni/Desktop/soft//python3-ldb_2.11.0+samba4.22.6+dfsg-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//python3-samba_4.22.6+dfsg-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//python3-talloc_2.4.3+samba4.22.6+dfsg-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//python3-tdb_1.4.13+samba4.22.6+dfsg-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//qemu-guest-agent_10.0.6+ds-0+deb13u2_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//qml6-module-org-kde-kdeconnect_25.04.2-1+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//qt6-gtk-platformtheme_6.8.2+dfsg-9+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//qt6-qpa-plugins_6.8.2+dfsg-9+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//ruby-rack_3.1.18-1~deb13u1_all.deb: component guessed as 'main'
+Created directory "./pool/main/r/ruby-rack"
+/home/deni/Desktop/soft//samba-common-bin_4.22.6+dfsg-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//samba-common_4.22.6+dfsg-0+deb13u1_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//samba-libs_4.22.6+dfsg-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//setserial_2.17-58_amd64.deb: component guessed as 'main'
+Created directory "./pool/main/s/setserial"
+/home/deni/Desktop/soft//smbclient_4.22.6+dfsg-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//systemd-coredump_257.9-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//systemd-sysv_257.9-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//systemd-timesyncd_257.9-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//systemd_257.9-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//tdb-tools_1.4.13+samba4.22.6+dfsg-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//thunderbird_140.6.0esr-1~deb13u1_amd64.deb: component guessed as 'main'
+Created directory "./pool/main/t/thunderbird"
+/home/deni/Desktop/soft//udev_257.9-1~deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//vlc-bin_3.0.22-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//vlc-data_3.0.22-0+deb13u1_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//vlc-l10n_3.0.22-0+deb13u1_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//vlc-plugin-access-extra_3.0.22-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//vlc-plugin-base_3.0.22-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//vlc-plugin-notify_3.0.22-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//vlc-plugin-qt_3.0.22-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//vlc-plugin-samba_3.0.22-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//vlc-plugin-skins2_3.0.22-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//vlc-plugin-video-output_3.0.22-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//vlc-plugin-video-splitter_3.0.22-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//vlc-plugin-visualization_3.0.22-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//vlc_3.0.22-0+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//waydroid_1.6.0_all.deb: component guessed as 'main'
+Created directory "./pool/main/w/waydroid"
+/home/deni/Desktop/soft//webext-ublock-origin-firefox_1.67.0+dfsg-1~deb13u1_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//wtmpdb_0.73.0-3+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//x11-common_7.7+24+deb13u1_all.deb: component guessed as 'main'
+/home/deni/Desktop/soft//xorg_7.7+24+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//xserver-xorg-input-all_7.7+24+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//xserver-xorg-video-all_7.7+24+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//xserver-xorg_7.7+24+deb13u1_amd64.deb: component guessed as 'main'
+/home/deni/Desktop/soft//xvfb_21.1.16-1.3+deb13u1_amd64.deb: component guessed as 'main'
+Not deleting possibly left over files due to previous errors.
+(To keep the files in the still existing index files from vanishing)
+Use dumpunreferenced/deleteunreferenced to show/delete files without references.
+86 files lost their last reference.
+(dumpunreferenced lists such files, use deleteunreferenced to delete them.)
+Warning: database 'OpenBosniana|main|amd64' was modified but no index file was exported.
+Changes will only be visible after the next 'export'!
+Warning: database 'OpenBosniana|main|i386' was modified but no index file was exported.
+Changes will only be visible after the next 'export'!
+There have been errors!
+Zavrseno dodavanje paketa sa patha /home/deni/Desktop/soft/
+┌─[deni@openbosniana]─[~/Desktop/GitHub/trixie]
+└──╼ $repo
+Izaberi opciju:
+1. Dodavanje 1
+2. Brisanje 2
+3. Prikazi postojecih bez indeksa 3
+4. Brisanje postojecih bez indeksa 4
+5. Export upisanih paketa 5
+6. Sastavi deb paket 6
+7. Sastavi deb paket kao ROOT 7
+8. Preuzmi citav repo 8
+Upisi broj: 3
+[sudo] lozinka za deni:
+pool/main/c/console-setup/console-setup-linux_1.240_all.deb
+pool/main/c/console-setup/console-setup_1.240_all.deb
+pool/main/c/console-setup/keyboard-configuration_1.240_all.deb
+pool/main/c/cups/cups-bsd_2.4.10-3+deb13u1_amd64.deb
+pool/main/c/cups/cups-client_2.4.10-3+deb13u1_amd64.deb
+pool/main/c/cups/cups-common_2.4.10-3+deb13u1_all.deb
+pool/main/c/cups/cups-core-drivers_2.4.10-3+deb13u1_amd64.deb
+pool/main/c/cups/cups-daemon_2.4.10-3+deb13u1_amd64.deb
+pool/main/c/cups/cups-ipp-utils_2.4.10-3+deb13u1_amd64.deb
+pool/main/c/cups/cups-ppdc_2.4.10-3+deb13u1_amd64.deb
+pool/main/c/cups/cups-server-common_2.4.10-3+deb13u1_all.deb
+pool/main/c/cups/cups_2.4.10-3+deb13u1_amd64.deb
+pool/main/c/cups/libcups2t64_2.4.10-3+deb13u1_amd64.deb
+pool/main/c/cups/libcups2t64_2.4.10-3_i386.deb
+pool/main/c/curl/curl_8.14.1-2_amd64.deb
+pool/main/c/curl/libcurl3t64-gnutls_8.14.1-2_i386.deb
+pool/main/c/curl/libcurl4t64_8.14.1-2_amd64.deb
+pool/main/c/curl/libcurl4t64_8.14.1-2_i386.deb
+pool/main/d/dhcpcd/dhcpcd-base_10.1.0-11_amd64.deb
+pool/main/d/distro-info-data/distro-info-data_0.66_all.deb
+pool/main/d/dkms/dkms_3.2.0-1_all.deb
+pool/main/d/dns-root-data/dns-root-data_2024071801_all.deb
+pool/main/f/ffmpeg/ffmpeg_7.1.2-0+deb13u1_amd64.deb
+pool/main/f/ffmpeg/libavcodec61_7.1.1-1+b1_i386.deb
+pool/main/f/ffmpeg/libavutil59_7.1.1-1+b1_i386.deb
+pool/main/f/ffmpeg/libswresample5_7.1.1-1+b1_i386.deb
+pool/main/f/firefox-esr/firefox-esr_140.4.0esr-1~deb13u1_amd64.deb
+pool/main/f/fluidsynth/libfluidsynth3_2.4.4+dfsg-1_amd64.deb
+pool/main/f/fonts-noto-color-emoji/fonts-noto-color-emoji_2.048-1_all.deb
+pool/main/k/kdeconnect/kdeconnect_25.04.2-1_amd64.deb
+pool/main/k/kmail-account-wizard/accountwizard_24.12.3-1_amd64.deb
+pool/main/l/linux-signed-amd64/linux-headers-amd64_6.12.48-1_amd64.deb
+pool/main/l/linux-signed-amd64/linux-image-amd64_6.12.48-1_amd64.deb
+pool/main/l/linux/hyperv-daemons_6.12.48-1_amd64.deb
+pool/main/l/linux/linux-libc-dev_6.12.48-1_all.deb
+pool/main/libp/libpng1.6/libpng16-16t64_1.6.48-1_amd64.deb
+pool/main/libp/libpng1.6/libpng16-16t64_1.6.48-1_i386.deb
+pool/main/libs/libssh/libssh-4_0.11.2-1_amd64.deb
+pool/main/libx/libxml2/libxml2_2.12.7+dfsg+really2.9.14-2.1+deb13u1_amd64.deb
+pool/main/libx/libxml2/libxml2_2.12.7+dfsg+really2.9.14-2.1+deb13u1_i386.deb
+pool/main/libx/libxslt/libxslt1.1_1.1.35-1.2+deb13u1_i386.deb
+pool/main/m/malcontent/libmalcontent-0-0_0.13.0-2_amd64.deb
+pool/main/o/open-vm-tools/open-vm-tools-desktop_12.5.0-2_amd64.deb
+pool/main/o/open-vm-tools/open-vm-tools_12.5.0-2_amd64.deb
+pool/main/o/openssl/libssl-dev_3.5.1-1+deb13u1_amd64.deb
+pool/main/o/openssl/libssl3t64_3.5.1-1+deb13u1_amd64.deb
+pool/main/o/openssl/libssl3t64_3.5.1-1_i386.deb
+pool/main/o/openssl/openssl-provider-legacy_3.5.1-1+deb13u1_amd64.deb
+pool/main/o/openssl/openssl_3.5.1-1+deb13u1_amd64.deb
+pool/main/p/poppler/gir1.2-poppler-0.18_25.03.0-5_amd64.deb
+pool/main/p/poppler/libpoppler-glib8t64_25.03.0-5_i386.deb
+pool/main/p/poppler/libpoppler147_25.03.0-5_i386.deb
+pool/main/p/python-eventlet/python3-eventlet_0.39.1-2_all.deb
+pool/main/q/qemu/qemu-guest-agent_10.0.3+ds-0+deb13u1_amd64.deb
+pool/main/s/samba/libtalloc2_2.4.3+samba4.22.4+dfsg-1~deb13u1_amd64.deb
+pool/main/s/samba/libtdb1_1.4.13+samba4.22.4+dfsg-1~deb13u1_amd64.deb
+pool/main/s/samba/libwbclient0_4.22.4+dfsg-1~deb13u1_amd64.deb
+pool/main/s/samba/python3-talloc_2.4.3+samba4.22.4+dfsg-1~deb13u1_amd64.deb
+pool/main/s/samba/python3-tdb_1.4.13+samba4.22.4+dfsg-1~deb13u1_amd64.deb
+pool/main/s/systemd/libnss-systemd_257.8-1~deb13u2_amd64.deb
+pool/main/s/systemd/libpam-systemd_257.8-1~deb13u2_amd64.deb
+pool/main/s/systemd/libsystemd-shared_257.8-1~deb13u2_amd64.deb
+pool/main/s/systemd/libsystemd0_257.8-1~deb13u2_amd64.deb
+pool/main/s/systemd/libsystemd0_257.8-1~deb13u2_i386.deb
+pool/main/s/systemd/libudev1_257.8-1~deb13u2_amd64.deb
+pool/main/s/systemd/libudev1_257.8-1~deb13u2_i386.deb
+pool/main/s/systemd/systemd-coredump_257.8-1~deb13u2_amd64.deb
+pool/main/s/systemd/systemd-sysv_257.8-1~deb13u2_amd64.deb
+pool/main/s/systemd/systemd-timesyncd_257.8-1~deb13u2_amd64.deb
+pool/main/s/systemd/systemd_257.8-1~deb13u2_amd64.deb
+pool/main/s/systemd/udev_257.8-1~deb13u2_amd64.deb
+pool/main/t/tiff/libtiff6_4.7.0-3_i386.deb
+pool/main/u/ublock-origin/webext-ublock-origin-firefox_1.62.0+dfsg-2_all.deb
+pool/main/u/unbound/libunbound8_1.22.0-2_amd64.deb
+pool/main/w/webkit2gtk/gir1.2-javascriptcoregtk-4.1_2.50.1-1~deb13u1_amd64.deb
+pool/main/w/webkit2gtk/gir1.2-webkit2-4.1_2.50.1-1~deb13u1_amd64.deb
+pool/main/w/webkit2gtk/libjavascriptcoregtk-4.1-0_2.50.1-1~deb13u1_amd64.deb
+pool/main/w/webkit2gtk/libwebkit2gtk-4.1-0_2.50.1-1~deb13u1_amd64.deb
+pool/main/w/wtmpdb/libpam-wtmpdb_0.73.0-3_amd64.deb
+pool/main/w/wtmpdb/libwtmpdb0_0.73.0-3_amd64.deb
+pool/main/w/wtmpdb/wtmpdb_0.73.0-3_amd64.deb
+pool/main/x/xorg/x11-common_7.7+24_all.deb
+pool/main/x/xorg/xorg_7.7+24_amd64.deb
+pool/main/x/xorg/xserver-xorg-input-all_7.7+24_amd64.deb
+pool/main/x/xorg/xserver-xorg-video-all_7.7+24_amd64.deb
+pool/main/x/xorg/xserver-xorg_7.7+24_amd64.deb
+Bez indexa su sudo reprepro -Vb ./ dumpunreferenced
+┌─[deni@openbosniana]─[~/Desktop/GitHub/trixie]
+└──╼ $repo
+Izaberi opciju:
+1. Dodavanje 1
+2. Brisanje 2
+3. Prikazi postojecih bez indeksa 3
+4. Brisanje postojecih bez indeksa 4
+5. Export upisanih paketa 5
+6. Sastavi deb paket 6
+7. Sastavi deb paket kao ROOT 7
+8. Preuzmi citav repo 8
+Upisi broj: 4
+deleting and forgetting pool/main/c/console-setup/console-setup-linux_1.240_all.deb
+deleting and forgetting pool/main/c/console-setup/console-setup_1.240_all.deb
+deleting and forgetting pool/main/c/console-setup/keyboard-configuration_1.240_all.deb
+deleting and forgetting pool/main/c/cups/cups-bsd_2.4.10-3+deb13u1_amd64.deb
+deleting and forgetting pool/main/c/cups/cups-client_2.4.10-3+deb13u1_amd64.deb
+deleting and forgetting pool/main/c/cups/cups-common_2.4.10-3+deb13u1_all.deb
+deleting and forgetting pool/main/c/cups/cups-core-drivers_2.4.10-3+deb13u1_amd64.deb
+deleting and forgetting pool/main/c/cups/cups-daemon_2.4.10-3+deb13u1_amd64.deb
+deleting and forgetting pool/main/c/cups/cups-ipp-utils_2.4.10-3+deb13u1_amd64.deb
+deleting and forgetting pool/main/c/cups/cups-ppdc_2.4.10-3+deb13u1_amd64.deb
+deleting and forgetting pool/main/c/cups/cups-server-common_2.4.10-3+deb13u1_all.deb
+deleting and forgetting pool/main/c/cups/cups_2.4.10-3+deb13u1_amd64.deb
+deleting and forgetting pool/main/c/cups/libcups2t64_2.4.10-3+deb13u1_amd64.deb
+deleting and forgetting pool/main/c/cups/libcups2t64_2.4.10-3_i386.deb
+deleting and forgetting pool/main/c/curl/curl_8.14.1-2_amd64.deb
+deleting and forgetting pool/main/c/curl/libcurl3t64-gnutls_8.14.1-2_i386.deb
+deleting and forgetting pool/main/c/curl/libcurl4t64_8.14.1-2_amd64.deb
+deleting and forgetting pool/main/c/curl/libcurl4t64_8.14.1-2_i386.deb
+deleting and forgetting pool/main/d/dhcpcd/dhcpcd-base_10.1.0-11_amd64.deb
+deleting and forgetting pool/main/d/distro-info-data/distro-info-data_0.66_all.deb
+deleting and forgetting pool/main/d/dkms/dkms_3.2.0-1_all.deb
+deleting and forgetting pool/main/d/dns-root-data/dns-root-data_2024071801_all.deb
+deleting and forgetting pool/main/f/ffmpeg/ffmpeg_7.1.2-0+deb13u1_amd64.deb
+deleting and forgetting pool/main/f/ffmpeg/libavcodec61_7.1.1-1+b1_i386.deb
+deleting and forgetting pool/main/f/ffmpeg/libavutil59_7.1.1-1+b1_i386.deb
+deleting and forgetting pool/main/f/ffmpeg/libswresample5_7.1.1-1+b1_i386.deb
+deleting and forgetting pool/main/f/firefox-esr/firefox-esr_140.4.0esr-1~deb13u1_amd64.deb
+deleting and forgetting pool/main/f/fluidsynth/libfluidsynth3_2.4.4+dfsg-1_amd64.deb
+deleting and forgetting pool/main/f/fonts-noto-color-emoji/fonts-noto-color-emoji_2.048-1_all.deb
+deleting and forgetting pool/main/k/kdeconnect/kdeconnect_25.04.2-1_amd64.deb
+deleting and forgetting pool/main/k/kmail-account-wizard/accountwizard_24.12.3-1_amd64.deb
+deleting and forgetting pool/main/l/linux-signed-amd64/linux-headers-amd64_6.12.48-1_amd64.deb
+deleting and forgetting pool/main/l/linux-signed-amd64/linux-image-amd64_6.12.48-1_amd64.deb
+deleting and forgetting pool/main/l/linux/hyperv-daemons_6.12.48-1_amd64.deb
+deleting and forgetting pool/main/l/linux/linux-libc-dev_6.12.48-1_all.deb
+deleting and forgetting pool/main/libp/libpng1.6/libpng16-16t64_1.6.48-1_amd64.deb
+deleting and forgetting pool/main/libp/libpng1.6/libpng16-16t64_1.6.48-1_i386.deb
+deleting and forgetting pool/main/libs/libssh/libssh-4_0.11.2-1_amd64.deb
+deleting and forgetting pool/main/libx/libxml2/libxml2_2.12.7+dfsg+really2.9.14-2.1+deb13u1_amd64.deb
+deleting and forgetting pool/main/libx/libxml2/libxml2_2.12.7+dfsg+really2.9.14-2.1+deb13u1_i386.deb
+deleting and forgetting pool/main/libx/libxslt/libxslt1.1_1.1.35-1.2+deb13u1_i386.deb
+deleting and forgetting pool/main/m/malcontent/libmalcontent-0-0_0.13.0-2_amd64.deb
+deleting and forgetting pool/main/o/open-vm-tools/open-vm-tools-desktop_12.5.0-2_amd64.deb
+deleting and forgetting pool/main/o/open-vm-tools/open-vm-tools_12.5.0-2_amd64.deb
+deleting and forgetting pool/main/o/openssl/libssl-dev_3.5.1-1+deb13u1_amd64.deb
+deleting and forgetting pool/main/o/openssl/libssl3t64_3.5.1-1+deb13u1_amd64.deb
+deleting and forgetting pool/main/o/openssl/libssl3t64_3.5.1-1_i386.deb
+deleting and forgetting pool/main/o/openssl/openssl-provider-legacy_3.5.1-1+deb13u1_amd64.deb
+deleting and forgetting pool/main/o/openssl/openssl_3.5.1-1+deb13u1_amd64.deb
+deleting and forgetting pool/main/p/poppler/gir1.2-poppler-0.18_25.03.0-5_amd64.deb
+deleting and forgetting pool/main/p/poppler/libpoppler-glib8t64_25.03.0-5_i386.deb
+deleting and forgetting pool/main/p/poppler/libpoppler147_25.03.0-5_i386.deb
+deleting and forgetting pool/main/p/python-eventlet/python3-eventlet_0.39.1-2_all.deb
+deleting and forgetting pool/main/q/qemu/qemu-guest-agent_10.0.3+ds-0+deb13u1_amd64.deb
+deleting and forgetting pool/main/s/samba/libtalloc2_2.4.3+samba4.22.4+dfsg-1~deb13u1_amd64.deb
+deleting and forgetting pool/main/s/samba/libtdb1_1.4.13+samba4.22.4+dfsg-1~deb13u1_amd64.deb
+deleting and forgetting pool/main/s/samba/libwbclient0_4.22.4+dfsg-1~deb13u1_amd64.deb
+deleting and forgetting pool/main/s/samba/python3-talloc_2.4.3+samba4.22.4+dfsg-1~deb13u1_amd64.deb
+deleting and forgetting pool/main/s/samba/python3-tdb_1.4.13+samba4.22.4+dfsg-1~deb13u1_amd64.deb
+deleting and forgetting pool/main/s/systemd/libnss-systemd_257.8-1~deb13u2_amd64.deb
+deleting and forgetting pool/main/s/systemd/libpam-systemd_257.8-1~deb13u2_amd64.deb
+deleting and forgetting pool/main/s/systemd/libsystemd-shared_257.8-1~deb13u2_amd64.deb
+deleting and forgetting pool/main/s/systemd/libsystemd0_257.8-1~deb13u2_amd64.deb
+deleting and forgetting pool/main/s/systemd/libsystemd0_257.8-1~deb13u2_i386.deb
+deleting and forgetting pool/main/s/systemd/libudev1_257.8-1~deb13u2_amd64.deb
+deleting and forgetting pool/main/s/systemd/libudev1_257.8-1~deb13u2_i386.deb
+deleting and forgetting pool/main/s/systemd/systemd-coredump_257.8-1~deb13u2_amd64.deb
+deleting and forgetting pool/main/s/systemd/systemd-sysv_257.8-1~deb13u2_amd64.deb
+deleting and forgetting pool/main/s/systemd/systemd-timesyncd_257.8-1~deb13u2_amd64.deb
+deleting and forgetting pool/main/s/systemd/systemd_257.8-1~deb13u2_amd64.deb
+deleting and forgetting pool/main/s/systemd/udev_257.8-1~deb13u2_amd64.deb
+deleting and forgetting pool/main/t/tiff/libtiff6_4.7.0-3_i386.deb
+deleting and forgetting pool/main/u/ublock-origin/webext-ublock-origin-firefox_1.62.0+dfsg-2_all.deb
+deleting and forgetting pool/main/u/unbound/libunbound8_1.22.0-2_amd64.deb
+deleting and forgetting pool/main/w/webkit2gtk/gir1.2-javascriptcoregtk-4.1_2.50.1-1~deb13u1_amd64.deb
+deleting and forgetting pool/main/w/webkit2gtk/gir1.2-webkit2-4.1_2.50.1-1~deb13u1_amd64.deb
+deleting and forgetting pool/main/w/webkit2gtk/libjavascriptcoregtk-4.1-0_2.50.1-1~deb13u1_amd64.deb
+deleting and forgetting pool/main/w/webkit2gtk/libwebkit2gtk-4.1-0_2.50.1-1~deb13u1_amd64.deb
+deleting and forgetting pool/main/w/wtmpdb/libpam-wtmpdb_0.73.0-3_amd64.deb
+deleting and forgetting pool/main/w/wtmpdb/libwtmpdb0_0.73.0-3_amd64.deb
+deleting and forgetting pool/main/w/wtmpdb/wtmpdb_0.73.0-3_amd64.deb
+deleting and forgetting pool/main/x/xorg/x11-common_7.7+24_all.deb
+deleting and forgetting pool/main/x/xorg/xorg_7.7+24_amd64.deb
+deleting and forgetting pool/main/x/xorg/xserver-xorg-input-all_7.7+24_amd64.deb
+deleting and forgetting pool/main/x/xorg/xserver-xorg-video-all_7.7+24_amd64.deb
+deleting and forgetting pool/main/x/xorg/xserver-xorg_7.7+24_amd64.deb
+
