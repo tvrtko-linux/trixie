@@ -37952,6 +37952,35 @@ Description: List of standard media types and their usual file extension
  The /etc/mime.types file is compiled by hand using mostly information provided
  by the Internet Assigned Numbers Authority (IANA).
 
+Package: memtest86+
+Version: 7.20-1
+Architecture: amd64
+Maintainer: Fabio Fantoni <fantonifabio@tiscali.it>
+Installed-Size: 12757
+Depends: grub-common
+Suggests: grub-efi | grub-pc, memtester, mtools
+Homepage: https://www.memtest.org/
+Priority: optional
+Section: misc
+Filename: pool/main/m/memtest86+/memtest86+_7.20-1_amd64.deb
+Size: 137352
+SHA256: d16e6caa9e5708bf9fc4950d1746f317985cf0ce12bea14b96182480ca451d95
+SHA1: e071ac6342cb0409469710f8448be0163f9a065f
+MD5sum: b7728d8102454e0776f682329c255ba0
+Description: stand-alone memory tester for x86 and x86-64
+ Memtest86+ provides a more thorough memory check than
+ that provided by BIOS memory tests. Can be loaded and run either
+ directly by a PC BIOS (legacy or UEFI) or via an intermediate
+ bootloader.
+ .
+ This tester runs independently of any OS - it is run at computer
+ boot-up, so that it can test *all* of your memory.  You may want to
+ look at `memtester', which allows one to test your memory within Linux,
+ but this one won't be able to test your whole RAM.
+ .
+ It can output a list of bad RAM regions usable by the BadRAM kernel
+ patch, so that you can still use your old RAM with one or two bad bits.
+
 Package: mesa-libgallium
 Source: mesa
 Version: 25.0.7-2
