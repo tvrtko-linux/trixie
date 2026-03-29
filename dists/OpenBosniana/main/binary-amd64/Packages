@@ -9387,6 +9387,35 @@ Description: GRand Unified Bootloader, version 2 (EFI-AMD64 debug files)
  This package contains debugging files for grub-efi-amd64-bin.  You only
  need these if you are trying to debug GRUB using its GDB stub.
 
+Package: grub-efi-amd64-signed
+Version: 1+2.14+2
+Architecture: amd64
+Protected: yes
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 10052
+Depends: grub2-common (= 2.14-2)
+Recommends: shim-signed
+Built-Using: grub2 (= 2.14-2)
+Priority: optional
+Section: admin
+Filename: pool/main/g/grub-efi-amd64-signed/grub-efi-amd64-signed_1+2.14+2_amd64.deb
+Size: 1419668
+SHA256: 73f6552b5eb9d98f6a51f893db56f9a02ccf201314fdf660c13addb3129228c5
+SHA1: f105c4d632b5ee5ea9c955822f084a3b038e78c1
+MD5sum: 587af330353b92add6e43c4e1f6c85cc
+Description: GRand Unified Bootloader, version 2 (amd64 UEFI signed by Debian)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains the binaries signed by the Debian UEFI CA to be used by
+ shim-signed.
+
 Package: grub-efi-amd64-signed-template
 Source: grub2
 Version: 2.12-9+deb13u1
@@ -9404,6 +9433,42 @@ MD5sum: 6dbaaa396d89e8521db9e5d3c68fc760
 Description: GRand Unified Bootloader, version 2 (EFI-AMD64 signing template)
  This package contains template files for grub-efi-amd64-signed.
  This is only needed for Secure Boot signing.
+
+Package: grub-efi-amd64-unsigned
+Source: grub2
+Version: 2.12-9+deb13u1
+Architecture: amd64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 9487
+Depends: grub-common (= 2.12-9+deb13u1)
+Breaks: grub-efi-amd64-bin (<< 2.12-3~)
+Replaces: grub-efi-amd64-bin (<< 2.12-3~)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Priority: optional
+Section: admin
+Filename: pool/main/g/grub2/grub-efi-amd64-unsigned_2.12-9+deb13u1_amd64.deb
+Size: 1361452
+SHA256: 8d5e0fce3f1fdceb47bd739966aa9501f6315addfeaa0f27cbf117e1dc41876b
+SHA1: 2ee1ffaf4559005ce4e6b088cc0b61091e00d2f9
+MD5sum: b410aa9d9dfa6553d3fbc48461d4aa50
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 images)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB images that have been built for use with the
+ EFI-AMD64 architecture, as used by Intel Macs (unless a BIOS interface has
+ been activated).  It can be installed in parallel with other flavours, but
+ will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-amd64 is also
+ installed.
+Efi-Vendor: debian
 
 Package: grub-efi-ia32
 Source: grub2
