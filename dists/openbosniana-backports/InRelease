@@ -6,7 +6,7 @@ Label: openbosniana-backports
 Suite: 2024
 Codename: openbosniana-backports
 Version: 2024
-Date: Sun, 29 Mar 2026 15:13:02 UTC
+Date: Sun, 29 Mar 2026 16:56:02 UTC
 Architectures: amd64 i386
 Components: main
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -54,17 +54,17 @@ SHA256:
  aa18b5856cddc5bc2628f0fa8d7a929be496214f9a5f96d4aceda89eda4f492f 195 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmnJQX4ACgkQ5Vfn9vbt
-T6rueg/8Cn2ye9zPztXXii0g5kUN6v7s0KOPk30DcawmYJDBbNcDqUqh3T/Zsz8x
-z0yZGeCXSNlQe1CJV5FmnBthiScKgY7GSPWAtB9Uu/FweZLhq8/1tmCesbD7KWGH
-tVBXK80doC8fdo77FNI6QX8c+teVtTbrnvhzLXD9WvXVJtHDoRaZY8mQt+24ZRo9
-TK7o2PglkGG8YCYzuXBCPzuYOo5rw9stwkzSCV2j/iyY3lO+6kmxoM3hsflmA3c5
-KDx0yL0VFv/NZ7Dd6wVqJuPIZkNyJLPkQ8Ugz8ox5MsF1/iVAqh+fhNJiuD/5yHm
-Wt2M8T/yi/AWH206+j97qrRvHtVUwxfMBJ2/VM9clrL8Y6eD9EsibEZXkXK21kDI
-zu2+T5SEiK9/0DkNHPtnXQ0T8wo+3BS2Ir9OunWW0nkmgJE0GhMoSFcWkzb4qdtf
-dyOcwnGBKIhUPWuX1Mrxk/BJN0Kogkx5O7+DhvqQewE370TXjrCRqB3x/dkLrYz0
-FxxKL3EpMX95he1TeMNcfS8GFiVKQhKSzi5n1umX7EPHZjMDZRFqBYCSqpQGoiqE
-vcWDp6DTXnZp4ehqJjwrF5VAcLhwuief7U8/nkJxxevj6Z19yqNQZjHEuqWeQL5I
-U9+BGox/QreD6CpTagM/1kzIGapXn2xIptV0PgNXtito+dXQxhc=
-=D961
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmnJWaIACgkQ5Vfn9vbt
+T6rQLg/8CQO16nuvBRdPzlmeFbIdr7STNuK+pzUJMKUupjjOoZoPkkYvFkxxNg4z
+bKod8Bj29sovCYtOk9DldwIZu3QyEt0IbFprgU09EJY8hTvFHY+1Jfo0pNTWsKKj
+wvUFd0YbiTzztz0VMaitLO/rGOsYlGKYm3eiLBSEeLtKi2yXNjRibK+S0y0EqIFZ
+b4C51wTTp9pGsodjRJM8js1Kpb9XX4dEJ7pYML3I/6KAHTAL5M23vvIGuGENDEy5
++K8WVqkTzb3cmDflVtudkjVA9aazaUy1aJUqveaHCw4a6HnrP7ICPQE27ZICWlrz
+rlT0gXgSs49Fu2OKPMPVwC0jkluXpse9Jc+0kqK23YYchg3RV2WsccloWZ8G+uiN
+Y3ELo03n1AEjFieExY//GFG41nne4Pkb+gc+70kNcmRlfKq1vDrseTIoGlBo/LQa
+727RZ74/s64V0/zETIcTKXPyFqlTw+3d88TabqMjJmZces2vfUMwWJQeUitqJHcl
+I2y+y+zKzCwjIJBZ3VyDZCX3sdNGIdsliFRSgfnkgMhZPM38yqLH/ruDWeXe6syP
+fOnkxfU97M3NVvX2lu0ggDoSAXvySJ9vGZGOfBm/SOaiVYw5BZO7SaXt+F8ZiBAl
+r31f3iBoGeBooyvFLfAQtBuxsTjztGGU3EkeOzjXoCYuUSbHRQI=
+=pdtw
 -----END PGP SIGNATURE-----
