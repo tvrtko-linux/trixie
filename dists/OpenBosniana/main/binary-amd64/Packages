@@ -38227,6 +38227,24 @@ Description: D-Bus service for managing modems
  power supplies, ModemManager is able to prepare and configure the modems and
  setup connections with them.
 
+Package: mokutil
+Version: 0.7.2-1
+Architecture: amd64
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 79
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libefivar1t64 (>= 38), libkeyutils1 (>= 1.5.9), libssl3t64 (>= 3.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Filename: pool/main/m/mokutil/mokutil_0.7.2-1_amd64.deb
+Size: 26744
+SHA256: 1918fd2775b06e35429a06c59586d548bcccd6c544684799a22ae532a8bb83e4
+SHA1: 6f9919ded8d60bf9cd9621feffa2f84692e8a587
+MD5sum: 8e13e95826286e49a36d052541a5a534
+Description: tools for manipulating machine owner keys
+ This program provides the means to enroll and erase the machine owner
+ keys (MOK) stored in the database of shim.
+
 Package: moreutils
 Version: 0.69-1
 Architecture: amd64
@@ -49365,6 +49383,33 @@ Description: FreeDesktop.org shared MIME database and spec
  .
  At this time at least ROX, GNOME, KDE and Xfce use this database.
 
+Package: shim-helpers-amd64-signed
+Version: 1+15.8+1
+Architecture: amd64
+Maintainer: Debian EFI team <debian-efi@lists.debian.org>
+Installed-Size: 933
+Depends: shim-unsigned (>= 15.8-1)
+Conflicts: shim (<< 15+1533136590.3beb971-3~)
+Breaks: shim-signed (<< 1.29)
+Replaces: shim (<< 15+1533136590.3beb971-3~), shim-signed (<< 1.29)
+Built-Using: shim (= 15.8-1)
+Priority: optional
+Section: admin
+Filename: pool/main/s/shim-helpers-amd64-signed/shim-helpers-amd64-signed_1+15.8+1_amd64.deb
+Size: 301324
+SHA256: 3e3e6a21be4b313e0700a41e65e5ff1436b59ea8c35c29b7177a702910da439c
+SHA1: d99804e187ced4988cedc4b6bf043fc028735be7
+MD5sum: 8ca4b16f214ce835a1e192234ff09970
+Description: boot loader to chain-load signed boot loaders (signed by Debian)
+ This package provides a minimalist boot loader which allows verifying
+ signatures of other UEFI binaries against either the Secure Boot DB/DBX or
+ against a built-in signature database.  Its purpose is to allow a small,
+ infrequently-changing binary to be signed by the UEFI CA, while allowing
+ an OS distributor to revision their main bootloader independently of the CA.
+ .
+ This package contains the MOK manager and fall-back manager signed by the
+ Debian UEFI CA to be used by shim-signed.
+
 Package: shim-signed
 Source: shim-signed (1.47)
 Version: 1.47+15.8-1
@@ -49417,6 +49462,29 @@ Description: Secure Boot chain-loading bootloader (common helper scripts)
  .
  This package contains common helper scripts for all versions of the
  shim-signed package.
+
+Package: shim-unsigned
+Source: shim
+Version: 15.8-1
+Architecture: amd64
+Maintainer: Debian EFI team <debian-efi@lists.debian.org>
+Installed-Size: 1874
+Conflicts: shim (<< 15+1533136590.3beb971-3~)
+Replaces: shim (<< 15+1533136590.3beb971-3~)
+Multi-Arch: same
+Priority: optional
+Section: admin
+Filename: pool/main/s/shim/shim-unsigned_15.8-1_amd64.deb
+Size: 439720
+SHA256: d3d87eddfe78b0089f6e95c8c278ea7a5d8b1152df243414e9cc82e13fb7f118
+SHA1: 127e7ed4b820e11cd4017b99a346665fc927d603
+MD5sum: 5bd153c58b81f65252abdff4ab053f95
+Description: boot loader to chain-load signed boot loaders under Secure Boot
+ This package provides a minimalist boot loader which allows verifying
+ signatures of other UEFI binaries against either the Secure Boot DB/DBX or
+ against a built-in signature database.  Its purpose is to allow a small,
+ infrequently-changing binary to be signed by the UEFI CA, while allowing
+ an OS distributor to revision their main bootloader independently of the CA.
 
 Package: signon-plugin-oauth2
 Version: 0.25+git20231015.fab69886-3
