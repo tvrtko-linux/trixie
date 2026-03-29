@@ -9137,7 +9137,7 @@ Description: GNU troff text-formatting system (base system components)
 
 Package: grub-common
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 17639
@@ -9152,11 +9152,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-common_2.12-9_amd64.deb
-Size: 2898928
-SHA256: 8ed602eda13469c0f18fb081ca7baf72d13edf97ae9ffaa46b0221f50d7268e8
-SHA1: c202696bba8d30c3bd28d5ae061a60d1a5e70ba8
-MD5sum: 094ebea750b1c5bd94166d746456f24a
+Filename: pool/main/g/grub2/grub-common_2.12-9+deb13u1_amd64.deb
+Size: 2898944
+SHA256: 9906c659bea4bbce0f983f72f83b077caa4377c3989648af8bddbbfaabca265b
+SHA1: 2c559a41dd65f52f3ab9f1606cc4f290bc48f75c
+MD5sum: ee3263aa7133f24d65fdd5e34f73ae93
 Description: GRand Unified Bootloader (common files)
  This package contains common files shared by the distinct flavours of GRUB.
  It is shared between GRUB Legacy and GRUB 2, although a number of files
@@ -9167,22 +9167,22 @@ Description: GRand Unified Bootloader (common files)
 
 Package: grub-coreboot
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 186
-Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.12-9), grub2-common (= 2.12-9), grub-coreboot-bin (= 2.12-9), ucf
-Conflicts: grub (<< 0.97-54), grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-linuxbios (<< 2.12-9), grub-pc, grub-xen
-Replaces: grub-common (<= 1.97~beta2-1), grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-linuxbios, grub-pc, grub2 (<< 2.12-9)
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.12-9+deb13u1), grub2-common (= 2.12-9+deb13u1), grub-coreboot-bin (= 2.12-9+deb13u1), ucf
+Conflicts: grub (<< 0.97-54), grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-linuxbios (<< 2.12-9+deb13u1), grub-pc, grub-xen
+Replaces: grub-common (<= 1.97~beta2-1), grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-linuxbios, grub-pc, grub2 (<< 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-coreboot_2.12-9_amd64.deb
-Size: 46672
-SHA256: 60a89abf74987d8f325a233515c2fa96445f529a3004a87baed12e46b4a1f48f
-SHA1: 0be8f1a605edd625aff0291e0e631b738e2280e3
-MD5sum: ebc45098697ed7592c6ef0841e96ae86
+Filename: pool/main/g/grub2/grub-coreboot_2.12-9+deb13u1_amd64.deb
+Size: 46684
+SHA256: 318604096f3114f1658b5d3208aaf3e3897ec3eda3aea9abb710f8eac73394b9
+SHA1: 56cd33827991d1e8f3787fe3e50480af5779b031
+MD5sum: 0cb1fa8c57c480cc643060e5fe69534f
 Description: GRand Unified Bootloader, version 2 (Coreboot version)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
  cleaner design than its predecessors, and provides the following new features:
@@ -9199,22 +9199,22 @@ Description: GRand Unified Bootloader, version 2 (Coreboot version)
 
 Package: grub-coreboot-bin
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 1988
-Depends: grub-common (= 2.12-9)
-Conflicts: grub-linuxbios (<< 2.12-9)
-Replaces: grub-common (<= 1.97~beta2-1), grub-coreboot (<< 1.99-1), grub-linuxbios, grub2 (<< 2.12-9)
+Depends: grub-common (= 2.12-9+deb13u1)
+Conflicts: grub-linuxbios (<< 2.12-9+deb13u1)
+Replaces: grub-common (<= 1.97~beta2-1), grub-coreboot (<< 1.99-1), grub-linuxbios, grub2 (<< 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-coreboot-bin_2.12-9_amd64.deb
-Size: 648572
-SHA256: ea406b9d02b6b879fb77a6719fae17f32169e203919f859c29d3e98ff6f0e37c
-SHA1: 6651ae5ab2e6f2a7bb894ac21bd15b02eca891af
-MD5sum: 56dc88776d3743451de2d9fef0de3bfe
+Filename: pool/main/g/grub2/grub-coreboot-bin_2.12-9+deb13u1_amd64.deb
+Size: 648772
+SHA256: 4a10e7a55f20c0f49d7b16cafb8814d02e9a6bc55e5b0f6d780a0141d831ae05
+SHA1: 9f49143a5c56388f55bc351f67d725f25728a274
+MD5sum: 950b6fa0f43bdcd145f941354fbb9d3d
 Description: GRand Unified Bootloader, version 2 (Coreboot modules)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
  cleaner design than its predecessors, and provides the following new features:
@@ -9233,62 +9233,62 @@ Description: GRand Unified Bootloader, version 2 (Coreboot modules)
 
 Package: grub-coreboot-dbg
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 11114
-Depends: grub-common (= 2.12-9), grub-coreboot-bin (= 2.12-9)
+Depends: grub-common (= 2.12-9+deb13u1), grub-coreboot-bin (= 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: debug
-Filename: pool/main/g/grub2/grub-coreboot-dbg_2.12-9_amd64.deb
-Size: 3113324
-SHA256: 93a1df56be0b74824620e44d3c39d4cb2f485e6187387762ec54adb729ea89e4
-SHA1: 36e03a5abf705b1a90d4d67865e0066023668fda
-MD5sum: fed0525502b0c412295e026415abc0fa
+Filename: pool/main/g/grub2/grub-coreboot-dbg_2.12-9+deb13u1_amd64.deb
+Size: 3113460
+SHA256: 29c5f5ca3d95ed10ba514f95731238157870d4e0b3b4489d5b326c8ce66e6d2c
+SHA1: f83d93bb48d4d975139466cf5739f09832cac0b9
+MD5sum: 84d7562ffc52276a8b6db58d63709c4c
 Description: GRand Unified Bootloader, version 2 (Coreboot debug files)
  This package contains debugging files for grub-coreboot-bin.  You only need
  these if you are trying to debug GRUB using its GDB stub.
 
 Package: grub-efi
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 12
-Depends: grub-common (= 2.12-9), grub-efi-amd64 (= 2.12-9)
+Depends: grub-common (= 2.12-9+deb13u1), grub-efi-amd64 (= 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-efi_2.12-9_amd64.deb
-Size: 2372
-SHA256: 4be94bc6dda5d8f9a301cc2893409dfa0226ec3995e3b99495d7f809b6ff1f86
-SHA1: 8578cde0c21e936410caf031c1ba002b4b9c36ba
-MD5sum: c9c63d61e42b180db83718b7e9c27064
+Filename: pool/main/g/grub2/grub-efi_2.12-9+deb13u1_amd64.deb
+Size: 2396
+SHA256: adeb9ea6607a9b2e1015a158f964a915c80c75a10f3b13e48dc69f1f5dcc83c0
+SHA1: f12870d0aadd6332f16eb1cc01869edc0cb922e3
+MD5sum: dd978c94f97320afe616b59da7cd5e05
 Description: GRand Unified Bootloader, version 2 (dummy package)
  This is a dummy package that depends on the grub-efi-$ARCH package most likely
  to be appropriate for each architecture.
 
 Package: grub-efi-amd64
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 186
-Depends: debconf (>= 0.5) | debconf-2.0, grub-efi-amd64-bin (= 2.12-9), grub2-common (= 2.12-9), ucf
+Depends: debconf (>= 0.5) | debconf-2.0, grub-efi-amd64-bin (= 2.12-9+deb13u1), grub2-common (= 2.12-9+deb13u1), ucf
 Conflicts: elilo, grub, grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub-xen
-Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub2 (<< 2.12-9)
+Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub2 (<< 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-efi-amd64_2.12-9_amd64.deb
-Size: 46672
-SHA256: c64f3761a4085d346473f8243a3a4dffa50ea6c73b8d5e7476fdbc6ac9564ea4
-SHA1: 62482228d957181e6b6bc0b7254a8cd9968a2ed0
-MD5sum: 43bb0d8c8c91d7fa01fbf8d3778ff4db
+Filename: pool/main/g/grub2/grub-efi-amd64_2.12-9+deb13u1_amd64.deb
+Size: 46688
+SHA256: abdeca3083b6dd1d2c0803f5706803bd3646691caf5c4316bdb5fff3985fc7fc
+SHA1: 0b053c41f8afa50a4f2e5077e48f3a8509e10134
+MD5sum: 0be0d935332954d8a96f8a2ad3387379
 Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
  cleaner design than its predecessors, and provides the following new features:
@@ -9306,23 +9306,23 @@ Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version)
 
 Package: grub-efi-amd64-bin
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 3304
-Depends: grub-common (= 2.12-9), grub-efi-amd64-unsigned
+Depends: grub-common (= 2.12-9+deb13u1), grub-efi-amd64-unsigned
 Recommends: grub-efi-amd64-signed, efibootmgr
 Breaks: grub-efi-amd64-signed (<< 1+2.12~rc1)
-Replaces: grub-common (<= 1.97~beta2-1), grub-efi-amd64 (<< 1.99-1), grub2 (<< 2.12-9)
+Replaces: grub-common (<= 1.97~beta2-1), grub-efi-amd64 (<< 1.99-1), grub2 (<< 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-efi-amd64-bin_2.12-9_amd64.deb
-Size: 1053676
-SHA256: 39f030641355cca517293163505508c0513e754fd13bbe21b822c2358fe778d4
-SHA1: 043c5df94d134f26e6779b5ab94c9500f5053be9
-MD5sum: 18610574662500c2926bbebd0b0c064f
+Filename: pool/main/g/grub2/grub-efi-amd64-bin_2.12-9+deb13u1_amd64.deb
+Size: 1053528
+SHA256: 14055937303982190c675312c8b702837e1940619a536b9aa7509bddbacc7271
+SHA1: b70a007011f2afa7f25b299215b1835832414842
+MD5sum: 44a228503530b42d31eb913a1f9be795
 Description: GRand Unified Bootloader, version 2 (EFI-AMD64 modules)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
  cleaner design than its predecessors, and provides the following new features:
@@ -9343,60 +9343,60 @@ Efi-Vendor: debian
 
 Package: grub-efi-amd64-dbg
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 18040
-Depends: grub-efi-amd64-bin (= 2.12-9), grub-common (= 2.12-9)
+Depends: grub-efi-amd64-bin (= 2.12-9+deb13u1), grub-common (= 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: debug
-Filename: pool/main/g/grub2/grub-efi-amd64-dbg_2.12-9_amd64.deb
-Size: 3701888
-SHA256: b07450632a2b17ade19f950c44b9c50647b72f8c2906176493b1ce4fb20cfcbf
-SHA1: d5d4ce3a077d6bf16d83cc717b7a7be46ecfd212
-MD5sum: b8a476b9162fb96702b1ca0a1a4d8b45
+Filename: pool/main/g/grub2/grub-efi-amd64-dbg_2.12-9+deb13u1_amd64.deb
+Size: 3701060
+SHA256: b282c20251c629a55bb468a50d5eed569b7756a559471a10aaf80c366843c48f
+SHA1: cd1509a3f72829c418f9c26d24a8df8d70cb998f
+MD5sum: f672fbbd3c13c981831660fc3a38a5d8
 Description: GRand Unified Bootloader, version 2 (EFI-AMD64 debug files)
  This package contains debugging files for grub-efi-amd64-bin.  You only
  need these if you are trying to debug GRUB using its GDB stub.
 
 Package: grub-efi-amd64-signed-template
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 349
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-efi-amd64-signed-template_2.12-9_amd64.deb
-Size: 317348
-SHA256: f817bad673cc101dc980bc4ffc847624f8fc3ca425f9d7b72766fcb29a887b47
-SHA1: e0ec01846571d786de970a4351bb4c5641c26147
-MD5sum: cdd3937488bfbfb754dc33fc17896f96
+Filename: pool/main/g/grub2/grub-efi-amd64-signed-template_2.12-9+deb13u1_amd64.deb
+Size: 317496
+SHA256: eb96bec255325ac3f7111b5902b3cc2a5637baeb7d5783e2dc33af28297e160b
+SHA1: e6ae3019578e035074ef55633aca1bf2a86130dd
+MD5sum: 6dbaaa396d89e8521db9e5d3c68fc760
 Description: GRand Unified Bootloader, version 2 (EFI-AMD64 signing template)
  This package contains template files for grub-efi-amd64-signed.
  This is only needed for Secure Boot signing.
 
 Package: grub-efi-ia32
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 186
-Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.12-9), grub2-common (= 2.12-9), grub-efi-ia32-bin (= 2.12-9), ucf
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.12-9+deb13u1), grub2-common (= 2.12-9+deb13u1), grub-efi-ia32-bin (= 2.12-9+deb13u1), ucf
 Conflicts: elilo, grub (<< 0.97-54), grub-coreboot, grub-efi-amd64, grub-ieee1275, grub-legacy, grub-pc, grub-xen
-Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi, grub-efi-amd64, grub-ieee1275, grub-legacy, grub-pc, grub2 (<< 2.12-9)
+Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi, grub-efi-amd64, grub-ieee1275, grub-legacy, grub-pc, grub2 (<< 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-efi-ia32_2.12-9_amd64.deb
-Size: 46692
-SHA256: 61ebfe727c761e9188f3c5bcdb1f83c5d82af61032293218de391689a5ebe79c
-SHA1: d97a283d47216d0738485d0b4165aa4d9286eae9
-MD5sum: 5d82bb35916b30d9323a2c92bd1c73c8
+Filename: pool/main/g/grub2/grub-efi-ia32_2.12-9+deb13u1_amd64.deb
+Size: 46704
+SHA256: fdbac54d63e9ce12c6de7bcc2e25b4ac834ed342e15472686cdb916c9dd272ab
+SHA1: 5ea2cbd0fe1def33660ae5897ae533132f228e27
+MD5sum: d8a034012bea8bb9a1eba77b38f110f3
 Description: GRand Unified Bootloader, version 2 (EFI-IA32 version)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
  cleaner design than its predecessors, and provides the following new features:
@@ -9414,23 +9414,23 @@ Description: GRand Unified Bootloader, version 2 (EFI-IA32 version)
 
 Package: grub-efi-ia32-bin
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 2175
-Depends: grub-common (= 2.12-9), grub-efi-ia32-unsigned
+Depends: grub-common (= 2.12-9+deb13u1), grub-efi-ia32-unsigned
 Recommends: efibootmgr
 Breaks: grub-efi-ia32-signed (<< 1+2.12~rc1)
-Replaces: grub-common (<= 1.97~beta2-1), grub-efi, grub-efi-ia32 (<< 1.99-1), grub2 (<< 2.12-9)
+Replaces: grub-common (<= 1.97~beta2-1), grub-efi, grub-efi-ia32 (<< 1.99-1), grub2 (<< 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-efi-ia32-bin_2.12-9_amd64.deb
-Size: 691496
-SHA256: 7e9326462754fa5507ac3b41f125a83fffdf0c9977278dbe8fec4b38e109315e
-SHA1: 763896970fe3829cf3fede4e001de90e40b33775
-MD5sum: 1c3066404b1ed29c66c9870ab1bfecec
+Filename: pool/main/g/grub2/grub-efi-ia32-bin_2.12-9+deb13u1_amd64.deb
+Size: 691328
+SHA256: c89a234a3a0d66820c64c87d429cdcadefab5f2cf2f475c6e8851430f879140e
+SHA1: 8407bc5b06f50804e5d8900721534b561311ca29
+MD5sum: 35bcf0cff31539a7e6ae19ba40abdefa
 Description: GRand Unified Bootloader, version 2 (EFI-IA32 modules)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
  cleaner design than its predecessors, and provides the following new features:
@@ -9451,68 +9451,68 @@ Efi-Vendor: debian
 
 Package: grub-efi-ia32-dbg
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 12228
-Depends: grub-common (= 2.12-9), grub-efi-ia32-bin (= 2.12-9)
+Depends: grub-common (= 2.12-9+deb13u1), grub-efi-ia32-bin (= 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: debug
-Filename: pool/main/g/grub2/grub-efi-ia32-dbg_2.12-9_amd64.deb
-Size: 3351624
-SHA256: 41132152c0ba6042500aa6eb278a169aec2c7d18dbc870302bd39f7b35ee7fed
-SHA1: 576ad793aef352bd5869e1f1983130a118913dfb
-MD5sum: 584fcd79c6bfd1cb7571efac68992fb9
+Filename: pool/main/g/grub2/grub-efi-ia32-dbg_2.12-9+deb13u1_amd64.deb
+Size: 3351908
+SHA256: 70bba48f944dfcdb3ad4f059ab7dfc365ccac9cc3680d48625fa1a8b98f9bcc1
+SHA1: c965e01e2c993c011d492abfa5b899840ccc025e
+MD5sum: 0fcafa2754ff1034664851a76a99b614
 Description: GRand Unified Bootloader, version 2 (EFI-IA32 debug files)
  This package contains debugging files for grub-efi-ia32-bin.  You only need
  these if you are trying to debug GRUB using its GDB stub.
 
 Package: grub-emu
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 14948
-Depends: libc6 (>= 2.38), libdevmapper1.02.1 (>= 2:1.02.197), libgcc-s1 (>= 3.0), libsdl2-2.0-0 (>= 2.0.12), grub-common (= 2.12-9)
+Depends: libc6 (>= 2.38), libdevmapper1.02.1 (>= 2:1.02.197), libgcc-s1 (>= 3.0), libsdl2-2.0-0 (>= 2.0.12), grub-common (= 2.12-9+deb13u1)
 Replaces: grub-common (<= 1.97~beta3-1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-emu_2.12-9_amd64.deb
-Size: 3072964
-SHA256: 42a743cbce615ac8df72d795d3aa7a9d5caeb27a38c1c815fde2d3766bbdc12e
-SHA1: acd6dc4a6497b0be52a65aecc2fb4cdbf40a35fe
-MD5sum: a4d413945bbd446e4ea5048dddcb5778
+Filename: pool/main/g/grub2/grub-emu_2.12-9+deb13u1_amd64.deb
+Size: 3071628
+SHA256: d6aa7fb04270a0dbc409c796fe9a7daa5adea2f3391a65b5956c6a88d6ab6b66
+SHA1: 9585e5915cdc9db95d9b457c9be085b2af244377
+MD5sum: 19aad8e2494a991b831e4f2841dbe0f9
 Description: GRand Unified Bootloader, version 2 (emulated version)
  This package contains grub-emu, an emulated version of GRUB.  It is only
  provided for debugging purposes.
 
 Package: grub-emu-dbg
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 13529
-Depends: grub-common (= 2.12-9), grub-emu (= 2.12-9)
+Depends: grub-common (= 2.12-9+deb13u1), grub-emu (= 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: debug
-Filename: pool/main/g/grub2/grub-emu-dbg_2.12-9_amd64.deb
-Size: 2818200
-SHA256: 5540c23465d53b27712440e9bcf3ae29125879b45642285cb034b114d0042b8b
-SHA1: c7af81b2887178fa666a5e665987ffd0e5603bc5
-MD5sum: 51f84ad55a8e2141feb4cd45ec04fea2
+Filename: pool/main/g/grub2/grub-emu-dbg_2.12-9+deb13u1_amd64.deb
+Size: 2819920
+SHA256: 99e035b463e9307f984bf93d356d51a67a8cf6e4e171cffcc4a80b5e41297260
+SHA1: f18f3a96d09109833033758fa834fca3d79349df
+MD5sum: 2bf22c20cac49f5b102ff126be49c779
 Description: GRand Unified Bootloader, version 2 (emulated debug files)
  This package contains debugging files for grub-emu.  You only need these if
  you are trying to debug GRUB using its GDB stub.
 
 Package: grub-firmware-qemu
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 2144
@@ -9522,11 +9522,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-firmware-qemu_2.12-9_amd64.deb
-Size: 927228
-SHA256: e5124d223ef18eb1b58fe300b389a5f4abb6015279cd70c8579ad8e0afc1c157
-SHA1: fb335a7ddb1754b9e930af851ddbbe95d9284871
-MD5sum: cd478dfe05ecc756efb84d712d83b3b4
+Filename: pool/main/g/grub2/grub-firmware-qemu_2.12-9+deb13u1_amd64.deb
+Size: 927220
+SHA256: bec6ddeb0410101da77b8d6f5a7b718a70242142a84c142d56a540dcd460d371
+SHA1: b92b2ee12c2bb58acb8d5c28839ec4622c43576f
+MD5sum: bb772c2c4b9ae7e24cea5efa9874ac53
 Description: GRUB firmware image for QEMU
  This package contains a binary of GRUB that has been built for use as
  firmware for QEMU.  It can be used as a replacement for other PC BIOS
@@ -9542,22 +9542,22 @@ Description: GRUB firmware image for QEMU
 
 Package: grub-ieee1275
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 186
-Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.12-9), grub2-common (= 2.12-9), grub-ieee1275-bin (= 2.12-9), ucf
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.12-9+deb13u1), grub2-common (= 2.12-9+deb13u1), grub-ieee1275-bin (= 2.12-9+deb13u1), ucf
 Conflicts: grub (<< 0.97-54), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-legacy, grub-pc, grub-xen
-Replaces: grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-legacy, grub-pc, grub2 (<< 2.12-9)
+Replaces: grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-legacy, grub-pc, grub2 (<< 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-ieee1275_2.12-9_amd64.deb
-Size: 46652
-SHA256: 9b9cb35e2e919e8fb3da822ec0e5077273707683884424624a78c420f6f7c794
-SHA1: 985fbfca439e71dec90811023460e5b66232a54a
-MD5sum: a6f959746d5d4997ae93ac2a645b41a4
+Filename: pool/main/g/grub2/grub-ieee1275_2.12-9+deb13u1_amd64.deb
+Size: 46672
+SHA256: 5c0af1acb29a537c866f41e4f916214b33c2c884dcdb69b0d6488699040cfb06
+SHA1: f9b4f4709a5601f4493715474e54e4b4d73135c2
+MD5sum: c291c8172192723b34e307c360762f1b
 Description: GRand Unified Bootloader, version 2 (Open Firmware version)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
  cleaner design than its predecessors, and provides the following new features:
@@ -9574,21 +9574,21 @@ Description: GRand Unified Bootloader, version 2 (Open Firmware version)
 
 Package: grub-ieee1275-bin
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 1959
-Depends: grub-common (= 2.12-9)
-Replaces: grub-common (<= 1.97~beta2-1), grub-ieee1275 (<< 1.99-1), grub2 (<< 2.12-9)
+Depends: grub-common (= 2.12-9+deb13u1)
+Replaces: grub-common (<= 1.97~beta2-1), grub-ieee1275 (<< 1.99-1), grub2 (<< 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-ieee1275-bin_2.12-9_amd64.deb
-Size: 636000
-SHA256: abcc89a13222dd504ebff424e0762bae82ba45a6fee49e008355aa19a2dfd452
-SHA1: 2671d87cce96f16214595311f357aae2462ee555
-MD5sum: 57ed9eeeb4ac2fb48be433127d7a126c
+Filename: pool/main/g/grub2/grub-ieee1275-bin_2.12-9+deb13u1_amd64.deb
+Size: 636092
+SHA256: 7573bde402e42d0f675224866b68f53133a5ae6a490f567fa41f0d59935e5228
+SHA1: 71428403a28539356b3271d4f2995f0e7280f560
+MD5sum: 5809232a8d94da124b28135fa76df9cd
 Description: GRand Unified Bootloader, version 2 (Open Firmware modules)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
  cleaner design than its predecessors, and provides the following new features:
@@ -9607,62 +9607,62 @@ Description: GRand Unified Bootloader, version 2 (Open Firmware modules)
 
 Package: grub-ieee1275-dbg
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 10944
-Depends: grub-common (= 2.12-9), grub-ieee1275-bin (= 2.12-9)
+Depends: grub-common (= 2.12-9+deb13u1), grub-ieee1275-bin (= 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: debug
-Filename: pool/main/g/grub2/grub-ieee1275-dbg_2.12-9_amd64.deb
-Size: 3045864
-SHA256: 92c5118c3051fc753d0ba2b7b3cfe70c8adccfef1f3419f3acf09d37b69f0ad7
-SHA1: 656aed05b75620338ef4e6736d2ecfc377ef528d
-MD5sum: c1d2fc369fdac6ad99ac17abae09f2bf
+Filename: pool/main/g/grub2/grub-ieee1275-dbg_2.12-9+deb13u1_amd64.deb
+Size: 3046784
+SHA256: 1e494f25602665dc30a9c3dffd2f4de37571923cabca429ebbd6555cc293cd52
+SHA1: ca8c27858086b16382460162fe50c72a72760d27
+MD5sum: d37d28993d827ed04fbed83d01b68762
 Description: GRand Unified Bootloader, version 2 (Open Firmware debug files)
  This package contains debugging files for grub-ieee1275-bin.  You only
  need these if you are trying to debug GRUB using its GDB stub.
 
 Package: grub-linuxbios
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 12
-Depends: grub-coreboot (= 2.12-9), grub-common (= 2.12-9)
+Depends: grub-coreboot (= 2.12-9+deb13u1), grub-common (= 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/g/grub2/grub-linuxbios_2.12-9_amd64.deb
-Size: 2360
-SHA256: 4132459c33bf81617e3ac0881b95000398aa553ea608984b4319b0c77f6a4aa5
-SHA1: 7fa17125d5f8dd3c8c644461b67d9e5169ed80f4
-MD5sum: 3bc77d988d59b884868bd36322f067ff
+Filename: pool/main/g/grub2/grub-linuxbios_2.12-9+deb13u1_amd64.deb
+Size: 2368
+SHA256: acef2fc835b252549bcdb2f8cdf77aec5dd739e4bef791a382bcc3e32059b860
+SHA1: dfd42bf1e73db14f90d686f10b26cc74e0c89509
+MD5sum: d00032655d5fb0f42928395cea559432
 Description: GRand Unified Bootloader, version 2 (dummy package)
  This is a dummy transitional package that depends on grub-coreboot.
 
 Package: grub-pc
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 527
-Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.12-9), grub2-common (= 2.12-9), grub-pc-bin (= 2.12-9), ucf
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.12-9+deb13u1), grub2-common (= 2.12-9+deb13u1), grub-pc-bin (= 2.12-9+deb13u1), ucf
 Conflicts: grub (<< 0.97-54), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-xen
 Breaks: grub-legacy (<< 0.97-84~)
-Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub2 (<< 2.12-9)
+Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub2 (<< 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-pc_2.12-9_amd64.deb
-Size: 128456
-SHA256: 5b06a59d780f487170736e0720bef033b45d14fc660993eb4162412b87e5767b
-SHA1: 7953eb73dc8bd7d6d99c2541d7cc268559b9082c
-MD5sum: 120cd3f15c737dceb08d9d89c3d666ae
+Filename: pool/main/g/grub2/grub-pc_2.12-9+deb13u1_amd64.deb
+Size: 128472
+SHA256: 8e53e19a263029ebf4b1d8013b0cc5c6a8e5bbeaa5c185a1d1533a1ca1f4100a
+SHA1: c00c91c1c3f83950e1c393a17089ffd55e31bf08
+MD5sum: 31ea0c2086422d044bf59e765712af16
 Description: GRand Unified Bootloader, version 2 (PC/BIOS version)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
  cleaner design than its predecessors, and provides the following new features:
@@ -9683,22 +9683,22 @@ Description: GRand Unified Bootloader, version 2 (PC/BIOS version)
 
 Package: grub-pc-bin
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 3171
-Depends: libc6 (>= 2.38), libdevmapper1.02.1 (>= 2:1.02.197), grub-common (= 2.12-9)
+Depends: libc6 (>= 2.38), libdevmapper1.02.1 (>= 2:1.02.197), grub-common (= 2.12-9+deb13u1)
 Suggests: desktop-base (>= 4.0.6)
-Replaces: grub-common (<= 1.97~beta2-1), grub-pc (<< 1.99-1), grub2 (<< 2.12-9)
+Replaces: grub-common (<= 1.97~beta2-1), grub-pc (<< 1.99-1), grub2 (<< 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-pc-bin_2.12-9_amd64.deb
-Size: 1021096
-SHA256: ce335f0f3f39c42ff1d2b242b7b103ee58c6ab41a70e3ef90c0d4d5fa8974921
-SHA1: 4f0c642734b3701f1b945781c9d53a9d4bce7935
-MD5sum: 2d30c3c1812b43b6f19f86a77c97befa
+Filename: pool/main/g/grub2/grub-pc-bin_2.12-9+deb13u1_amd64.deb
+Size: 1020936
+SHA256: 7620ccc100521e4b3da89b4c8303b1260426a2b425105d426f741770d5cfe380
+SHA1: 468ab0fbf1e27a56047dd84f3b2e173e217353a2
+MD5sum: 940533a5e280155dba0e9738a71278f7
 Description: GRand Unified Bootloader, version 2 (PC/BIOS modules)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
  cleaner design than its predecessors, and provides the following new features:
@@ -9721,27 +9721,27 @@ Description: GRand Unified Bootloader, version 2 (PC/BIOS modules)
 
 Package: grub-pc-dbg
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 11846
-Depends: grub-common (= 2.12-9), grub-pc-bin (= 2.12-9)
+Depends: grub-common (= 2.12-9+deb13u1), grub-pc-bin (= 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: debug
-Filename: pool/main/g/grub2/grub-pc-dbg_2.12-9_amd64.deb
-Size: 3274184
-SHA256: a01205bf8f9e72ebc53cd99da28a3e8b13c9b9d332fca12cdcafcc8db7d023f6
-SHA1: 7c9609dfafd27c2de0c340f512714d836d3b9a4b
-MD5sum: 81b2c4d79df3b89aaaa8ca4d5228f96f
+Filename: pool/main/g/grub2/grub-pc-dbg_2.12-9+deb13u1_amd64.deb
+Size: 3274160
+SHA256: 08c08ece2f0867c55266a0b8f83e706f63cf57ca6cb9211c94dac887248f377f
+SHA1: 33c03c22b40fdaf729af942c509a9601c56191fa
+MD5sum: 164f2f48083a9c11f884068103caabe5
 Description: GRand Unified Bootloader, version 2 (PC/BIOS debug files)
  This package contains debugging files for grub-pc-bin.  You only need these
  if you are trying to debug GRUB using its GDB stub.
 
 Package: grub-rescue-pc
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 6641
@@ -9749,11 +9749,11 @@ Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-rescue-pc_2.12-9_amd64.deb
-Size: 2648076
-SHA256: 7217c5aa7375a073ddd40abf621cdd7c799256490b212248cae58ba04ea2f53c
-SHA1: b069d05ee631957c7883b9ce1cfd5e3e519ab30d
-MD5sum: f20656d76f07118d2a12cfce17f00ea2
+Filename: pool/main/g/grub2/grub-rescue-pc_2.12-9+deb13u1_amd64.deb
+Size: 2648960
+SHA256: 4aa2751d8da1a9951d04194fa75102e9671fe4088fe201f04f7c8d459873d4ff
+SHA1: 6e5eb02a2b4747f842f593783a5a79119db293eb
+MD5sum: 2021bf0d3c42105fd9a767c422aa2cf8
 Description: GRUB bootable rescue images, version 2 (PC/BIOS version)
  This package contains three GRUB rescue images that have been built for use
  with the traditional PC/BIOS architecture:
@@ -9764,40 +9764,40 @@ Description: GRUB bootable rescue images, version 2 (PC/BIOS version)
 
 Package: grub-theme-starfield
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 2782
-Depends: grub-common (= 2.12-9)
+Depends: grub-common (= 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-theme-starfield_2.12-9_amd64.deb
-Size: 2156800
-SHA256: 12729b33ffbbf37a98fef252a2695a6537980c52ffba3f66c84c487b0cb2d258
-SHA1: 520e5704f3f362d7ad52e3e13aedb3378284da09
-MD5sum: 5d3585bd1f30ae86c0a5dff71af7cbaf
+Filename: pool/main/g/grub2/grub-theme-starfield_2.12-9+deb13u1_amd64.deb
+Size: 2157064
+SHA256: 52fea77b31d068bc9b5f2e15eee186b88f4ebb1164923c95ecd2326582a310a4
+SHA1: 3bc140f9ff8946cb000955815f41855f348359c9
+MD5sum: 198fbc9fe99c3e6f564240e25447c65e
 Description: GRand Unified Bootloader, version 2 (starfield theme)
  This is the default theme for GRUB's graphical menu.
 
 Package: grub-xen
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 186
-Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.12-9), grub2-common (= 2.12-9), grub-xen-bin (= 2.12-9), ucf
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.12-9+deb13u1), grub2-common (= 2.12-9+deb13u1), grub-xen-bin (= 2.12-9+deb13u1), ucf
 Conflicts: grub (<< 0.97-54), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-xen_2.12-9_amd64.deb
-Size: 46600
-SHA256: a1ea8b91b1f828813f09939c0a3f4ccc9958898e5b5c9447af95a70905a24e13
-SHA1: e1afb9fd28c4a38dac2f8cafe0a6bac9dca72488
-MD5sum: 5c5a7e63b4803455f0c673bc35eed5ae
+Filename: pool/main/g/grub2/grub-xen_2.12-9+deb13u1_amd64.deb
+Size: 46624
+SHA256: f48ed92034fbcd80b88c35bdaa39da6c0b6747755886782955872a20a28126a0
+SHA1: e87a63cef119e512aa2687d41c86d5f5a018c900
+MD5sum: 434fdb496fffe97dd87eded7a9ee9aea
 Description: GRand Unified Bootloader, version 2 (Xen version)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
  cleaner design than its predecessors, and provides the following new features:
@@ -9814,20 +9814,20 @@ Description: GRand Unified Bootloader, version 2 (Xen version)
 
 Package: grub-xen-bin
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 5561
-Depends: grub-common (= 2.12-9)
+Depends: grub-common (= 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-xen-bin_2.12-9_amd64.deb
-Size: 1040512
-SHA256: bf04cff8e32336cdbf52663d7a4cfb0c89e1d128fa4a466bfde6b2e1868db4a2
-SHA1: 9d3833a39d7995c090c44b99b0dea5fe04da80e5
-MD5sum: a67a193d5daf9321d2e3e39e837c79f2
+Filename: pool/main/g/grub2/grub-xen-bin_2.12-9+deb13u1_amd64.deb
+Size: 1040680
+SHA256: 91a0f005d5b3883592e0b14033a070cbf41a7d14591c1d23650f56d3eddb5484
+SHA1: d4671263ca38401caf238f842bef6a13bc3e7619
+MD5sum: 3915908ea026944bac404aa743cc08c4
 Description: GRand Unified Bootloader, version 2 (Xen modules)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
  cleaner design than its predecessors, and provides the following new features:
@@ -9846,40 +9846,40 @@ Description: GRand Unified Bootloader, version 2 (Xen modules)
 
 Package: grub-xen-dbg
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 31231
-Depends: grub-common (= 2.12-9), grub-xen-bin (= 2.12-9)
+Depends: grub-common (= 2.12-9+deb13u1), grub-xen-bin (= 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: debug
-Filename: pool/main/g/grub2/grub-xen-dbg_2.12-9_amd64.deb
-Size: 7890220
-SHA256: 8bfe0fcfa22591b1e0f378434cf4ccb7918b5ec482cb5b7c1501d263f7cfb271
-SHA1: 1f1f1f67b872ad924a7a30a165adb3e8235f078c
-MD5sum: 7d57eebe3da09a2e528e51f9c85befc5
+Filename: pool/main/g/grub2/grub-xen-dbg_2.12-9+deb13u1_amd64.deb
+Size: 7889436
+SHA256: e7c8a43b8869b297842f88027da5dd705133f1526fd4a0ae2416a1e4c17cbff4
+SHA1: c1bc0470d579d1f20fd720caaee8d98a63d0ac68
+MD5sum: 29d3469a5888d62e227981039a54c20a
 Description: GRand Unified Bootloader, version 2 (Xen debug files)
  This package contains debugging files for grub-xen-bin.  You only need
  these if you are trying to debug GRUB using its GDB stub.
 
 Package: grub-xen-host
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 5550
-Depends: grub-xen-bin (= 2.12-9)
+Depends: grub-xen-bin (= 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub-xen-host_2.12-9_amd64.deb
-Size: 1336836
-SHA256: 05b62eccbcf2ab785f6b423beba6c9493c3a1105345e20c4954cb11447f1ecb9
-SHA1: e9da8991a27288f06cf1600d93de04066bcaa1a3
-MD5sum: 61b0fe16e4816e8ff6cee90037d416dd
+Filename: pool/main/g/grub2/grub-xen-host_2.12-9+deb13u1_amd64.deb
+Size: 1336880
+SHA256: d148fb10947bd9495e611ac3c9deed2d14cb2c927fe3c8c0b6b8552d6360d6b1
+SHA1: 9450db9c1839565f1b3f3cf22b4ef42b9d622af3
+MD5sum: 1d8a0c05563f64afca950099e15cd054
 Description: GRand Unified Bootloader, version 2 (Xen host version)
  GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
  cleaner design than its predecessors, and provides the following new features:
@@ -9894,42 +9894,42 @@ Description: GRand Unified Bootloader, version 2 (Xen host version)
  guest (i.e. PV-GRUB) to be present in the control domain filesystem.
 
 Package: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 12
-Depends: grub-pc (= 2.12-9), grub-common (= 2.12-9)
+Depends: grub-pc (= 2.12-9+deb13u1), grub-common (= 2.12-9+deb13u1)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/g/grub2/grub2_2.12-9_amd64.deb
-Size: 2360
-SHA256: ce66c643b9f100024400047fb6997ce9762a2f5c11fab7170af120af515ee340
-SHA1: ab5801048e9646d8360c1a293d7c4c272730c6db
-MD5sum: 344e43c089955b55ead1edd60a7ba4a8
+Filename: pool/main/g/grub2/grub2_2.12-9+deb13u1_amd64.deb
+Size: 2368
+SHA256: 08c4c7512908d386b6a82c2c18ca1aabb20515ef8d209202b5b80344b8ec5c51
+SHA1: bf2fd464edc30e167a38a06c0d2579b442ce3117
+MD5sum: d3c8ac86eb403963b7b9a1ad1b85d6fe
 Description: GRand Unified Bootloader, version 2 (dummy package)
  This is a dummy transitional package to handle GRUB 2 upgrades.  It can be
  safely removed.
 
 Package: grub2-common
 Source: grub2
-Version: 2.12-9
+Version: 2.12-9+deb13u1
 Architecture: amd64
 Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
 Installed-Size: 1404
-Depends: grub-common (= 2.12-9), dpkg (>= 1.15.4), libc6 (>= 2.38), libdevmapper1.02.1 (>= 2:1.02.197), libefiboot1t64 (>= 38), libefivar1t64 (>= 38), liblzma5 (>= 5.1.1alpha+20120614)
+Depends: grub-common (= 2.12-9+deb13u1), dpkg (>= 1.15.4), libc6 (>= 2.38), libdevmapper1.02.1 (>= 2:1.02.197), libefiboot1t64 (>= 38), libefivar1t64 (>= 38), liblzma5 (>= 5.1.1alpha+20120614)
 Breaks: grub (<< 0.97-54), grub-cloud-amd64 (<< 0.0.4), grub-coreboot (<< 2.02+dfsg1-7), grub-doc (<< 0.97-32), grub-efi-amd64 (<< 2.02+dfsg1-7), grub-efi-arm (<< 2.02+dfsg1-7), grub-efi-arm64 (<< 2.02+dfsg1-7), grub-efi-ia32 (<< 2.02+dfsg1-7), grub-efi-ia64 (<< 2.02+dfsg1-7), grub-ieee1275 (<< 2.02+dfsg1-7), grub-legacy (<< 0.97-83~), grub-legacy-doc (<< 0.97-59), grub-pc (<< 2.02+dfsg1-7), grub-uboot (<< 2.02+dfsg1-7), grub-xen (<< 2.02+dfsg1-7), grub-yeeloong (<< 2.02+dfsg1-7), shim (<< 0.9+1474479173.6c180c6-0ubuntu1~)
 Replaces: grub, grub-cloud-amd64 (<< 0.0.4), grub-common (<< 1.99-1), grub-coreboot (<< 2.02+dfsg1-7), grub-doc (<< 0.97-32), grub-efi-amd64 (<< 2.02+dfsg1-7), grub-efi-arm (<< 2.02+dfsg1-7), grub-efi-arm64 (<< 2.02+dfsg1-7), grub-efi-ia32 (<< 2.02+dfsg1-7), grub-efi-ia64 (<< 2.02+dfsg1-7), grub-ieee1275 (<< 2.02+dfsg1-7), grub-legacy, grub-legacy-doc (<< 0.97-59), grub-pc (<< 2.02+dfsg1-7), grub-uboot (<< 2.02+dfsg1-7), grub-xen (<< 2.02+dfsg1-7), grub-yeeloong (<< 2.02+dfsg1-7)
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/grub/
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub2/grub2-common_2.12-9_amd64.deb
-Size: 642612
-SHA256: 737ff34249363b346173935177de1fb9232a416c2dbb08fd8c05064aead2b919
-SHA1: 3e418756bfc20d7f37c4931345558ae83e71a2a6
-MD5sum: b9b3d8506c8b8e45a65a04c927cf1f7b
+Filename: pool/main/g/grub2/grub2-common_2.12-9+deb13u1_amd64.deb
+Size: 641328
+SHA256: 11241eacacd0493b64fcf67d7b1abdfbefda45a2b973605645c2b55ea8733977
+SHA1: 130c03f2857fc89748420fb2b2262607b0ed5c73
+MD5sum: d5b177c4a9e09c013be89fd331f45529
 Description: GRand Unified Bootloader (common files for version 2)
  This package contains common files shared by the distinct flavours of GRUB.
  The files in this package are specific to GRUB 2, and would break GRUB
