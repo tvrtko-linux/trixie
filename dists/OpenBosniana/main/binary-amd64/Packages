@@ -4037,6 +4037,32 @@ Description: Library and utilities designed to disable fsync and friends
  stores or it manipulates important components of your system. The library is
  called libEAT-MY-DATA for a reason.
 
+Package: efibootmgr
+Version: 18-2
+Architecture: amd64
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 93
+Depends: libc6 (>= 2.38), libefiboot1t64 (>= 38), libefivar1t64 (>= 38), libpopt0 (>= 1.14)
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Filename: pool/main/e/efibootmgr/efibootmgr_18-2_amd64.deb
+Size: 30156
+SHA256: 617327cab7f7d4457bbcbb5aef603f89d5bc408e487cb85b006939b8c70b0b09
+SHA1: bd8ba324bda48c1b67da7c080ebd6c582da63168
+MD5sum: 0a52db7d9f8e41f95d770ccdd0ced313
+Description: Interact with the EFI Boot Manager
+ This is a Linux user-space application to modify the Intel Extensible
+ Firmware Interface (EFI) Boot Manager configuration. This application can
+ create and destroy boot entries, change the boot order, change the next
+ running boot option, and more.
+ .
+ Additional information about (U)EFI can be found at http://www.uefi.org/.
+ .
+ Note: efibootmgr requires that the kernel module efivars be loaded prior
+ to use. 'modprobe efivars' should do the trick if it does not
+ automatically load.
+
 Package: eject
 Source: util-linux
 Version: 2.41-5
@@ -9468,6 +9494,42 @@ MD5sum: 0fcafa2754ff1034664851a76a99b614
 Description: GRand Unified Bootloader, version 2 (EFI-IA32 debug files)
  This package contains debugging files for grub-efi-ia32-bin.  You only need
  these if you are trying to debug GRUB using its GDB stub.
+
+Package: grub-efi-ia32-unsigned
+Source: grub2
+Version: 2.12-9+deb13u1
+Architecture: amd64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 7647
+Depends: grub-common (= 2.12-9+deb13u1)
+Breaks: grub-efi-ia32-bin (<< 2.12-3~)
+Replaces: grub-efi-ia32-bin (<< 2.12-3~)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Priority: optional
+Section: admin
+Filename: pool/main/g/grub2/grub-efi-ia32-unsigned_2.12-9+deb13u1_amd64.deb
+Size: 1323544
+SHA256: 0154742857098b7b09e38aa1f522baa7c690ac680892d9915613db801e1691dc
+SHA1: eb03b28d7afe78dd916254fd8dfac7d2765a53cf
+MD5sum: de93046b29d9770a02eed9342ea9248d
+Description: GRand Unified Bootloader, version 2 (EFI-IA32 images)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB images that have been built for use with the
+ EFI-IA32 architecture, as used by Intel Macs (unless a BIOS interface has
+ been activated).  It can be installed in parallel with other flavours, but
+ will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-ia32 is also
+ installed.
+Efi-Vendor: debian
 
 Package: grub-emu
 Source: grub2
@@ -16689,6 +16751,50 @@ Description: coding style indenter across editors - library
  and they work nicely with version control systems.
  .
  This package provides the core library of editorconfig.
+
+Package: libefiboot1t64
+Source: efivar (38-3.1)
+Version: 38-3.1+b1
+Architecture: amd64
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 138
+Depends: libc6 (>= 2.38), libefivar1t64 (>= 38)
+Breaks: libefiboot1 (<< 38-3.1)
+Replaces: libefiboot1
+Provides: libefiboot1 (= 38-3.1+b1)
+Multi-Arch: same
+Homepage: https://github.com/rhinstaller/efivar
+Priority: optional
+Section: libs
+Filename: pool/main/e/efivar/libefiboot1t64_38-3.1+b1_amd64.deb
+Size: 43904
+SHA256: 932d5799069e2af3f044cfd615518f0c1539400f1e8e1cdd9eeb407ca213926e
+SHA1: ccb60e5655f639a8d9995bd26d1f68e8dbdec7a8
+MD5sum: 10b1ce2ed54390cca188ee99d37cc399
+Description: Library to manage UEFI variables
+ Library to allow for the manipulation of UEFI variables related to booting.
+
+Package: libefivar1t64
+Source: efivar (38-3.1)
+Version: 38-3.1+b1
+Architecture: amd64
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 227
+Depends: libc6 (>= 2.38)
+Breaks: libefivar1 (<< 38-3.1)
+Replaces: libefivar1
+Provides: libefivar1 (= 38-3.1+b1)
+Multi-Arch: same
+Homepage: https://github.com/rhinstaller/efivar
+Priority: optional
+Section: libs
+Filename: pool/main/e/efivar/libefivar1t64_38-3.1+b1_amd64.deb
+Size: 58460
+SHA256: 34bfb96ca9422af293aeac800438682112b4019adc5ed25728bc35dff4ad4ca4
+SHA1: 9cd75346a02332c6b83a3710927e69ae624a4aec
+MD5sum: 285f110f4afe7ddb9127900fd023cfd6
+Description: Library to manage UEFI variables
+ Library to allow for the simple manipulation of UEFI variables.
 
 Package: libegl-mesa0
 Source: mesa
