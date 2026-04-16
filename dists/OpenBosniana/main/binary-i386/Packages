@@ -227,6 +227,33 @@ Description: DNS root hints and DNSSEC trust anchor
   * Root Hints (root.hints)
   * Root Trust Anchors (root.key, root.ds)
 
+Package: dpkg-dev
+Source: dpkg
+Version: 1.22.22
+Architecture: all
+Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
+Installed-Size: 1725
+Depends: perl:any, libdpkg-perl (= 1.22.22), tar (>= 1.28-1), bzip2, xz-utils (>= 5.4.0), patch (>= 2.7), make, binutils
+Recommends: build-essential, gcc | c-compiler, fakeroot, sq | sqop | rsop | gosop | pgpainless-cli | gpg-sq | gnupg, sqv | sqopv | rsopv | sopv | gosop | pgpainless-cli | gpgv-sq | gpgv, libalgorithm-merge-perl
+Suggests: debian-keyring, debian-tag2upload-keyring
+Breaks: debhelper (<< 10.10.1~), gosop (<< 1.1.0~), libsop-java-java (<< 4.0.7~), pgpainless-cli (<< 1.3.13~), rsop (<< 0.4.0~), sq (<< 0.40.0~), sqop (<< 0.27.2~), sqv (<< 1.3.0~)
+Provides: dpkg-build-api (= 0), dpkg-build-api (= 1)
+Multi-Arch: foreign
+Homepage: https://wiki.debian.org/Teams/Dpkg
+Priority: optional
+Section: utils
+Filename: pool/main/d/dpkg/dpkg-dev_1.22.22_all.deb
+Size: 1337268
+SHA256: 6d4020421740a70e1fb9c41b07f8bb8306d93aef6fea1a8ce11a1f839921f414
+SHA1: b478d0d91b6c5458686983c1baf28cd347914283
+MD5sum: 0195cfec3dcf105991bb58063ef77478
+Description: Debian package development tools
+ This package provides the development tools (including dpkg-source)
+ required to unpack, build and upload Debian source packages.
+ .
+ Most Debian source packages will require additional tools to build;
+ for example, most packages need make and the C compiler gcc.
+
 Package: evolution-data-server-common
 Source: evolution-data-server
 Version: 3.56.2-0+deb13u1
@@ -457,7 +484,7 @@ Description: GRand Unified Bootloader, version 2 (i386 UEFI signed by Debian)
 
 Package: gstreamer1.0-plugins-base
 Source: gst-plugins-base1.0
-Version: 1.26.2-1
+Version: 1.26.2-1+deb13u1
 Architecture: i386
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 2853
@@ -470,11 +497,11 @@ Multi-Arch: same
 Homepage: https://gstreamer.freedesktop.org
 Priority: optional
 Section: libs
-Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-plugins-base_1.26.2-1_i386.deb
-Size: 792708
-SHA256: fc1fc00716687e8498009077d107d877d040134385f814bb3fbc587dd3419689
-SHA1: a6f7aa4b6644bbc96d715d25d5bfe92db4e83364
-MD5sum: 6c8177dbd31635b09532010383e95895
+Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-plugins-base_1.26.2-1+deb13u1_i386.deb
+Size: 793284
+SHA256: d0458358b211ea7e420978b0d3a45cb1d7cdb81246d3fd2f63d4e21b0a77f9f9
+SHA1: b2209540bf793ffd75578ed17793c07cff5b319b
+MD5sum: 95663c93a42dd445fcd6eb04ccebe318
 Description: GStreamer plugins from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
  which operate on media data.  Applications using this library can do
@@ -534,22 +561,22 @@ Description: VAAPI driver for Intel G45 & HD Graphics family
 
 Package: imagemagick-7-common
 Source: imagemagick
-Version: 8:7.1.1.43+dfsg1-1+deb13u3
+Version: 8:7.1.1.43+dfsg1-1+deb13u7
 Architecture: all
 Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
-Installed-Size: 460
+Installed-Size: 464
 Breaks: imagemagick-6-common (<< 8:7.0.0-1~), imagemagick-common (<< 8:6.9.12.98+dfsg1-1~)
 Replaces: imagemagick-6-common (<< 8:7.0.0-1~), imagemagick-common (<< 8:6.9.12.98+dfsg1-1~)
-Provides: imagemagick-6-common (= 8:7.1.1.43+dfsg1-1+deb13u3), imagemagick-common (= 8:7.1.1.43+dfsg1-1+deb13u3)
+Provides: imagemagick-6-common (= 8:7.1.1.43+dfsg1-1+deb13u7), imagemagick-common (= 8:7.1.1.43+dfsg1-1+deb13u7)
 Multi-Arch: foreign
 Homepage: https://www.imagemagick.org/
 Priority: optional
 Section: graphics
-Filename: pool/main/i/imagemagick/imagemagick-7-common_7.1.1.43+dfsg1-1+deb13u3_all.deb
-Size: 69120
-SHA256: 17c68f676330c79e3cd9026372c02cc893e5c7d1e76b35450e62343ca404cc47
-SHA1: 941625ecaced495f6583a3092ec60b87be93085d
-MD5sum: 90da895023dbc3e130a1589a63c95baf
+Filename: pool/main/i/imagemagick/imagemagick-7-common_7.1.1.43+dfsg1-1+deb13u7_all.deb
+Size: 73812
+SHA256: d8bebc82fcb1f26c4d052ed539cbb6d47ce009e9aa816f4c5443d263edf76647
+SHA1: 4dbcaf98d936a782a6972e6a454b14ae6500b284
+MD5sum: 024b2072821476fac4cd4e3e85fd83a7
 Description: image manipulation programs -- infrastructure
  imagemagick-common contains the filesystem infrastructure required for
  further installation of imagemagick in any configuration; it does not provide
@@ -1230,29 +1257,29 @@ Description: high-quality block-sorting file compressor library - runtime
 
 Package: libc-l10n
 Source: glibc
-Version: 2.41-12+deb13u1
+Version: 2.41-12+deb13u2
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 4738
+Installed-Size: 4739
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: standard
 Section: localization
-Filename: pool/main/g/glibc/libc-l10n_2.41-12+deb13u1_all.deb
-Size: 737936
-SHA256: c2936f00e314d4b55b7df2902649b064c1edac98132edfa76cd1116ca98fbec4
-SHA1: 0dc390941e7246613cd6c3b18e71716ffd6abe37
-MD5sum: 5f3defec55f9737dba58e9b6a125bbab
+Filename: pool/main/g/glibc/libc-l10n_2.41-12+deb13u2_all.deb
+Size: 740160
+SHA256: 8d13f4cfe34b5755ee8c507de4b80922eb048c4ba90be97cd12a94cf3f379c54
+SHA1: c41a2f7f382ecac838aed40e3a37f94b8ff8258e
+MD5sum: f67679347505a82815c2983f53fbcede
 Description: GNU C Library: localization files
  This package contains the translation files for the GNU C library and
  utility programs.
 
 Package: libc6
 Source: glibc
-Version: 2.41-12+deb13u1
+Version: 2.41-12+deb13u2
 Architecture: i386
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 12440
+Installed-Size: 12437
 Depends: libgcc-s1
 Recommends: libidn2-0 (>= 2.0.5~)
 Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus
@@ -1264,11 +1291,11 @@ Multi-Arch: same
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: optional
 Section: libs
-Filename: pool/main/g/glibc/libc6_2.41-12+deb13u1_i386.deb
-Size: 2723672
-SHA256: 15c9d74dcedb1f274fae2ab803615c1f384f4bb3830ca77088354d20c6b71dbc
-SHA1: c6c99c3287af6598d3c81fdcfc0cb0dee500fba2
-MD5sum: 3fd9a17d257366f4422759ee517f883b
+Filename: pool/main/g/glibc/libc6_2.41-12+deb13u2_i386.deb
+Size: 2721352
+SHA256: 08d5a6734fa0dc27b6c32d2dbb67ccb25ce23174f5f5d9cdd490553c3246355d
+SHA1: fdcf85472c23baa16794319f8384398297e8a218
+MD5sum: 924ddbf4b67c889ce469f323e280da28
 Description: GNU C Library: Shared libraries
  Contains the standard libraries that are used by nearly all programs on
  the system. This package includes shared versions of the standard C library
@@ -1332,7 +1359,7 @@ Description: Cairo 2D vector graphics library
 
 Package: libcap2
 Source: libcap2 (1:2.75-10)
-Version: 1:2.75-10+b3
+Version: 1:2.75-10+b8
 Architecture: i386
 Maintainer: Christian Kastner <ckk@debian.org>
 Installed-Size: 90
@@ -1341,11 +1368,11 @@ Multi-Arch: same
 Homepage: https://sites.google.com/site/fullycapable/
 Priority: optional
 Section: libs
-Filename: pool/main/libc/libcap2/libcap2_2.75-10+b3_i386.deb
-Size: 29796
-SHA256: c8ec7bf47f213a1544fb9440f96ed450a5a1aaf5486337efb534ae23534b5d05
-SHA1: 1ceb32ad10530b494f29f6b971e799879fa25d30
-MD5sum: 12c00b96e1dbe653f11f00b9da957b02
+Filename: pool/main/libc/libcap2/libcap2_2.75-10+b8_i386.deb
+Size: 29800
+SHA256: 6a84ee8c2bec7090fbaa2fd23ffc6413a561567e7dea1d5021c6cbdd05e621f8
+SHA1: 6539f0263c620af89fc765a06e5de4491c3fcbfe
+MD5sum: f3ad644b96fed5fedcb2dcab1361cf6f
 Description: POSIX 1003.1e capabilities (library)
  Libcap implements the user-space interfaces to the POSIX 1003.1e capabilities
  available in Linux kernels. These capabilities are a partitioning of the all
@@ -1478,23 +1505,23 @@ Description: system service to manage device colour profiles -- runtime
 
 Package: libcom-err2
 Source: e2fsprogs (1.47.2-3)
-Version: 1.47.2-3+b7
+Version: 1.47.2-3+b10
 Architecture: i386
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 60
 Depends: libc6 (>= 2.38)
 Breaks: libcom-err2t64 (<< 1.47.0-2.4~exp1~), libcomerr2 (<< 1.43.9-1~)
 Replaces: libcom-err2t64, libcomerr2 (<< 1.43.9-1~)
-Provides: libcom-err2t64 (= 1.47.2-3+b7), libcomerr2 (= 1.47.2-3+b7)
+Provides: libcom-err2t64 (= 1.47.2-3+b10), libcomerr2 (= 1.47.2-3+b10)
 Multi-Arch: same
 Homepage: http://e2fsprogs.sourceforge.net
 Priority: optional
 Section: libs
-Filename: pool/main/e/e2fsprogs/libcom-err2_1.47.2-3+b7_i386.deb
-Size: 25320
-SHA256: 88d50b2a031341a9894a0df9020aa9a31cfc0e693510ce892a22b5c5885964a2
-SHA1: 579f5f42aca4bc22b073e8cf7aa9d4615981f45d
-MD5sum: d6028ea38850618a742693bd7cea884c
+Filename: pool/main/e/e2fsprogs/libcom-err2_1.47.2-3+b10_i386.deb
+Size: 25304
+SHA256: 88061ae9ddd139ae47e0258464056da555dd26e028a9fc7def232568201a3287
+SHA1: eb266ecd1a7069de555cc103b83eeaab8c99b270
+MD5sum: 772a2c8691d2ba1c6a70acd25f1cc992
 Description: common error description library
  libcomerr is an attempt to present a common error-handling mechanism to
  manipulate the most common form of error code in a fashion that does not
@@ -1831,6 +1858,75 @@ Description: fast, whole-buffer DEFLATE-based compression and decompression
  processors. In addition, libdeflate provides optional high compression modes
  that provide a better compression ratio than the zlib's "level 9".
 
+Package: libdpkg-perl
+Source: dpkg
+Version: 1.22.22
+Architecture: all
+Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
+Installed-Size: 2091
+Depends: perl:any, dpkg (>= 1.18.11)
+Recommends: libfile-fcntllock-perl, liblocale-gettext-perl, bzip2, xz-utils (>= 5.4.0)
+Suggests: debian-keyring, debian-tag2upload-keyring, sq | sqop | rsop | gosop | pgpainless-cli | gpg-sq | gnupg, sqv | sqopv | rsopv | sopv | gosop | pgpainless-cli | gpgv-sq | gpgv, gcc | c-compiler, binutils, patch, sensible-utils, git, bzr
+Breaks: dgit (<< 3.13~), gosop (<< 1.1.0~), libsop-java-java (<< 4.0.7~), pgpainless-cli (<< 1.3.13~), pkg-kde-tools (<< 0.15.28~), rsop (<< 0.4.0~), sq (<< 0.40.0~), sqop (<< 0.27.2~), sqv (<< 1.3.0~)
+Multi-Arch: foreign
+Homepage: https://wiki.debian.org/Teams/Dpkg
+Priority: optional
+Section: perl
+Filename: pool/main/d/dpkg/libdpkg-perl_1.22.22_all.deb
+Size: 650808
+SHA256: b41eaeb4879091023f8c1a058510844a244d3d0bd0f437e0e05d58213e36fd9f
+SHA1: f5d219d88a8c51e2e363e90a0d80aa159847d908
+MD5sum: 7a6bf35f7a320b598af2d9340612c000
+Description: Dpkg perl modules
+ This package provides the perl modules used by the scripts
+ in dpkg-dev. They cover a wide range of functionality. Among them
+ there are the following public modules:
+ .
+  - Dpkg: core variables
+  - Dpkg::Arch: architecture handling functions
+  - Dpkg::BuildFlags: set, modify and query compilation build flags
+  - Dpkg::BuildInfo: build information functions
+  - Dpkg::BuildOptions: parse and manipulate DEB_BUILD_OPTIONS
+  - Dpkg::BuildProfiles: parse and manipulate build profiles
+  - Dpkg::Changelog: parse changelogs
+  - Dpkg::Changelog::Entry: represents a changelog entry
+  - Dpkg::Changelog::Parse: generic changelog parser for dpkg-parsechangelog
+  - Dpkg::Checksums: generate and parse checksums
+  - Dpkg::Compression: simple database of available compression methods
+  - Dpkg::Compression::FileHandle: transparently (de)compress files
+  - Dpkg::Compression::Process: wrapper around compression tools
+  - Dpkg::Conf: parse dpkg configuration files
+  - Dpkg::Control: parse and manipulate Debian control information
+    (.dsc, .changes, Packages/Sources entries, etc.)
+  - Dpkg::Control::Changelog: represent fields output by dpkg-parsechangelog
+  - Dpkg::Control::Fields: manage (list of known) control fields
+  - Dpkg::Control::Hash: parse and manipulate a block of RFC822-like fields
+  - Dpkg::Control::Info: parse files like debian/control
+  - Dpkg::Control::Tests: parse files like debian/tests/control
+  - Dpkg::Control::Tests::Entry: represents a debian/tests/control stanza
+  - Dpkg::Deps: parse and manipulate dependencies
+  - Dpkg::Deps::Simple: represents a single dependency statement
+  - Dpkg::Deps::Multiple: base module to represent multiple dependencies
+  - Dpkg::Deps::Union: list of unrelated dependencies
+  - Dpkg::Deps::AND: list of AND dependencies
+  - Dpkg::Deps::OR: list of OR dependencies
+  - Dpkg::Deps::KnownFacts: list of installed and virtual packages
+  - Dpkg::Exit: push, pop and run exit handlers
+  - Dpkg::Gettext: wrapper around Locale::gettext
+  - Dpkg::IPC: spawn sub-processes and feed/retrieve data
+  - Dpkg::Index: collections of Dpkg::Control (Packages/Sources files for
+    example)
+  - Dpkg::Interface::Storable: base object serializer
+  - Dpkg::Path: common path handling functions
+  - Dpkg::Source::Format: manipulate debian/source/format files
+  - Dpkg::Source::Package: extract Debian source packages
+  - Dpkg::Substvars: substitute variables in strings
+  - Dpkg::Vendor: identify current distribution vendor
+  - Dpkg::Version: parse and manipulate Debian package versions
+ .
+ All the packages listed in Suggests or Recommends are used by some of the
+ modules.
+
 Package: libdrm-amdgpu1
 Source: libdrm
 Version: 2.4.124-2
@@ -2100,20 +2196,20 @@ Description: generic font configuration library - runtime
 
 Package: libfreetype6
 Source: freetype
-Version: 2.13.3+dfsg-1
+Version: 2.13.3+dfsg-1+deb13u1
 Architecture: i386
 Maintainer: Hugh McMaster <hmc@debian.org>
-Installed-Size: 982
-Depends: libbrotli1 (>= 0.6.0), libbz2-1.0, libc6 (>= 2.33), libpng16-16t64 (>= 1.6.2), zlib1g (>= 1:1.1.4)
+Installed-Size: 983
+Depends: libbrotli1 (>= 0.6.0), libbz2-1.0, libc6 (>= 2.33), libpng16-16t64 (>= 1.6.46), zlib1g (>= 1:1.1.4)
 Multi-Arch: same
 Homepage: https://freetype.org
 Priority: optional
 Section: libs
-Filename: pool/main/f/freetype/libfreetype6_2.13.3+dfsg-1_i386.deb
-Size: 464012
-SHA256: 215737b2cba7a599f7c6efb1c280f0ab1341a037cf658af2e2864b456820e60f
-SHA1: 85862784f71fd66dfb9d516b673dae0bfd986917
-MD5sum: 4916f6c561a75d706f58f45f1a4aa31e
+Filename: pool/main/f/freetype/libfreetype6_2.13.3+dfsg-1+deb13u1_i386.deb
+Size: 464480
+SHA256: fbe01c5a6e2654ed7c8fbb08b39c9b20cf19bd24554088d11762c330f7af1dd2
+SHA1: 126dfea630026f99abada29e8abf3c6350dd3f5d
+MD5sum: 83bd31ed986d838e9b42c2357b853582
 Description: FreeType 2 font engine, shared library files
  The FreeType project is a team of volunteers who develop free,
  portable and high-quality software solutions for digital typography.
@@ -2344,26 +2440,45 @@ Description: GNU dbm database routines (runtime version)
 
 Package: libgdk-pixbuf-2.0-0
 Source: gdk-pixbuf
-Version: 2.42.12+dfsg-4
+Version: 2.42.12+dfsg-4+deb13u1
 Architecture: i386
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 497
-Depends: libgdk-pixbuf2.0-common (>= 2.42.12+dfsg-4), shared-mime-info, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.80.0), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libtiff6 (>= 4.0.3)
+Depends: libgdk-pixbuf2.0-common (>= 2.42.12+dfsg-4+deb13u1), shared-mime-info, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.80.0), libjpeg62-turbo (>= 1.3.1), libpng16-16t64 (>= 1.6.46), libtiff6 (>= 4.0.3)
 Recommends: libgdk-pixbuf2.0-bin
 Multi-Arch: same
 Homepage: https://www.gtk.org/
 Priority: optional
 Section: libs
-Filename: pool/main/g/gdk-pixbuf/libgdk-pixbuf-2.0-0_2.42.12+dfsg-4_i386.deb
-Size: 148656
-SHA256: 0e9fa763e977365042a1f5f74e8a4abb4ff4140028657b26b88a0740ccaa1ec8
-SHA1: 67c312c769f934171625fcccb3b8d2b3edf150ea
-MD5sum: e176443b1ba070941d386dd585428f01
+Filename: pool/main/g/gdk-pixbuf/libgdk-pixbuf-2.0-0_2.42.12+dfsg-4+deb13u1_i386.deb
+Size: 148924
+SHA256: b2ee8312db2698fd0f3059f4fc85ce28b3a8150a66d4570c4da7117726bdf979
+SHA1: 95688e5de8ae363d5ba530c4925decccd98b0831
+MD5sum: 092632dbedee5a568adeb0690cdce669
 Description: GDK Pixbuf library
  The GDK Pixbuf library provides:
   - Image loading and saving facilities.
   - Fast scaling and compositing of pixbufs.
   - Simple animation loading (ie. animated GIFs)
+
+Package: libgdk-pixbuf2.0-common
+Source: gdk-pixbuf
+Version: 2.42.12+dfsg-4+deb13u1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 2552
+Multi-Arch: foreign
+Homepage: https://www.gtk.org/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gdk-pixbuf/libgdk-pixbuf2.0-common_2.42.12+dfsg-4+deb13u1_all.deb
+Size: 311852
+SHA256: 9f0c64e33cf5bb3226a5a6ddf630dd76530596e476e6b47a8b27da444ff43a03
+SHA1: 1cfd8f9053c0b42bd1b63044865a0679a3963cca
+MD5sum: 4a155847d916d6db4bb869eb468341ed
+Description: GDK Pixbuf library - data files
+ This package contains the common files and translations for the GDK
+ Pixbuf library.
 
 Package: libgegl-common
 Source: gegl
@@ -3029,7 +3144,7 @@ Description: MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 
 Package: libgstreamer-plugins-base1.0-0
 Source: gst-plugins-base1.0
-Version: 1.26.2-1
+Version: 1.26.2-1+deb13u1
 Architecture: i386
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 3898
@@ -3042,11 +3157,11 @@ Multi-Arch: same
 Homepage: https://gstreamer.freedesktop.org
 Priority: optional
 Section: libs
-Filename: pool/main/g/gst-plugins-base1.0/libgstreamer-plugins-base1.0-0_1.26.2-1_i386.deb
-Size: 1024424
-SHA256: 7193c5f951b11b49e33586b9cc122093c9e3e6c57e47b118b44e46ad26f82dfd
-SHA1: f0b312c7f257b759561d1d3c03b25b40d63d8516
-MD5sum: fa904082d860ca830566644d565d6a3b
+Filename: pool/main/g/gst-plugins-base1.0/libgstreamer-plugins-base1.0-0_1.26.2-1+deb13u1_i386.deb
+Size: 1023940
+SHA256: 3e061039cc3a390d9b5dabac8d5184bcaaafce36ed22baa06d2218366639f485
+SHA1: 2ccede3b5980edfaf553ac448efe00408dcf2e0b
+MD5sum: 41a21fd197d0416a8c4d85435ab519ad
 Description: GStreamer libraries from the "base" set
  GStreamer is a streaming media framework, based on graphs of filters
  which operate on media data.  Applications using this library can do
@@ -3433,12 +3548,12 @@ Description: Intel Graphics Memory Management Library -- shared library
 
 Package: libimage-magick-perl
 Source: imagemagick
-Version: 8:7.1.1.43+dfsg1-1+deb13u3
+Version: 8:7.1.1.43+dfsg1-1+deb13u7
 Architecture: all
 Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
 Installed-Size: 80
 Pre-Depends: dpkg (>= 1.15.7.2)
-Depends: perl:any, imagemagick-7-common (= 8:7.1.1.43+dfsg1-1+deb13u3), libimage-magick-q16-perl:any
+Depends: perl:any, imagemagick-7-common (= 8:7.1.1.43+dfsg1-1+deb13u7), libimage-magick-q16-perl:any
 Recommends: fonts-tuffy
 Suggests: imagemagick-7-doc
 Provides: perlmagick
@@ -3446,11 +3561,11 @@ Multi-Arch: allowed
 Homepage: https://www.imagemagick.org/
 Priority: optional
 Section: perl
-Filename: pool/main/i/imagemagick/libimage-magick-perl_7.1.1.43+dfsg1-1+deb13u3_all.deb
-Size: 38912
-SHA256: 2e2887f76e724d47838bd119b942763b3133e037cbe78ffc8b06d1f1d1f7bac1
-SHA1: c0db3f1d343072809aea1b245aa972b05b880464
-MD5sum: df2cb7d9b42919e9283762bf88c28700
+Filename: pool/main/i/imagemagick/libimage-magick-perl_7.1.1.43+dfsg1-1+deb13u7_all.deb
+Size: 38928
+SHA256: f912408f486d2954a20f77834343cbf93b9dc5749031c3502e2f4403c7a11cd7
+SHA1: a65425059da89909b48307ea1d089d1ebf7b71e4
+MD5sum: db42faabb2fadfd30959a6451b74bd48
 Description: Perl interface to the ImageMagick graphics routines
  PerlMagick is an objected-oriented Perl interface to ImageMagick.
  Use the module to read, manipulate, or write an image or image sequence from
@@ -3938,23 +4053,23 @@ Description: MP3 encoding library
 
 Package: libmpg123-0t64
 Source: mpg123
-Version: 1.32.10-1
+Version: 1.32.10-1+deb13u1
 Architecture: i386
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 437
 Depends: libc6 (>= 2.33)
-Breaks: libmpg123-0 (<< 1.32.10-1)
+Breaks: libmpg123-0 (<< 1.32.10-1+deb13u1)
 Replaces: libmpg123-0
-Provides: libmpg123-0 (= 1.32.10-1)
+Provides: libmpg123-0 (= 1.32.10-1+deb13u1)
 Multi-Arch: same
 Homepage: http://mpg123.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mpg123/libmpg123-0t64_1.32.10-1_i386.deb
-Size: 152052
-SHA256: 48921637a5e31c9dea92907d9034f07849b2faa10a894515484aae4d75b57254
-SHA1: 83b37536993620a70e5c630701df57d16b68e121
-MD5sum: c1db7ac0f1bfa60c4ebab8f2880e5007
+Filename: pool/main/m/mpg123/libmpg123-0t64_1.32.10-1+deb13u1_i386.deb
+Size: 152396
+SHA256: 4080376b9d3e730f5020552223507e1c93696ab1d7ba56da2afccf97978c7238
+SHA1: d13412d10045ba09ce262b0a0db5b379f6ae42bd
+MD5sum: 69208e1983379017ac8f8de9ecc0cfeb
 Description: MPEG layer 1/2/3 audio decoder (shared library)
  mpg123 is a real time MPEG 1.0/2.0/2.5 audio player/decoder for layers
  1, 2 and 3 (MPEG 1.0 layer 3 also known as MP3).
@@ -4140,7 +4255,7 @@ Description: NetScape Portable Runtime Library
 
 Package: libnss3
 Source: nss
-Version: 2:3.110-1
+Version: 2:3.110-1+deb13u1
 Architecture: i386
 Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
 Installed-Size: 4852
@@ -4149,11 +4264,11 @@ Multi-Arch: same
 Homepage: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS
 Priority: optional
 Section: libs
-Filename: pool/main/n/nss/libnss3_3.110-1_i386.deb
-Size: 1506628
-SHA256: 53b4502d9d4c5d876e4a4132db84e70105f95c9c3cc5d6c58fb61e41cf60ab6b
-SHA1: 1e80d53c6d6be1b609a959510fe603e1ce92bd2e
-MD5sum: 822eca4ddcb7438813ed5e8b202d3d89
+Filename: pool/main/n/nss/libnss3_3.110-1+deb13u1_i386.deb
+Size: 1506384
+SHA256: 73f6218e557b9ca81fd9e6d20acb835c5685441032ca63c636e7a7435336eaca
+SHA1: 5ad6fd68b3fbb1f5f27450dc6c9549153ed9af1e
+MD5sum: c1db27374cf7a58b0782cadc78c2a213
 Description: Network Security Service libraries
  This is a set of libraries designed to support cross-platform development
  of security-enabled client and server applications. It can support SSLv2
@@ -4665,23 +4780,23 @@ Description: pixel-manipulation library for X and cairo
 
 Package: libpng16-16t64
 Source: libpng1.6
-Version: 1.6.48-1+deb13u3
+Version: 1.6.48-1+deb13u4
 Architecture: i386
 Maintainer: Maintainers of libpng1.6 packages <libpng1.6@packages.debian.org>
 Installed-Size: 460
 Depends: libc6 (>= 2.29), zlib1g (>= 1:1.2.3.4)
-Breaks: libpng16-16 (<< 1.6.48-1+deb13u3)
+Breaks: libpng16-16 (<< 1.6.48-1+deb13u4)
 Replaces: libpng16-16
-Provides: libpng16-16 (= 1.6.48-1+deb13u3)
+Provides: libpng16-16 (= 1.6.48-1+deb13u4)
 Multi-Arch: same
 Homepage: http://libpng.org/pub/png/libpng.html
 Priority: optional
 Section: libs
-Filename: pool/main/libp/libpng1.6/libpng16-16t64_1.6.48-1+deb13u3_i386.deb
-Size: 289608
-SHA256: fe570569511784119974eab80ea957a5469d3d114dd3f35342b403de7727becf
-SHA1: 504772db5e898722a285c6e5bbbfa45bd7a96131
-MD5sum: f85a9fdb74759bd13580de4185c9939d
+Filename: pool/main/libp/libpng1.6/libpng16-16t64_1.6.48-1+deb13u4_i386.deb
+Size: 289820
+SHA256: 3e3b3638721b87d472cfb6c4d4c61fd06e06c5694e465fd2fb101d20386ccab2
+SHA1: cdc5a8ce37e280bf9045bae6c9260c4c6be072f2
+MD5sum: 690cc701ab62cb432333fa1a33157927
 Description: PNG library - runtime (version 1.6)
  libpng is a library implementing an interface for reading and writing
  PNG (Portable Network Graphics) format files.
@@ -5197,21 +5312,21 @@ Description: fast compression/decompression library
  MB/sec or more and decompresses at about 500 MB/sec or more.
 
 Package: libsndfile1
-Source: libsndfile (1.2.2-2)
-Version: 1.2.2-2+b1
+Source: libsndfile
+Version: 1.2.2-2+deb13u1
 Architecture: i386
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 674
+Installed-Size: 673
 Depends: libc6 (>= 2.38), libflac14 (>= 1.5.0), libmp3lame0 (>= 3.100), libmpg123-0t64 (>= 1.28.0), libogg0 (>= 1.3.0), libopus0 (>= 1.1), libvorbis0a (>= 1.2.3), libvorbisenc2 (>= 1.1.2)
 Multi-Arch: same
 Homepage: https://libsndfile.github.io/libsndfile/
 Priority: optional
 Section: libs
-Filename: pool/main/libs/libsndfile/libsndfile1_1.2.2-2+b1_i386.deb
-Size: 221908
-SHA256: d4adeb726df283f6f2d29b103fa15f63655b82caaf41a1be0b91b2f1ff1813e3
-SHA1: 073921941a910555de0017ea03d48e9cd6f555b1
-MD5sum: 8079965caaeef30394d560cb4d86c391
+Filename: pool/main/libs/libsndfile/libsndfile1_1.2.2-2+deb13u1_i386.deb
+Size: 221828
+SHA256: 004654d5a78eb710586807322f41144e54c8c88ea3347f007c4b6b0d59b37d21
+SHA1: 573a518a70988d0272f93e62095f378b4f35d6f7
+MD5sum: 7b39c290a53379aadd3e4b6a4b1b1fac
 Description: Library for reading/writing audio files
  libsndfile is a library of C routines for reading and writing files containing
  sampled audio data.
@@ -5330,7 +5445,7 @@ Description: DSP library derived from speex
 
 Package: libsqlite3-0
 Source: sqlite3
-Version: 3.46.1-7
+Version: 3.46.1-7+deb13u1
 Architecture: i386
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 2034
@@ -5340,11 +5455,11 @@ Multi-Arch: same
 Homepage: https://www.sqlite.org/
 Priority: optional
 Section: libs
-Filename: pool/main/s/sqlite3/libsqlite3-0_3.46.1-7_i386.deb
-Size: 990432
-SHA256: bea3802b2318222fc6e89063ee998d4b8d9243c84ff245168450e7139019de3d
-SHA1: 8ae971640df79f5d26c91052b82139ddfafd6881
-MD5sum: 77731ed084005d63201dc621717e7e02
+Filename: pool/main/s/sqlite3/libsqlite3-0_3.46.1-7+deb13u1_i386.deb
+Size: 990648
+SHA256: 4d1001dd152a9f0814062392117b8e28b3bb5a97819791ba05c8791bf8a87669
+SHA1: d397bea3c4efac6cfa01bd9990ec88754c79da9b
+MD5sum: 07ccaad9fe357049e5107166422af7fd
 Description: SQLite 3 shared library
  SQLite is a C library that implements an SQL database engine.
  Programs that link with the SQLite library can have SQL database
@@ -5379,23 +5494,23 @@ Description: SSH2 client-side library
 
 Package: libssl3t64
 Source: openssl
-Version: 3.5.4-1~deb13u2
+Version: 3.5.5-1~deb13u2
 Architecture: i386
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>
-Installed-Size: 7090
+Installed-Size: 7097
 Depends: libc6 (>= 2.38), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4), openssl-provider-legacy
-Breaks: freeradius (<< 3.2.7+dfsg-1+deb13u1), libssl3 (<< 3.5.4-1~deb13u2), openssh-client (<< 1:9.4p1), openssh-server (<< 1:9.4p1), python3-m2crypto (<< 0.38.0-4)
+Breaks: freeradius (<< 3.2.7+dfsg-1+deb13u1), libssl3 (<< 3.5.5-1~deb13u2), openssh-client (<< 1:9.4p1), openssh-server (<< 1:9.4p1), python3-m2crypto (<< 0.38.0-4)
 Replaces: libssl3
-Provides: libssl3 (= 3.5.4-1~deb13u2)
+Provides: libssl3 (= 3.5.5-1~deb13u2)
 Multi-Arch: same
 Homepage: https://openssl-library.org
 Priority: optional
 Section: libs
-Filename: pool/main/o/openssl/libssl3t64_3.5.4-1~deb13u2_i386.deb
-Size: 2424672
-SHA256: 6a694f0e0850de0a53ad63f43bad03853d3e33eff87c5defbcb69144c0ca113b
-SHA1: ac48d4cb87324b42dad8861d361256a90aa27954
-MD5sum: 84ed8dbdd26a0b779fecfe69a3261537
+Filename: pool/main/o/openssl/libssl3t64_3.5.5-1~deb13u2_i386.deb
+Size: 2428032
+SHA256: 3ca64d004550d5ed9511c64bb3ff3fede474ba499877ee57d49d9d2b36044d56
+SHA1: c01c095f055d54068106937657ac8b28cb36405a
+MD5sum: 5e7a1a948ac9e4496a9cf5b5da11a5e8
 Description: Secure Sockets Layer toolkit - shared libraries
  This package is part of the OpenSSL project's implementation of the SSL
  and TLS cryptographic protocols for secure communication over the
@@ -5627,7 +5742,7 @@ Description: Theora Video Compression Codec (shared library - libtheoraenc)
 
 Package: libtiff6
 Source: tiff
-Version: 4.7.0-3+deb13u1
+Version: 4.7.0-3+deb13u2
 Architecture: i386
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 801
@@ -5637,11 +5752,11 @@ Multi-Arch: same
 Homepage: https://libtiff.gitlab.io/libtiff/
 Priority: optional
 Section: libs
-Filename: pool/main/t/tiff/libtiff6_4.7.0-3+deb13u1_i386.deb
-Size: 360492
-SHA256: 78a1ca3e4baf839e6a76e1e9536710a4362d2b57849f7855888ff4113e50f63b
-SHA1: 903e14d7c6b4e2dbacd6362dce886073e8d74664
-MD5sum: a92dd2669a0205a71439ca7afaca6af5
+Filename: pool/main/t/tiff/libtiff6_4.7.0-3+deb13u2_i386.deb
+Size: 360488
+SHA256: 30cf269cf9cc4edf33d62affc1c13a5e3d71c9fa25117262a6b1984964d91911
+SHA1: ad5986ad8419c0e7ed27a09ab6c24bd8c0be96aa
+MD5sum: 115837ed0797d209556a45bb0385cf60
 Description: Tag Image File Format (TIFF) library
  libtiff is a library providing support for the Tag Image File Format
  (TIFF), a widely used format for storing image data.  This package
@@ -7347,6 +7462,26 @@ Description: Vertical Blanking Interval decoder (VBI) - runtime files
      Page Format Clear and Independent Data Line Format A);
    * Can multiplex and demultiplex DVB VBI PES and TS streams.
 
+Package: linux-base
+Version: 4.12.1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 76
+Depends: debconf (>= 0.5) | debconf-2.0
+Breaks: kernel-common (<= 13.018+nmu1), linux-perf (<< 5.16.2-1~exp1)
+Replaces: kernel-common (<= 13.018+nmu1)
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-base/linux-base_4.12.1_all.deb
+Size: 25544
+SHA256: d86e703aff81f404f2104af9411fd2acbae5fdb65f9264e488bb276a77a562be
+SHA1: 7980264a10c46f5984fce6da8363c5231495ed2e
+MD5sum: 367460dc7b063db60cafd022123e845d
+Description: Linux image base package
+ This package contains files and support scripts for all Linux
+ images.
+
 Package: linux-headers-6.12.57+deb13-common
 Source: linux
 Version: 6.12.57-1
@@ -7374,19 +7509,19 @@ Description: Common header files for Linux 6.12.57+deb13
 
 Package: linux-libc-dev
 Source: linux
-Version: 6.12.73-1
+Version: 6.12.74-2
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 10802
+Installed-Size: 10804
 Multi-Arch: foreign
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux/linux-libc-dev_6.12.73-1_all.deb
-Size: 2745112
-SHA256: 2de0b4b4992ac81e7799bb5404e60ca4116a657c49d881fc6049abc9ab7e39b9
-SHA1: add2bdcab8cd398c56f56017e4ccc450f608697a
-MD5sum: 74584a8e62f740b1964992a2b3637f60
+Filename: pool/main/l/linux/linux-libc-dev_6.12.74-2_all.deb
+Size: 2746408
+SHA256: 079dcfdd1325428673b4d84f7ca2b4e4047b03c63f88f01826eee0de0adf8852
+SHA1: 7eba5d3296ff4835aea232d376e2a277737ae349
+MD5sum: 31974243329e06a9bbb5a8c7b81f8334
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These
  files are going to be installed into /usr/include, and are used by the
@@ -7394,22 +7529,40 @@ Description: Linux support headers for userspace development
 
 Package: linux-source
 Source: linux
-Version: 6.12.73-1
+Version: 6.12.74-2
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Installed-Size: 10
-Depends: linux-source-6.12 (= 6.12.73-1)
+Depends: linux-source-6.12 (= 6.12.74-2)
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-source_6.12.73-1_all.deb
+Filename: pool/main/l/linux/linux-source_6.12.74-2_all.deb
 Size: 1096
-SHA256: 6105b1ea460db4f9665ab7248abe7973f1aa9194cc66d87d1dc305e58194e8c1
-SHA1: 6ae308e3c4ffd61a76c929b3f889afdc6ff564e0
-MD5sum: 226b22988dc07e2bdf317e12c86cc52a
+SHA256: 9a4155fb5f3c19c302177c3f7eb047761783671eaf70e981fa3be3059fd69a09
+SHA1: 6a5492b7e5042ee54c23f47aaa2fd15bd5572753
+MD5sum: 569b876d31d2d9ba954dbcaa6cb35fe4
 Description: Linux kernel source (meta-package)
  This package depends on packages containing the sources of the latest
  Linux kernel.
+
+Package: linux-sysctl-defaults
+Source: linux-base
+Version: 4.12.1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 19
+Multi-Arch: foreign
+Priority: important
+Section: kernel
+Filename: pool/main/l/linux-base/linux-sysctl-defaults_4.12.1_all.deb
+Size: 5724
+SHA256: 025ed30ad079eaad556483db388e6dfb37dfda80dbd251a8a69dadd415fcb27a
+SHA1: af8eebd56d62839aa97071b5183e30bc1ff94b6a
+MD5sum: 29d3b97d433b1cf89f242d77162d077b
+Description: default sysctl configuration for Linux
+ This package contains a sysctl configuration file setting some
+ sensible defaults for Linux.
 
 Package: live-boot
 Version: 1:20250815~deb13u1
@@ -7492,19 +7645,19 @@ Description: Live System Boot Components (initramfs-tools backend)
 
 Package: locales
 Source: glibc
-Version: 2.41-12+deb13u1
+Version: 2.41-12+deb13u2
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 15774
+Installed-Size: 15775
 Depends: libc-bin (>> 2.41), libc-l10n (>> 2.41), debconf (>= 0.5) | debconf-2.0
 Homepage: https://www.gnu.org/software/libc/libc.html
 Priority: standard
 Section: localization
-Filename: pool/main/g/glibc/locales_2.41-12+deb13u1_all.deb
-Size: 3925404
-SHA256: a7087121f7d9299e5866c89391dffcb4e9089842226a7cb275e45e835db89ac6
-SHA1: 264704aed134e8b1252b383ac85fc848a3afc834
-MD5sum: f1623283092723b8ff4d7eb89efbb490
+Filename: pool/main/g/glibc/locales_2.41-12+deb13u2_all.deb
+Size: 3924992
+SHA256: 9fb5e14961abe0befa5e94f984ef95858dc1816ac044708fc750da690750ebd7
+SHA1: fbe66eac6b4dbf8444928d5e86034e9f7ccd1cb4
+MD5sum: f8032020a409ef3c462fe785cd058cea
 Description: GNU C Library: National Language (locale) data [support]
  Machine-readable data files, shared objects and programs used by the
  C library for localization (l10n) and internationalization (i18n) support.
@@ -7517,20 +7670,20 @@ Description: GNU C Library: National Language (locale) data [support]
 
 Package: mariadb-common
 Source: mariadb
-Version: 1:11.8.3-0+deb13u1
+Version: 1:11.8.6-0+deb13u1
 Architecture: all
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
-Installed-Size: 69
+Installed-Size: 70
 Depends: mysql-common (>= 5.6.25)
 Multi-Arch: foreign
 Homepage: https://mariadb.org/
 Priority: optional
 Section: database
-Filename: pool/main/m/mariadb/mariadb-common_11.8.3-0+deb13u1_all.deb
-Size: 28756
-SHA256: a7078ca69dc32533290a00d6559a2c274b20c11fc5f41d021a0edeeb98fc2ddc
-SHA1: f177391e51d71ae235401dbd1dc51d46a05d51aa
-MD5sum: 2364ac97b92a1b19b5daf05d2c7b3346
+Filename: pool/main/m/mariadb/mariadb-common_11.8.6-0+deb13u1_all.deb
+Size: 29544
+SHA256: b5116ff56a60d471332d45bfd4ec50391fdcf5a40747bf7fe23ec8551cb71f9c
+SHA1: 51f83b149c7939be5640dd8df98b50f7e488e2a2
+MD5sum: 96be3955880e2f7612b4ed5d3d52d371
 Description: MariaDB database common config files (/etc/mysql/mariadb.conf.d/)
  MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
  server. SQL (Structured Query Language) is the most popular database query
@@ -7654,6 +7807,106 @@ Description: USB stick formatter and ISO image writer
  .
  This software is developed by Linux Mint.
 
+Package: node-agent-base
+Source: node-proxy-agents (0~2024040606-6+deb13u1)
+Version: 7.1.1~0~2024040606-6+deb13u1
+Architecture: all
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Installed-Size: 46
+Depends: node-debug
+Multi-Arch: foreign
+Homepage: https://github.com/TooTallNate/proxy-agents#readme
+Priority: optional
+Section: javascript
+Filename: pool/main/n/node-proxy-agents/node-agent-base_7.1.1~0~2024040606-6+deb13u1_all.deb
+Size: 11640
+SHA256: 4f961cf265815051dd2d67b59b6a498eb00e64064b583fa64e7d2a906e94b1b0
+SHA1: 5d3eb3abd952e7e5835272689b305b510dd57f1e
+MD5sum: 035ee31afeaf3b1bf783659a70eac511
+Description: Node.js wrapper around http.Agent class
+ node-agent-base provides an abstract class that must define a connect()
+ function which is responsible for creating the underlying socket that the
+ HTTP client requests will use.
+
+Package: node-data-uri-to-buffer
+Source: node-proxy-agents (0~2024040606-6+deb13u1)
+Version: 6.0.2~0~2024040606-6+deb13u1
+Architecture: all
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Installed-Size: 37
+Breaks: node-fetch (<< 3.3.2+~cs11.4.11-2~)
+Multi-Arch: foreign
+Homepage: https://github.com/TooTallNate/proxy-agents#readme
+Priority: optional
+Section: javascript
+Filename: pool/main/n/node-proxy-agents/node-data-uri-to-buffer_6.0.2~0~2024040606-6+deb13u1_all.deb
+Size: 9180
+SHA256: ca4e6ab7f84aee76f322c8c8a5a62182b93e7e22b6d7ff247adde3801dcf3116
+SHA1: 844511091158188c1fa567635a31b17fca21b781
+MD5sum: f3af6e284fd71cc4e3257d37d5a56791
+Description: Node.js module that generate a Buffer instance from a Data URI string
+ node-data-uri-to-buffer accepts a "data" URI string of data and returns a
+ Node.js Buffer instance with the decoded data.
+
+Package: node-https-proxy-agent
+Source: node-proxy-agents (0~2024040606-6+deb13u1)
+Version: 7.0.4~0~2024040606-6+deb13u1
+Architecture: all
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Installed-Size: 49
+Depends: node-agent-base (>= 7)
+Breaks: node-gyp (<< 9.3.0-3~), node-jsdom (<< 20.0.3+~cs124.18.21-2~), node-pre-gyp (<< 1.0.10+~2.0.1-2~), node-ws (<< 8.11.0+~cs13.7.3-2~)
+Multi-Arch: foreign
+Homepage: https://github.com/TooTallNate/proxy-agents#readme
+Priority: optional
+Section: javascript
+Filename: pool/main/n/node-proxy-agents/node-https-proxy-agent_7.0.4~0~2024040606-6+deb13u1_all.deb
+Size: 13704
+SHA256: 15792556bce5146c62de0e83e6088dfc59e6ec9e47f5766c849b51878811061e
+SHA1: 85b1ac8e670c9f1f80791f4c2ed2a94a78018eb7
+MD5sum: f3ec73a37948794d270623d4f9d1ff7a
+Description: HTTP(s) proxy http.Agent implementation for HTTPS
+ node-http-proxy-agent provides an http.Agent implementation that connects
+ to a specified HTTP or HTTPS proxy server, and can be used with the built-in
+ https module.
+ .
+ Specifically, this Agent implementation connects to an intermediary "proxy"
+ server and issues the CONNECT HTTP method, which tells the proxy to open a
+ direct TCP connection to the destination server.
+
+Package: nodejs-doc
+Source: nodejs
+Version: 20.19.2+dfsg-1+deb13u2
+Architecture: all
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@alioth-lists.debian.net>
+Installed-Size: 18948
+Recommends: nodejs
+Conflicts: nodejs (<< 6.11.2~dfsg-3)
+Replaces: nodejs (<< 6.11.2~dfsg-3)
+Multi-Arch: foreign
+Homepage: https://nodejs.org/
+Priority: optional
+Section: doc
+Filename: pool/main/n/nodejs/nodejs-doc_20.19.2+dfsg-1+deb13u2_all.deb
+Size: 6083840
+SHA256: 8e236be96ae1ea7570c1dd7e903034820da3c03fd566528d388a2db641a65c21
+SHA1: 8ae87cb5d1d691c7296aefc1cd79341893405b11
+MD5sum: 350a956761fb735c4caf392eaa61e443
+Description: API documentation for Node.js, the javascript platform
+ Node.js is a platform built on Chrome's JavaScript runtime for easily
+ building fast, scalable network applications. Node.js uses an
+ event-driven, non-blocking I/O model that makes it lightweight and
+ efficient, perfect for data-intensive real-time applications that run
+ across distributed devices.
+ .
+ Node.js is bundled with several useful libraries to handle server
+ tasks:
+ .
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
+ .
+ This package contains API documentation for Node.js.
+
 Package: ocl-icd-libopencl1
 Source: ocl-icd
 Version: 2.3.3-1
@@ -7755,6 +8008,45 @@ Description: concurrent networking library
  .
  This package provides the Python 3.x module.
 
+Package: python3-requests
+Source: requests
+Version: 2.32.3+dfsg-5+deb13u1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 241
+Depends: python3-certifi, python3-charset-normalizer, python3-idna, python3-urllib3 (>= 1.21.1), python3:any, ca-certificates, python3-chardet (>= 3.0.2)
+Suggests: python3-cryptography, python3-idna (>= 2.5), python3-openssl, python3-socks, python-requests-doc
+Breaks: awscli (<< 1.11.139)
+Multi-Arch: foreign
+Homepage: https://requests.readthedocs.io/
+Priority: optional
+Section: python
+Filename: pool/main/r/requests/python3-requests_2.32.3+dfsg-5+deb13u1_all.deb
+Size: 72212
+SHA256: 7d271bd47c6647b16aec9facc656c39eca763062ec392aea615dd6597b8304c2
+SHA1: ad7897c5c8b375b79a98edf7280807f5dd1529ff
+MD5sum: 70a92fb394a309ab49065c339f459752
+Description: elegant and simple HTTP library for Python3, built for human beings
+ Requests allow you to send HTTP/1.1 requests. You can add headers, form data,
+ multipart files, and parameters with simple Python dictionaries, and access
+ the response data in the same way. It's powered by httplib and urllib3, but
+ it does all the hard work and crazy hacks for you.
+ .
+ Features
+ .
+   - International Domains and URLs
+   - Keep-Alive & Connection Pooling
+   - Sessions with Cookie Persistence
+   - Browser-style SSL Verification
+   - Basic/Digest Authentication
+   - Elegant Key/Value Cookies
+   - Automatic Decompression
+   - Unicode Response Bodies
+   - Multipart File Uploads
+   - Connection Timeouts
+ .
+ This package contains the Python 3 version of the library.
+
 Package: python3-urllib3
 Source: python-urllib3
 Version: 2.3.0-3+deb13u1
@@ -7787,7 +8079,7 @@ Description: HTTP library with thread-safe connection pooling for Python3
      building upon.
 
 Package: ruby-rack
-Version: 3.1.18-1~deb13u1
+Version: 3.1.20-0+deb13u1
 Architecture: all
 Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
 Installed-Size: 350
@@ -7798,11 +8090,11 @@ Multi-Arch: foreign
 Homepage: https://rack.github.io/
 Priority: optional
 Section: ruby
-Filename: pool/main/r/ruby-rack/ruby-rack_3.1.18-1~deb13u1_all.deb
-Size: 99864
-SHA256: 5128dd91a6986adae1d2e8cc6d790ea1d5b47d10310cc17d0eeec70953223a43
-SHA1: dff09990c1528614094d6596ef37e81fa80e0c09
-MD5sum: 9b0c95643e12fb94152c81e0051189e3
+Filename: pool/main/r/ruby-rack/ruby-rack_3.1.20-0+deb13u1_all.deb
+Size: 100272
+SHA256: 7552d548c1826daed2991ef003dd023b997547282da99fc8479a0fbbec315508
+SHA1: ca5e307a2e6096fd0211bc83063422be10525458
+MD5sum: d0ef0f0b4151258aad03add5a5b4b414
 Description: modular Ruby webserver interface
  Rack provides a minimal, modular and adaptable interface for developing
  web applications in Ruby.  By wrapping HTTP requests and responses in
@@ -7814,21 +8106,21 @@ Description: modular Ruby webserver interface
 
 Package: samba-common
 Source: samba
-Version: 2:4.22.6+dfsg-0+deb13u1
+Version: 2:4.22.8+dfsg-0+deb13u1
 Architecture: all
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
-Installed-Size: 119
+Installed-Size: 120
 Depends: ucf
 Recommends: samba-common-bin
 Multi-Arch: foreign
 Homepage: https://www.samba.org
 Priority: optional
 Section: net
-Filename: pool/main/s/samba/samba-common_4.22.6+dfsg-0+deb13u1_all.deb
-Size: 61508
-SHA256: 4e30a715ca725af1d48d26f9687bfd7ba52b565c89655d938575868fc5a8fb54
-SHA1: 72d68a8cb4234bba878822493bb75db800cf0f14
-MD5sum: 6e405fc2c3644d431554d6edd1f61674
+Filename: pool/main/s/samba/samba-common_4.22.8+dfsg-0+deb13u1_all.deb
+Size: 62728
+SHA256: 1935283e875b673b36a3d7ac49bd37083e10af152d73a8c9da4b918a5832327d
+SHA1: 6ad6484c978c8878c8f68a41e523f01cd6ad72c9
+MD5sum: c75575f5af5fa71a92cae88454bcdfb8
 Description: common files used by both the Samba server and client
  Samba is an implementation of the SMB/CIFS protocol for Unix systems,
  providing support for cross-platform file and printer sharing with
@@ -7910,11 +8202,66 @@ Description: systemd development files
  still be found in the respective dev packages, but instead provide data such as
  the installation directories for units, and more.
 
+Package: tor-geoipdb
+Source: tor
+Version: 0.4.9.6-0+deb13u1
+Architecture: all
+Maintainer: Peter Palfrader <weasel@debian.org>
+Installed-Size: 25124
+Depends: tor (>= 0.4.9.6-0+deb13u1)
+Breaks: tor (<< 0.2.4.8)
+Replaces: tor (<< 0.2.4.8)
+Homepage: https://www.torproject.org/
+Priority: optional
+Section: net
+Filename: pool/main/t/tor/tor-geoipdb_0.4.9.6-0+deb13u1_all.deb
+Size: 2710500
+SHA256: eacc483754f77cad744ef99565021075e6bf10cae15184312782e45f0b3cab37
+SHA1: f1a0c54f179bb6fad8ef35f22f7e1b9df9d857d2
+MD5sum: 66b614c01700b9de441a005b9aef6b06
+Description: GeoIP database for Tor
+ This package provides a GeoIP database for Tor, i.e. it maps IPv4 addresses
+ to countries.
+ .
+ Bridge relays (special Tor relays that aren't listed in the main Tor
+ directory) use this information to report which countries they see
+ connections from.  These statistics enable the Tor network operators to
+ learn when certain countries start blocking access to bridges.
+ .
+ Clients can also use this to learn what country each relay is in, so
+ Tor controllers like arm or Vidalia can use it, or if they want to
+ configure path selection preferences.
+
+Package: torsocks
+Version: 2.5.0-1+deb13u1
+Architecture: all
+Maintainer: Debian Privacy Tools Maintainers <pkg-privacy-maintainers@lists.alioth.debian.org>
+Installed-Size: 60
+Depends: libtorsocks (>= 2.5.0-1+deb13u1), libtorsocks (<< 2.5.0-1+deb13u1.1~)
+Recommends: tor
+Multi-Arch: foreign
+Homepage: https://gitweb.torproject.org/torsocks.git
+Priority: optional
+Section: net
+Filename: pool/main/t/torsocks/torsocks_2.5.0-1+deb13u1_all.deb
+Size: 27772
+SHA256: 1e1f2994d4dbcb9a9dc9e238ec20fc59d78a0faa954f1e983646c4d8f85770fb
+SHA1: 091633b55b95f51c2142e3429dc9a38d9c87b24a
+MD5sum: 67dfc387bf3e06bdb78cf21131fbe7b9
+Description: use SOCKS-friendly applications with Tor
+ Torsocks allows you to redirect network traffic of individual SOCKS-friendly
+ applications through the Tor network. It also ensures DNS queries are handled
+ correctly and explicitly blocks all UDP traffic from the application in
+ question.
+ It is possible that a given application can leak user/system data at a level
+ that neither Tor nor torsocks can control, a 100% guarantee of being safe to
+ operate with Tor can not be given for applications.
+
 Package: tzdata
-Version: 2025b-4+deb13u1
+Version: 2026a-0+deb13u1
 Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 1357
+Installed-Size: 1361
 Depends: debconf (>= 0.5) | debconf-2.0
 Breaks: tzdata-legacy (= 2023c-8), tzdata-legacy (= 2023c-9)
 Replaces: tzdata-legacy (= 2023c-8), tzdata-legacy (= 2023c-9)
@@ -7923,11 +8270,11 @@ Multi-Arch: foreign
 Homepage: https://www.iana.org/time-zones
 Priority: required
 Section: localization
-Filename: pool/main/t/tzdata/tzdata_2025b-4+deb13u1_all.deb
-Size: 259720
-SHA256: 19a87f5184503fb5eeffe97bd7e107e193ac28107789a1e85331ed9381040f17
-SHA1: f0478ecaed0b730e282ec8e4f8c8f792ce31971c
-MD5sum: 7dce4de6a803790d887b13bcbbc70ac2
+Filename: pool/main/t/tzdata/tzdata_2026a-0+deb13u1_all.deb
+Size: 263724
+SHA256: 9fb91a8d4f4f852918d14b1379f788c1c4971cf640c4bda7f568e7601620a874
+SHA1: 17a72a2603d11b4e942e7c44c9590c9afb6e7a48
+MD5sum: 4f87a03e8328c9d165e5ae6648a4437e
 Description: time zone and daylight-saving time data
  This package contains data required for the implementation of
  standard local time for many representative locations around the
@@ -7987,7 +8334,7 @@ Description: Video Decode and Presentation API for Unix (driver metapackage)
 
 Package: vlc-data
 Source: vlc
-Version: 3.0.22-0+deb13u1
+Version: 3.0.23-0+deb13u1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 961
@@ -7995,11 +8342,11 @@ Multi-Arch: foreign
 Homepage: https://www.videolan.org/vlc/
 Priority: optional
 Section: video
-Filename: pool/main/v/vlc/vlc-data_3.0.22-0+deb13u1_all.deb
-Size: 423064
-SHA256: 5872b53adde51a2facdab90bc43f4e7b2bac8c798b672929298f0efb0bb21645
-SHA1: 93f1b22874dd1b076b97fb9dc5410ca5a1e391a0
-MD5sum: 0e5c141de54e4a636e39f6ad3be178af
+Filename: pool/main/v/vlc/vlc-data_3.0.23-0+deb13u1_all.deb
+Size: 423200
+SHA256: 4a05a94246c57a04bf713dd4bfcad827d83de01cc38383f057d6e06a861f8e3a
+SHA1: 8295031149da69fcfa53d5f66b9c709456026e3b
+MD5sum: c8f5773056059e84e4ae25f7979d4764
 Description: common data for VLC
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
  DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
@@ -8010,19 +8357,19 @@ Description: common data for VLC
 
 Package: vlc-l10n
 Source: vlc
-Version: 3.0.22-0+deb13u1
+Version: 3.0.23-0+deb13u1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 43134
+Installed-Size: 43127
 Multi-Arch: foreign
 Homepage: https://www.videolan.org/vlc/
 Priority: optional
 Section: localization
-Filename: pool/main/v/vlc/vlc-l10n_3.0.22-0+deb13u1_all.deb
-Size: 6255352
-SHA256: 14d668a8815d66a4964caca589ff21ab6f368b89a27d466f2684d1f1d1ed0ba2
-SHA1: 0764430b1c1a8a21fef227b39748b999718b143f
-MD5sum: eade078e12d067b92e93dca7719aa78b
+Filename: pool/main/v/vlc/vlc-l10n_3.0.23-0+deb13u1_all.deb
+Size: 6373044
+SHA256: 6b9b6505e9f070c5cb5a6c7b39dba586e4955780bde65aceaaf9b07cc5b4705f
+SHA1: 2a60d0b9ca633833ade41c4d152d2473651f6612
+MD5sum: 3d89ab097b072817dbd4a013542bf27d
 Description: translations for VLC
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
  DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
@@ -8099,6 +8446,26 @@ Description: lightweight and efficient ads, malware, trackers blocker (Firefox)
  having a smaller memory and CPU footprint.
  .
  This package provides the Firefox version of the addon.
+
+Package: wireless-regdb
+Version: 2026.02.04-1~deb13u1
+Architecture: all
+Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
+Installed-Size: 39
+Multi-Arch: foreign
+Homepage: https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb
+Priority: optional
+Section: net
+Filename: pool/main/w/wireless-regdb/wireless-regdb_2026.02.04-1~deb13u1_all.deb
+Size: 12180
+SHA256: 7a80c038d3a26b753a3f9862d82a52e22fd7e9ca9fe4aaa5c9a32d39b760d96e
+SHA1: ceb08353fefa6444948dfc386b5fdaa3a3b09907
+MD5sum: bf1408d43646558bbbce380ff91828fb
+Description: wireless regulatory database for Linux
+ This package provides a machine-readable database of legal
+ regulations on radio emissions that affect use of wireless networking.
+ The Linux kernel and drivers use this to maintain compliance with
+ those regulations.
 
 Package: x11-common
 Source: xorg
