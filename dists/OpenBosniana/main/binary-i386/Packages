@@ -680,7 +680,7 @@ Description: system-wide keyboard preferences
 
 Package: kf6-breeze-icon-theme
 Source: kf6-breeze-icons
-Version: 2025.13.0-8
+Version: 2026.1.0-1
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 59719
@@ -691,11 +691,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme_2025.13.0-8_all.deb
-Size: 5779380
-SHA256: 44eea088050feaaef1b5b49da88d116e7d7324df7734f17babbfa86ef1ebee86
-SHA1: a51874ea90a5f29e51ae8e08b0a2b6b6d3f86c6c
-MD5sum: af454a6af602585008ca206d3f320b4e
+Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme_2026.1.0-1_all.deb
+Size: 6034832
+SHA256: 7b9ba02e817c289a4a77b2359123a3f6e1bc9fb1507f68ef04473c618ab2b9bc
+SHA1: 8ddcc84390729797b215eca1d2c71f1edefb6439
+MD5sum: 86693271c44ed7c6b5b767eadcc70b08
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 6 desktop.
  .
@@ -703,7 +703,7 @@ Description: Default Plasma icon theme
 
 Package: kf6-breeze-icon-theme-rcc
 Source: kf6-breeze-icons
-Version: 2025.13.0-8
+Version: 2026.1.0-1
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 25285
@@ -713,11 +713,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme-rcc_2025.13.0-8_all.deb
-Size: 5500480
-SHA256: aa30206c480e74c6f8a9ada53b21fb4d7209f36654f2882f7d6c1bb6e48c4adc
-SHA1: a2c2374ff33dad0a46d7fd1c329881870d777819
-MD5sum: a19021f7a65ec6f718e0f4c732dc4299
+Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme-rcc_2026.1.0-1_all.deb
+Size: 6040360
+SHA256: 3d98151c43f7b9f572b9bd30b4a475b995a16b3aaf770c16e42a07413da7b6a7
+SHA1: c5dfa20eb397b08c78ddf7aef5924bb969594ca1
+MD5sum: 1ed7af281f777bb8b858fa2d6d699b65
 Description: RCC resources for the breeze icon theme
  Breeze is the default icon theme for the KDE Plasma 6 desktop. This package
  contains the icons in RCC format.
