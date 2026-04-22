@@ -137,7 +137,7 @@ Description: Common UNIX Printing System(tm) - server common files
  This package provides common files for CUPS server.
 
 Package: desktop-base
-Version: 2025.01.17
+Version: 2026.01.02
 Architecture: all
 Maintainer: Denis Maslo <denni@bosniana.org>
 Installed-Size: 21790
@@ -146,11 +146,11 @@ Recommends: plymouth-label
 Homepage: https://www.bosniana.org/
 Priority: optional
 Section: x11
-Filename: pool/main/d/desktop-base/desktop-base_2025.01.17_all.deb
-Size: 24829932
-SHA256: 1d6e661cc7e5f096254ff20a95e849fad7cea9f569cd09283d43af467d3db02c
-SHA1: 6312a3e26894865e6d4faf581a76794c3b154fae
-MD5sum: 5885035dd2aa3716e80677cf923b4d94
+Filename: pool/main/d/desktop-base/desktop-base_2026.01.02_all.deb
+Size: 25663792
+SHA256: 0d72f6cc3ee14380d94b2a746e1ec3e56c1aa0bc940c6ea8aa79a7209bacc4d2
+SHA1: b8c73dfa59c71cef82e67273ce9aa5a64f855862
+MD5sum: 9fea5e01e5183b15cae03ba2ec653e61
 Description: common files for the OpenBosniana Desktop
  This package contains various miscellaneous files which are used by
  Debian Desktop installations.  Currently, it provides some
