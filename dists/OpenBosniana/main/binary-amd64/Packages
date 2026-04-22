@@ -12225,7 +12225,7 @@ Description: Linux Key Management Utilities
 
 Package: kf6-breeze-icon-theme
 Source: kf6-breeze-icons
-Version: 2026.1.0-1
+Version: 2026.1.0-2
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 59719
@@ -12236,11 +12236,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme_2026.1.0-1_all.deb
-Size: 6034832
-SHA256: 7b9ba02e817c289a4a77b2359123a3f6e1bc9fb1507f68ef04473c618ab2b9bc
-SHA1: 8ddcc84390729797b215eca1d2c71f1edefb6439
-MD5sum: 86693271c44ed7c6b5b767eadcc70b08
+Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme_2026.1.0-2_all.deb
+Size: 6158076
+SHA256: 64f28e553bfcdb13374cb628843d88fa334b691bb44f4fd932454f3792e750e6
+SHA1: ce8f551a948cb249f850178bbe4177f7d4de77a0
+MD5sum: c6e749d8ea7c349a91d45ccdef64cce9
 Description: Default Plasma icon theme
  This is the default icon theme for the KDE Plasma 6 desktop.
  .
@@ -12248,7 +12248,7 @@ Description: Default Plasma icon theme
 
 Package: kf6-breeze-icon-theme-rcc
 Source: kf6-breeze-icons
-Version: 2026.1.0-1
+Version: 2026.1.0-2
 Architecture: all
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 25285
@@ -12258,11 +12258,11 @@ Multi-Arch: foreign
 Homepage: https://invent.kde.org/frameworks/breeze-icons
 Priority: optional
 Section: kde
-Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme-rcc_2026.1.0-1_all.deb
-Size: 6040360
-SHA256: 3d98151c43f7b9f572b9bd30b4a475b995a16b3aaf770c16e42a07413da7b6a7
-SHA1: c5dfa20eb397b08c78ddf7aef5924bb969594ca1
-MD5sum: 1ed7af281f777bb8b858fa2d6d699b65
+Filename: pool/main/k/kf6-breeze-icons/kf6-breeze-icon-theme-rcc_2026.1.0-2_all.deb
+Size: 6245852
+SHA256: 367242e7eb012aae1f41641bf1a189647dc0aaab89a536c8585083caf6cd6d85
+SHA1: ac2e3416478a6a4410d4189fa5d2b449ef0c799c
+MD5sum: 6a65fc1d36281ce2c5f63ec693b1deb8
 Description: RCC resources for the breeze icon theme
  Breeze is the default icon theme for the KDE Plasma 6 desktop. This package
  contains the icons in RCC format.
