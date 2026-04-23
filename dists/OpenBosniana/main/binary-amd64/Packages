@@ -41925,6 +41925,27 @@ MD5sum: 2e77b0e7625405928cc259f789c08994
 Description: OpenBosniana Firefox profiles
   A meta package that contains default custom profile for Firefox-ESR
 
+Package: openbosniana-home-tools
+Source: openbosniana-home-tools
+Version: 2026.1.1
+Architecture: all
+Maintainer: Denis Maslo <deni@bosniana.org>
+Installed-Size: 10
+Depends: zulucrypt-cli, zulucrypt-gui, zulumount-gui, zulupolkit, anonsurf, tor, torbrowser-launcher, gcc, g++, python3, python3-pip, python3-venv, anonsurf-gtk, git
+Recommends: gpa, sirikali, gocryptfs, cryfs, nyx, mat2, anonsurf-cli, onionshare, default-jdk
+Suggests: cargo, git-cola, meld, dbeaver, cgdb, golang, codium, neovim, sqlitebrowser, gdb
+Homepage: https://www.bosniana.org
+Priority: optional
+Section: metapackages
+Filename: pool/main/o/openbosniana-home-tools/openbosniana-home-tools_2026.1.1_all.deb
+Size: 1012
+SHA256: 49fa92d97dfa73933a9503a1a89134d141b3f50557c39e72dd34f5bfb76aae05
+SHA1: e8b0f4927f4737b35e0b2d7eb0a2ec2df3f5d8e1
+MD5sum: e6953d3a20745a89920bf4191ac794f8
+Description: OpenBosniana OS Home Tools metapackage
+ This metapackage provides the cryptographic tools,
+ privacy protection tools, Development Tools...
+
 Package: openbosniana-interface
 Version: 2024.05.25
 Architecture: all
